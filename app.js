@@ -68,8 +68,8 @@
     choice_pick_msg:"Please select an option.",
     choice_multi_hint:"(Multiple selection possible)",
     added_to_cart:"Added to cart",
-    extras_news:"Cloud9-Zeitung",
-    news_title:"Cloud9-Zeitung",
+    extras_news:"Cloud9 Newspaper",
+    news_title:"Cloud9 Newspaper",
     news_loading:"Loading news…",
     news_error:"Could not load news.",
     news_open:"Open",
@@ -107,8 +107,8 @@
     choice_pick_msg:"Veuillez sélectionner une option.",
     choice_multi_hint:"(Sélection multiple possible)",
     added_to_cart:"Ajouté au panier",
-    extras_news:"Cloud9-Zeitung",
-    news_title:"Cloud9-Zeitung",
+    extras_news:"Journal Cloud9",
+    news_title:"Journal Cloud9",
     news_loading:"Chargement…",
     news_error:"Impossible de charger les actualités.",
     news_open:"Ouvrir",
@@ -146,8 +146,8 @@
     choice_pick_msg:"Seleziona un’opzione.",
     choice_multi_hint:"(Selezione multipla possibile)",
     added_to_cart:"Aggiunto al carrello",
-    extras_news:"Cloud9-Zeitung",
-    news_title:"Cloud9-Zeitung",
+    extras_news:"Giornale Cloud9",
+    news_title:"Giornale Cloud9",
     news_loading:"Caricamento…",
     news_error:"Impossibile caricare le notizie.",
     news_open:"Apri",
@@ -185,8 +185,8 @@
     choice_pick_msg:"Vui lòng chọn một tùy chọn.",
     choice_multi_hint:"(Có thể chọn nhiều)",
     added_to_cart:"Đã thêm vào giỏ hàng",
-    extras_news:"Cloud9-Zeitung",
-    news_title:"Cloud9-Zeitung",
+    extras_news:"Báo Cloud9",
+    news_title:"Báo Cloud9",
     news_loading:"Đang tải tin…",
     news_error:"Không tải được tin tức.",
     news_open:"Mở",
@@ -198,6 +198,7 @@
     news_cat_business:"Kinh tế",
     news_cat_sport:"Thể thao"
   }
+    news_cat_de:"Deutschland",
   };
 
   const el = (id) => document.getElementById(id);
@@ -909,7 +910,14 @@ async function renderNews() {
     state.newsCat = fromLs || "mix";
   }
 
-  const cats = [
+  const cats = (state.lang === "de") ? [
+    { id: "mix", label: t.news_cat_mix || "Mix" },
+    { id: "deutschland", label: t.news_cat_de || "Deutschland" },
+    { id: "world", label: t.news_cat_world || "Welt" },
+    { id: "weather", label: t.news_cat_weather || "Wetter" },
+    { id: "business", label: t.news_cat_business || "Wirtschaft" },
+    { id: "sport", label: t.news_cat_sport || "Sport" },
+  ] : [
     { id: "mix", label: t.news_cat_mix || "Mix" },
     { id: "world", label: t.news_cat_world || "World" },
     { id: "weather", label: t.news_cat_weather || "Weather" },
