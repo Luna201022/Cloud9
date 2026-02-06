@@ -150,5 +150,3 @@ function decodeHtml(s) {
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, " ");
 }
-
-}
