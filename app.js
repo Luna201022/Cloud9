@@ -905,20 +905,32 @@ ${t.total}: ${money(cartTotal())}`;
             return;
           }
 
-    list.innerHTML = items.map(it => `
+    
+    list.innerHTML = items.map(it => {
+      const link = escapeHtml(it.link || "");
+      const src = escapeHtml(it.source || "");
+      const teaser = escapeHtml(it.description || "");
+      const dt = it.date || it.pubDate || it.updated || "";
+      let dtText = "";
+      if (dt) {
+        try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
+      }
+      return `
       <div class="card" style="margin-top:10px">
         <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
           <div>
             <div style="font-weight:700">${escapeHtml(it.title)}</div>
-            <div class="small" style="margin-top:6px">${escapeHtml(it.description || "")}</div>
-            <div class="small" style="opacity:.8; margin-top:6px">${escapeHtml(it.source || "")}${it.pubDate ? " • " + escapeHtml(new Date(it.pubDate).toLocaleString()) : ""}</div>
+            ${teaser ? `<div class="small" style="margin-top:6px">${teaser}</div>` : ""}
+            <div class="small" style="opacity:.8; margin-top:6px">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
           </div>
-          <button class="btn" onclick="window.open('${"${escapeHtml(it.link)}"}','_blank','noopener')">${t.news_open || "Open"}</button>
+          <a class="btn" href="${link}" target="_blank" rel="noopener">${t.news_open || "Open"}</a>
         </div>
       </div>
-    `).join("");
-  } catch (e) {
-    list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}</div><div class="small" style="opacity:.7;margin-top:6px">API: <a href="/api/news?lang=${state.lang}&max=6" target="_blank" rel="noopener">/api/news</a></div>`;
+      `;
+    }).join("");
+
+} catch (e) {
+    list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}<br><span style="opacity:.75">${escapeHtml(String(e?.message||e))}</span></div><div class="small" style="opacity:.7;margin-top:6px">API: <a href="/api/news?lang=${state.lang}&max=6" target="_blank" rel="noopener">/api/news</a></div>`;
   }
 }
 
