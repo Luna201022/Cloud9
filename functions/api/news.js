@@ -6,7 +6,23 @@ export async function onRequestGet({ request }) {
   try {
     const url = new URL(request.url);
     const lang = (url.searchParams.get("lang") || "de").toLowerCase();
-    const cat = (url.searchParams.get("cat") || "mix").toLowerCase(); // mix|world|weather|business|sport
+    const cat = (url.searchParams.get("cat") || "mix").toLowerCase();
+    // Aliases (keep URLs stable even if UI wording changes)
+    const catNorm = (c) => {
+      if (!c) return "mix";
+      const x = String(c).toLowerCase();
+      if (["deutschland"].includes(x)) return "germany";
+      if (["ausland","welt","weltnachrichten"].includes(x)) return "world";
+      return x;
+    };
+    const cat2 = catNorm(cat);
+
+    // Special: Mainz (Merkurist) – HTML scrape (no RSS available)
+    if (lang === "de" && cat2 === "mainz") {
+      const items = await fetchMerkurist(max);
+      return json({ ok: true, items });
+    }
+ // mix|world|weather|business|sport
     const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
 
     const feeds = getFeeds(lang);
@@ -86,7 +102,7 @@ function getFeeds(lang) {
     ],
     it: [
       "https://rss.dw.com/rdf/rss-it-all",
-      "https://www.rainews.it/rss/tutti.xml"
+      "https://www.ilpost.it/feed/"
     ],
     vi: [
       "https://vnexpress.net/rss/tin-moi-nhat.rss"
@@ -183,6 +199,41 @@ function toTime(v) {
   if (!v) return 0;
   const t = Date.parse(v);
   return Number.isFinite(t) ? t : 0;
+}
+
+
+async function fetchMerkurist(max) {
+  const out = [];
+  try {
+    const r = await fetch("https://merkurist.de/mainz/", { cf: { cacheTtl: 300 } });
+    if (!r.ok) return out;
+    const html = await r.text();
+
+    // crude extraction: pick links that look like article pages
+    const seen = new Set();
+    const rx = /<a[^>]+href="(\/mainz\/[^"#?]+)"[^>]*>([\s\S]*?)<\/a>/gi;
+    let m;
+    while ((m = rx.exec(html)) && out.length < max * 3) {
+      const href = m[1];
+      const raw = m[2]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (!raw || raw.length < 10) continue;
+      const link = "https://merkurist.de" + href;
+      if (seen.has(link)) continue;
+      seen.add(link);
+      out.push({
+        title: raw,
+        link,
+        date: "",
+        source: "merkurist.de",
+        category: "mainz",
+        description: ""
+      });
+    }
+  } catch (e) {}
+  return out.slice(0, max);
 }
 
 function filterByCategory(items, cat, lang) {
