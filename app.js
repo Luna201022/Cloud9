@@ -398,11 +398,25 @@
 }
   function calcItemPrice(item, pickedOptions) {
     let p = item.price || 0;
-    if (item.options && item.options.size && pickedOptions.size) {
-      const opt = item.options.size.find(o => o.label === pickedOptions.size);
-      if (opt) p += opt.price_delta || 0;
+
+    // Generic: add price_delta for any picked option where the option list contains {label, price_delta}
+    if (item.options && pickedOptions) {
+      for (const key of Object.keys(pickedOptions)) {
+        const val = pickedOptions[key];
+        const optList = item.options[key];
+        if (!optList) continue;
+
+        // arrays of objects: [{label, price_delta}]
+        if (Array.isArray(optList) && optList.length && typeof optList[0] === "object") {
+          const opt = optList.find(o => o.label === val);
+          if (opt) p += opt.price_delta || 0;
+        }
+
+        // nested form used in menu files: { size: [...], choice: [...] }
+        // already handled above via key loop
+      }
     }
-    // temperature no price delta
+
     return Math.round(p * 100) / 100;
   }
   function clearCart() {
@@ -539,7 +553,31 @@
               idToItem.set(item.id, item);
               const badges = [];
               if (item.options?.temperatur) badges.push(`<span class="badge">Warm/Kalt</span>`);
-              if (item.options?.size) badges.push(`<span class="badge">0,5/0,7</span>`);
+              if (item.options?.size) badges.push(`<span class="badge">${t.badge_sizes || "Größen"}</span>`);
+              if (item.options?.choice) badges.push(`<span class="badge">${t.badge_choice || "Auswahl"}</span>`);
+
+              const priceLines = [];
+              const base = Number(item.price || 0);
+
+              const collectPrices = (opts) => (opts || []).map(o => base + Number(o.price_delta || 0));
+
+              // Sizes with different prices (e.g. 0,5 l / 0,7 l) should be visible on the card
+              if (item.options?.size?.length) {
+                const parts = item.options.size.map(o => `${escapeHtml(o.label)} (${money(base + Number(o.price_delta || 0))})`);
+                priceLines.push(`<div class="small variants">${parts.join(" • ")}</div>`);
+              }
+
+              // Choices with different prices (e.g. Tofu/Huhn/Garnelen) should be visible on the card
+              if (item.options?.choice?.length) {
+                const parts = item.options.choice.map(o => `${escapeHtml(o.label)} (${money(base + Number(o.price_delta || 0))})`);
+                priceLines.push(`<div class="small variants">${parts.join(" • ")}</div>`);
+              }
+
+              const allPrices = []
+                .concat(item.options?.size ? collectPrices(item.options.size) : [])
+                .concat(item.options?.choice ? collectPrices(item.options.choice) : []);
+
+              const minPrice = allPrices.length ? Math.min(...allPrices) : base;
               return `
                 <div class="item" data-item="${item.id}">
                   <div class="itemLeft" style="min-width:0">
@@ -551,7 +589,7 @@
                     </div>
                   </div>
                   <div class="itemRight">
-                    <div class="price">${money(item.price || 0)}</div>
+                    <div class="price">${money(minPrice)}</div>${priceLines.join("")}
                     ${item.options?.temperatur ? `
                       <div class="optRow underPrice" data-opt="${item.id}">
                         <button class="optBtn" data-optval="kalt">${t.opt_cold || "Kalt"}</button>
@@ -622,20 +660,21 @@ host.querySelectorAll("[data-add]").forEach(btn => {
           // options dialog if needed
           const needsTemp = !!item.options?.temperatur;
           const needsSize = !!item.options?.size;
+          const needsChoice = Array.isArray(item.options?.choice) && item.options.choice.length > 0;
 
           // If only temperature is required and the user already selected cold/hot under the price,
           // add directly without opening the popup.
-          if (needsTemp && !needsSize && chosenTemp) {
+          if (needsTemp && !needsSize && !needsChoice && chosenTemp) {
             addToCart(item, { temperature: chosenTemp });
             return;
           }
 
-          if (!needsTemp && !needsSize) {
+          if (!needsTemp && !needsSize && !needsChoice) {
             addToCart(item, {});
             return;
           }
 
-          const picked = { temperature: (chosenTemp || null), size: null };
+          const picked = { temperature: (chosenTemp || null), size: null, choice: null };
 
           const tempHtml = needsTemp ? `
             <div class="chapter">
@@ -653,6 +692,14 @@ host.querySelectorAll("[data-add]").forEach(btn => {
               </div>
             </div>` : "";
 
+          const choiceHtml = needsChoice ? `
+            <div class="chapter">
+              <h3>${t.choice_label || "Bitte auswählen"}</h3>
+              <div class="row" style="gap:8px; flex-wrap:wrap">
+                ${item.options.choice.map(o => `<button class="btn" data-choice="${escapeHtml(o.label)}">${escapeHtml(o.label)}${(o.price_delta ? ` (${money((item.price||0)+(o.price_delta||0))})` : "")}</button>`).join("")}
+              </div>
+            </div>` : "";
+
           const ok = document.createElement("button");
           ok.className = "btn primary";
           ok.textContent = "OK";
@@ -660,6 +707,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
             const chosen = {};
             if (needsTemp) chosen.temperature = picked.temperature || item.options.temperatur[0];
             if (needsSize) chosen.size = picked.size || item.options.size[0].label;
+            if (needsChoice) chosen.choice = picked.choice || item.options.choice[0].label;
             closeModal();
             addToCart(item, chosen);
           };
@@ -668,7 +716,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
           cancel.textContent = I18N[state.lang].close;
           cancel.onclick = closeModal;
 
-          openModal(item.name, tempHtml + sizeHtml, [cancel, ok]);
+          openModal(item.name, tempHtml + sizeHtml + choiceHtml, [cancel, ok]);
 
           const b = el("modalBody");
           if (needsTemp && picked.temperature) {
@@ -688,6 +736,13 @@ host.querySelectorAll("[data-add]").forEach(btn => {
               picked.size = sbtn.getAttribute("data-size");
               b.querySelectorAll("[data-size]").forEach(x => x.classList.remove("active"));
               sbtn.classList.add("active");
+            };
+          });
+          b.querySelectorAll("[data-choice]").forEach(cbtn => {
+            cbtn.onclick = () => {
+              picked.choice = cbtn.getAttribute("data-choice");
+              b.querySelectorAll("[data-choice]").forEach(x => x.classList.remove("active"));
+              cbtn.classList.add("active");
             };
           });
         });
@@ -846,64 +901,49 @@ ${t.total}: ${money(cartTotal())}`;
 
   function escapeHtml(s) {
     return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
-  }
-
-  
-  async function renderNews() {
-    const t = I18N[state.lang] || I18N.de;
-
-    const skeleton = `
-      <div class="panel">
-        <div class="panelHeader">
-          <h2>${t.news_title || "News"}</h2>
-        </div>
-        <div id="newsList" class="list">
-          <div class="small">${t.news_loading || "Loading…"}</div>
-        </div>
-        <div class="small" style="opacity:.75;margin-top:10px">${t.news_legal || ""}</div>
+  }async function renderNews() {
+  const t = I18N[state.lang] || I18N.de;
+  const left = el("left");
+  left.innerHTML = `
+    <div class="panel">
+      <div class="panelHeader">
+        <h2>${t.news_title || "News"}</h2>
       </div>
-    `;
+      <div id="newsList" class="list"></div>
+    </div>
+  `;
 
-    // Load after render
-    setTimeout(async () => {
-      const list = document.getElementById("newsList");
-      if (!list) return;
+  const list = el("newsList");
+  list.innerHTML = `<div class="small">${t.news_loading || "Loading…"}</div>`;
 
-      try {
-        const apiUrl = `/api/news?lang=${encodeURIComponent(state.lang)}&max=6`;
-        const res = await fetch(apiUrl, { cache: "no-store" });
-        if (!res.ok) throw new Error(String(res.status));
-        const data = await res.json();
-        const items = Array.isArray(data?.items) ? data.items : [];
+  try {
+    const res = await fetch(`/api/news?lang=${encodeURIComponent(state.lang)}&max=6`, { cache: "no-store" });
+    if (!res.ok) throw new Error(String(res.status));
+    const data = await res.json();
+    const items = (data.items || []).slice(0, 6);
 
-        if (!items.length) {
-          list.innerHTML = `<div class="small">${t.news_error || "News konnten nicht geladen werden."}</div>`;
-          return;
-        }
+    if (!items.length) {
+            const errs = (data.errors || []).map(e => `${escapeHtml(e.source || e.feedUrl || "")}`).slice(0,3).join(", ");
+            list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}${errs ? "<br><span style=\"opacity:.75\">(" + errs + ")</span>" : ""}</div>`;
+            return;
+          }
 
-        list.innerHTML = items.map(it => {
-          const dateStr = it.date ? new Date(it.date).toLocaleString() : "";
-          const meta = [it.source || "", dateStr].filter(Boolean).join(" • ");
-          return `
-            <div class="card" style="margin-top:10px">
-              <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
-                <div>
-                  <div style="font-weight:700">${escapeHtml(it.title || "")}</div>
-                  <div class="small" style="opacity:.8; margin-top:6px">${escapeHtml(meta)}</div>
-                </div>
-                <a class="btn" href="${escapeHtml(it.link || "#")}" target="_blank" rel="noopener">${t.news_open || "Öffnen"}</a>
-              </div>
-            </div>
-          `;
-        }).join("");
-      } catch (e) {
-        console.error(e);
-        list.innerHTML = `<div class="small">${t.news_error || "News konnten nicht geladen werden."}</div>`;
-      }
-    }, 0);
-
-    return skeleton;
+    list.innerHTML = items.map(it => `
+      <div class="card" style="margin-top:10px">
+        <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
+          <div>
+            <div style="font-weight:700">${escapeHtml(it.title)}</div>
+            <div class="small" style="margin-top:6px">${escapeHtml(it.description || "")}</div>
+            <div class="small" style="opacity:.8; margin-top:6px">${escapeHtml(it.source || "")}${it.pubDate ? " • " + escapeHtml(new Date(it.pubDate).toLocaleString()) : ""}</div>
+          </div>
+          <button class="btn" onclick="window.open('${"${escapeHtml(it.link)}"}','_blank','noopener')">${t.news_open || "Open"}</button>
+        </div>
+      </div>
+    `).join("");
+  } catch (e) {
+    list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}</div><div class="small" style="opacity:.7;margin-top:6px">API: <a href="/api/news?lang=${state.lang}&max=6" target="_blank" rel="noopener">/api/news</a></div>`;
   }
+}
 
 
 
@@ -926,9 +966,11 @@ ${t.total}: ${money(cartTotal())}`;
     else if (route === "/quiz") { view.innerHTML = renderQuiz(); bindQuiz(); }
     else if (route === "/story") view.innerHTML = renderStory();
     else if (route === "/news") {
+      // renderNews() is async; don't write a Promise into the DOM
       view.innerHTML = `<div class="card"><div class="h">News</div><div class="small">Lade...</div></div>`;
       renderNews().then((html) => {
         view.innerHTML = html;
+        bindNews();
       }).catch((err) => {
         console.error(err);
         view.innerHTML = `<div class="card"><div class="h">News</div><div class="small">News konnten nicht geladen werden.</div></div>`;
