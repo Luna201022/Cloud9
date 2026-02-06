@@ -1,119 +1,129 @@
 // Cloudflare Pages Function: /api/news
-// Server-side fetch (avoids browser CORS). Returns lightweight JSON: title, link, date, source, description.
-// Categories: mix | mainz | deutschland | wetter | wirtschaft | sport
+// Server-side RSS fetch (avoids browser CORS). Returns lightweight JSON.
+// Categories supported via ?cat=mix|world|weather|business|sport
+// Language via ?lang=de|en|fr|it|vi, max via ?max=1..20
+
+const RSS_TIMEOUT_MS = 8000;
 
 export async function onRequestGet({ request }) {
-  const headers = {
-    "content-type": "application/json; charset=utf-8",
-    "cache-control": "no-store"
-  };
-
   try {
     const url = new URL(request.url);
     const lang = (url.searchParams.get("lang") || "de").toLowerCase();
-    const cat = (url.searchParams.get("cat") || "mix").toLowerCase();
+    const catRaw = (url.searchParams.get("cat") || "mix").toLowerCase();
+    const cat = normalizeCat(catRaw);
     const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
 
-    const { feeds, includeMerkurist } = getSources(lang, cat);
+    const feeds = getFeeds(lang);
 
-    const items = [];
+    const results = [];
     const seen = new Set();
 
-    // Optional: Merkurist (Mainz) HTML scrape
-    if (includeMerkurist) {
-      const mItems = await fetchMerkurist(max);
-      for (const it of mItems) pushUnique(items, seen, it, max);
-    }
-
-    // RSS sources
     for (const feedUrl of feeds) {
-      if (items.length >= max) break;
       try {
         const r = await fetch(feedUrl, {
           cf: { cacheTtl: 600, cacheEverything: true },
-          headers: { "user-agent": "Cloud9NewsBot/1.0 (+https://cloud9mainz.pages.dev)" }
+          signal: AbortSignal.timeout ? AbortSignal.timeout(RSS_TIMEOUT_MS) : undefined
         });
         if (!r.ok) continue;
 
         const txt = await r.text();
-        const parsed = parseRss(txt, feedUrl, max);
+        const parsed = parseFeed(txt);
 
         for (const it of parsed) {
-          if (items.length >= max) break;
-          pushUnique(items, seen, it, max);
+          const title = (it.title || "").trim();
+          const link = (it.link || "").trim();
+          if (!title || !link) continue;
+          if (seen.has(link)) continue;
+
+          const category = classifyCategory(lang, link, title);
+
+          // Apply category filter early to avoid unnecessary growth.
+          if (cat !== "mix" && category !== cat) continue;
+
+          seen.add(link);
+          results.push({ title, link, date: pubDate || "", source: hostname(link), category });
+          if (results.length >= max) break;
         }
-      } catch {
-        // ignore single feed failure
+      } catch (e) {
+        // Ignore broken feeds/timeouts; do not throw 500.
       }
+      if (results.length >= max) break;
     }
 
-    return new Response(JSON.stringify({ ok: true, lang, cat, items }), { status: 200, headers });
+    return json({ ok: true, items: results.slice(0, max), lang, cat, max });
   } catch (e) {
-    // Never throw 500 to the UI; return ok=false but status 200 so the frontend can show the error gracefully.
-    return new Response(JSON.stringify({ ok: false, items: [], error: String(e) }), { status: 200, headers });
+    return json({ ok: false, items: [], error: String(e?.message || e) }, 200);
   }
 }
 
-function getSources(lang, cat) {
-  // Non-DE stays language-based without categories for simplicity.
-  if (lang !== "de") {
-    const feedsByLang = {
-      en: ["https://feeds.bbci.co.uk/news/rss.xml", "https://rss.dw.com/rdf/rss-en-all"],
-      fr: ["https://www.france24.com/fr/rss"],
-      it: ["https://www.rainews.it/rss/tutti.xml"],
-      vi: ["https://vnexpress.net/rss/tin-moi-nhat.rss"]
-    };
-    return { feeds: feedsByLang[lang] || ["https://www.tagesschau.de/xml/rss2"], includeMerkurist: false };
-  }
+function json(obj, status = 200) {
+  return new Response(JSON.stringify(obj), {
+    status,
+    headers: { "content-type": "application/json; charset=utf-8" }
+  });
+}
 
-  const FEEDS = {
-    tagesschau: "https://www.tagesschau.de/xml/rss2",
-    swr: "https://www.swr.de/swraktuell/rss.xml",
-    wetter: "https://wetter.com/wetter_rss/wetter.xml",
-    sport: "https://www.sportschau.de/index~rss2.xml",
-    dw: "https://rss.dw.com/rdf/rss-de-all"
+function normalizeCat(c) {
+  // accept older/DE values
+  const map = {
+    deutschland: "world",
+    welt: "world",
+    wetter: "weather",
+    wirtschaft: "business"
   };
+  return map[c] || (["mix","world","weather","business","sport"].includes(c) ? c : "mix");
+}
 
-  // Categories (DE)
-  switch (cat) {
-    case "mainz":
-      return { feeds: [FEEDS.swr], includeMerkurist: true };
-    case "deutschland":
-      return { feeds: [FEEDS.tagesschau], includeMerkurist: false };
-    case "wetter":
-      return { feeds: [FEEDS.wetter], includeMerkurist: false };
-    case "wirtschaft":
-      return { feeds: [FEEDS.dw], includeMerkurist: false };
-    case "sport":
-      return { feeds: [FEEDS.sport], includeMerkurist: false };
-    case "mix":
+function getFeeds(lang) {
+  // Keep this conservative: use a few stable feeds per language.
+  switch (lang) {
+    case "en":
+      return [
+        "https://feeds.bbci.co.uk/news/rss.xml"
+      ];
+    case "fr":
+      return [
+        "https://www.france24.com/fr/rss"
+      ];
+    case "it":
+      return [
+        "https://www.rainews.it/rss/tutti.xml"
+      ];
+    case "vi":
+      return [
+        "https://vnexpress.net/rss/tin-moi-nhat.rss"
+      ];
+    case "de":
     default:
-      return { feeds: [FEEDS.tagesschau, FEEDS.swr, FEEDS.wetter, FEEDS.sport, FEEDS.dw], includeMerkurist: true };
+      return [
+        "https://www.tagesschau.de/xml/rss2",
+        "https://www.sportschau.de/rss/sportschau.rss",
+        "https://www.swr.de/swraktuell/rss.xml",
+        "https://merkurist.de/mainz/feed/"
+      ];
   }
 }
 
-function parseRss(xml, feedUrl, max) {
-  const out = [];
-  const blocks = [...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
-  for (const block of blocks) {
-    if (out.length >= max) break;
+function parseFeed(xmlText) {
+  // RSS: <item>...</item>
+  const items = [...xmlText.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
+  if (items.length) return items.map(block => ({
+    title: pick(block, "title"),
+    link: pickLink(block),
+    pubDate: pick(block, "pubDate") || pick(block, "dc:date"),
+    updated: pick(block, "updated"),
+    description: pick(block, "description") || pick(block, "content:encoded")
+  }));
 
-    const title = pick(block, "title");
-    const link = pickLink(block);
-    const pubDate = pick(block, "pubDate") || pick(block, "updated") || pick(block, "dc:date");
-    const desc = pick(block, "description") || pick(block, "content:encoded");
-
-    if (title && link) {
-      out.push({
-        title: tidy(title),
-        link: tidy(link),
-        date: tidy(pubDate || ""),
-        source: hostname(link) || hostname(feedUrl),
-        description: tidy(stripHtml(desc || ""))
-      });
-    }
-  }
-  return out;
+  // Atom: <entry>...</entry>
+  const entries = [...xmlText.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map(m => m[1]);
+  return entries.map(block => ({
+    title: pick(block, "title"),
+    link: pickAtomLink(block),
+    pubDate: pick(block, "published"),
+    updated: pick(block, "updated"),
+    description: pick(block, "summary") || pick(block, "content")
+  }));
 }
 
 function pick(block, tag) {
@@ -122,30 +132,55 @@ function pick(block, tag) {
   return m ? decodeHtml(m[1].trim()) : "";
 }
 
-// Some feeds use <link href="..."/> or <link>...</link> inside items.
-// We prioritize <link> then fallback to href attribute.
 function pickLink(block) {
-  // <link>...</link>
-  const m1 = block.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
-  if (m1) return decodeHtml(m1[1].trim());
+  // <link>https://..</link>
+  const l = pick(block, "link");
+  if (l && /^https?:\/\//i.test(l)) return l;
 
+  // <link ...> inside Atom-ish blocks sometimes
+  return pickAtomLink(block) || l;
+}
+
+function pickAtomLink(entry) {
   // <link href="..."/>
-  const m2 = block.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i);
-  if (m2) return decodeHtml(m2[1].trim());
+  const m1 = entry.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i);
+  if (m1) return decodeHtml(m1[1]);
 
-  // <guid isPermaLink="true">...</guid>
-  const m3 = block.match(/<guid[^>]*>([\s\S]*?)<\/guid>/i);
-  if (m3) return decodeHtml(m3[1].trim());
-
-  return "";
+  // <link>...</link>
+  const m2 = entry.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+  return m2 ? decodeHtml(m2[1].trim()) : "";
 }
 
 function hostname(u) {
   try {
     return new URL(u).hostname.replace(/^www\./, "");
   } catch {
-    return "";
+    return "news";
   }
+}
+
+function classifyCategory(lang, link, title) {
+  const u = (link || "").toLowerCase();
+  const t = (title || "").toLowerCase();
+
+  // shared
+  const isSport = /\/sport\b|sport/.test(u) || /\bsport\b/.test(t);
+  const isBusiness = /\/business\b|\/wirtschaft\b|boerse|konjunktur|markt|econom|économ|econo|kinh-doanh|business/.test(u) ||
+                     /\bwirtschaft\b|\bboerse\b|\bmarkt\b|\bbusiness\b|\beconom/.test(t) ||
+                     /\bkinh doanh\b/.test(t);
+  const isWeather = /\/weather\b|\/wetter\b|meteo|thoi-tiet|tempo|wetter/.test(u) ||
+                    /\bwetter\b|\bweather\b|\bmétéo\b|\bmeteo\b|\bthời tiết\b/.test(t);
+
+  if (lang === "vi") {
+    if (/the-thao|\/sport\b/.test(u) || /\bthể thao\b/.test(t)) return "sport";
+    if (/kinh-doanh|\/business\b/.test(u) || /\bkinh doanh\b/.test(t)) return "business";
+    if (/thoi-tiet|\/weather\b/.test(u) || /\bthời tiết\b/.test(t)) return "weather";
+  }
+
+  if (isWeather) return "weather";
+  if (isBusiness) return "business";
+  if (isSport) return "sport";
+  return "world";
 }
 
 function decodeHtml(s) {
@@ -157,65 +192,4 @@ function decodeHtml(s) {
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, " ");
-}
-
-function stripHtml(s) {
-  return String(s || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-}
-
-function tidy(s) {
-  return String(s || "").replace(/\s+/g, " ").trim();
-}
-
-function pushUnique(arr, seen, it, max) {
-  const link = (it.link || "").trim();
-  if (!link || seen.has(link)) return;
-  seen.add(link);
-  arr.push(it);
-  if (arr.length > max) arr.length = max;
-}
-
-// Merkurist has no stable public RSS. We do a best-effort scrape from the Mainz landing page.
-async function fetchMerkurist(max) {
-  const url = "https://merkurist.de/mainz/";
-  try {
-    const r = await fetch(url, {
-      cf: { cacheTtl: 600, cacheEverything: true },
-      headers: { "user-agent": "Cloud9NewsBot/1.0 (+https://cloud9mainz.pages.dev)" }
-    });
-    if (!r.ok) return [];
-
-    const html = await r.text();
-
-    // Try JSON-LD first (often present on news sites)
-    const items = [];
-    const re = /"headline"\s*:\s*"([^"]+)"[\s\S]*?"url"\s*:\s*"([^"]+)"/g;
-    let m;
-    while ((m = re.exec(html)) && items.length < max) {
-      const title = decodeHtml(m[1]);
-      const link = decodeHtml(m[2]).replace(/\\\//g, "/");
-      if (link && title) {
-        items.push({
-          title: tidy(title),
-          link: link.startsWith("http") ? link : ("https://merkurist.de" + link),
-          date: "",
-          source: "merkurist.de",
-          description: ""
-        });
-      }
-    }
-
-    if (items.length) return items;
-
-    // Fallback: plain <a href="...">Title</a> (rough)
-    const re2 = /<a[^>]+href="(https?:\/\/merkurist\.de\/mainz\/[^"]+)"[^>]*>([^<]{20,200})<\/a>/gi;
-    while ((m = re2.exec(html)) && items.length < max) {
-      const link = decodeHtml(m[1]);
-      const title = stripHtml(decodeHtml(m[2]));
-      items.push({ title: tidy(title), link, date: "", source: "merkurist.de", description: "" });
-    }
-    return items;
-  } catch {
-    return [];
-  }
 }
