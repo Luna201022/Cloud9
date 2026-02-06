@@ -177,12 +177,24 @@
     quiz: null,
     story: null,
     cart: [],
+    newsCat: loadNewsCat(),
     quizIdx: 0,
     quizScore: 0,
     quizDone: false,
   };
 
-  function loadLang() {
+  
+function loadNewsCat() {
+  const v = localStorage.getItem("cloud9_newscat");
+  return v || "mix";
+}
+function setNewsCat(cat) {
+  state.newsCat = cat;
+  localStorage.setItem("cloud9_newscat", cat);
+  renderRoute();
+}
+
+function loadLang() {
     const fromLs = localStorage.getItem("cloud9_lang");
     if (fromLs && LANGS.includes(fromLs)) return fromLs;
     return "de";
@@ -869,109 +881,89 @@ ${t.total}: ${money(cartTotal())}`;
 
   function escapeHtml(s) {
     return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
-  }async function renderNews() {
+  }
+async function renderNews() {
   const t = I18N[state.lang] || I18N.de;
+  const cats = [
+    { id:"mix", label: "Mix" },
+    { id:"mainz", label: "Mainz" },
+    { id:"de", label: "Deutschland" },
+    { id:"wetter", label: "Wetter" },
+    { id:"wirtschaft", label: "Wirtschaft" },
+    { id:"sport", label: "Sport" },
+  ];
 
-  // Try same-origin Function first, then fall back to the known-good deployment.
-  const url1 = `/api/news?lang=${encodeURIComponent(state.lang)}&max=6`;
-  const url2 = `https://cloud9mainz.pages.dev/api/news?lang=${encodeURIComponent(state.lang)}&max=6`;
+  const catChips = cats.map(c => {
+    const active = (state.newsCat || "mix") === c.id ? " active" : "";
+    return `<button class="chip${active}" data-newscat="${c.id}">${c.label}</button>`;
+  }).join("");
 
-  try {
-    let res;
+  let html = `
+    <div class="card">
+      <div class="h">${t.news_title || "News"}</div>
+      <div class="small" style="opacity:.8;margin:6px 0 12px">${t.news_legal || ""}</div>
+      <div class="row" style="gap:8px;flex-wrap:wrap;margin-bottom:12px" id="newsCats">
+        ${catChips}
+      </div>
+      <div id="newsList" class="list"><div class="small">${t.news_loading || "Loading…"}</div></div>
+    </div>
+  `;
+
+  // Render container immediately; then populate list async
+  setTimeout(async () => {
+    const list = document.getElementById("newsList");
+    if (!list) return;
+
+    const max = 20;
+    const cat = encodeURIComponent(state.newsCat || "mix");
+
     try {
-      res = await fetch(url1, { cache: "no-store" });
-    } catch (e) {
-      res = null;
-    }
-    if (!res || !res.ok) {
-      res = await fetch(url2, { cache: "no-store" });
-    }
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      let res = await fetch(`/api/news?lang=${encodeURIComponent(state.lang)}&max=${max}&cat=${cat}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    const data = await res.json();
-    const items = (data.items || []).slice(0, 6);
+      const data = await res.json();
+      const items = (data.items || []).slice(0, max);
 
-    if (!items.length) {
-      const errs = (data.errors || []).map(e => e.source || e.feedUrl || "").filter(Boolean).slice(0, 3).join(", ");
-      return `
-        <div class="card">
-          <div class="h">${t.news_title || "News"}</div>
-          <div class="small">${t.news_error || "News konnten nicht geladen werden."}${errs ? `<br><span style="opacity:.75">(${escapeHtml(errs)})</span>` : ""}</div>
-          <div class="small" style="opacity:.75;margin-top:10px">${t.legal || "Hinweis"}: ${t.news_legal || "Es werden nur Überschriften/Teaser angezeigt. Mit Klick öffnet sich die Originalquelle."}</div>
-        </div>`;
-    }
-
-    const cards = items.map(it => {
-      const link = escapeHtml(it.link || "");
-      const src = escapeHtml(it.source || "");
-      const teaser = escapeHtml(it.description || "");
-      const dt = it.date || it.pubDate || it.updated || "";
-      let dtText = "";
-      if (dt) {
-        try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
+      if (!items.length) {
+        list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}</div>`;
+        return;
       }
-      return `
-        <div class="card" style="margin-top:10px">
-          <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
+
+      list.innerHTML = items.map(it => {
+        const link = escapeHtml(it.link || "");
+        const src = escapeHtml(it.source || "");
+        const title = escapeHtml(it.title || "");
+        const teaser = escapeHtml(it.description || "");
+        const dt = it.date || "";
+        let dtText = "";
+        if (dt) { try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); } }
+        const catLabel = it.category ? `<span class="badge" style="margin-left:8px">${escapeHtml(it.category)}</span>` : "";
+        return `
+          <div class="item" style="justify-content:space-between;align-items:flex-start">
             <div style="min-width:0">
-              <div style="font-weight:700">${escapeHtml(it.title || "")}</div>
-              ${teaser ? `<div class="small" style="margin-top:6px">${teaser}</div>` : ""}
-              <div class="small" style="opacity:.8; margin-top:6px">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
+              <div class="itemTitle">${title}${catLabel}</div>
+              ${teaser ? `<div class="itemDesc" style="margin-top:6px">${teaser}</div>` : ``}
+              <div class="small" style="opacity:.8;margin-top:6px">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
             </div>
             <a class="btn" href="${link}" target="_blank" rel="noopener">${t.news_open || "Öffnen"}</a>
           </div>
-        </div>`;
-    }).join("");
+        `;
+      }).join("");
+    } catch (e) {
+      list.innerHTML = `<div class="small">${t.news_error || "News konnten nicht geladen werden."}<br><span style="opacity:.75">${escapeHtml(String(e?.message||e))}</span></div>`;
+    }
+  }, 0);
 
-    return `
-      <div class="card">
-        <div class="h">${t.news_title || "News"}</div>
-        <div class="small" style="opacity:.75">${t.legal || "Hinweis"}: ${t.news_legal || "Es werden nur Überschriften/Teaser angezeigt. Mit Klick öffnet sich die Originalquelle."}</div>
-        ${cards}
-      </div>
-    `;
-  } catch (e) {
-    return `
-      <div class="card">
-        <div class="h">${t.news_title || "News"}</div>
-        <div class="small">${t.news_error || "News konnten nicht geladen werden."}<br><span style="opacity:.75">${escapeHtml(String(e && e.message ? e.message : e))}</span></div>
-        <div class="small" style="opacity:.7;margin-top:10px">API: <a href="/api/news?lang=${state.lang}&max=6" target="_blank" rel="noopener">/api/news</a></div>
-      </div>`;
-  }
+  return html;
 }
 
-
-
-  function renderRoute() {
-    const route = hashRoute();
-    renderTabs();
-    const view = el("view");
-    if (route === "/home") view.innerHTML = renderHome();
-    else if (route === "/order") { view.innerHTML = renderOrder(); bindOrder(); }
-    else if (route === "/call") {
-      view.innerHTML = renderCall();
-      // Popup as soon as the guest opens this page.
-      setTimeout(() => window.callWaiter && window.callWaiter(), 0);
-    }
-    else if (route === "/pay") {
-      view.innerHTML = renderPay();
-      // Popup as soon as the guest opens this page.
-      setTimeout(() => window.requestPayment && window.requestPayment(), 0);
-    }
-    else if (route === "/quiz") { view.innerHTML = renderQuiz(); bindQuiz(); }
-    else if (route === "/story") view.innerHTML = renderStory();
-    else if (route === "/news") {
-      // renderNews() is async; don't write a Promise into the DOM
-      view.innerHTML = `<div class="card"><div class="h">News</div><div class="small">Lade...</div></div>`;
-      renderNews().then((html) => {
-        view.innerHTML = html;
-      }).catch((err) => {
-        console.error(err);
-        view.innerHTML = `<div class="card"><div class="h">News</div><div class="small">News konnten nicht geladen werden.</div></div>`;
-      });
-    }
-    else { navTo("/home"); }
-  }
+function bindNews() {
+  const host = document.getElementById("newsCats");
+  if (!host) return;
+  host.querySelectorAll("[data-newscat]").forEach(b => {
+    b.onclick = () => setNewsCat(b.getAttribute("data-newscat"));
+  });
+}
 
   async function renderAll() {
     renderLangButtons();

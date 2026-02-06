@@ -1,202 +1,202 @@
-// Cloudflare Pages Function: /api/news
-// Returns JSON: { ok:true, items:[{title,link,date,source,category}] }
-// Query params: lang=de|en|fr|it|vi, max=1..20, cat=mix|mainz|de|wetter|wirtschaft
 export async function onRequestGet({ request }) {
   const url = new URL(request.url);
   const lang = (url.searchParams.get("lang") || "de").toLowerCase();
   const cat = (url.searchParams.get("cat") || "mix").toLowerCase();
-  const max = Math.min(Math.max(parseInt(url.searchParams.get("max") || "20", 10) || 20, 1), 20);
+  const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
 
-  const key = new Request(url.toString(), request);
+  const FEEDS = {
+    // Germany / general
+    de: {
+      de: [
+        "https://www.tagesschau.de/xml/rss2",
+        "https://www.swr.de/swraktuell/rss.xml",
+      ],
+      wirtschaft: [
+        "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
+        "https://www.swr.de/swraktuell/wirtschaft/rss.xml",
+        "https://www.handelsblatt.com/contentexport/feed/schlagzeilen",
+      ],
+      sport: [
+        "https://www.tagesschau.de/sport/index~rss2.xml",
+      ],
+      wetter: [
+        "https://www.tagesschau.de/wetter/index~rss2.xml",
+      ],
+      mainz: [
+        // Merkurist doesn't offer a classic RSS; use their Google News sitemap.
+        "https://merkurist.de/googlenewssitemap",
+        "https://www.swr.de/swraktuell/rheinland-pfalz/rss.xml",
+      ],
+    },
 
-  // Try edge cache for 10 minutes
+    // Other languages keep simple
+    en: { mix: ["https://feeds.bbci.co.uk/news/rss.xml"] },
+    fr: { mix: ["https://www.france24.com/fr/rss"] },
+    it: { mix: ["https://www.rainews.it/rss/tutti.xml"] },
+    vi: { mix: ["https://vnexpress.net/rss/tin-moi-nhat.rss"] },
+  };
+
   try {
-    const cache = caches.default;
-    const cached = await cache.match(key);
-    if (cached) return cached;
-    const res = await buildResponse({ lang, cat, max });
-    res.headers.set("cache-control", "public, max-age=600");
-    res.headers.set("access-control-allow-origin", "*");
-    res.headers.set("access-control-allow-methods", "GET, OPTIONS");
-    await cache.put(key, res.clone());
-    return res;
+    const feedSet = FEEDS[lang] || FEEDS.de;
+    const map = feedSet[cat] || feedSet.mix || feedSet.de || [];
+    let feedUrls = Array.isArray(map) ? map : [];
+
+    // Mix: combine DE categories
+    if (lang === "de" && cat === "mix") {
+      feedUrls = [
+        ...(feedSet.mainz || []),
+        ...(feedSet.de || []),
+        ...(feedSet.wetter || []),
+        ...(feedSet.wirtschaft || []),
+        ...(feedSet.sport || []),
+      ];
+    }
+
+    const items = await collectItems(feedUrls, { maxPerFeed: max, totalMax: max, category: cat, lang });
+
+    return json({ ok: true, items }, 200);
   } catch (e) {
-    // If cache API fails for some reason, still serve.
-    return await buildResponse({ lang, cat, max, noCache: true, error: e });
+    return json({ ok: false, items: [], error: String(e?.message || e) }, 200);
   }
 }
 
-async function buildResponse({ lang, cat, max, error }) {
-  try {
-    const feeds = resolveFeeds(lang, cat);
-
-    // fetch all feeds in parallel, then flatten
-    const fetched = await Promise.all(feeds.map(async (f) => {
-      try {
-        const r = await fetch(f.url, {
-          headers: { "user-agent": "Cloud9Kaffee/1.0 (+news)" },
-          cf: { cacheTtl: 600, cacheEverything: true },
-        });
-        if (!r.ok) return [];
-        const txt = await r.text();
-        const items = parseFeed(txt, max);
-        return items.map(it => ({
-          ...it,
-          source: it.source || hostname(it.link || f.url) || f.sourceHint || "news",
-          category: f.category,
-        }));
-      } catch {
-        return [];
-      }
-    }));
-
-    let items = fetched.flat();
-
-    // Normalize & sort by date desc when possible
-    items = items
-      .filter(it => it && it.title && it.link)
-      .map(it => ({
-        title: clean(it.title),
-        link: cleanLink(it.link),
-        date: it.date ? clean(it.date) : "",
-        source: it.source ? clean(it.source) : "news",
-        category: it.category || "mix",
-      }));
-
-    items.sort((a, b) => (toTime(b.date) - toTime(a.date)));
-
-    // cap
-    items = items.slice(0, max);
-
-    return json({ ok: true, items, note: error ? String(error) : undefined });
-  } catch (e) {
-    // Never throw 500 to the client; keep UI stable.
-    return json({ ok: false, items: [], error: String(e) });
-  }
-}
-
-function json(obj) {
+function json(obj, status = 200) {
   return new Response(JSON.stringify(obj), {
-    status: 200,
-    headers: { "content-type": "application/json; charset=utf-8" }
+    status,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store",
+      "access-control-allow-origin": "*",
+    },
   });
 }
 
-function resolveFeeds(lang, cat) {
-  // DE categories: mix | mainz | de | wetter | wirtschaft
-  const de = {
-    mainz: [
-      { category: "mainz", url: "https://www.swr.de/swraktuell/rheinland-pfalz/rss.xml", sourceHint: "swr.de" },
-      { category: "mainz", url: "https://www.swr.de/swraktuell/rss.xml", sourceHint: "swr.de" },
-      // optional local portal (if it exists it will be used; if not, it's safely ignored)
-      { category: "mainz", url: "https://www.mainz.de/rss", sourceHint: "mainz.de" },
-    ],
-    de: [
-      { category: "de", url: "https://www.tagesschau.de/xml/rss2", sourceHint: "tagesschau.de" },
-    ],
-    wirtschaft: [
-      { category: "wirtschaft", url: "https://www.tagesschau.de/wirtschaft/index~rss2.xml", sourceHint: "tagesschau.de" },
-      { category: "wirtschaft", url: "https://rss.dw.com/rdf/rss-de-all", sourceHint: "dw.com" },
-    ],
-    wetter: [
-      { category: "wetter", url: "https://www.dwd.de/DWD/wetter/warnungen_aktuell/objekt_einbindung/rss/warnungen_rss.xml", sourceHint: "dwd.de" },
-    ],
-  };
+async function collectItems(feedUrls, { maxPerFeed, totalMax, category, lang }) {
+  const out = [];
+  const seen = new Set();
 
-  if (lang === "de") {
-    if (cat === "mainz") return de.mainz;
-    if (cat === "de" || cat === "deutschland") return de.de;
-    if (cat === "wirtschaft") return de.wirtschaft;
-    if (cat === "wetter") return de.wetter;
-    // mix:
-    return [...de.mainz, ...de.de, ...de.wirtschaft, ...de.wetter];
+  for (const feedUrl of feedUrls) {
+    if (out.length >= totalMax) break;
+    try {
+      const r = await fetch(feedUrl, { cf: { cacheTtl: 300 } });
+      if (!r.ok) continue;
+      const txt = await r.text();
+
+      let parsed = [];
+      if (txt.includes("<urlset") && txt.includes("news:news")) {
+        parsed = parseGoogleNewsSitemap(txt, feedUrl);
+      } else if (txt.includes("<entry")) {
+        parsed = parseAtom(txt, feedUrl);
+      } else {
+        parsed = parseRss(txt, feedUrl);
+      }
+
+      for (const it of parsed.slice(0, maxPerFeed)) {
+        if (!it.link || seen.has(it.link)) continue;
+        seen.add(it.link);
+        out.push({
+          title: it.title || "",
+          link: it.link,
+          date: it.date || "",
+          source: it.source || hostname(it.link) || hostname(feedUrl),
+          description: it.description || "",
+          category: categoryLabel(lang, category),
+        });
+        if (out.length >= totalMax) break;
+      }
+    } catch {
+      // ignore broken feed
+    }
   }
 
-  // Other langs keep simple mix (world-ish) and label as "mix"
-  const byLang = {
-    en: [{ category: "mix", url: "https://feeds.bbci.co.uk/news/rss.xml", sourceHint: "bbc.co.uk" }],
-    fr: [{ category: "mix", url: "https://www.france24.com/fr/rss", sourceHint: "france24.com" }],
-    it: [{ category: "mix", url: "https://www.rainews.it/rss/tutti.xml", sourceHint: "rainews.it" }],
-    vi: [{ category: "mix", url: "https://vnexpress.net/rss/tin-moi-nhat.rss", sourceHint: "vnexpress.net" }],
-  };
-  return byLang[lang] || byLang.en;
+  return out.slice(0, totalMax);
 }
 
-function parseFeed(xml, limit) {
-  const x = xml || "";
-  // RSS
-  const rssItems = [...x.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].slice(0, limit).map(m => m[1]);
-  if (rssItems.length) {
-    return rssItems.map(block => ({
-      title: pick(block, "title"),
-      link: pick(block, "link") || pickAtomLink(block) || "",
-      date: pick(block, "pubDate") || pick(block, "dc:date") || "",
-      source: "",
-    }));
-  }
+function categoryLabel(lang, cat) {
+  if (lang !== "de") return cat;
+  const m = {
+    mix: "Mix",
+    mainz: "Mainz",
+    de: "Deutschland",
+    wetter: "Wetter",
+    wirtschaft: "Wirtschaft",
+    sport: "Sport",
+  };
+  return m[cat] || "News";
+}
 
-  // Atom
-  const atomEntries = [...x.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)].slice(0, limit).map(m => m[1]);
-  if (atomEntries.length) {
-    return atomEntries.map(block => ({
-      title: pick(block, "title"),
-      link: pickAtomLink(block) || pick(block, "link") || "",
-      date: pick(block, "updated") || pick(block, "published") || "",
-      source: "",
-    }));
-  }
+function parseRss(xml, feedUrl) {
+  const blocks = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
+  return blocks.map(b => ({
+    title: pick(b, "title"),
+    link: pick(b, "link"),
+    date: pick(b, "pubDate") || pick(b, "dc:date"),
+    description: pick(b, "description"),
+    source: hostname(pick(b, "link")) || hostname(feedUrl),
+  })).filter(x => x.title && x.link);
+}
 
-  return [];
+function parseAtom(xml, feedUrl) {
+  const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map(m => m[1]);
+  return entries.map(e => {
+    const title = pick(e, "title");
+    const date = pick(e, "updated") || pick(e, "published");
+    const link = pickAtomLink(e);
+    const desc = pick(e, "summary") || pick(e, "content");
+    return { title, link, date, description: desc, source: hostname(link) || hostname(feedUrl) };
+  }).filter(x => x.title && x.link);
+}
+
+function parseGoogleNewsSitemap(xml, feedUrl) {
+  const urls = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/gi)].map(m => m[1]);
+  return urls.map(u => {
+    const link = pick(u, "loc");
+    const title = pickNs(u, "news:title");
+    const date = pickNs(u, "news:publication_date");
+    return {
+      title,
+      link,
+      date,
+      description: "",
+      source: hostname(link) || hostname(feedUrl),
+    };
+  }).filter(x => x.title && x.link);
 }
 
 function pick(block, tag) {
-  const re = new RegExp(`<${escapeRe(tag)}[^>]*>([\\s\\S]*?)<\\/${escapeRe(tag)}>`, "i");
+  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i");
   const m = block.match(re);
-  return m ? decodeHtml(m[1].trim()) : "";
+  return m ? decodeHtml(stripCdata(m[1]).trim()) : "";
+}
+function pickNs(block, tag) {
+  const re = new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i");
+  const m = block.match(re);
+  return m ? decodeHtml(stripCdata(m[1]).trim()) : "";
 }
 
-function pickAtomLink(block) {
+function pickAtomLink(entry) {
   // <link href="..."/>
-  const m1 = block.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i);
-  if (m1) return decodeHtml(m1[1]);
-
+  const m1 = entry.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
+  if (m1) return m1[1];
   // <link>...</link>
-  const m2 = block.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
-  return m2 ? decodeHtml(m2[1].trim()) : "";
+  const m2 = entry.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+  return m2 ? decodeHtml(stripCdata(m2[1]).trim()) : "";
 }
 
 function hostname(u) {
-  try { return new URL(u).hostname.replace(/^www\./, ""); }
-  catch { return ""; }
+  try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; }
+}
+
+function stripCdata(s) {
+  return String(s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1");
 }
 
 function decodeHtml(s) {
-  return String(s ?? "")
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+  return String(s || "")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, " ");
-}
-
-function clean(s) {
-  return String(s ?? "").replace(/\s+/g, " ").trim();
-}
-
-function cleanLink(s) {
-  const v = clean(s);
-  // Sometimes feeds provide relative or weird whitespace
-  return v;
-}
-
-function toTime(d) {
-  if (!d) return 0;
-  const t = Date.parse(d);
-  return Number.isFinite(t) ? t : 0;
-}
-
-function escapeRe(s) {
-  return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
