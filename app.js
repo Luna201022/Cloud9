@@ -898,123 +898,112 @@ ${t.total}: ${money(cartTotal())}`;
   }
 
   function escapeHtml(s) {
-    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }
+
+
+  function getNewsCats(t) {
+    // ids must match backend: mix, world, weather, business, sport
+    return [
+      { id: "mix", label: t.news_cat_mix || "Mix" },
+      { id: "world", label: t.news_cat_world || "World" },
+      { id: "weather", label: t.news_cat_weather || "Weather" },
+      { id: "business", label: t.news_cat_business || "Business" },
+      { id: "sport", label: t.news_cat_sport || "Sport" },
+    ];
   }
-async function renderNews() {
-  const t = I18N[state.lang] || I18N.de;
+  // ---------------------------
+  // Cloud9-Zeitung (News)
+  // ---------------------------
+  function renderNews() {
+    const t = I18N[state.lang] || I18N.de;
+    const cats = [
+      { id: "mix", label: t.news_cat_mix || "Mix" },
+      { id: "world", label: t.news_cat_world || "Welt" },
+      { id: "weather", label: t.news_cat_weather || "Wetter" },
+      { id: "business", label: t.news_cat_business || "Wirtschaft" },
+      { id: "sport", label: t.news_cat_sport || "Sport" },
+    ];
 
-  // category state
-  if (!state.newsCat) {
-    const fromLs = localStorage.getItem("cloud9_news_cat");
-    state.newsCat = fromLs || "mix";
-  }
+    return `
+      <div class="card">
+        <div class="h">${t.news_title || "Cloud9-Zeitung"}</div>
+        <div class="small" style="opacity:.85;margin-top:6px">${t.news_legal || ""}</div>
 
-  const cats = [
-    { id: "mix", label: t.news_cat_mix || "Mix" },
-    { id: "world", label: t.news_cat_world || "World" },
-    { id: "weather", label: t.news_cat_weather || "Weather" },
-    { id: "business", label: t.news_cat_business || "Business" },
-    { id: "sport", label: t.news_cat_sport || "Sport" },
-  ];
-
-  return `
-    <div class="card">
-      <div class="h">${t.news_title || "News"}</div>
-      <div class="small" style="opacity:.85; margin-top:6px">${t.news_legal || ""}</div>
-
-      <div class="row" style="gap:8px; flex-wrap:wrap; margin-top:12px" id="newsCats">
-        ${cats.map(c => `<button class="chip ${state.newsCat===c.id ? "active" : ""}" data-newscat="${c.id}">${escapeHtml(c.label)}</button>`).join("")}
-      </div>
-
-      <div id="newsList" class="list" style="margin-top:12px">
-        <div class="small">${t.news_loading || "Loading news..."}</div>
-      </div>
-    </div>
-  `;
-}
-
-function bindNews() {
-  const host = document.getElementById("newsCats");
-  if (!host) return;
-
-  host.querySelectorAll("[data-newscat]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const cat = btn.getAttribute("data-newscat");
-      state.newsCat = cat;
-      localStorage.setItem("cloud9_news_cat", cat);
-
-      host.querySelectorAll("[data-newscat]").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-
-      loadNewsIntoList();
-    });
-  });
-
-  loadNewsIntoList();
-}
-
-async function loadNewsIntoList() {
-  const t = I18N[state.lang] || I18N.de;
-  const list = document.getElementById("newsList");
-  if (!list) return;
-
-  list.innerHTML = `<div class="small">${t.news_loading || "Loading news..."}</div>`;
-
-  const max = 20;
-  const cat = state.newsCat || "mix";
-  const url = `/api/news?lang=${encodeURIComponent(state.lang)}&max=${max}&cat=${encodeURIComponent(cat)}`;
-
-  try {
-    const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
-    const itemsRaw = Array.isArray(data.items) ? data.items : [];
-
-    // de-duplicate by link
-    const seen = new Set();
-    const items = [];
-    for (const it of itemsRaw) {
-      const link = (it.link || "").trim();
-      if (!link || seen.has(link)) continue;
-      seen.add(link);
-      items.push(it);
-      if (items.length >= max) break;
-    }
-
-    if (!items.length) {
-      list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}</div>`;
-      return;
-    }
-
-    list.innerHTML = items.map(it => {
-      const link = escapeHtml(it.link || "");
-      const src = escapeHtml(it.source || "");
-      const teaser = escapeHtml(it.description || "");
-      const dt = it.date || it.pubDate || it.updated || "";
-      let dtText = "";
-      if (dt) {
-        try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
-      }
-      return `
-        <div class="card" style="margin-top:10px">
-          <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
-            <div style="min-width:0">
-              <div style="font-weight:700">${escapeHtml(it.title || "")}</div>
-              ${teaser ? `<div class="small" style="margin-top:6px">${teaser}</div>` : ``}
-              <div class="small" style="opacity:.8; margin-top:6px">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
-            </div>
-            <a class="btn" href="${link}" target="_blank" rel="noopener">${t.news_open || "Open"}</a>
-          </div>
+        <div class="row" style="gap:8px; flex-wrap:wrap; margin-top:12px" id="newsCats">
+          ${cats.map(c => `<button class="chip" data-cat="${c.id}">${escapeHtml(c.label)}</button>`).join("")}
         </div>
-      `;
-    }).join("");
 
-  } catch (e) {
-    list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}<br><span style="opacity:.75">${escapeHtml(String(e?.message||e))}</span></div>
-      <div class="small" style="opacity:.7;margin-top:6px">API: <a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></div>`;
+        <div id="newsList" class="list" style="margin-top:12px"></div>
+      </div>
+    `;
   }
-}
 
+  async function loadNews(cat) {
+    const t = I18N[state.lang] || I18N.de;
+    const list = document.getElementById("newsList");
+    if (!list) return;
+
+    list.innerHTML = `<div class="small">${t.news_loading || "Lade..."}</div>`;
+
+    try {
+      const url = `/api/news?lang=${encodeURIComponent(state.lang)}&cat=${encodeURIComponent(cat)}&max=20`;
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const items = (data.items || []).slice(0, 20);
+
+      if (!items.length) {
+        list.innerHTML = `<div class="small">${t.news_error || "News konnten nicht geladen werden."}</div>`;
+        return;
+      }
+
+      list.innerHTML = items.map(it => {
+        const link = escapeHtml(it.link || "");
+        const src = escapeHtml(it.source || "");
+        const dt = it.date || it.pubDate || it.updated || "";
+        let dtText = "";
+        if (dt) {
+          try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
+        }
+        const tag = it.category ? `<span class="badge">${escapeHtml(it.category)}</span>` : "";
+        return `
+          <div class="item">
+            <div style="min-width:0">
+              <div class="itemTitle">${escapeHtml(it.title || "")} ${tag}</div>
+              <div class="itemDesc">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
+            </div>
+            <a class="btn" href="${link}" target="_blank" rel="noopener">${t.news_open || "Öffnen"}</a>
+          </div>
+        `;
+      }).join("");
+    } catch (e) {
+      list.innerHTML = `<div class="small">${t.news_error || "News konnten nicht geladen werden."}<br><span style="opacity:.75">${escapeHtml(String(e?.message || e))}</span></div>`;
+    }
+  }
+
+  function bindNews() {
+    const host = document.getElementById("newsCats");
+    if (!host) return;
+
+    if (!state.newsCat) state.newsCat = "mix";
+
+    const setActive = () => {
+      host.querySelectorAll("[data-cat]").forEach(b => {
+        b.classList.toggle("active", b.getAttribute("data-cat") === state.newsCat);
+      });
+    };
+
+    host.querySelectorAll("[data-cat]").forEach(btn => {
+      btn.onclick = () => {
+        state.newsCat = btn.getAttribute("data-cat") || "mix";
+        setActive();
+        loadNews(state.newsCat);
+      };
+    });
+
+    setActive();
+    loadNews(state.newsCat);
+  }
 
 function renderRoute() {
     const route = hashRoute();
@@ -1035,15 +1024,8 @@ function renderRoute() {
     else if (route === "/quiz") { view.innerHTML = renderQuiz(); bindQuiz(); }
     else if (route === "/story") view.innerHTML = renderStory();
     else if (route === "/news") {
-      // renderNews() is async; don't write a Promise into the DOM
-      view.innerHTML = `<div class="card"><div class="h">Cloud9-Zeitung</div><div class="small">Lade...</div></div>`;
-      renderNews().then((html) => {
-        view.innerHTML = html;
-        try { bindNews(); } catch(e) { console.error(e); }
-      }).catch((err) => {
-        console.error(err);
-        view.innerHTML = `<div class="card"><div class="h">Cloud9-Zeitung</div><div class="small">News konnten nicht geladen werden.</div></div>`;
-      });
+      view.innerHTML = renderNews();
+      bindNews();
     }
     else { navTo("/home"); }
   }
