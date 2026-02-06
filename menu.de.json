@@ -549,27 +549,22 @@
       "title": "Sommerrollen",
       "items": [
         {
-          "id": "summerrolls",
-          "name": "Sommerrollen",
+          "id": "summerrolls_tofu",
+          "name": "Sommerrollen (Tofu)",
           "price": 5.9,
-          "desc": "Reispapier | Reisnudeln | Salat-Mix | Karotten",
-          "options": {
-            "choice_multi": false,
-            "choice": [
-              {
-                "label": "Tofu",
-                "price_delta": 0.0
-              },
-              {
-                "label": "Hühnerfleisch",
-                "price_delta": 0.6
-              },
-              {
-                "label": "Garnelen",
-                "price_delta": 1.0
-              }
-            ]
-          }
+          "desc": "Reispapier | Reisnudeln | Salat-Mix | Karotten"
+        },
+        {
+          "id": "summerrolls_huhn",
+          "name": "Sommerrollen (Hühnerfleisch)",
+          "price": 6.5,
+          "desc": "Reispapier | Reisnudeln | Salat-Mix | Karotten"
+        },
+        {
+          "id": "summerrolls_garnelen",
+          "name": "Sommerrollen (Garnelen)",
+          "price": 6.9,
+          "desc": "Reispapier | Reisnudeln | Salat-Mix | Karotten"
         }
       ]
     },

@@ -398,25 +398,11 @@
 }
   function calcItemPrice(item, pickedOptions) {
     let p = item.price || 0;
-
-    // Generic: add price_delta for any picked option where the option list contains {label, price_delta}
-    if (item.options && pickedOptions) {
-      for (const key of Object.keys(pickedOptions)) {
-        const val = pickedOptions[key];
-        const optList = item.options[key];
-        if (!optList) continue;
-
-        // arrays of objects: [{label, price_delta}]
-        if (Array.isArray(optList) && optList.length && typeof optList[0] === "object") {
-          const opt = optList.find(o => o.label === val);
-          if (opt) p += opt.price_delta || 0;
-        }
-
-        // nested form used in menu files: { size: [...], choice: [...] }
-        // already handled above via key loop
-      }
+    if (item.options && item.options.size && pickedOptions.size) {
+      const opt = item.options.size.find(o => o.label === pickedOptions.size);
+      if (opt) p += opt.price_delta || 0;
     }
-
+    // temperature no price delta
     return Math.round(p * 100) / 100;
   }
   function clearCart() {
@@ -553,31 +539,7 @@
               idToItem.set(item.id, item);
               const badges = [];
               if (item.options?.temperatur) badges.push(`<span class="badge">Warm/Kalt</span>`);
-              if (item.options?.size) badges.push(`<span class="badge">${t.badge_sizes || "Größen"}</span>`);
-              if (item.options?.choice) badges.push(`<span class="badge">${t.badge_choice || "Auswahl"}</span>`);
-
-              const priceLines = [];
-              const base = Number(item.price || 0);
-
-              const collectPrices = (opts) => (opts || []).map(o => base + Number(o.price_delta || 0));
-
-              // Sizes with different prices (e.g. 0,5 l / 0,7 l) should be visible on the card
-              if (item.options?.size?.length) {
-                const parts = item.options.size.map(o => `${escapeHtml(o.label)} (${money(base + Number(o.price_delta || 0))})`);
-                priceLines.push(`<div class="small variants">${parts.join(" • ")}</div>`);
-              }
-
-              // Choices with different prices (e.g. Tofu/Huhn/Garnelen) should be visible on the card
-              if (item.options?.choice?.length) {
-                const parts = item.options.choice.map(o => `${escapeHtml(o.label)} (${money(base + Number(o.price_delta || 0))})`);
-                priceLines.push(`<div class="small variants">${parts.join(" • ")}</div>`);
-              }
-
-              const allPrices = []
-                .concat(item.options?.size ? collectPrices(item.options.size) : [])
-                .concat(item.options?.choice ? collectPrices(item.options.choice) : []);
-
-              const minPrice = allPrices.length ? Math.min(...allPrices) : base;
+              if (item.options?.size) badges.push(`<span class="badge">0,5/0,7</span>`);
               return `
                 <div class="item" data-item="${item.id}">
                   <div class="itemLeft" style="min-width:0">
@@ -589,11 +551,16 @@
                     </div>
                   </div>
                   <div class="itemRight">
-                    <div class="price">${money(minPrice)}</div>${priceLines.join("")}
+                    ${item.options?.size ? `<div class="price"></div>` : `<div class="price">${money(item.price || 0)}</div>`}
                     ${item.options?.temperatur ? `
-                      <div class="optRow underPrice" data-opt="${item.id}">
+                      <div class="optRow underPrice" data-opt="${item.id}" data-optkey="temperatur">
                         <button class="optBtn" data-optval="kalt">${t.opt_cold || "Kalt"}</button>
                         <button class="optBtn" data-optval="warm">${t.opt_warm || "Warm"}</button>
+                      </div>
+                    ` : ``}
+                    ${item.options?.size ? `
+                      <div class="optRow underPrice" data-opt="${item.id}" data-optkey="size">
+                        ${item.options.size.map(o => `<button class="optBtn" data-optval="${o.label}">${o.label} (${money((item.price||0)+(o.price_delta||0))})</button>`).join("")}
                       </div>
                     ` : ``}
                   </div>
@@ -646,7 +613,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
           let chosenTemp = null;
           if (item.options?.temperatur) {
-            const row = btn.closest(".item")?.querySelector(".optRow");
+            const row = btn.closest(".item")?.querySelector('.optRow[data-optkey="temperatur"]');
             const active = row?.querySelector(".optBtn.active");
             if (!active) {
               openModal(t.opt_pick_title || "Bitte wählen", t.opt_pick_msg || "Bitte Kalt oder Warm auswählen.");
@@ -655,26 +622,43 @@ host.querySelectorAll("[data-add]").forEach(btn => {
             chosenTemp = active.getAttribute("data-optval");
           }
 
+          let chosenSize = null;
+          if (item.options?.size) {
+            const row = btn.closest(".item")?.querySelector('.optRow[data-optkey="size"]');
+            const active = row?.querySelector(".optBtn.active");
+            if (!active) {
+              openModal(t.opt_pick_title || "Bitte wählen", t.opt_size_pick_msg || "Bitte Größe auswählen.");
+              return;
+            }
+            chosenSize = active.getAttribute("data-optval");
+          }
+
 
       
           // options dialog if needed
           const needsTemp = !!item.options?.temperatur;
           const needsSize = !!item.options?.size;
-          const needsChoice = Array.isArray(item.options?.choice) && item.options.choice.length > 0;
 
-          // If only temperature is required and the user already selected cold/hot under the price,
-          // add directly without opening the popup.
-          if (needsTemp && !needsSize && !needsChoice && chosenTemp) {
+          // If the user already selected required options under the price, add directly without opening the popup.
+          if (needsTemp && !needsSize && chosenTemp) {
             addToCart(item, { temperature: chosenTemp });
             return;
           }
+          if (needsSize && !needsTemp && chosenSize) {
+            addToCart(item, { size: chosenSize });
+            return;
+          }
+          if (needsTemp && needsSize && chosenTemp && chosenSize) {
+            addToCart(item, { temperature: chosenTemp, size: chosenSize });
+            return;
+          }
 
-          if (!needsTemp && !needsSize && !needsChoice) {
+          if (!needsTemp && !needsSize) {
             addToCart(item, {});
             return;
           }
 
-          const picked = { temperature: (chosenTemp || null), size: null, choice: null };
+          const picked = { temperature: (chosenTemp || null), size: (chosenSize || null) };
 
           const tempHtml = needsTemp ? `
             <div class="chapter">
@@ -692,14 +676,6 @@ host.querySelectorAll("[data-add]").forEach(btn => {
               </div>
             </div>` : "";
 
-          const choiceHtml = needsChoice ? `
-            <div class="chapter">
-              <h3>${t.choice_label || "Bitte auswählen"}</h3>
-              <div class="row" style="gap:8px; flex-wrap:wrap">
-                ${item.options.choice.map(o => `<button class="btn" data-choice="${escapeHtml(o.label)}">${escapeHtml(o.label)}${(o.price_delta ? ` (${money((item.price||0)+(o.price_delta||0))})` : "")}</button>`).join("")}
-              </div>
-            </div>` : "";
-
           const ok = document.createElement("button");
           ok.className = "btn primary";
           ok.textContent = "OK";
@@ -707,7 +683,6 @@ host.querySelectorAll("[data-add]").forEach(btn => {
             const chosen = {};
             if (needsTemp) chosen.temperature = picked.temperature || item.options.temperatur[0];
             if (needsSize) chosen.size = picked.size || item.options.size[0].label;
-            if (needsChoice) chosen.choice = picked.choice || item.options.choice[0].label;
             closeModal();
             addToCart(item, chosen);
           };
@@ -716,7 +691,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
           cancel.textContent = I18N[state.lang].close;
           cancel.onclick = closeModal;
 
-          openModal(item.name, tempHtml + sizeHtml + choiceHtml, [cancel, ok]);
+          openModal(item.name, tempHtml + sizeHtml, [cancel, ok]);
 
           const b = el("modalBody");
           if (needsTemp && picked.temperature) {
@@ -736,13 +711,6 @@ host.querySelectorAll("[data-add]").forEach(btn => {
               picked.size = sbtn.getAttribute("data-size");
               b.querySelectorAll("[data-size]").forEach(x => x.classList.remove("active"));
               sbtn.classList.add("active");
-            };
-          });
-          b.querySelectorAll("[data-choice]").forEach(cbtn => {
-            cbtn.onclick = () => {
-              picked.choice = cbtn.getAttribute("data-choice");
-              b.querySelectorAll("[data-choice]").forEach(x => x.classList.remove("active"));
-              cbtn.classList.add("active");
             };
           });
         });
@@ -917,7 +885,16 @@ ${t.total}: ${money(cartTotal())}`;
   list.innerHTML = `<div class="small">${t.news_loading || "Loading…"}</div>`;
 
   try {
-    const res = await fetch(`/api/news?lang=${encodeURIComponent(state.lang)}&max=6`, { cache: "no-store" });
+    let res;
+    try {
+      res = await fetch(`/api/news?lang=${encodeURIComponent(state.lang)}&max=6`, { cache: "no-store" });
+    } catch (e) {
+      res = null;
+    }
+    if (!res || !res.ok) {
+      // Fallback to the project that definitely has the Function deployed
+      res = await fetch(`https://cloud9mainz.pages.dev/api/news?lang=${encodeURIComponent(state.lang)}&max=6`, { cache: "no-store" });
+    }
     if (!res.ok) throw new Error(String(res.status));
     const data = await res.json();
     const items = (data.items || []).slice(0, 6);
