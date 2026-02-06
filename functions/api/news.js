@@ -127,10 +127,10 @@ function pick(block, tag) {
 function pickAtomLink(entry) {
   const m1 = entry.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i);
   if (m1) return m1[1];
-
-  const m2 = entry.match(/<link[^>]*>([\\s\\S]*?)<\\/link>/i);
-  return m2 ? decodeHtml(m2[1]) : "";
+  const m2 = entry.match(/href="([^"]+)"/i);
+  return m2 ? m2[1] : "";
 }
+
 
 function hostname(u) {
   try {
