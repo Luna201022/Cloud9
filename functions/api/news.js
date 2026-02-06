@@ -71,12 +71,8 @@ function json(obj, status = 200) {
 
 function parseFeed(xml, feedUrl) {
   const source = hostname(feedUrl);
-
-  // RSS items
   const rssItems = parseRssItems(xml, source);
   if (rssItems.length > 0) return rssItems;
-
-  // Atom entries
   return parseAtomEntries(xml, source);
 }
 
@@ -129,11 +125,9 @@ function pick(block, tag) {
 }
 
 function pickAtomLink(entry) {
-  // <link href="..."/>
   const m1 = entry.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i);
   if (m1) return m1[1];
 
-  // <link>...</link>
   const m2 = entry.match(/<link[^>]*>([\\s\\S]*?)<\\/link>/i);
   return m2 ? decodeHtml(m2[1]) : "";
 }
