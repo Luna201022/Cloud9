@@ -1,148 +1,137 @@
 // Cloudflare Pages Function: /api/news
-// Returns JSON: { ok:true, items:[{title,link,date,source,category}] }
+// Server-side RSS/Atom fetch (avoids browser CORS).
+// Returns JSON: { ok:true, items:[{title,link,date,source,category}], errors?:[...] }
 
 export async function onRequestGet({ request }) {
-  const headers = {
-    "content-type": "application/json; charset=utf-8",
-    "cache-control": "public, max-age=300"
-  };
-
   try {
     const url = new URL(request.url);
     const lang = (url.searchParams.get("lang") || "de").toLowerCase();
-    const cat = (url.searchParams.get("cat") || "mix").toLowerCase();
+    const cat = (url.searchParams.get("cat") || "mix").toLowerCase(); // mix|world|weather|business|sport
     const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
 
-    const feeds = getFeeds(lang, cat);
-    const out = [];
-    const seen = new Set();
+    const feeds = getFeeds(lang);
+    const errors = [];
+    const all = [];
 
     for (const feedUrl of feeds) {
       try {
         const r = await fetch(feedUrl, {
-          headers: { "user-agent": "Cloud9Kaffee/1.0 (+cloud9mainz.pages.dev)" },
-          cf: { cacheTtl: 600 }
+          cf: { cacheTtl: 600, cacheEverything: true },
+          headers: {
+            // Some publishers block generic UA/Accept; this helps a lot.
+            "User-Agent": "Mozilla/5.0 (compatible; Cloud9Zeitung/1.0; +https://cloud9mainz.pages.dev/)",
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+            "Accept-Language": lang
+          }
         });
-        if (!r.ok) continue;
-
-        const txt = await r.text();
-        const items = parseFeed(txt);
-
-        for (const it of items) {
-          if (!it.title || !it.link) continue;
-          const key = (it.link || it.title).trim();
-          if (seen.has(key)) continue;
-          seen.add(key);
-
-          out.push({
-            title: clean(it.title),
-            link: it.link,
-            date: it.date || "",
-            source: hostname(it.link),
-            category: cat
-          });
-
-          if (out.length >= max) break;
+        if (!r.ok) {
+          errors.push({ feedUrl, status: r.status });
+          continue;
         }
-        if (out.length >= max) break;
-      } catch {
-        // ignore broken feeds
+        const txt = await r.text();
+        const items = parseFeed(txt, feedUrl);
+        all.push(...items);
+      } catch (e) {
+        errors.push({ feedUrl, error: String(e?.message || e) });
       }
     }
 
-    return new Response(JSON.stringify({ ok: true, items: out.slice(0, max) }), { headers });
+    // De-dupe (same link or same title)
+    const seen = new Set();
+    const deduped = [];
+    for (const it of all) {
+      const k = (it.link || "") + "||" + (it.title || "");
+      if (seen.has(k)) continue;
+      seen.add(k);
+      deduped.push(it);
+    }
+
+    // Sort newest first (best-effort)
+    deduped.sort((a, b) => (toTime(b.date) - toTime(a.date)));
+
+    const filtered = filterByCategory(deduped, cat, lang).slice(0, max);
+
+    return json({ ok: true, items: filtered, errors }, 200);
   } catch (e) {
-    // Keep status 200 so the UI can show a friendly message
-    return new Response(JSON.stringify({ ok: false, items: [], error: String(e) }), { status: 200, headers });
+    // Don't fail hard; keep frontend stable.
+    return json({ ok: false, items: [], error: String(e?.message || e) }, 200);
   }
 }
 
-function getFeeds(lang, cat) {
-  // Mainz removed (empty). Categories: mix, world, weather, business, sport
-  const de = {
-    mix: [
+function json(obj, status = 200) {
+  return new Response(JSON.stringify(obj), {
+    status,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store"
+    }
+  });
+}
+
+function getFeeds(lang) {
+  // Keep feeds simple + reliable.
+  // Categories are derived via keyword filtering (so they work for all languages).
+  const feedsByLang = {
+    de: [
       "https://www.tagesschau.de/xml/rss2",
       "https://www.swr.de/swraktuell/rss.xml"
     ],
-    world: [
-      "https://www.tagesschau.de/ausland/index~rss2.xml",
-      "https://feeds.bbci.co.uk/news/world/rss.xml"
+    en: [
+      "https://feeds.bbci.co.uk/news/rss.xml",
+      "https://rss.dw.com/rdf/rss-en-all"
     ],
-    weather: [
-      "https://www.dwd.de/DWD/warnungen/warnapp/rss_warn.rss",
-      "https://www.tagesschau.de/inland/index~rss2.xml"
+    fr: [
+      "https://rss.dw.com/rdf/rss-fr-all",
+      "https://www.france24.com/fr/rss"
     ],
-    business: [
-      "https://www.tagesschau.de/wirtschaft/index~rss2.xml",
-      "https://rss.dw.com/rdf/rss-de-wirtschaft"
+    it: [
+      "https://rss.dw.com/rdf/rss-it-all",
+      "https://www.rainews.it/rss/tutti.xml"
     ],
-    sport: [
-      "https://www.sportschau.de/index~rss2.xml",
-      "https://www.kicker.de/news/rss"
+    vi: [
+      "https://vnexpress.net/rss/tin-moi-nhat.rss"
     ]
   };
-
-  const en = {
-    mix: ["https://feeds.bbci.co.uk/news/rss.xml"],
-    world: ["https://feeds.bbci.co.uk/news/world/rss.xml"],
-    weather: ["https://feeds.bbci.co.uk/news/rss.xml"],
-    business: ["https://feeds.bbci.co.uk/news/business/rss.xml"],
-    sport: ["https://feeds.bbci.co.uk/sport/rss.xml"]
-  };
-
-  const fr = {
-    mix: ["https://www.france24.com/fr/rss"],
-    world: ["https://www.france24.com/fr/rss"],
-    weather: ["https://www.france24.com/fr/rss"],
-    business: ["https://www.france24.com/fr/rss"],
-    sport: ["https://www.france24.com/fr/rss"]
-  };
-
-  const it = {
-    mix: ["https://www.rainews.it/rss/tutti.xml"],
-    world: ["https://www.rainews.it/rss/tutti.xml"],
-    weather: ["https://www.rainews.it/rss/tutti.xml"],
-    business: ["https://www.rainews.it/rss/tutti.xml"],
-    sport: ["https://www.rainews.it/rss/tutti.xml"]
-  };
-
-  const vi = {
-    mix: ["https://vnexpress.net/rss/tin-moi-nhat.rss"],
-    world: ["https://vnexpress.net/rss/the-gioi.rss"],
-    weather: ["https://vnexpress.net/rss/thoi-su.rss"],
-    business: ["https://vnexpress.net/rss/kinh-doanh.rss"],
-    sport: ["https://vnexpress.net/rss/the-thao.rss"]
-  };
-
-  const byLang = { de, en, fr, it, vi };
-  const sets = byLang[lang] || de;
-  return (sets[cat] && sets[cat].length ? sets[cat] : sets.mix);
+  return feedsByLang[lang] || feedsByLang.de;
 }
 
-function parseFeed(xml) {
-  // RSS <item> ... </item>
-  const items = [...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
-  if (items.length) return items.map(parseRssItem);
+function parseFeed(txt, feedUrl) {
+  // Try RSS <item> first
+  const items = [];
+  const rssItems = [...txt.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
+  for (const block of rssItems) {
+    const title = pick(block, "title");
+    const link = pickLink(block);
+    const pubDate = pick(block, "pubDate") || pick(block, "dc:date");
+    if (title && link) {
+      items.push({
+        title,
+        link,
+        date: pubDate || "",
+        source: hostname(link || feedUrl),
+        category: "mix"
+      });
+    }
+  }
 
-  // Atom <entry> ... </entry>
-  const entries = [...xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)].map(m => m[1]);
-  if (entries.length) return entries.map(parseAtomEntry);
+  // Atom <entry>
+  const atomEntries = [...txt.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map(m => m[1]);
+  for (const block of atomEntries) {
+    const title = pick(block, "title");
+    const link = pickAtomLink(block);
+    const updated = pick(block, "updated") || pick(block, "published");
+    if (title && link) {
+      items.push({
+        title,
+        link,
+        date: updated || "",
+        source: hostname(link || feedUrl),
+        category: "mix"
+      });
+    }
+  }
 
-  return [];
-}
-
-function parseRssItem(block) {
-  const title = pick(block, "title");
-  const link = pickLink(block);
-  const date = pick(block, "pubDate") || pick(block, "dc:date") || pick(block, "date");
-  return { title, link, date };
-}
-
-function parseAtomEntry(block) {
-  const title = pick(block, "title");
-  const link = pickAtomLink(block);
-  const date = pick(block, "updated") || pick(block, "published");
-  return { title, link, date };
+  return items;
 }
 
 function pick(block, tag) {
@@ -152,27 +141,21 @@ function pick(block, tag) {
 }
 
 function pickLink(block) {
-  // <link>...</link> OR <link>https://..</link>
-  const m1 = block.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
-  if (m1) return decodeHtml(m1[1].trim());
-
-  // Some feeds use <guid isPermaLink="true">...</guid>
-  const m2 = block.match(/<guid[^>]*>([\s\S]*?)<\/guid>/i);
-  if (m2) return decodeHtml(m2[1].trim());
-
-  return "";
+  // RSS: <link>https://..</link>
+  const v = pick(block, "link");
+  if (v) return v;
+  // Sometimes: <link href="..."/>
+  const m = block.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
+  return m ? decodeHtml(m[1]) : "";
 }
 
-function pickAtomLink(block) {
-  // <link href="..."/>
-  const m1 = block.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
-  if (m1) return m1[1];
-
-  // <link>...</link>
-  const m2 = block.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
-  if (m2) return decodeHtml(m2[1].trim());
-
-  return "";
+function pickAtomLink(entry) {
+  // Atom: <link href="..."/>
+  let m = entry.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
+  if (m) return decodeHtml(m[1]);
+  // Atom: <link>...</link>
+  m = entry.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+  return m ? decodeHtml(m[1]) : "";
 }
 
 function hostname(u) {
@@ -191,9 +174,50 @@ function decodeHtml(s) {
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, " ");
+    .replace(/&#x27;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .trim();
 }
 
-function clean(s) {
-  return decodeHtml(String(s || "")).replace(/\s+/g, " ").trim();
+function toTime(v) {
+  if (!v) return 0;
+  const t = Date.parse(v);
+  return Number.isFinite(t) ? t : 0;
+}
+
+function filterByCategory(items, cat, lang) {
+  if (!cat || cat === "mix") return items;
+  if (cat === "world") return items; // "world" = unfiltered mix, just a label in UI
+
+  const titleOf = (it) => (it.title || "").toLowerCase();
+
+  const kw = {
+    weather: [
+      "wetter","sturm","regen","schnee","glätte","hitze","temperatur","warn","forecast","weather","storm","rain","snow","heat",
+      "météo","tempête","pluie","neige","canicule","meteo","temporale","pioggia","neve","caldo",
+      "thời tiết","bão","mưa","tuyết","nắng nóng"
+    ],
+    business: [
+      "wirtschaft","konjunktur","börse","aktie","aktien","dax","eur","inflation","zins","bank","unternehmen","export",
+      "economy","business","market","stock","inflation","interest rate","company","trade",
+      "économie","bourse","marché","inflation","banque","entreprise",
+      "economia","borsa","mercato","inflazione","banca","azienda",
+      "kinh tế","chứng khoán","lạm phát","lãi suất","doanh nghiệp"
+    ],
+    sport: [
+      "sport","fußball","bundesliga","champions league","dfb","wm","em","tor","match","spiel","trainer",
+      "football","soccer","nba","nfl","nhl","mlb","match","tournament","olymp",
+      "sport","football","match","tournoi","olymp",
+      "sport","calcio","partita","serie a","olimpi",
+      "thể thao","bóng đá","trận","giải","olympic"
+    ]
+  };
+
+  const list = kw[cat] || [];
+  const out = [];
+  for (const it of items) {
+    const tt = titleOf(it);
+    if (list.some(k => tt.includes(k))) out.push({ ...it, category: cat });
+  }
+  return out;
 }
