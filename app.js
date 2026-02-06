@@ -871,42 +871,37 @@ ${t.total}: ${money(cartTotal())}`;
     return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
   }async function renderNews() {
   const t = I18N[state.lang] || I18N.de;
-  const left = el("left");
-  left.innerHTML = `
-    <div class="panel">
-      <div class="panelHeader">
-        <h2>${t.news_title || "News"}</h2>
-      </div>
-      <div id="newsList" class="list"></div>
-    </div>
-  `;
 
-  const list = el("newsList");
-  list.innerHTML = `<div class="small">${t.news_loading || "Loading…"}</div>`;
+  // Try same-origin Function first, then fall back to the known-good deployment.
+  const url1 = `/api/news?lang=${encodeURIComponent(state.lang)}&max=6`;
+  const url2 = `https://cloud9mainz.pages.dev/api/news?lang=${encodeURIComponent(state.lang)}&max=6`;
 
   try {
     let res;
     try {
-      res = await fetch(`/api/news?lang=${encodeURIComponent(state.lang)}&max=6`, { cache: "no-store" });
+      res = await fetch(url1, { cache: "no-store" });
     } catch (e) {
       res = null;
     }
     if (!res || !res.ok) {
-      // Fallback to the project that definitely has the Function deployed
-      res = await fetch(`https://cloud9mainz.pages.dev/api/news?lang=${encodeURIComponent(state.lang)}&max=6`, { cache: "no-store" });
+      res = await fetch(url2, { cache: "no-store" });
     }
-    if (!res.ok) throw new Error(String(res.status));
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
     const data = await res.json();
     const items = (data.items || []).slice(0, 6);
 
     if (!items.length) {
-            const errs = (data.errors || []).map(e => `${escapeHtml(e.source || e.feedUrl || "")}`).slice(0,3).join(", ");
-            list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}${errs ? "<br><span style=\"opacity:.75\">(" + errs + ")</span>" : ""}</div>`;
-            return;
-          }
+      const errs = (data.errors || []).map(e => e.source || e.feedUrl || "").filter(Boolean).slice(0, 3).join(", ");
+      return `
+        <div class="card">
+          <div class="h">${t.news_title || "News"}</div>
+          <div class="small">${t.news_error || "News konnten nicht geladen werden."}${errs ? `<br><span style="opacity:.75">(${escapeHtml(errs)})</span>` : ""}</div>
+          <div class="small" style="opacity:.75;margin-top:10px">${t.legal || "Hinweis"}: ${t.news_legal || "Es werden nur Überschriften/Teaser angezeigt. Mit Klick öffnet sich die Originalquelle."}</div>
+        </div>`;
+    }
 
-    
-    list.innerHTML = items.map(it => {
+    const cards = items.map(it => {
       const link = escapeHtml(it.link || "");
       const src = escapeHtml(it.source || "");
       const teaser = escapeHtml(it.description || "");
@@ -916,21 +911,32 @@ ${t.total}: ${money(cartTotal())}`;
         try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
       }
       return `
-      <div class="card" style="margin-top:10px">
-        <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
-          <div>
-            <div style="font-weight:700">${escapeHtml(it.title)}</div>
-            ${teaser ? `<div class="small" style="margin-top:6px">${teaser}</div>` : ""}
-            <div class="small" style="opacity:.8; margin-top:6px">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
+        <div class="card" style="margin-top:10px">
+          <div class="row" style="justify-content:space-between; gap:10px; align-items:flex-start">
+            <div style="min-width:0">
+              <div style="font-weight:700">${escapeHtml(it.title || "")}</div>
+              ${teaser ? `<div class="small" style="margin-top:6px">${teaser}</div>` : ""}
+              <div class="small" style="opacity:.8; margin-top:6px">${src}${dtText ? " • " + escapeHtml(dtText) : ""}</div>
+            </div>
+            <a class="btn" href="${link}" target="_blank" rel="noopener">${t.news_open || "Öffnen"}</a>
           </div>
-          <a class="btn" href="${link}" target="_blank" rel="noopener">${t.news_open || "Open"}</a>
-        </div>
-      </div>
-      `;
+        </div>`;
     }).join("");
 
-} catch (e) {
-    list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}<br><span style="opacity:.75">${escapeHtml(String(e?.message||e))}</span></div><div class="small" style="opacity:.7;margin-top:6px">API: <a href="/api/news?lang=${state.lang}&max=6" target="_blank" rel="noopener">/api/news</a></div>`;
+    return `
+      <div class="card">
+        <div class="h">${t.news_title || "News"}</div>
+        <div class="small" style="opacity:.75">${t.legal || "Hinweis"}: ${t.news_legal || "Es werden nur Überschriften/Teaser angezeigt. Mit Klick öffnet sich die Originalquelle."}</div>
+        ${cards}
+      </div>
+    `;
+  } catch (e) {
+    return `
+      <div class="card">
+        <div class="h">${t.news_title || "News"}</div>
+        <div class="small">${t.news_error || "News konnten nicht geladen werden."}<br><span style="opacity:.75">${escapeHtml(String(e && e.message ? e.message : e))}</span></div>
+        <div class="small" style="opacity:.7;margin-top:10px">API: <a href="/api/news?lang=${state.lang}&max=6" target="_blank" rel="noopener">/api/news</a></div>
+      </div>`;
   }
 }
 
@@ -959,7 +965,6 @@ ${t.total}: ${money(cartTotal())}`;
       view.innerHTML = `<div class="card"><div class="h">News</div><div class="small">Lade...</div></div>`;
       renderNews().then((html) => {
         view.innerHTML = html;
-        bindNews();
       }).catch((err) => {
         console.error(err);
         view.innerHTML = `<div class="card"><div class="h">News</div><div class="small">News konnten nicht geladen werden.</div></div>`;
