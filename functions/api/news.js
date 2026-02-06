@@ -31,15 +31,17 @@ export async function onRequestGet({ request }) {
 
   try {
     const items = [];
+
     for (const feedUrl of feeds) {
       const res = await fetch(feedUrl, {
         headers: { "user-agent": "Cloud9Kaffee/1.0 (+rss)" },
         cf: { cacheTtl: 600, cacheEverything: true }
       });
+
       if (!res.ok) continue;
 
       const xml = await res.text();
-      items.push(...parseRss(xml, feedUrl));
+      items.push(...parseFeed(xml, feedUrl));
 
       if (items.length >= max) break;
     }
@@ -67,12 +69,21 @@ function json(obj, status = 200) {
   });
 }
 
-function parseRss(xml, feedUrl) {
+function parseFeed(xml, feedUrl) {
   const source = hostname(feedUrl);
-  const items = [];
 
-  // RSS <item> ... </item>
+  // RSS items
+  const rssItems = parseRssItems(xml, source);
+  if (rssItems.length > 0) return rssItems;
+
+  // Atom entries
+  return parseAtomEntries(xml, source);
+}
+
+function parseRssItems(xml, source) {
+  const items = [];
   const blocks = xml.split(/<item\b[^>]*>/i).slice(1);
+
   for (const block of blocks) {
     const title = pick(block, "title");
     const link = pick(block, "link");
@@ -87,22 +98,25 @@ function parseRss(xml, feedUrl) {
     });
   }
 
-  // Atom <entry> ... </entry> (z.B. heise/dw)
-  if (items.length === 0) {
-    const entries = xml.split(/<entry\b[^>]*>/i).slice(1);
-    for (const entry of entries) {
-      const title = pick(entry, "title");
-      const updated = pick(entry, "updated") || pick(entry, "published");
-      const link = pickAtomLink(entry);
-      if (!title || !link) continue;
+  return items;
+}
 
-      items.push({
-        title: decodeHtml(title).trim(),
-        link: link.trim(),
-        date: updated ? decodeHtml(updated).trim() : "",
-        source
-      });
-    }
+function parseAtomEntries(xml, source) {
+  const items = [];
+  const entries = xml.split(/<entry\b[^>]*>/i).slice(1);
+
+  for (const entry of entries) {
+    const title = pick(entry, "title");
+    const date = pick(entry, "updated") || pick(entry, "published");
+    const link = pickAtomLink(entry);
+    if (!title || !link) continue;
+
+    items.push({
+      title: decodeHtml(title).trim(),
+      link: link.trim(),
+      date: date ? decodeHtml(date).trim() : "",
+      source
+    });
   }
 
   return items;
