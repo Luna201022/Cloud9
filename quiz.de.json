@@ -1,0 +1,222 @@
+[
+  {
+    "q": "Welche Kaffeesorte dominiert in Vietnam?",
+    "choices": [
+      "Arabica",
+      "Robusta",
+      "Liberica",
+      "Excelsa"
+    ],
+    "a": 1,
+    "ex": "Vietnam ist besonders für Robusta bekannt."
+  },
+  {
+    "q": "Wie heißt der traditionelle vietnamesische Kaffeefilter?",
+    "choices": [
+      "Chemex",
+      "V60",
+      "Phin",
+      "Moka"
+    ],
+    "a": 2,
+    "ex": "Der Phin ist der klassische Metallfilter."
+  },
+  {
+    "q": "Was bedeutet „Cà phê sữa“?",
+    "choices": [
+      "Schwarzer Kaffee",
+      "Kaffee mit Kondensmilch",
+      "Salzkaffee",
+      "Eierkaffee"
+    ],
+    "a": 1,
+    "ex": "„Sữa“ bedeutet Milch – meist Kondensmilch."
+  },
+  {
+    "q": "Was ist „Cà phê trứng“?",
+    "choices": [
+      "Kaffee mit Ei",
+      "Kaffee mit Kokos",
+      "Kaffee mit Avocado",
+      "Kaffee mit Matcha"
+    ],
+    "a": 0,
+    "ex": "Eierkaffee wird mit einer aufgeschlagenen Eiercreme serviert."
+  },
+  {
+    "q": "Welche Brühmethode ist typisch für Espresso?",
+    "choices": [
+      "Immersion (Einweichen)",
+      "Extraktion unter Druck",
+      "Cold Brew",
+      "Perkolation"
+    ],
+    "a": 1,
+    "ex": "Espresso wird unter Druck extrahiert."
+  },
+  {
+    "q": "Was beschreibt „Single Origin“ am besten?",
+    "choices": [
+      "Blend aus mehreren Ländern",
+      "Bohnen aus einer definierten Herkunft/Region",
+      "Nur entkoffeiniert",
+      "Nur Robusta"
+    ],
+    "a": 1,
+    "ex": "Single Origin steht für eine klar definierte Herkunft."
+  },
+  {
+    "q": "Welche Temperatur ist typisch zum Milchschäumen?",
+    "choices": [
+      "30–40°C",
+      "55–65°C",
+      "80–90°C",
+      "100°C"
+    ],
+    "a": 1,
+    "ex": "Etwa 55–65°C ergibt die beste Textur."
+  },
+  {
+    "q": "Wozu dient die Crema beim Espresso vor allem?",
+    "choices": [
+      "Mehr Koffein",
+      "Aroma-Schicht, die Düfte bindet",
+      "Macht ihn süßer",
+      "Kühlt den Espresso"
+    ],
+    "a": 1,
+    "ex": "Crema ist eine Emulsion aus Ölen und Gasen."
+  },
+  {
+    "q": "Was macht vietnamesischen Eiskaffee klassisch süß?",
+    "choices": [
+      "Rohrzucker",
+      "Honig",
+      "Kondensmilch",
+      "Ahornsirup"
+    ],
+    "a": 2,
+    "ex": "Kondensmilch ist der Standard."
+  },
+  {
+    "q": "Was ist Cold Brew?",
+    "choices": [
+      "Heiß gebrüht und dann gekühlt",
+      "Kalt extrahiert über viele Stunden",
+      "Espresso über Eis",
+      "Instantkaffee"
+    ],
+    "a": 1,
+    "ex": "Cold Brew wird kalt und lange extrahiert."
+  },
+  {
+    "q": "Welche Mahlung passt typischerweise zum Phin?",
+    "choices": [
+      "Sehr fein (Espresso)",
+      "Mittel bis leicht grob",
+      "Sehr grob (French Press)",
+      "Nur Pulver"
+    ],
+    "a": 1,
+    "ex": "Beim Phin funktioniert meist mittel bis etwas gröber."
+  },
+  {
+    "q": "Eine häufige Ursache für bitteren Kaffee ist …",
+    "choices": [
+      "Unterextraktion",
+      "Überextraktion",
+      "Zu wenig Wasser",
+      "Zu kaltes Wasser"
+    ],
+    "a": 1,
+    "ex": "Überextraktion löst mehr Bitterstoffe."
+  },
+  {
+    "q": "Wie nennt man das Verhältnis von Kaffeemehl zu Getränkemenge?",
+    "choices": [
+      "Röstgrad",
+      "Brühverhältnis",
+      "Bloom",
+      "TDS"
+    ],
+    "a": 1,
+    "ex": "Das Brühverhältnis beschreibt genau diese Relation."
+  },
+  {
+    "q": "Welche Bohne ist in Vietnam seltener?",
+    "choices": [
+      "Robusta",
+      "Arabica",
+      "Beide gleich häufig",
+      "Dort wächst kein Kaffee"
+    ],
+    "a": 1,
+    "ex": "Arabica gibt es, aber Robusta dominiert."
+  },
+  {
+    "q": "Was ist ein Latte Macchiato?",
+    "choices": [
+      "Espresso mit wenig Milch",
+      "Milch mit einer Espresso-Schicht",
+      "Nur Milchschaum",
+      "Kaffee mit Zitronensaft"
+    ],
+    "a": 1,
+    "ex": "Espresso wird in die Milch gegossen."
+  },
+  {
+    "q": "Welche Region ist besonders bekannt für vietnamesischen Kaffee?",
+    "choices": [
+      "Mekong-Delta",
+      "Zentrales Hochland (z. B. Đắk Lắk)",
+      "Nordsee",
+      "Sahara"
+    ],
+    "a": 1,
+    "ex": "Das zentrale Hochland ist ein Kerngebiet des Kaffeeanbaus."
+  },
+  {
+    "q": "Was ist ein Vorteil von Papierfiltern?",
+    "choices": [
+      "Mehr Öle",
+      "Weniger Partikel und Öle",
+      "Mehr Koffein",
+      "Macht Latte Art automatisch"
+    ],
+    "a": 1,
+    "ex": "Papier hält viele Öle und Partikel zurück."
+  },
+  {
+    "q": "Welche Aussage über Robusta stimmt am ehesten?",
+    "choices": [
+      "Immer weniger Koffein als Arabica",
+      "Oft kräftiger, mehr Koffein, erdiger",
+      "Kann nicht geröstet werden",
+      "Wächst nur in Europa"
+    ],
+    "a": 1,
+    "ex": "Robusta ist oft kräftiger und koffeinreicher."
+  },
+  {
+    "q": "Was ist ein Flat White?",
+    "choices": [
+      "Filterkaffee",
+      "Espresso mit feinem Microfoam, kleiner als Latte",
+      "Kaffee mit Sahne",
+      "Kakao"
+    ],
+    "a": 1,
+    "ex": "Espresso-basiert, mit samtigem Microfoam."
+  },
+  {
+    "q": "Wie groß ist unsere Saftschorle?",
+    "choices": [
+      "0,2 l",
+      "0,3 l",
+      "0,4 l",
+      "0,5 l"
+    ],
+    "a": 2,
+    "ex": "Laut Karte: 0,4 l."
+  }
+]

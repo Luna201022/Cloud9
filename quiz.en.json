@@ -1,0 +1,222 @@
+[
+  {
+    "q": "Which coffee species dominates cultivation in Vietnam?",
+    "choices": [
+      "Arabica",
+      "Robusta",
+      "Liberica",
+      "Excelsa"
+    ],
+    "a": 1,
+    "ex": "Vietnam is best known for Robusta."
+  },
+  {
+    "q": "What is the traditional Vietnamese coffee filter called?",
+    "choices": [
+      "Chemex",
+      "V60",
+      "Phin",
+      "Moka"
+    ],
+    "a": 2,
+    "ex": "The Phin is the classic metal filter."
+  },
+  {
+    "q": "What does “Cà phê sữa” mean?",
+    "choices": [
+      "Black coffee",
+      "Coffee with condensed milk",
+      "Salt coffee",
+      "Egg coffee"
+    ],
+    "a": 1,
+    "ex": "“Sữa” means milk, usually condensed milk."
+  },
+  {
+    "q": "What is “Cà phê trứng”?",
+    "choices": [
+      "Coffee with egg",
+      "Coffee with coconut",
+      "Coffee with avocado",
+      "Coffee with matcha"
+    ],
+    "a": 0,
+    "ex": "Egg coffee is served with a whipped egg cream."
+  },
+  {
+    "q": "Which brewing method is typical for espresso?",
+    "choices": [
+      "Immersion",
+      "Pressure extraction",
+      "Cold brew",
+      "Percolation"
+    ],
+    "a": 1,
+    "ex": "Espresso is extracted under pressure."
+  },
+  {
+    "q": "What best describes “Single Origin”?",
+    "choices": [
+      "Blend of multiple countries",
+      "Beans from one origin/region",
+      "Only decaf",
+      "Only Robusta"
+    ],
+    "a": 1,
+    "ex": "Single Origin indicates a defined origin."
+  },
+  {
+    "q": "Which temperature range is typical for steaming milk?",
+    "choices": [
+      "30–40°C",
+      "55–65°C",
+      "80–90°C",
+      "100°C"
+    ],
+    "a": 1,
+    "ex": "Around 55–65°C gives the best texture."
+  },
+  {
+    "q": "What is the main role of crema on espresso?",
+    "choices": [
+      "More caffeine",
+      "Aroma/gas layer that holds aromas",
+      "Makes it sweeter",
+      "Cools the espresso"
+    ],
+    "a": 1,
+    "ex": "Crema is an emulsified layer of oils and gases."
+  },
+  {
+    "q": "What makes Vietnamese iced coffee classically sweet?",
+    "choices": [
+      "Cane sugar",
+      "Honey",
+      "Condensed milk",
+      "Maple syrup"
+    ],
+    "a": 2,
+    "ex": "Condensed milk is the standard."
+  },
+  {
+    "q": "What is cold brew?",
+    "choices": [
+      "Hot brewed then chilled",
+      "Cold extracted for many hours",
+      "Espresso over ice",
+      "Instant coffee"
+    ],
+    "a": 1,
+    "ex": "Cold brew is extracted cold over a long time."
+  },
+  {
+    "q": "Which grind size typically fits a Phin?",
+    "choices": [
+      "Very fine (espresso)",
+      "Medium to slightly coarse",
+      "Very coarse (French press)",
+      "Only powder"
+    ],
+    "a": 1,
+    "ex": "A Phin often works with medium to slightly coarser grind."
+  },
+  {
+    "q": "A common cause of bitter coffee is…",
+    "choices": [
+      "Under-extraction",
+      "Over-extraction",
+      "Too little water",
+      "Water too cold"
+    ],
+    "a": 1,
+    "ex": "Over-extraction pulls more bitter compounds."
+  },
+  {
+    "q": "What do we call the ratio of coffee to beverage yield?",
+    "choices": [
+      "Roast level",
+      "Brew ratio",
+      "Bloom",
+      "TDS"
+    ],
+    "a": 1,
+    "ex": "Brew ratio describes that relationship."
+  },
+  {
+    "q": "Which bean is less common in Vietnam?",
+    "choices": [
+      "Robusta",
+      "Arabica",
+      "Both equally common",
+      "No coffee grows there"
+    ],
+    "a": 1,
+    "ex": "Arabica exists, but Robusta dominates."
+  },
+  {
+    "q": "What is a latte macchiato?",
+    "choices": [
+      "Espresso with a little milk",
+      "Milk with a layer of espresso",
+      "Only milk foam",
+      "Coffee with lemon juice"
+    ],
+    "a": 1,
+    "ex": "Espresso is poured into milk."
+  },
+  {
+    "q": "Which region is especially known for Vietnamese coffee?",
+    "choices": [
+      "Mekong Delta",
+      "Central Highlands (e.g., Đắk Lắk)",
+      "North Sea",
+      "Sahara"
+    ],
+    "a": 1,
+    "ex": "The Central Highlands are a core coffee area."
+  },
+  {
+    "q": "What is an advantage of a paper filter?",
+    "choices": [
+      "More oils",
+      "Fewer particles and oils",
+      "More caffeine",
+      "It makes latte art automatically"
+    ],
+    "a": 1,
+    "ex": "Paper retains many oils and particles."
+  },
+  {
+    "q": "Which statement about Robusta is most accurate?",
+    "choices": [
+      "Always less caffeine than Arabica",
+      "Often stronger, more caffeine, earthier",
+      "Cannot be roasted",
+      "Grows only in Europe"
+    ],
+    "a": 1,
+    "ex": "Robusta is often stronger and higher in caffeine."
+  },
+  {
+    "q": "What is a flat white?",
+    "choices": [
+      "Filter coffee",
+      "Espresso with silky microfoam, less volume than a latte",
+      "Coffee with whipped cream",
+      "Cocoa"
+    ],
+    "a": 1,
+    "ex": "Flat white is espresso-based with microfoam."
+  },
+  {
+    "q": "What is the size of our juice spritzer (Saftschorle)?",
+    "choices": [
+      "0.2 l",
+      "0.3 l",
+      "0.4 l",
+      "0.5 l"
+    ],
+    "a": 2,
+    "ex": "On the menu: 0.4 l."
+  }
+]

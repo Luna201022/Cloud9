@@ -1,0 +1,222 @@
+[
+  {
+    "q": "Quelle espèce de café domine au Vietnam ?",
+    "choices": [
+      "Arabica",
+      "Robusta",
+      "Liberica",
+      "Excelsa"
+    ],
+    "a": 1,
+    "ex": "Le Vietnam est surtout connu pour le Robusta."
+  },
+  {
+    "q": "Comment s’appelle le filtre vietnamien traditionnel ?",
+    "choices": [
+      "Chemex",
+      "V60",
+      "Phin",
+      "Moka"
+    ],
+    "a": 2,
+    "ex": "Le Phin est le filtre métallique classique."
+  },
+  {
+    "q": "Que signifie « Cà phê sữa » ?",
+    "choices": [
+      "Café noir",
+      "Café au lait concentré",
+      "Café salé",
+      "Café aux œufs"
+    ],
+    "a": 1,
+    "ex": "« Sữa » signifie lait — le plus souvent du lait concentré."
+  },
+  {
+    "q": "Qu’est-ce que « Cà phê trứng » ?",
+    "choices": [
+      "Café aux œufs",
+      "Café à la noix de coco",
+      "Café à l’avocat",
+      "Café au matcha"
+    ],
+    "a": 0,
+    "ex": "Servi avec une crème d’œuf fouettée."
+  },
+  {
+    "q": "Quelle méthode d’extraction est typique de l’espresso ?",
+    "choices": [
+      "Immersion",
+      "Extraction sous pression",
+      "Cold brew",
+      "Percolation"
+    ],
+    "a": 1,
+    "ex": "L’espresso est extrait sous pression."
+  },
+  {
+    "q": "Que veut dire « Single Origin » ?",
+    "choices": [
+      "Mélange de plusieurs pays",
+      "Grains d’une seule origine/région",
+      "Uniquement décaféiné",
+      "Uniquement Robusta"
+    ],
+    "a": 1,
+    "ex": "« Single Origin » indique une origine précise."
+  },
+  {
+    "q": "Quelle température est typique pour faire mousser le lait ?",
+    "choices": [
+      "30–40°C",
+      "55–65°C",
+      "80–90°C",
+      "100°C"
+    ],
+    "a": 1,
+    "ex": "Environ 55–65°C donne la meilleure texture."
+  },
+  {
+    "q": "À quoi sert principalement la crema sur un espresso ?",
+    "choices": [
+      "Plus de caféine",
+      "Couche d’arômes qui retient les parfums",
+      "Le rend plus sucré",
+      "Refroidit l’espresso"
+    ],
+    "a": 1,
+    "ex": "La crema est une émulsion d’huiles et de gaz."
+  },
+  {
+    "q": "Qu’est-ce qui rend le café glacé vietnamien traditionnellement sucré ?",
+    "choices": [
+      "Sucre de canne",
+      "Miel",
+      "Lait concentré",
+      "Sirop d’érable"
+    ],
+    "a": 2,
+    "ex": "Le lait concentré est la base."
+  },
+  {
+    "q": "Qu’est-ce que le cold brew ?",
+    "choices": [
+      "Infusé chaud puis refroidi",
+      "Extrait à froid pendant des heures",
+      "Espresso sur glace",
+      "Café instantané"
+    ],
+    "a": 1,
+    "ex": "Le cold brew s’extrait à froid sur une longue durée."
+  },
+  {
+    "q": "Quelle mouture convient le mieux à un Phin ?",
+    "choices": [
+      "Très fine (espresso)",
+      "Moyenne à légèrement grossière",
+      "Très grossière (piston)",
+      "Uniquement en poudre"
+    ],
+    "a": 1,
+    "ex": "Le Phin fonctionne souvent avec une mouture moyenne à un peu plus grossière."
+  },
+  {
+    "q": "Une cause fréquente d’un café amer est…",
+    "choices": [
+      "Sous-extraction",
+      "Sur-extraction",
+      "Pas assez d’eau",
+      "Eau trop froide"
+    ],
+    "a": 1,
+    "ex": "La sur-extraction apporte davantage de composés amers."
+  },
+  {
+    "q": "Comment appelle-t-on le rapport café / boisson obtenue ?",
+    "choices": [
+      "Niveau de torréfaction",
+      "Ratio d’infusion",
+      "Bloom",
+      "TDS"
+    ],
+    "a": 1,
+    "ex": "Le ratio d’infusion décrit ce rapport."
+  },
+  {
+    "q": "Quel grain est moins courant au Vietnam ?",
+    "choices": [
+      "Robusta",
+      "Arabica",
+      "Les deux également",
+      "On n’y cultive pas de café"
+    ],
+    "a": 1,
+    "ex": "Il existe de l’Arabica, mais le Robusta domine."
+  },
+  {
+    "q": "Qu’est-ce qu’un latte macchiato ?",
+    "choices": [
+      "Espresso avec un peu de lait",
+      "Lait avec une couche d’espresso",
+      "Uniquement de la mousse",
+      "Café au citron"
+    ],
+    "a": 1,
+    "ex": "On verse l’espresso dans le lait."
+  },
+  {
+    "q": "Quelle région est particulièrement connue pour le café vietnamien ?",
+    "choices": [
+      "Delta du Mékong",
+      "Hauts Plateaux (ex. Đắk Lắk)",
+      "Mer du Nord",
+      "Sahara"
+    ],
+    "a": 1,
+    "ex": "Les Hauts Plateaux sont une région clé du café."
+  },
+  {
+    "q": "Quel est un avantage du filtre papier ?",
+    "choices": [
+      "Plus d’huiles",
+      "Moins de particules et d’huiles",
+      "Plus de caféine",
+      "Il fait la latte art tout seul"
+    ],
+    "a": 1,
+    "ex": "Le papier retient beaucoup d’huiles et de particules."
+  },
+  {
+    "q": "Quelle affirmation sur le Robusta est la plus juste ?",
+    "choices": [
+      "Toujours moins de caféine que l’Arabica",
+      "Souvent plus corsé, plus caféiné, plus terreux",
+      "Ne peut pas être torréfié",
+      "Ne pousse qu’en Europe"
+    ],
+    "a": 1,
+    "ex": "Le Robusta est souvent plus fort et plus riche en caféine."
+  },
+  {
+    "q": "Qu’est-ce qu’un flat white ?",
+    "choices": [
+      "Café filtre",
+      "Espresso avec micro-mousse soyeuse, moins volumineux qu’un latte",
+      "Café chantilly",
+      "Cacao"
+    ],
+    "a": 1,
+    "ex": "À base d’espresso, avec micro-mousse."
+  },
+  {
+    "q": "Quel est le volume de notre spritzer de jus (Saftschorle) ?",
+    "choices": [
+      "0,2 l",
+      "0,3 l",
+      "0,4 l",
+      "0,5 l"
+    ],
+    "a": 2,
+    "ex": "Sur la carte : 0,4 l."
+  }
+]

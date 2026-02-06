@@ -1,0 +1,222 @@
+[
+  {
+    "q": "Loài cà phê nào phổ biến nhất ở Việt Nam?",
+    "choices": [
+      "Arabica",
+      "Robusta",
+      "Liberica",
+      "Excelsa"
+    ],
+    "a": 1,
+    "ex": "Việt Nam nổi tiếng nhất với Robusta."
+  },
+  {
+    "q": "Bộ lọc cà phê truyền thống của Việt Nam gọi là gì?",
+    "choices": [
+      "Chemex",
+      "V60",
+      "Phin",
+      "Moka"
+    ],
+    "a": 2,
+    "ex": "Phin là bộ lọc kim loại truyền thống."
+  },
+  {
+    "q": "“Cà phê sữa” nghĩa là gì?",
+    "choices": [
+      "Cà phê đen",
+      "Cà phê với sữa đặc",
+      "Cà phê muối",
+      "Cà phê trứng"
+    ],
+    "a": 1,
+    "ex": "“Sữa” là sữa — thường là sữa đặc."
+  },
+  {
+    "q": "“Cà phê trứng” là gì?",
+    "choices": [
+      "Cà phê với trứng",
+      "Cà phê dừa",
+      "Cà phê bơ",
+      "Cà phê matcha"
+    ],
+    "a": 0,
+    "ex": "Thường dùng lớp kem trứng đánh bông."
+  },
+  {
+    "q": "Phương pháp pha nào đặc trưng cho espresso?",
+    "choices": [
+      "Ngâm ủ",
+      "Chiết xuất dưới áp suất",
+      "Cold brew",
+      "Percolation"
+    ],
+    "a": 1,
+    "ex": "Espresso được chiết xuất dưới áp suất."
+  },
+  {
+    "q": "“Single Origin” nghĩa là gì?",
+    "choices": [
+      "Trộn từ nhiều nước",
+      "Hạt từ một vùng/xuất xứ",
+      "Chỉ decaf",
+      "Chỉ Robusta"
+    ],
+    "a": 1,
+    "ex": "Single Origin là nguồn gốc rõ ràng."
+  },
+  {
+    "q": "Nhiệt độ lý tưởng để đánh sữa là?",
+    "choices": [
+      "30–40°C",
+      "55–65°C",
+      "80–90°C",
+      "100°C"
+    ],
+    "a": 1,
+    "ex": "Khoảng 55–65°C cho kết cấu tốt nhất."
+  },
+  {
+    "q": "Lớp crema trên espresso có vai trò chính là?",
+    "choices": [
+      "Nhiều caffeine hơn",
+      "Giữ hương thơm (lớp dầu/khí)",
+      "Làm ngọt hơn",
+      "Làm nguội espresso"
+    ],
+    "a": 1,
+    "ex": "Crema là lớp nhũ tương của dầu và khí."
+  },
+  {
+    "q": "Điều gì làm cà phê sữa đá truyền thống ngọt?",
+    "choices": [
+      "Đường mía",
+      "Mật ong",
+      "Sữa đặc",
+      "Siro maple"
+    ],
+    "a": 2,
+    "ex": "Sữa đặc là chuẩn nhất."
+  },
+  {
+    "q": "Cold brew là gì?",
+    "choices": [
+      "Pha nóng rồi làm lạnh",
+      "Chiết xuất lạnh trong nhiều giờ",
+      "Espresso với đá",
+      "Cà phê hòa tan"
+    ],
+    "a": 1,
+    "ex": "Cold brew được chiết xuất lạnh trong thời gian dài."
+  },
+  {
+    "q": "Cỡ xay nào hợp với phin?",
+    "choices": [
+      "Rất mịn (espresso)",
+      "Trung bình đến hơi thô",
+      "Rất thô (French press)",
+      "Chỉ bột mịn"
+    ],
+    "a": 1,
+    "ex": "Phin thường hợp xay trung bình đến hơi thô."
+  },
+  {
+    "q": "Một nguyên nhân hay gặp khiến cà phê bị đắng là…",
+    "choices": [
+      "Chiết xuất thiếu",
+      "Chiết xuất quá",
+      "Ít nước",
+      "Nước quá lạnh"
+    ],
+    "a": 1,
+    "ex": "Chiết xuất quá sẽ kéo ra nhiều chất đắng."
+  },
+  {
+    "q": "Tỷ lệ giữa bột cà phê và lượng đồ uống gọi là gì?",
+    "choices": [
+      "Mức rang",
+      "Tỷ lệ pha",
+      "Bloom",
+      "TDS"
+    ],
+    "a": 1,
+    "ex": "Tỷ lệ pha mô tả mối quan hệ này."
+  },
+  {
+    "q": "Loại hạt nào ít phổ biến hơn ở Việt Nam?",
+    "choices": [
+      "Robusta",
+      "Arabica",
+      "Cả hai như nhau",
+      "Việt Nam không trồng cà phê"
+    ],
+    "a": 1,
+    "ex": "Có Arabica nhưng Robusta vẫn chiếm đa số."
+  },
+  {
+    "q": "Latte macchiato là gì?",
+    "choices": [
+      "Espresso với ít sữa",
+      "Sữa với lớp espresso",
+      "Chỉ bọt sữa",
+      "Cà phê với chanh"
+    ],
+    "a": 1,
+    "ex": "Rót espresso vào sữa."
+  },
+  {
+    "q": "Vùng nào nổi tiếng về cà phê Việt Nam?",
+    "choices": [
+      "Đồng bằng sông Cửu Long",
+      "Tây Nguyên (ví dụ Đắk Lắk)",
+      "Biển Bắc",
+      "Sa mạc Sahara"
+    ],
+    "a": 1,
+    "ex": "Tây Nguyên là vùng cà phê trọng điểm."
+  },
+  {
+    "q": "Ưu điểm của giấy lọc là gì?",
+    "choices": [
+      "Nhiều dầu hơn",
+      "Ít cặn và dầu hơn",
+      "Nhiều caffeine hơn",
+      "Tự tạo latte art"
+    ],
+    "a": 1,
+    "ex": "Giấy lọc giữ lại nhiều dầu và cặn."
+  },
+  {
+    "q": "Nhận định nào đúng nhất về Robusta?",
+    "choices": [
+      "Luôn ít caffeine hơn Arabica",
+      "Thường đậm hơn, nhiều caffeine, vị “đất” hơn",
+      "Không thể rang",
+      "Chỉ trồng ở châu Âu"
+    ],
+    "a": 1,
+    "ex": "Robusta thường mạnh và nhiều caffeine hơn."
+  },
+  {
+    "q": "Flat white là gì?",
+    "choices": [
+      "Cà phê lọc",
+      "Espresso với microfoam mịn, ít hơn latte",
+      "Cà phê kem tươi",
+      "Ca cao"
+    ],
+    "a": 1,
+    "ex": "Đồ uống nền espresso với microfoam mịn."
+  },
+  {
+    "q": "Saftschorle (nước trái cây pha) của quán là bao nhiêu?",
+    "choices": [
+      "0,2 l",
+      "0,3 l",
+      "0,4 l",
+      "0,5 l"
+    ],
+    "a": 2,
+    "ex": "Trong menu: 0,4 l."
+  }
+]
