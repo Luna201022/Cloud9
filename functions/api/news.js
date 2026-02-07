@@ -25,7 +25,7 @@ export async function onRequestGet({ request }) {
           "https://feeds.bbci.co.uk/news/rss.xml"
         ],
         weather: [
-          "https://www.tagesschau.de/xml/rss2"
+          "https://news.google.com/rss/search?q=Wetter%20Deutschland&hl=de&gl=DE&ceid=DE:de"
         ],
         business: [
           "https://www.tagesschau.de/xml/rss2"
@@ -42,7 +42,7 @@ export async function onRequestGet({ request }) {
           "https://feeds.bbci.co.uk/news/rss.xml"
         ],
         weather: [
-          "https://feeds.bbci.co.uk/news/rss.xml"
+          "https://news.google.com/rss/search?q=weather&hl=en-US&gl=US&ceid=US:en"
         ],
         business: [
           "https://feeds.bbci.co.uk/news/rss.xml"
@@ -61,8 +61,7 @@ export async function onRequestGet({ request }) {
           "https://feeds.bbci.co.uk/news/rss.xml"
         ],
         weather: [
-          "https://www.france24.com/fr/rss",
-          "https://feeds.bbci.co.uk/news/rss.xml"
+          "https://news.google.com/rss/search?q=m%C3%A9t%C3%A9o&hl=fr&gl=FR&ceid=FR:fr"
         ],
         business: [
           "https://www.france24.com/fr/rss",
@@ -83,8 +82,7 @@ export async function onRequestGet({ request }) {
           "https://feeds.bbci.co.uk/news/rss.xml"
         ],
         weather: [
-          "https://www.ilpost.it/feed/",
-          "https://feeds.bbci.co.uk/news/rss.xml"
+          "https://news.google.com/rss/search?q=meteo&hl=it&gl=IT&ceid=IT:it"
         ],
         business: [
           "https://www.ilpost.it/feed/",
@@ -105,8 +103,7 @@ export async function onRequestGet({ request }) {
           "https://feeds.bbci.co.uk/news/rss.xml"
         ],
         weather: [
-          "https://vnexpress.net/rss/tin-moi-nhat.rss",
-          "https://feeds.bbci.co.uk/news/rss.xml"
+          "https://news.google.com/rss/search?q=th%E1%BB%9Di%20ti%E1%BA%BFt&hl=vi&gl=VN&ceid=VN:vi"
         ],
         business: [
           "https://vnexpress.net/rss/tin-moi-nhat.rss",
