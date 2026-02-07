@@ -1,226 +1,287 @@
 // Cloudflare Pages Function: /api/news
-// Server-side RSS/Atom fetch (avoids browser CORS).
-// Returns JSON: { ok:true, items:[{title,link,date,source,category}], errors?:[...] }
-
+// Returns JSON: { ok:true, items:[{title,link,date,source}] }
 export async function onRequestGet({ request }) {
+  const headers = {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-store"
+  };
+
   try {
     const url = new URL(request.url);
     const lang = (url.searchParams.get("lang") || "de").toLowerCase();
-    const catRaw = (url.searchParams.get("cat") || "mix").toLowerCase();
+    const cat = (url.searchParams.get("cat") || "mix").toLowerCase();
     const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
 
-    // Category aliases (keep URLs stable even if UI wording changes)
-    const catNorm = (c) => {
-      if (!c) return "mix";
-      const x = String(c).toLowerCase();
-      if (["deutschland"].includes(x)) return "germany";
-      if (["ausland", "welt", "weltnachrichten"].includes(x)) return "world";
-      return x;
+    // Feeds: keep at least one "stable" feed per language so the API doesn't go empty.
+    // Categories are *best-effort*; we also filter by keywords.
+    const feedsByLang = {
+      de: {
+        mix: [
+          "https://www.tagesschau.de/xml/rss2",
+          "https://www.swr.de/swraktuell/rss.xml"
+        ],
+        world: [
+          "https://www.tagesschau.de/xml/rss2",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        weather: [
+          "https://www.tagesschau.de/xml/rss2"
+        ],
+        business: [
+          "https://www.tagesschau.de/xml/rss2"
+        ],
+        sport: [
+          "https://www.tagesschau.de/xml/rss2"
+        ],
+      },
+      en: {
+        mix: [
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        world: [
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        weather: [
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        business: [
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        sport: [
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+      },
+      fr: {
+        mix: [
+          "https://www.france24.com/fr/rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        world: [
+          "https://www.france24.com/fr/rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        weather: [
+          "https://www.france24.com/fr/rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        business: [
+          "https://www.france24.com/fr/rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        sport: [
+          "https://www.france24.com/fr/rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+      },
+      it: {
+        mix: [
+          "https://www.ilpost.it/feed/",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        world: [
+          "https://www.ilpost.it/feed/",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        weather: [
+          "https://www.ilpost.it/feed/",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        business: [
+          "https://www.ilpost.it/feed/",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        sport: [
+          "https://www.ilpost.it/feed/",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+      },
+      vi: {
+        mix: [
+          "https://vnexpress.net/rss/tin-moi-nhat.rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        world: [
+          "https://vnexpress.net/rss/tin-moi-nhat.rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        weather: [
+          "https://vnexpress.net/rss/tin-moi-nhat.rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        business: [
+          "https://vnexpress.net/rss/tin-moi-nhat.rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+        sport: [
+          "https://vnexpress.net/rss/tin-moi-nhat.rss",
+          "https://feeds.bbci.co.uk/news/rss.xml"
+        ],
+      }
     };
 
-    let cat = catNorm(catRaw);
+    const langFeeds = feedsByLang[lang] || feedsByLang.de;
+    const feeds = (langFeeds[cat] || langFeeds.mix || feedsByLang.de.mix).slice();
 
-    // Mainz removed (Merkurist has no stable RSS; HTML scraping is brittle and often blocked)
-    if (cat === "mainz") cat = "mix";
-
-    // For non-DE languages, "germany/world" categories are not reliable -> treat as mix.
-    if (lang !== "de" && (cat === "germany" || cat === "world")) cat = "mix";
-
-    const feeds = getFeeds(lang);
-    const errors = [];
     const all = [];
+    const errors = [];
 
     for (const feedUrl of feeds) {
       try {
         const r = await fetch(feedUrl, {
           cf: { cacheTtl: 600, cacheEverything: true },
           headers: {
-            "User-Agent": "Mozilla/5.0 (compatible; Cloud9Zeitung/1.0; +https://cloud9mainz.pages.dev/)",
-            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-            "Accept-Language": lang
+            "user-agent": "Cloud9/1.0 (+https://cloud9mainz.pages.dev)",
+            "accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*"
           }
         });
-        if (!r.ok) {
-          errors.push({ feedUrl, status: r.status });
-          continue;
-        }
+        if (!r.ok) { errors.push({ feedUrl, status: r.status }); continue; }
+
         const txt = await r.text();
-        const parsed = parseFeed(txt, feedUrl);
-        all.push(...parsed);
+        const items = parseFeed(txt, feedUrl);
+        for (const it of items) all.push(it);
       } catch (e) {
         errors.push({ feedUrl, error: String(e?.message || e) });
       }
     }
 
-    // De-duplicate by link
-    const uniq = [];
+    // De-duplicate
     const seen = new Set();
+    const uniq = [];
     for (const it of all) {
-      const key = (it.link || "").trim();
-      if (!key || seen.has(key)) continue;
+      const key = (it.link || "") + "|" + (it.title || "") + "|" + (it.source || "");
+      if (seen.has(key)) continue;
       seen.add(key);
       uniq.push(it);
     }
 
-    // Category filtering (language-aware keywords)
-    let items = uniq;
-    if (cat !== "mix") items = filterByCategory(items, cat, lang);
+    // Category filtering (best-effort)
+    const filtered = filterByCategory(uniq, cat, lang);
 
-    // If a category is empty, fall back to mix (better than showing nothing).
-    if (!items.length && cat !== "mix") items = uniq;
+    // Sort by date (desc) if possible
+    filtered.sort((a, b) => {
+      const ta = Date.parse(a.date || "") || 0;
+      const tb = Date.parse(b.date || "") || 0;
+      return tb - ta;
+    });
 
-    items = items.slice(0, max);
-
-    return json({ ok: true, items, errors });
+    return new Response(JSON.stringify({ ok: true, items: filtered.slice(0, max), errors }), { headers });
   } catch (e) {
-    return json({ ok: false, items: [], error: String(e?.message || e) });
+    return new Response(JSON.stringify({ ok: false, items: [], error: String(e?.message || e) }), { headers });
   }
 }
 
-function json(obj) {
-  return new Response(JSON.stringify(obj), {
-    status: 200,
-    headers: {
-      "content-type": "application/json; charset=utf-8",
-      "cache-control": "no-store"
+function filterByCategory(items, cat, lang) {
+  if (!cat || cat === "mix") return items;
+
+  // Keywords per language (very small list, but better than "DE only")
+  const kw = {
+    de: {
+      weather: ["wetter", "sturm", "regen", "schnee", "glatteis", "warnung", "temperatur", "orkan", "unwetter"],
+      business: ["wirtschaft", "börse", "aktie", "markt", "inflation", "zins", "bank", "export", "konjunktur", "unternehmen"],
+      sport: ["sport", "bundesliga", "champions", "f1", "formel", "tennis", "fußball", "basketball", "handball", "wm", "em"],
+      world: []
+    },
+    en: {
+      weather: ["weather", "storm", "rain", "snow", "ice", "warning", "temperature", "flood", "wind"],
+      business: ["business", "market", "stocks", "shares", "inflation", "rate", "bank", "economy", "trade", "company"],
+      sport: ["sport", "football", "soccer", "tennis", "formula", "f1", "nba", "nfl", "champions", "olympic"],
+      world: []
+    },
+    fr: {
+      weather: ["météo", "tempête", "pluie", "neige", "alerte", "inond", "température", "vent"],
+      business: ["économie", "bourse", "marché", "inflation", "banque", "taux", "entreprise", "commerce", "financ"],
+      sport: ["sport", "football", "tennis", "formule", "f1", "ligue", "champion", "olymp"],
+      world: []
+    },
+    it: {
+      weather: ["meteo", "tempesta", "pioggia", "neve", "allerta", "inond", "temperatura", "vento"],
+      business: ["economia", "borsa", "mercato", "inflazione", "banca", "tassi", "azienda", "finanz", "commercio"],
+      sport: ["sport", "calcio", "tennis", "formula", "f1", "serie", "campion", "olimpi"],
+      world: []
+    },
+    vi: {
+      weather: ["thời tiết", "bão", "mưa", "tuyết", "cảnh báo", "nhiệt độ", "gió", "lũ"],
+      business: ["kinh tế", "thị trường", "cổ phiếu", "lạm phát", "ngân hàng", "doanh nghiệp", "xuất khẩu", "tài chính"],
+      sport: ["thể thao", "bóng đá", "tennis", "f1", "olymp", "giải", "vô địch"],
+      world: []
     }
+  };
+
+  const dict = kw[lang] || kw.en;
+  const list = dict[cat] || [];
+  const lc = (s) => (s || "").toLowerCase();
+
+  if (cat === "world") {
+    // World = everything that is not obviously weather/business/sport
+    const isOther = (title) => {
+      const t = lc(title);
+      const w = (dict.weather || []).some(k => t.includes(k.toLowerCase()));
+      const b = (dict.business || []).some(k => t.includes(k.toLowerCase()));
+      const s = (dict.sport || []).some(k => t.includes(k.toLowerCase()));
+      return !(w || b || s);
+    };
+    return items.filter(it => isOther(it.title));
+  }
+
+  return items.filter(it => {
+    const t = lc(it.title);
+    return list.some(k => t.includes(k.toLowerCase()));
   });
 }
 
-function getFeeds(lang) {
-  // Multiple sources per language increases reliability (some publishers block server fetch).
-  switch (lang) {
-    case "fr":
-      return [
-        "https://www.france24.com/fr/rss",
-        "https://www.rfi.fr/fr/rss",
-        "https://feeds.bbci.co.uk/news/world/rss.xml"
-      ];
-    case "it":
-      return [
-        "https://www.ansa.it/sito/ansait_rss.xml",
-        "https://www.rainews.it/rss/tutti.xml",
-        "https://feeds.bbci.co.uk/news/world/rss.xml"
-      ];
-    case "en":
-      return [
-        "https://feeds.bbci.co.uk/news/rss.xml",
-        "https://rss.dw.com/rdf/rss-en-all"
-      ];
-    case "vi":
-      return [
-        "https://vnexpress.net/rss/tin-moi-nhat.rss",
-        "https://feeds.bbci.co.uk/news/world/rss.xml"
-      ];
-    case "de":
-    default:
-      return [
-        "https://www.tagesschau.de/xml/rss2",
-        "https://www.swr.de/swraktuell/rss.xml"
-      ];
-  }
-}
-
-function parseFeed(txt, feedUrl) {
-  // Detect Atom (<entry>) vs RSS (<item>)
-  const isAtom = /<feed\b[\s\S]*?<entry\b/i.test(txt);
-  const blocks = isAtom
-    ? [...txt.matchAll(/<entry\b[\s\S]*?<\/entry>/gi)].map(m => m[0])
-    : [...txt.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m => m[0]);
-
+function parseFeed(xml, feedUrl) {
   const out = [];
+  const isAtom = /<entry[\s>]/i.test(xml);
+  const blocks = isAtom
+    ? [...xml.matchAll(/<entry\b[\s\S]*?<\/entry>/gi)].map(m => m[0])
+    : [...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)].map(m => m[0]);
+
   for (const block of blocks) {
     const title = pick(block, "title");
-    const link = isAtom ? pickAtomLink(block) : pick(block, "link");
-    const date = pick(block, isAtom ? "updated" : "pubDate") || pick(block, "published") || "";
-
+    const link = pickLink(block);
+    const date = pick(block, "pubDate") || pick(block, "updated") || pick(block, "dc:date") || "";
     if (!title || !link) continue;
     out.push({
-      title: decodeHtml(title),
-      link: decodeHtml(link),
-      date: decodeHtml(date),
-      source: hostname(link),
-      category: guessCategory(title, hostname(link))
+      title,
+      link,
+      date,
+      source: hostname(link) || hostname(feedUrl)
     });
   }
   return out;
 }
 
-function filterByCategory(items, cat, lang) {
-  const keys = (KEYWORDS[lang] && KEYWORDS[lang][cat]) ? KEYWORDS[lang][cat] : null;
-  if (!keys || !keys.length) {
-    // DE-only: fallback keywords if missing language set
-    return items.filter(it => (it.category || "mix") === cat);
-  }
-  return items.filter(it => {
-    const hay = ((it.title || "") + " " + (it.source || "")).toLowerCase();
-    return keys.some(k => hay.includes(k));
-  });
-}
-
-function guessCategory(title, source) {
-  const t = (title || "").toLowerCase();
-  const s = (source || "").toLowerCase();
-  // Very light heuristic used as fallback
-  if (/(wetter|storm|weather|météo|meteo|thời tiết)/.test(t)) return "weather";
-  if (/(wirtschaft|econom|économ|borsa|mercat|market|lạm phát|chứng khoán)/.test(t)) return "business";
-  if (/(sport|fußball|football|calcio|tennis|nba|bundesliga|serie a)/.test(t)) return "sport";
-  if (/(tagesschau\.de|swr\.de)/.test(s)) return "germany";
-  return "mix";
-}
-
-// Language-aware keywords for category filtering (only for headline matching).
-const KEYWORDS = {
-  de: {
-    weather: ["wetter", "sturm", "regen", "schnee", "glatteis", "unwetter", "orkan", "hochwasser", "hitze"],
-    business: ["wirtschaft", "börse", "aktie", "markt", "inflation", "konjunktur", "unternehmen", "rezession"],
-    sport: ["sport", "fußball", "bundesliga", "champions league", "tennis", "formel 1", "nba"],
-    germany: ["deutschland", "bund", "berlin", "innenpolitik", "regierung", "bundestag"],
-    world: ["ausland", "welt", "ukraine", "russland", "usa", "china", "israel", "gaza", "eu"]
-  },
-  en: {
-    weather: ["weather", "storm", "rain", "snow", "heatwave", "flood"],
-    business: ["business", "econom", "market", "stocks", "inflation", "company"],
-    sport: ["sport", "football", "soccer", "nba", "tennis", "formula", "f1"]
-  },
-  fr: {
-    weather: ["météo", "tempête", "pluie", "neige", "orages", "canicule", "inondation"],
-    business: ["économie", "marché", "bourse", "inflation", "entreprise", "financ"],
-    sport: ["sport", "football", "foot", "rugby", "tennis", "ligue", "nba"]
-  },
-  it: {
-    weather: ["meteo", "maltempo", "pioggia", "neve", "temporale", "caldo", "alluvione"],
-    business: ["econom", "mercat", "borsa", "inflazione", "azienda", "finanz"],
-    sport: ["sport", "calcio", "serie a", "tennis", "nba", "formula", "f1"]
-  },
-  vi: {
-    weather: ["thời tiết", "bão", "mưa", "nắng nóng", "lũ", "lụt", "băng tuyết"],
-    business: ["kinh tế", "thị trường", "lạm phát", "doanh nghiệp", "chứng khoán", "giá vàng"],
-    sport: ["thể thao", "bóng đá", "tennis", "nba", "f1"]
-  }
-};
-
 function pick(block, tag) {
-  const re = new RegExp(`<${tag}[^>]*>([\s\S]*?)<\/${tag}>`, "i");
+  const re = new RegExp(`<${escapeRe(tag)}[^>]*>([\\s\\S]*?)<\\/${escapeRe(tag)}>`, "i");
   const m = block.match(re);
-  return m ? m[1].trim() : "";
+  return m ? decodeHtml(m[1].trim()) : "";
 }
 
-function pickAtomLink(entry) {
-  // <link href="..."/>
-  const m1 = entry.match(/<link[^>]*href="([^"]+)"[^>]*\/?>(?:<\/link>)?/i);
-  if (m1) return m1[1];
+function pickLink(block) {
+  // RSS <link>...</link>
+  const l1 = pick(block, "link");
+  if (l1 && /^https?:\/\//i.test(l1)) return l1;
 
-  // <link>...</link>
-  const m2 = entry.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
-  return m2 ? decodeHtml(m2[1]) : "";
+  // Atom <link href="..."/>
+  const m1 = block.match(/<link[^>]*href\s*=\s*"([^"]+)"/i);
+  if (m1 && m1[1]) return decodeHtml(m1[1].trim());
+
+  // RSS sometimes uses <guid isPermaLink="true">https://...</guid>
+  const g = pick(block, "guid");
+  if (g && /^https?:\/\//i.test(g)) return g;
+
+  // Atom sometimes has <id>https://...</id>
+  const id = pick(block, "id");
+  if (id && /^https?:\/\//i.test(id)) return id;
+
+  return "";
 }
 
 function hostname(u) {
   try {
     return new URL(u).hostname.replace(/^www\./, "");
   } catch {
-    return "news";
+    return "";
   }
 }
 
@@ -232,6 +293,9 @@ function decodeHtml(s) {
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, " ")
-    .trim();
+    .replace(/&nbsp;/g, " ");
+}
+
+function escapeRe(s) {
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
