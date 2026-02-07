@@ -31,7 +31,7 @@ export async function onRequestGet({ request }) {
           "https://www.tagesschau.de/xml/rss2"
         ],
         sport: [
-          "https://www.tagesschau.de/xml/rss2"
+          "https://news.google.com/rss/search?q=Sport+Deutschland&hl=de&gl=DE&ceid=DE:de"
         ],
       },
       en: {
@@ -48,7 +48,7 @@ export async function onRequestGet({ request }) {
           "https://feeds.bbci.co.uk/news/rss.xml"
         ],
         sport: [
-          "https://feeds.bbci.co.uk/news/rss.xml"
+          "https://news.google.com/rss/search?q=Sports&hl=en&gl=US&ceid=US:en"
         ],
       },
       fr: {
@@ -168,18 +168,6 @@ export async function onRequestGet({ request }) {
 }
 
 function filterByCategory(items, cat, lang) {
-
-  // For German sources we can be much more precise by URL path (Tagesschau etc.)
-  if (lang === "de") {
-    const pathMap = { weather: "/wetter", business: "/wirtschaft", sport: "/sport", world: "/ausland" };
-    const p = pathMap[cat];
-    if (p) {
-      const byPath = items.filter(it => (it.link || "").includes(p));
-      if (byPath.length >= 5) return byPath; // good enough
-      // else fall back to keyword filter below
-      items = byPath.length ? byPath.concat(items) : items; // keep some relevance
-    }
-  }
   if (!cat || cat === "mix") return items;
 
   // Keywords per language (very small list, but better than "DE only")
