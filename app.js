@@ -209,9 +209,7 @@
     cart: [],
     quizIdx: 0,
     quizScore: 0,
-        quizRound: [],
-    quizRoundSize: 20,
-quizDone: false,
+    quizDone: false,
   };
 
   function loadLang() {
@@ -837,8 +835,7 @@ ${t.total}: ${money(cartTotal())}`;
       return `<div class="card"><div class="h">${t.quiz}</div><button class="btn primary" id="startQuiz">${t.startQuiz}</button></div>`;
     }
     const idx = state.quizIdx;
-    const realIndex = (state.quizRound && state.quizRound.length) ? state.quizRound[idx] : idx;
-    const cur = qz[realIndex];
+    const cur = qz[idx];
     if (!cur) {
       return `<div class="card"><div class="h">${t.quiz}</div><div class="small">Done.</div></div>`;
     }
@@ -860,24 +857,14 @@ ${t.total}: ${money(cartTotal())}`;
       start.onclick = () => {
         state.quizStarted = true;
         state.quizIdx = 0;
-
-        const n = (state.quiz || []).length;
-        const k = Math.min(state.quizRoundSize || 20, n);
-
-        const indices = Array.from({ length: n }, (_, i) => i);
-        shuffleInPlace(indices);
-        state.quizRound = indices.slice(0, k);
-
         renderRoute();
-
       };
       return;
     }
     document.querySelectorAll("[data-ans]").forEach(btn => {
       btn.onclick = () => {
         const idx = state.quizIdx;
-        const realIndex = (state.quizRound && state.quizRound.length) ? state.quizRound[idx] : idx;
-        const q = state.quiz[realIndex];
+        const q = state.quiz[idx];
         const picked = Number(btn.getAttribute("data-ans"));
         const ok = picked === q.a;
         const fb = document.getElementById("quizFeedback");
@@ -890,7 +877,7 @@ ${t.total}: ${money(cartTotal())}`;
         `;
         document.getElementById("nextBtn").onclick = () => {
           if (idx+1 < state.quiz.length) state.quizIdx += 1;
-          else { state.quizStarted = false; state.quizIdx = 0; state.quizRound = []; }
+          else { state.quizStarted = false; state.quizIdx = 0; }
           renderRoute();
         };
       };
@@ -911,15 +898,7 @@ ${t.total}: ${money(cartTotal())}`;
   }
 
   function escapeHtml(s) {
-    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }
-  function shuffleInPlace(a) {
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-[c]));
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
   }
 async function renderNews() {
   const t = I18N[state.lang] || I18N.de;
