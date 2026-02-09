@@ -1,245 +1,153 @@
 // Cloudflare Pages Function: /api/news
-// Returns JSON: { ok:true, items:[{title, link, date, source, category}], errors?:[...] }
-// Query: ?lang=de|en|fr|it|vi&cat=mix|world|weather|business|sport&max=1..20
+// Server-side RSS/Atom fetch (avoids browser CORS).
+// Returns JSON: { ok:true, items:[{title,link,date,source,category}], errors?:[...] }
 
 export async function onRequestGet({ request }) {
-  const url = new URL(request.url);
-  const lang = (url.searchParams.get("lang") || "de").toLowerCase();
-  const catRaw = (url.searchParams.get("cat") || "mix").toLowerCase();
-  const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
+  try {
+    const url = new URL(request.url);
+    const lang = (url.searchParams.get("lang") || "de").toLowerCase();
+    const cat = (url.searchParams.get("cat") || "mix").toLowerCase();
+    // Aliases (keep URLs stable even if UI wording changes)
+    const catNorm = (c) => {
+      if (!c) return "mix";
+      const x = String(c).toLowerCase();
+      if (["deutschland"].includes(x)) return "germany";
+      if (["ausland","welt","weltnachrichten"].includes(x)) return "world";
+      return x;
+    };
+    const cat2 = catNorm(cat);
 
-  const cat = normalizeCat(catRaw);
+    // Special: Mainz (Merkurist) – HTML scrape (no RSS available)
+    if (lang === "de" && cat2 === "mainz") {
+      const items = await fetchMerkurist(max);
+      return json({ ok: true, items });
+    }
+ // mix|world|weather|business|sport
+    const max = Math.min(parseInt(url.searchParams.get("max") || "20", 10) || 20, 20);
 
-  const feeds = pickFeeds(lang, cat);
-  const errors = [];
-  const all = [];
+    const feeds = getFeeds(lang);
+    const errors = [];
+    const all = [];
 
-  // Fetch sequentially (more reliable under free limits)
-  for (const feedUrl of feeds) {
-    try {
-      const r = await fetch(feedUrl, {
-        cf: { cacheTtl: 600, cacheEverything: true },
-        headers: {
-          "User-Agent": "Mozilla/5.0 (compatible; Cloud9Zeitung/1.2; +https://cloud9mainz.pages.dev/)",
-          "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-          "Accept-Language": lang
+    for (const feedUrl of feeds) {
+      try {
+        const r = await fetch(feedUrl, {
+          cf: { cacheTtl: 600, cacheEverything: true },
+          headers: {
+            // Some publishers block generic UA/Accept; this helps a lot.
+            "User-Agent": "Mozilla/5.0 (compatible; Cloud9Zeitung/1.0; +https://cloud9mainz.pages.dev/)",
+            "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+            "Accept-Language": lang
+          }
+        });
+        if (!r.ok) {
+          errors.push({ feedUrl, status: r.status });
+          continue;
         }
-      });
-      if (!r.ok) {
-        errors.push({ feedUrl, status: r.status });
-        continue;
+        const txt = await r.text();
+        const items = parseFeed(txt, feedUrl);
+        all.push(...items);
+      } catch (e) {
+        errors.push({ feedUrl, error: String(e?.message || e) });
       }
-      const txt = await r.text();
-      const items = parseFeed(txt, feedUrl, cat);
-      all.push(...items);
-    } catch (e) {
-      errors.push({ feedUrl, error: String(e?.message || e) });
+    }
+
+    // De-dupe (same link or same title)
+    const seen = new Set();
+    const deduped = [];
+    for (const it of all) {
+      const k = (it.link || "") + "||" + (it.title || "");
+      if (seen.has(k)) continue;
+      seen.add(k);
+      deduped.push(it);
+    }
+
+    // Sort newest first (best-effort)
+    deduped.sort((a, b) => (toTime(b.date) - toTime(a.date)));
+
+    const filtered = filterByCategory(deduped, cat, lang).slice(0, max);
+
+    return json({ ok: true, items: filtered, errors }, 200);
+  } catch (e) {
+    // Don't fail hard; keep frontend stable.
+    return json({ ok: false, items: [], error: String(e?.message || e) }, 200);
+  }
+}
+
+function json(obj, status = 200) {
+  return new Response(JSON.stringify(obj), {
+    status,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store"
+    }
+  });
+}
+
+function getFeeds(lang) {
+  // Keep feeds simple + reliable.
+  // Categories are derived via keyword filtering (so they work for all languages).
+  const feedsByLang = {
+    de: [
+      "https://www.tagesschau.de/xml/rss2",
+      "https://www.swr.de/swraktuell/rss.xml"
+    ],
+    en: [
+      "https://feeds.bbci.co.uk/news/rss.xml",
+      "https://rss.dw.com/rdf/rss-en-all"
+    ],
+    fr: [
+      "https://rss.dw.com/rdf/rss-fr-all",
+      "https://www.france24.com/fr/rss"
+    ],
+    it: [
+      "https://rss.dw.com/rdf/rss-it-all",
+      "https://www.ilpost.it/feed/"
+    ],
+    vi: [
+      "https://vnexpress.net/rss/tin-moi-nhat.rss"
+    ]
+  };
+  return feedsByLang[lang] || feedsByLang.de;
+}
+
+function parseFeed(txt, feedUrl) {
+  // Try RSS <item> first
+  const items = [];
+  const rssItems = [...txt.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
+  for (const block of rssItems) {
+    const title = pick(block, "title");
+    const link = pickLink(block);
+    const pubDate = pick(block, "pubDate") || pick(block, "dc:date");
+    if (title && link) {
+      items.push({
+        title,
+        link,
+        date: pubDate || "",
+        source: hostname(link || feedUrl),
+        category: "mix"
+      });
     }
   }
 
-  // Filter: BBC only for EN (some feeds can contain BBC links)
-  const filtered = all.filter(it => {
-    const src = (it.source || "").toLowerCase();
-    return (lang === "en") || !isBBC(src);
-  });
-
-  // De-duplicate by link (preferred) or title
-  const seen = new Set();
-  const deduped = [];
-  for (const it of filtered) {
-    const key = (it.link || "").trim() || ("t:" + (it.title || "").trim().toLowerCase());
-    if (!key) continue;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    deduped.push(it);
-  }
-
-  // Sort by date desc (best-effort)
-  deduped.sort((a, b) => (toTime(b.date) - toTime(a.date)));
-
-  const out = deduped.slice(0, max);
-
-  return json({ ok: true, items: out, errors });
-}
-
-function normalizeCat(c) {
-  if (!c) return "mix";
-  const x = String(c).toLowerCase();
-  if (["sports"].includes(x)) return "sport";
-  if (["biz", "wirtschaft"].includes(x)) return "business";
-  if (["weather", "wetter"].includes(x)) return "weather";
-  if (["world", "weltnachrichten", "ausland", "welt"].includes(x)) return "world";
-  return ["mix", "sport", "business", "weather", "world"].includes(x) ? x : "mix";
-}
-
-function pickFeeds(lang, cat) {
-  const cfg = langCfg(lang);
-
-  // Always include a solid base feed for "mix"
-  if (cat === "mix") {
-    return uniq([
-      ...cfg.mix,
-      ...cfg.world.slice(0, 1),
-      ...cfg.business.slice(0, 1),
-      ...cfg.weather.slice(0, 1),
-      ...cfg.sport.slice(0, 1),
-    ]);
-  }
-
-  return uniq(cfg[cat] || cfg.mix);
-}
-
-function langCfg(lang) {
-  // Google News RSS search (language/region tuned)
-  const google = (q, hl, gl, ceid) =>
-    `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=${encodeURIComponent(hl)}&gl=${encodeURIComponent(gl)}&ceid=${encodeURIComponent(ceid)}`;
-
-  if (lang === "en") {
-    return {
-      mix: [
-        "https://feeds.bbci.co.uk/news/rss.xml",
-      ],
-      world: [
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-      ],
-      weather: [
-        google("weather", "en", "US", "US:en"),
-      ],
-      business: [
-        "https://feeds.bbci.co.uk/news/business/rss.xml",
-      ],
-      sport: [
-        "https://feeds.bbci.co.uk/sport/rss.xml",
-      ],
-    };
-  }
-
-  if (lang === "fr") {
-    return {
-      mix: [
-        "https://www.france24.com/fr/rss",
-      ],
-      world: [
-        "https://www.france24.com/fr/europe/rss",
-        "https://www.france24.com/fr/monde/rss",
-      ],
-      weather: [
-        google("météo", "fr", "FR", "FR:fr"),
-      ],
-      business: [
-        "https://www.france24.com/fr/eco-tech/rss",
-      ],
-      sport: [
-        google("sport", "fr", "FR", "FR:fr"),
-      ],
-    };
-  }
-
-  if (lang === "it") {
-    return {
-      mix: [
-        "https://www.rainews.it/rss/tutti.xml",
-      ],
-      world: [
-        "https://www.rainews.it/rss/esteri.xml",
-      ],
-      weather: [
-        google("meteo", "it", "IT", "IT:it"),
-      ],
-      business: [
-        "https://www.rainews.it/rss/economia.xml",
-      ],
-      sport: [
-        "https://www.rainews.it/rss/sport.xml",
-      ],
-    };
-  }
-
-  if (lang === "vi") {
-    return {
-      mix: [
-        "https://vnexpress.net/rss/tin-moi-nhat.rss",
-      ],
-      world: [
-        "https://vnexpress.net/rss/the-gioi.rss",
-      ],
-      weather: [
-        google("thời tiết", "vi", "VN", "VN:vi"),
-      ],
-      business: [
-        "https://vnexpress.net/rss/kinh-doanh.rss",
-      ],
-      sport: [
-        "https://vnexpress.net/rss/the-thao.rss",
-      ],
-    };
-  }
-
-  // default de
-  return {
-    mix: [
-      "https://www.tagesschau.de/xml/rss2",
-      "https://www.swr.de/swraktuell/rss.xml",
-    ],
-    world: [
-      google("Weltnachrichten", "de", "DE", "DE:de"),
-    ],
-    weather: [
-      google("Wetter Deutschland", "de", "DE", "DE:de"),
-    ],
-    business: [
-      google("Wirtschaft Deutschland", "de", "DE", "DE:de"),
-    ],
-    sport: [
-      google("Sport Deutschland", "de", "DE", "DE:de"),
-    ],
-  };
-}
-
-function parseFeed(xml, feedUrl, category) {
-  const out = [];
-
-  // RSS
-  const rssItems = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m => m[1]);
-  for (const block of rssItems) {
+  // Atom <entry>
+  const atomEntries = [...txt.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map(m => m[1]);
+  for (const block of atomEntries) {
     const title = pick(block, "title");
-    const link = pick(block, "link");
-    const pubDate = pick(block, "pubDate") || pick(block, "dc:date");
-    const desc = pick(block, "description") || pick(block, "content:encoded");
-    if (!title || !link) continue;
-    out.push({
-      title,
-      link,
-      date: pubDate || "",
-      source: hostname(link || feedUrl),
-      description: stripHtml(desc).slice(0, 220),
-      category
-    });
+    const link = pickAtomLink(block);
+    const updated = pick(block, "updated") || pick(block, "published");
+    if (title && link) {
+      items.push({
+        title,
+        link,
+        date: updated || "",
+        source: hostname(link || feedUrl),
+        category: "mix"
+      });
+    }
   }
 
-  // Atom
-  const atomEntries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map(m => m[1]);
-  for (const entry of atomEntries) {
-    const title = pick(entry, "title");
-    let link = "";
-    // <link href="..."/>
-    const m1 = entry.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i);
-    if (m1) link = decodeHtml(m1[1]);
-    if (!link) link = pick(entry, "link");
-    const updated = pick(entry, "updated") || pick(entry, "published");
-    const summary = pick(entry, "summary") || pick(entry, "content");
-    if (!title || !link) continue;
-    out.push({
-      title,
-      link,
-      date: updated || "",
-      source: hostname(link || feedUrl),
-      description: stripHtml(summary).slice(0, 220),
-      category
-    });
-  }
-
-  return out;
+  return items;
 }
 
 function pick(block, tag) {
@@ -248,9 +156,22 @@ function pick(block, tag) {
   return m ? decodeHtml(m[1].trim()) : "";
 }
 
-function stripHtml(s) {
-  const t = decodeHtml(String(s || ""));
-  return t.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+function pickLink(block) {
+  // RSS: <link>https://..</link>
+  const v = pick(block, "link");
+  if (v) return v;
+  // Sometimes: <link href="..."/>
+  const m = block.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
+  return m ? decodeHtml(m[1]) : "";
+}
+
+function pickAtomLink(entry) {
+  // Atom: <link href="..."/>
+  let m = entry.match(/<link[^>]*href=["']([^"']+)["'][^>]*\/?>/i);
+  if (m) return decodeHtml(m[1]);
+  // Atom: <link>...</link>
+  m = entry.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+  return m ? decodeHtml(m[1]) : "";
 }
 
 function hostname(u) {
@@ -261,45 +182,93 @@ function hostname(u) {
   }
 }
 
-function isBBC(host) {
-  const h = String(host || "").toLowerCase();
-  return h === "bbc.com" || h.endsWith(".bbc.com") ||
-         h === "bbc.co.uk" || h.endsWith(".bbc.co.uk") ||
-         h === "bbci.co.uk" || h.endsWith(".bbci.co.uk");
-}
-
 function decodeHtml(s) {
-  return String(s ?? "")
+  return String(s || "")
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
-    .replace(/&nbsp;/g, " ");
+    .replace(/&#x27;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .trim();
 }
 
-function toTime(d) {
-  if (!d) return 0;
-  const t = Date.parse(d);
+function toTime(v) {
+  if (!v) return 0;
+  const t = Date.parse(v);
   return Number.isFinite(t) ? t : 0;
 }
 
-function uniq(arr) {
-  const s = new Set();
+
+async function fetchMerkurist(max) {
   const out = [];
-  for (const x of (arr || [])) {
-    if (!x) continue;
-    if (s.has(x)) continue;
-    s.add(x);
-    out.push(x);
-  }
-  return out;
+  try {
+    const r = await fetch("https://merkurist.de/mainz/", { cf: { cacheTtl: 300 } });
+    if (!r.ok) return out;
+    const html = await r.text();
+
+    // crude extraction: pick links that look like article pages
+    const seen = new Set();
+    const rx = /<a[^>]+href="(\/mainz\/[^"#?]+)"[^>]*>([\s\S]*?)<\/a>/gi;
+    let m;
+    while ((m = rx.exec(html)) && out.length < max * 3) {
+      const href = m[1];
+      const raw = m[2]
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (!raw || raw.length < 10) continue;
+      const link = "https://merkurist.de" + href;
+      if (seen.has(link)) continue;
+      seen.add(link);
+      out.push({
+        title: raw,
+        link,
+        date: "",
+        source: "merkurist.de",
+        category: "mainz",
+        description: ""
+      });
+    }
+  } catch (e) {}
+  return out.slice(0, max);
 }
 
-function json(obj) {
-  return new Response(JSON.stringify(obj), {
-    status: 200,
-    headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" }
-  });
+function filterByCategory(items, cat, lang) {
+  if (!cat || cat === "mix") return items;
+  if (cat === "world") return items; // "world" = unfiltered mix, just a label in UI
+
+  const titleOf = (it) => (it.title || "").toLowerCase();
+
+  const kw = {
+    weather: [
+      "wetter","sturm","regen","schnee","glätte","hitze","temperatur","warn","forecast","weather","storm","rain","snow","heat",
+      "météo","tempête","pluie","neige","canicule","meteo","temporale","pioggia","neve","caldo",
+      "thời tiết","bão","mưa","tuyết","nắng nóng"
+    ],
+    business: [
+      "wirtschaft","konjunktur","börse","aktie","aktien","dax","eur","inflation","zins","bank","unternehmen","export",
+      "economy","business","market","stock","inflation","interest rate","company","trade",
+      "économie","bourse","marché","inflation","banque","entreprise",
+      "economia","borsa","mercato","inflazione","banca","azienda",
+      "kinh tế","chứng khoán","lạm phát","lãi suất","doanh nghiệp"
+    ],
+    sport: [
+      "sport","fußball","bundesliga","champions league","dfb","wm","em","tor","match","spiel","trainer",
+      "football","soccer","nba","nfl","nhl","mlb","match","tournament","olymp",
+      "sport","football","match","tournoi","olymp",
+      "sport","calcio","partita","serie a","olimpi",
+      "thể thao","bóng đá","trận","giải","olympic"
+    ]
+  };
+
+  const list = kw[cat] || [];
+  const out = [];
+  for (const it of items) {
+    const tt = titleOf(it);
+    if (list.some(k => tt.includes(k))) out.push({ ...it, category: cat });
+  }
+  return out;
 }
