@@ -876,7 +876,7 @@ ${t.total}: ${money(cartTotal())}`;
     const choices = cur.choices.map((c, i) => `<button class="btn" data-ans="${i}" style="text-align:left">${escapeHtml(c)}</button>`).join("");
     return `
       <div class="card">
-        <div class="h">${t.quiz} <span class="badge">${idx+1}/${session.length}</span></div>
+        <div class="h">${t.quiz} <span class="quizProgress">${idx+1}/${session.length}</span></div>
         <div style="font-weight:900;margin:12px 0 10px">${escapeHtml(cur.q)}</div>
         <div class="row" style="flex-direction:column;align-items:stretch">${choices}</div>
         <div id="quizFeedback" style="margin-top:12px"></div>

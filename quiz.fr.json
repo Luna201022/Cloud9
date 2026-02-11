@@ -660,17 +660,6 @@
     "ex": "Bonne réponse : Lait (souvent lait concentré sucré). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
   },
   {
-    "q": "Que signifie „đá“ bei vietnamesischen Getränken ?",
-    "choices": [
-      "Chaud",
-      "Ohne Sucre",
-      "Noir (sans lait)",
-      "Glace / avec glace"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Glace / avec glace. „đá“ bedeutet Glace – also eine kalte Variante."
-  },
-  {
     "q": "Was ist ein Phin-Filter?",
     "choices": [
       "Cafetière à piston",
@@ -757,17 +746,6 @@
     ],
     "a": 0,
     "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Bohnenart dominiert in Vietnam?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
   },
   {
     "q": "Pourquoi passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen ?",
@@ -1397,17 +1375,6 @@
     "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
   },
   {
-    "q": "Welche Zutat ist typisch für Bánh mì?",
-    "choices": [
-      "Crème fraîche",
-      "Betterave",
-      "Légumes marinés (ex. carotte/radis blanc)",
-      "Choucroute"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Légumes marinés (ex. carotte/radis blanc). Đồ chua bringt Säure und Frische in Bánh mì."
-  },
-  {
     "q": "Was zeichnet Phở aus?",
     "choices": [
       "Soupe de nouilles de riz au bouillon parfumé",
@@ -1936,127 +1903,6 @@
     "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
   },
   {
-    "q": "Welche bekannte Kirche steht im Zentrum von Mainz?",
-    "choices": [
-      "Cathédrale de Mayence",
-      "Cathédrale de Spire",
-      "Cathédrale de Cologne",
-      "Basilique Saint-Pierre (Rome)"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cathédrale de Mayence. La cathédrale de Mayence est le monument le plus connu du centre-ville."
-  },
-  {
-    "q": "Welcher Fluss fließt an Mainz vorbei?",
-    "choices": [
-      "Danube",
-      "Elbe",
-      "Rhin",
-      "Neckar"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Rhin. Mayence se situe directement sur le Rhin (près de l’embouchure du Main)."
-  },
-  {
-    "q": "Pourquoi ist Mainz für seine Fastnacht bekannt ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Quel rôle spielt der Rhin für Mainz ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Mainz eine Universitätsstadt ?",
-    "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat der Dom für die Stadtgeschichte?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Mainz medienhistorisch wichtig ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Quel rôle spielte Gutenberg für Mainz ?",
-    "choices": [
-      "Er gründete die Universität",
-      "Er prägte Mainz als Zentrum der Buchdruck-Geschichte",
-      "Er erfand Espresso",
-      "Er war römischer Kaiser"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Er prägte Mainz als Zentrum der Buchdruck-Geschichte. Johannes Gutenberg steht für die Entwicklung des Buchdrucks mit beweglichen Lettern."
-  },
-  {
-    "q": "Pourquoi ist Mainz kulturell vielfältig ?",
-    "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat die Altstadt für Besucher?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Mainz ein Weinort ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
     "q": "Quel rôle spielt der Rhin für Handel und Kultur ?",
     "choices": [
       "Sie beeinflusst nur die Lautstärke der Maschine",
@@ -2066,193 +1912,6 @@
     ],
     "a": 3,
     "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Mainz historisch bedeutsam ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Welche Bedeutung haben Feste in Mainz?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Mainz gut angebunden ?",
-    "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Quel rôle spielt der Karneval für die Stadt ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Mainz eine lebendige Stadt ?",
-    "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat der Domplatz?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Mainz attraktiv für Studierende ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Quel rôle spielt Kultur für Mainz ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Mainz am Rhin gelegen ?",
-    "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat die Geschichte für die Stadtidentität?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Mainz ein beliebtes Reiseziel ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Quel rôle spielt der Weinbau ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Mainz traditionsreich ?",
-    "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Welche Bedeutung haben Museen für Mainz?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Mainz offen für Besucher ?",
-    "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Universität ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Mainz bekannt für Veranstaltungen ?",
-    "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
   },
   {
     "q": "Welche Bedeutung hat die Lage am Rhin?",
@@ -2352,17 +2011,6 @@
     ],
     "a": 2,
     "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Städte wie Ho-Chi-Minh-Stadt dynamisch ?",
-    "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
   },
   {
     "q": "Quel rôle spielt Mobilität in Großstädten ?",

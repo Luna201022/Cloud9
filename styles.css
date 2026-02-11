@@ -255,3 +255,7 @@ button:disabled{cursor:not-allowed;opacity:.6}
   color: #fff;
 }
 #order-note::placeholder { color: rgba(255,255,255,.5); }
+
+
+/* quiz progress (1/20) next to title */
+.quizProgress{min-width:28px;height:22px;padding:0 8px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);font-size:12px;opacity:.9;margin-left:8px}

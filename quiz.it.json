@@ -253,17 +253,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Aromen können bei Caffè auftreten?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché kann altes Wasser den Geschmack verfälschen?",
     "choices": [
       "Perché es nur die Koffeinmenge verdoppelt",
@@ -396,17 +385,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Wirkung hat Sauerstoff auf Caffèaromen?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché ist konstante Brühtemperatur wichtig?",
     "choices": [
       "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
@@ -537,17 +515,6 @@
     ],
     "a": 1,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Was bewirkt längere Vorinfusion?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché kann Caffè metallisch schmecken?",
@@ -759,17 +726,6 @@
     "ex": "Risposta corretta: Filtro a goccia metallico vietnamita per estrazione lenta. Der Phin lässt Caffè langsam in die Tasse tropfen."
   },
   {
-    "q": "Welche Bohnenart dominiert in Vietnam?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
     "choices": [
       "Perché es nur die Koffeinmenge verdoppelt",
@@ -781,17 +737,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Caffè im vietnamesischen Alltag?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché sind Cafés in Vietnam soziale Treffpunkte?",
     "choices": [
       "Perché es nur die Koffeinmenge verdoppelt",
@@ -801,17 +746,6 @@
     ],
     "a": 2,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Wie beeinflusst Ghiaccio den Geschmack von Caffè?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché wird Caffè in Vietnam oft stark gesüßt?",
@@ -1210,17 +1144,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
-    "choices": [
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché ist Caffè Teil der Alltagskultur?",
     "choices": [
       "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
@@ -1342,17 +1265,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat die Präsentation im Glas?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché wird Caffè in Vietnam oft draußen serviert?",
     "choices": [
       "Perché es nur die Farbe verändert",
@@ -1384,28 +1296,6 @@
     ],
     "a": 2,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Wirkung hat Geduld auf den Genuss?",
-    "choices": [
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Welche Zutat ist typisch für Bánh mì?",
-    "choices": [
-      "Panna acida",
-      "Barbabietola",
-      "Verdure sottaceto (es. carota/daikon)",
-      "Crauti"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Verdure sottaceto (es. carota/daikon). Đồ chua bringt Säure und Frische in Bánh mì."
   },
   {
     "q": "Was zeichnet Phở aus?",
@@ -1452,17 +1342,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché werden Speisen oft mit Limette serviert?",
     "choices": [
       "Perché es nur die Koffeinmenge verdoppelt",
@@ -1494,17 +1373,6 @@
     ],
     "a": 1,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché werden Speisen oft mit frischem Gemüse kombiniert?",
@@ -1562,17 +1430,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché werden Gerichte oft individuell abgeschmeckt?",
     "choices": [
       "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
@@ -1626,17 +1483,6 @@
     ],
     "a": 1,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché sind Suppen in Vietnam beliebt?",
@@ -1760,17 +1606,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché sind Kräuter ein fester Bestandteil?",
     "choices": [
       "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
@@ -1802,17 +1637,6 @@
     ],
     "a": 3,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat Umami?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché werden Gerichte häufig mit Brühe serviert?",
@@ -1870,17 +1694,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Vielfalt der Aromen?",
-    "choices": [
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché sind Gerichte gut ausbalanciert?",
     "choices": [
       "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
@@ -1914,17 +1727,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Regionalität?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché sind Gerichte leicht bekömmlich?",
     "choices": [
       "Perché es nur die Koffeinmenge verdoppelt",
@@ -1933,127 +1735,6 @@
       "Perché es nur die Farbe verändert"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche bekannte Kirche steht im Zentrum von Mainz?",
-    "choices": [
-      "Cattedrale di Magonza",
-      "Cattedrale di Spira",
-      "Cattedrale di Colonia",
-      "Basilica di San Pietro (Roma)"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Cattedrale di Magonza. La cattedrale di Magonza è il simbolo più noto del centro."
-  },
-  {
-    "q": "Welcher Fluss fließt an Mainz vorbei?",
-    "choices": [
-      "Danubio",
-      "Elba",
-      "Reno",
-      "Neckar"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Reno. Magonza si trova direttamente sul Reno (vicino alla foce del Meno)."
-  },
-  {
-    "q": "Perché ist Mainz für seine Fastnacht bekannt?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Che ruolo spielt der Reno für Mainz?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Influisce su estrazione, equilibrio e gusto",
-      "Non ha alcun impatto",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Perché ist Mainz eine Universitätsstadt?",
-    "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat der Dom für die Stadtgeschichte?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché ist Mainz medienhistorisch wichtig?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Che ruolo spielte Gutenberg für Mainz?",
-    "choices": [
-      "Er gründete die Universität",
-      "Er prägte Mainz als Zentrum der Buchdruck-Geschichte",
-      "Er erfand Espresso",
-      "Er war römischer Kaiser"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Er prägte Mainz als Zentrum der Buchdruck-Geschichte. Johannes Gutenberg steht für die Entwicklung des Buchdrucks mit beweglichen Lettern."
-  },
-  {
-    "q": "Perché ist Mainz kulturell vielfältig?",
-    "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat die Altstadt für Besucher?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché ist Mainz ein Weinort?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
-    ],
-    "a": 3,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
@@ -2066,204 +1747,6 @@
     ],
     "a": 3,
     "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Perché ist Mainz historisch bedeutsam?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung haben Feste in Mainz?",
-    "choices": [
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto",
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché ist Mainz gut angebunden?",
-    "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Che ruolo spielt der Karneval für die Stadt?",
-    "choices": [
-      "Influisce su estrazione, equilibrio e gusto",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Non ha alcun impatto",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Perché ist Mainz eine lebendige Stadt?",
-    "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat der Domplatz?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché ist Mainz attraktiv für Studierende?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Che ruolo spielt Kultur für Mainz?",
-    "choices": [
-      "Non ha alcun impatto",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Influisce su estrazione, equilibrio e gusto"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Perché ist Mainz am Reno gelegen?",
-    "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat die Geschichte für die Stadtidentität?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché ist Mainz ein beliebtes Reiseziel?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Che ruolo spielt der Weinbau?",
-    "choices": [
-      "Non ha alcun impatto",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Influisce su estrazione, equilibrio e gusto"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Perché ist Mainz traditionsreich?",
-    "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung haben Museen für Mainz?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché ist Mainz offen für Besucher?",
-    "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Che ruolo spielt die Universität?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Non ha alcun impatto",
-      "Influisce su estrazione, equilibrio e gusto"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Perché ist Mainz bekannt für Veranstaltungen?",
-    "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat die Lage am Reno?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio"
-    ],
-    "a": 3,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché wächst die Café-Kultur in vietnamesischen Städten?",
@@ -2299,17 +1782,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
-    "choices": [
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché ist Streetfood weiterhin beliebt?",
     "choices": [
       "Perché es nur für Deko wichtig ist",
@@ -2343,28 +1815,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Tourismus für Vietnam?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Non importa, basta che sia caldo",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo la confezione"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
-    "q": "Perché sind Städte wie Ho-Chi-Minh-Stadt dynamisch?",
-    "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
     "q": "Che ruolo spielt Mobilität in Großstädten?",
     "choices": [
       "Sie beeinflusst nur die Lautstärke der Maschine",
@@ -2385,17 +1835,6 @@
     ],
     "a": 3,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat Technologie im Alltag?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché sind Cafés Arbeitsorte geworden?",
@@ -2431,17 +1870,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat internationale Küche?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo la confezione",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché ist Vietnam wirtschaftlich gewachsen?",
     "choices": [
       "Perché es nur die Farbe verändert",
@@ -2473,17 +1901,6 @@
     ],
     "a": 1,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat Kultur für Identität?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché ist Tourismus wichtig für Städte?",
@@ -2563,17 +1980,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Unternehmertum?",
-    "choices": [
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché ist der Alltag schneller geworden?",
     "choices": [
       "Perché es nur die Farbe verändert",
@@ -2594,17 +2000,6 @@
     ],
     "a": 2,
     "ex": "Risposta corretta: Influisce su estrazione, equilibrio e gusto. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Geschmacksrichtung ist bei Bánh mì typisch ausgewogen?",
-    "choices": [
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 0,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché passen leichte Speisen gut zu Caffè?",
@@ -2640,17 +2035,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
-    "choices": [
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Riguarda solo l’aspetto"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché sind frische Zutaten wichtig für Snacks?",
     "choices": [
       "Perché es nur die Farbe verändert",
@@ -2684,17 +2068,6 @@
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
   },
   {
-    "q": "Welche Bedeutung hat Frische für den Genuss?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo",
-      "Riguarda solo la confezione"
-    ],
-    "a": 1,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
-  },
-  {
     "q": "Perché sind leichte Snacks beliebt?",
     "choices": [
       "Perché es nur für Deko wichtig ist",
@@ -2726,17 +2099,6 @@
     ],
     "a": 2,
     "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
-  },
-  {
-    "q": "Welche Bedeutung hat Qualität der Zutaten?",
-    "choices": [
-      "Riguarda solo l’aspetto",
-      "Riguarda solo la confezione",
-      "Ha un impatto evidente su gusto ed equilibrio",
-      "Non importa, basta che sia caldo"
-    ],
-    "a": 2,
-    "ex": "Risposta corretta: Ha un impatto evidente su gusto ed equilibrio. Nella pratica del bar, questo influisce direttamente sul risultato in tazza."
   },
   {
     "q": "Perché ergänzen knusprige Texturen Caffè gut?",
