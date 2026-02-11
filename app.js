@@ -230,7 +230,18 @@
     const all = Array.isArray(state.quiz) ? state.quiz : [];
     const pool = all.slice();
     shuffleInPlace(pool);
-    state.quizSession = pool.slice(0, Math.min(QUIZ_SESSION_SIZE, pool.length));
+    // Always build a 20-question session (duplicates only if there aren't enough unique questions).
+    if (pool.length === 0) {
+      state.quizSession = [];
+    } else if (pool.length >= QUIZ_SESSION_SIZE) {
+      state.quizSession = pool.slice(0, QUIZ_SESSION_SIZE);
+    } else {
+      const session = pool.slice();
+      while (session.length < QUIZ_SESSION_SIZE) {
+        session.push(pool[Math.floor(Math.random() * pool.length)]);
+      }
+      state.quizSession = session;
+    }
     state.quizIdx = 0;
     state.quizStarted = true;
   }
