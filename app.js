@@ -210,7 +210,30 @@
     quizIdx: 0,
     quizScore: 0,
     quizDone: false,
+    // quiz session state (no persistence)
+    quizStarted: false,
+    quizSession: null,
   };
+
+  const QUIZ_SESSION_SIZE = 20;
+
+  function shuffleInPlace(arr) {
+    // Fisher–Yates
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
+  function startQuizSession() {
+    const all = Array.isArray(state.quiz) ? state.quiz : [];
+    const pool = all.slice();
+    shuffleInPlace(pool);
+    state.quizSession = pool.slice(0, Math.min(QUIZ_SESSION_SIZE, pool.length));
+    state.quizIdx = 0;
+    state.quizStarted = true;
+  }
 
   function loadLang() {
     const fromLs = localStorage.getItem("cloud9_lang");
@@ -829,20 +852,20 @@ ${t.total}: ${money(cartTotal())}`;
 
   function renderQuiz() {
     const t = I18N[state.lang];
-    const qz = state.quiz;
-    if (!qz) return `<div class="card">Loading…</div>`;
+    if (!state.quiz) return `<div class="card">Loading…</div>`;
     if (!state.quizStarted) {
       return `<div class="card"><div class="h">${t.quiz}</div><button class="btn primary" id="startQuiz">${t.startQuiz}</button></div>`;
     }
+    const session = Array.isArray(state.quizSession) ? state.quizSession : [];
     const idx = state.quizIdx;
-    const cur = qz[idx];
+    const cur = session[idx];
     if (!cur) {
       return `<div class="card"><div class="h">${t.quiz}</div><div class="small">Done.</div></div>`;
     }
     const choices = cur.choices.map((c, i) => `<button class="btn" data-ans="${i}" style="text-align:left">${escapeHtml(c)}</button>`).join("");
     return `
       <div class="card">
-        <div class="h">${t.quiz} <span class="badge">${idx+1}/${qz.length}</span></div>
+        <div class="h">${t.quiz} <span class="badge">${idx+1}/${session.length}</span></div>
         <div style="font-weight:900;margin:12px 0 10px">${escapeHtml(cur.q)}</div>
         <div class="row" style="flex-direction:column;align-items:stretch">${choices}</div>
         <div id="quizFeedback" style="margin-top:12px"></div>
@@ -855,8 +878,8 @@ ${t.total}: ${money(cartTotal())}`;
     const start = document.getElementById("startQuiz");
     if (start) {
       start.onclick = () => {
-        state.quizStarted = true;
-        state.quizIdx = 0;
+        // New session each time, random 20 questions, nothing is persisted.
+        startQuizSession();
         renderRoute();
       };
       return;
@@ -864,7 +887,9 @@ ${t.total}: ${money(cartTotal())}`;
     document.querySelectorAll("[data-ans]").forEach(btn => {
       btn.onclick = () => {
         const idx = state.quizIdx;
-        const q = state.quiz[idx];
+        const session = Array.isArray(state.quizSession) ? state.quizSession : [];
+        const q = session[idx];
+        if (!q) return;
         const picked = Number(btn.getAttribute("data-ans"));
         const ok = picked === q.a;
         const fb = document.getElementById("quizFeedback");
@@ -872,12 +897,18 @@ ${t.total}: ${money(cartTotal())}`;
           <div class="chapter">
             <h3>${ok ? t.correct : t.wrong}</h3>
             <p>${escapeHtml(q.ex || "")}</p>
-            <button class="btn primary" id="nextBtn">${idx+1 < state.quiz.length ? t.next : t.again}</button>
+            <button class="btn primary" id="nextBtn">${idx+1 < session.length ? t.next : t.again}</button>
           </div>
         `;
         document.getElementById("nextBtn").onclick = () => {
-          if (idx+1 < state.quiz.length) state.quizIdx += 1;
-          else { state.quizStarted = false; state.quizIdx = 0; }
+          if (idx+1 < session.length) {
+            state.quizIdx += 1;
+          } else {
+            // end session
+            state.quizStarted = false;
+            state.quizIdx = 0;
+            state.quizSession = null;
+          }
           renderRoute();
         };
       };
@@ -1018,6 +1049,14 @@ async function loadNewsIntoList() {
 
 function renderRoute() {
     const route = hashRoute();
+
+    // Quiz should not be remembered when leaving the quiz page.
+    if (route !== "/quiz" && state.quizStarted) {
+      state.quizStarted = false;
+      state.quizIdx = 0;
+      state.quizSession = null;
+    }
+
     renderTabs();
     const view = el("view");
     if (route === "/home") view.innerHTML = renderHome();
