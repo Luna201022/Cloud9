@@ -13,13 +13,13 @@
   {
     "q": "Perché beeinflusst der Mahlgrad den Geschmack von Caffè?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché cambia solo l’aspetto della polvere",
+      "Perché cambia la velocità di estrazione e quindi il gusto",
+      "Perché conta solo per il rumore del macinacaffè",
+      "Perché serve solo a valutare la qualità dei chicchi"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "La macinatura controlla estrazione ed equilibrio degli aromi."
   },
   {
     "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
@@ -35,13 +35,13 @@
   {
     "q": "Perché sollte Caffè nicht mit kochendem Wasser gebrüht werden?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Brühzeit beim Filterkaffee?",
@@ -57,13 +57,13 @@
   {
     "q": "Perché sind frisch gemahlene Bohnen aromatischer?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
@@ -90,13 +90,13 @@
   {
     "q": "Perché ist sauberes Wasser wichtig für guten Caffè?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
@@ -112,13 +112,13 @@
   {
     "q": "Perché verlieren Bohnen nach dem Mahlen schnell Aroma?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was ist Crema bei Espresso?",
@@ -145,24 +145,24 @@
   {
     "q": "Perché schmeckt Caffè bei Überextraktion bitter?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché schmeckt Caffè bei Unterextraktion sauer?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
@@ -178,13 +178,13 @@
   {
     "q": "Perché sollte man Bohnen lichtgeschützt lagern?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
@@ -200,13 +200,13 @@
   {
     "q": "Perché ist Frische beim Caffè so wichtig?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Bohnenherkunft für das Aroma?",
@@ -222,13 +222,13 @@
   {
     "q": "Perché sind luftdichte Behälter sinnvoll für die Lagerung?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Cosa significa Blooming beim Filterkaffee?",
@@ -244,35 +244,35 @@
   {
     "q": "Perché ist das Verhältnis von Caffè zu Wasser wichtig?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché kann altes Wasser den Geschmack verfälschen?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist die Reinigung der Maschine wichtig für den Geschmack?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
@@ -288,13 +288,13 @@
   {
     "q": "Perché sollte man Caffèmehl gleichmäßig befeuchten?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Cosa significa Extraktion im Caffèkontext?",
@@ -310,24 +310,24 @@
   {
     "q": "Perché verändert sich Geschmack mit der Brühmethode?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist Mahlgradanpassung wichtig bei neuen Bohnen?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché cambia solo l’aspetto della polvere",
+      "Perché conta solo per il rumore del macinacaffè",
+      "Perché cambia la velocità di estrazione e quindi il gusto",
+      "Perché serve solo a valutare la qualità dei chicchi"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "La macinatura controlla estrazione ed equilibrio degli aromi."
   },
   {
     "q": "Che ruolo spielt die Kontaktzeit von Wasser und Caffè?",
@@ -343,13 +343,13 @@
   {
     "q": "Perché schmeckt kalter Caffè oft flacher?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
@@ -365,35 +365,35 @@
   {
     "q": "Perché beeinflusst der Druck den Espressogeschmack?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché können zu alte Bohnen fade schmecken?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist konstante Brühtemperatur wichtig?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was bewirkt eine längere Röstzeit?",
@@ -409,13 +409,13 @@
   {
     "q": "Perché sind frische Bohnen öliger?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Partikelgröße beim Mahlen?",
@@ -431,13 +431,13 @@
   {
     "q": "Perché sollte man Mühlen regelmäßig reinigen?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was bewirkt eine ungleichmäßige Extraktion?",
@@ -453,13 +453,13 @@
   {
     "q": "Perché kann Leitungswasser je nach Region unterschiedlich schmecken?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
@@ -475,24 +475,24 @@
   {
     "q": "Perché ist eine Waage beim Brühen hilfreich?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sollte man Bohnen nicht im Kühlschrank lagern?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Röstfrische für Crema?",
@@ -508,35 +508,35 @@
   {
     "q": "Perché beeinflusst die Brühmethode die Klarheit im Geschmack?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché kann Caffè metallisch schmecken?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist konstante Dosierung wichtig?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
@@ -552,24 +552,24 @@
   {
     "q": "Perché sind saubere Filter wichtig?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché beeinflusst die Wasserhärte den Geschmack?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was bewirkt Umrühren beim Blooming?",
@@ -585,13 +585,13 @@
   {
     "q": "Perché kann Caffè schal schmecken?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt der Röstgrad für Süße?",
@@ -607,13 +607,13 @@
   {
     "q": "Perché ist gleichmäßige Extraktion wichtig?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Cosa significa „sữa“ im vietnamesischen Caffè?",
@@ -651,13 +651,13 @@
   {
     "q": "Perché wird in Vietnam häufig Robusta verwendet?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was ist Cà phê sữa đá?",
@@ -673,13 +673,13 @@
   {
     "q": "Perché ist vietnamesischer Caffè oft kräftiger geröstet?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt gesüßte Kondensmilch im vietnamesischen Caffè?",
@@ -695,13 +695,13 @@
   {
     "q": "Perché wird Caffè in Vietnam häufig mit Ghiaccio serviert?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
@@ -728,35 +728,35 @@
   {
     "q": "Perché passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind Cafés in Vietnam soziale Treffpunkte?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché wird Caffè in Vietnam oft stark gesüßt?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Röstgrad bei vietnamesischem Caffè?",
@@ -805,13 +805,13 @@
   {
     "q": "Perché schmeckt vietnamesischer Caffè oft schokoladig?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Bedeutung hat Caffè für die vietnamesische Café-Kultur?",
@@ -838,13 +838,13 @@
   {
     "q": "Perché passt Kondensmilch gut zu Robusta?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Temperatur bei der Phin-Zubereitung?",
@@ -893,13 +893,13 @@
   {
     "q": "Perché kann vietnamesischer Caffè intensiver wirken?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
@@ -915,13 +915,13 @@
   {
     "q": "Perché wird Caffè in Vietnam oft draußen getrunken?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Ghiaccio bei der Erfrischung?",
@@ -937,13 +937,13 @@
   {
     "q": "Perché wird Caffè in Vietnam auch abends getrunken?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Milch für die Balance der Bitterkeit?",
@@ -959,13 +959,13 @@
   {
     "q": "Perché wird Caffè in Vietnam häufig als Ritual zelebriert?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Tasse für das Aroma?",
@@ -1003,13 +1003,13 @@
   {
     "q": "Perché ist vietnamesischer Caffè weltweit bekannt?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Zucchero im Geschmacksausgleich?",
@@ -1025,13 +1025,13 @@
   {
     "q": "Perché ist Robusta widerstandsfähiger im Anbau?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Bohnenherkunft in Vietnam?",
@@ -1047,13 +1047,13 @@
   {
     "q": "Perché ist Caffè in Vietnam oft stärker dosiert?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
@@ -1069,13 +1069,13 @@
   {
     "q": "Perché wird Caffè in Vietnam oft mit Gesprächen verbunden?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Kondensmilch für das Mundgefühl?",
@@ -1091,13 +1091,13 @@
   {
     "q": "Perché ist Ghiacciokaffee in Vietnam so beliebt?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
@@ -1135,24 +1135,24 @@
   {
     "q": "Perché wird Caffè in Vietnam häufig mit Freunden getrunken?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist Caffè Teil der Alltagskultur?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Brühtechnik für Konsistenz?",
@@ -1168,13 +1168,13 @@
   {
     "q": "Perché wird Caffè in Vietnam oft süßer serviert?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
@@ -1190,13 +1190,13 @@
   {
     "q": "Perché ist Caffè ein Treffpunkt-Getränk?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt das Glas bei Ghiacciokaffee?",
@@ -1212,13 +1212,13 @@
   {
     "q": "Perché passt Caffè gut zu süßen Snacks?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
@@ -1234,13 +1234,13 @@
   {
     "q": "Perché ist Robusta ertragreich?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Erntezeit für die Qualität?",
@@ -1256,24 +1256,24 @@
   {
     "q": "Perché ist vietnamesischer Caffè oft kräftig im Körper?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché wird Caffè in Vietnam oft draußen serviert?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Umgebung für den Genuss?",
@@ -1289,13 +1289,13 @@
   {
     "q": "Perché wird Caffè oft langsam getrunken?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Was zeichnet Phở aus?",
@@ -1311,13 +1311,13 @@
   {
     "q": "Perché werden in der vietnamesischen Küche frische Kräuter verwendet?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Reis in der vietnamesischen Küche?",
@@ -1333,24 +1333,24 @@
   {
     "q": "Perché sind vietnamesische Gerichte oft leicht und frisch?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché werden Speisen oft mit Limette serviert?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Fischsauce in der vietnamesischen Küche?",
@@ -1366,24 +1366,24 @@
   {
     "q": "Perché sind Kräuter wichtig für die Frische?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché werden Speisen oft mit frischem Gemüse kombiniert?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Brühe bei Suppengerichten?",
@@ -1399,13 +1399,13 @@
   {
     "q": "Perché ist Balance der Geschmäcker wichtig?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Süße in herzhaften Gerichten?",
@@ -1421,24 +1421,24 @@
   {
     "q": "Perché sind vietnamesische Gerichte oft nicht schwer?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché werden Gerichte oft individuell abgeschmeckt?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Frische bei Kräutern?",
@@ -1454,13 +1454,13 @@
   {
     "q": "Perché sind Nudeln aus Reis beliebt?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Knoblauch im Aroma?",
@@ -1476,24 +1476,24 @@
   {
     "q": "Perché werden Gerichte oft geteilt?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind Suppen in Vietnam beliebt?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Dampf beim Garen?",
@@ -1509,13 +1509,13 @@
   {
     "q": "Perché sind Gerichte oft leicht verdaulich?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Säure für Frische?",
@@ -1531,13 +1531,13 @@
   {
     "q": "Perché werden Speisen oft mit Kräutern serviert?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Bedeutung hat die Brühe für Phở?",
@@ -1553,13 +1553,13 @@
   {
     "q": "Perché ist die Küche regional vielfältig?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Frische für den Geschmack?",
@@ -1575,13 +1575,13 @@
   {
     "q": "Perché werden Zutaten oft roh ergänzt?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Texturkontrast?",
@@ -1597,24 +1597,24 @@
   {
     "q": "Perché sind Gerichte ausgewogen gewürzt?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind Kräuter ein fester Bestandteil?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Reis als Grundnahrungsmittel?",
@@ -1630,24 +1630,24 @@
   {
     "q": "Perché sind Gerichte oft leicht süßlich?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché werden Gerichte häufig mit Brühe serviert?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Temperatur beim Servieren?",
@@ -1663,13 +1663,13 @@
   {
     "q": "Perché sind Gerichte aromatisch, aber nicht schwer?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Frische der Zutaten?",
@@ -1685,24 +1685,24 @@
   {
     "q": "Perché werden Gerichte oft frisch zubereitet?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind Gerichte gut ausbalanciert?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt die Präsentation?",
@@ -1718,24 +1718,24 @@
   {
     "q": "Perché werden Speisen oft mit Kräutern garniert?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind Gerichte leicht bekömmlich?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt der Reno für Handel und Kultur?",
@@ -1751,13 +1751,13 @@
   {
     "q": "Perché wächst die Café-Kultur in vietnamesischen Städten?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Urbanisierung in Vietnam?",
@@ -1773,24 +1773,24 @@
   {
     "q": "Perché sind Start-ups in Vietnam im Aufschwung?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist Streetfood weiterhin beliebt?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielen soziale Medien im Alltag?",
@@ -1806,13 +1806,13 @@
   {
     "q": "Perché verbinden junge Menschen Tradition und Moderne?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 3,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Mobilität in Großstädten?",
@@ -1828,24 +1828,24 @@
   {
     "q": "Perché ist Nachhaltigkeit ein wachsendes Thema?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind Cafés Arbeitsorte geworden?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Kreativwirtschaft?",
@@ -1861,24 +1861,24 @@
   {
     "q": "Perché sind Co-Working-Spaces beliebt?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist Vietnam wirtschaftlich gewachsen?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Bildung für den Arbeitsmarkt?",
@@ -1894,24 +1894,24 @@
   {
     "q": "Perché sind junge Menschen offen für Neues?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist Tourismus wichtig für Städte?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Urban Gardening?",
@@ -1927,13 +1927,13 @@
   {
     "q": "Perché gewinnen lokale Marken an Bedeutung?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Welche Bedeutung hat Design in Cafés?",
@@ -1949,13 +1949,13 @@
   {
     "q": "Perché sind nachhaltige Konzepte gefragt?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
-    "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Digitalisierung?",
@@ -1971,24 +1971,24 @@
   {
     "q": "Perché ist Vietnam international vernetzt?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ist der Alltag schneller geworden?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
     ],
-    "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Gemeinschaft?",
@@ -2004,13 +2004,13 @@
   {
     "q": "Perché passen leichte Speisen gut zu Caffè?",
     "choices": [
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 2,
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Frische bei Snacks?",
@@ -2026,24 +2026,24 @@
   {
     "q": "Perché ergänzen herzhafte Snacks Caffè gut?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce solo sull’aspetto",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind frische Zutaten wichtig für Snacks?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 1,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Che ruolo spielt Textur bei kleinen Speisen?",
@@ -2059,24 +2059,24 @@
   {
     "q": "Perché passen Kräuter gut zu belegten Broten?",
     "choices": [
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt"
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza"
     ],
     "a": 0,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché sind leichte Snacks beliebt?",
     "choices": [
-      "Perché es nur für Deko wichtig ist",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur die Farbe verändert",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché saziano senza appesantire",
+      "Perché contengono automaticamente caffeina",
+      "Perché sono sempre senza zucchero",
+      "Perché si mangiano solo freddi"
     ],
-    "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "a": 0,
+    "ex": "Piacciono perché stanno bene con il caffè e non appesantiscono."
   },
   {
     "q": "Che ruolo spielt Präsentation bei kleinen Gerichten?",
@@ -2092,23 +2092,661 @@
   {
     "q": "Perché sind ausgewogene Aromen wichtig?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Perché es nur für Deko wichtig ist"
+      "Perché influisce solo sull’aspetto",
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile"
     ],
     "a": 2,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Questo fattore incide su estrazione e gusto."
   },
   {
     "q": "Perché ergänzen knusprige Texturen Caffè gut?",
     "choices": [
-      "Perché es nur die Farbe verändert",
-      "Perché es nur die Koffeinmenge verdoppelt",
-      "Perché es nur für Deko wichtig ist",
-      "Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Perché cambia solo la temperatura della tazza",
+      "Perché influisce su aroma, intensità ed equilibrio",
+      "Perché conta solo per il caffè solubile",
+      "Perché influisce solo sull’aspetto"
+    ],
+    "a": 1,
+    "ex": "Questo fattore incide su estrazione e gusto."
+  },
+  {
+    "q": "Cosa significa “sữa” in vietnamita?",
+    "choices": [
+      "filtro",
+      "zucchero",
+      "latte",
+      "ghiaccio"
+    ],
+    "a": 2,
+    "ex": "Corretto: latte."
+  },
+  {
+    "q": "Cosa significa “đá” in vietnamita?",
+    "choices": [
+      "latte",
+      "ghiaccio",
+      "caffè nero",
+      "dolce"
+    ],
+    "a": 1,
+    "ex": "Corretto: ghiaccio."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (Base)?",
+    "choices": [
+      "Circa 55–65°C",
+      "0–5°C",
+      "80–90°C",
+      "20–25°C"
+    ],
+    "a": 0,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (In pratica)?",
+    "choices": [
+      "20–25°C",
+      "Circa 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (Consiglio barista)?",
+    "choices": [
+      "20–25°C",
+      "0–5°C",
+      "80–90°C",
+      "Circa 55–65°C"
     ],
     "a": 3,
-    "ex": "Risposta corretta: Perché es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Questo fattore influenza estrazione/aroma e quindi il gusto."
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Base)?",
+    "choices": [
+      "Solo per la latte art",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Crea caffeina",
+      "Cambia solo il colore"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (In pratica)?",
+    "choices": [
+      "Solo per la latte art",
+      "Cambia solo il colore",
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto"
+    ],
+    "a": 3,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Consiglio barista)?",
+    "choices": [
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Cambia solo il colore",
+      "Solo per la latte art"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Base)?",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (In pratica)?",
+    "choices": [
+      "Per caramellare lo zucchero",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per raddoppiare la caffeina",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Consiglio barista)?",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per montare meglio il latte",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero"
+    ],
+    "a": 2,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu sauer?",
+    "choices": [
+      "Macinare più grosso e accorciare",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Acqua molto più fredda"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu sauer?",
+    "choices": [
+      "Acqua molto più fredda",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Macinare più grosso e accorciare"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu bitter?",
+    "choices": [
+      "Macinare più grosso o accorciare l’estrazione",
+      "Aumentare il tempo di contatto",
+      "Macinare più fine ed estrarre più a lungo",
+      "Acqua molto più calda"
+    ],
+    "a": 0,
+    "ex": "Corretto: Macinare più grosso o accorciare l’estrazione."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu bitter?",
+    "choices": [
+      "Aumentare il tempo di contatto",
+      "Macinare più fine ed estrarre più a lungo",
+      "Acqua molto più calda",
+      "Macinare più grosso o accorciare l’estrazione"
+    ],
+    "a": 3,
+    "ex": "Corretto: Macinare più grosso o accorciare l’estrazione."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu wässrig?",
+    "choices": [
+      "Aumentare la dose o macinare più fine",
+      "Estrarre più corto",
+      "Macinare più grosso",
+      "Ridurre la dose"
+    ],
+    "a": 0,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu wässrig?",
+    "choices": [
+      "Macinare più grosso",
+      "Estrarre più corto",
+      "Ridurre la dose",
+      "Aumentare la dose o macinare più fine"
+    ],
+    "a": 3,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu sauer? #1",
+    "choices": [
+      "Macinare più grosso e accorciare",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Acqua molto più fredda"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu bitter? #2",
+    "choices": [
+      "Aumentare il tempo di contatto",
+      "Macinare più fine ed estrarre più a lungo",
+      "Acqua molto più calda",
+      "Macinare più grosso o accorciare l’estrazione"
+    ],
+    "a": 3,
+    "ex": "Corretto: Macinare più grosso o accorciare l’estrazione."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Base)? #3",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Cosa significa “đá” in vietnamita? #4",
+    "choices": [
+      "latte",
+      "ghiaccio",
+      "caffè nero",
+      "dolce"
+    ],
+    "a": 1,
+    "ex": "Corretto: ghiaccio."
+  },
+  {
+    "q": "Cosa significa “đá” in vietnamita? #5",
+    "choices": [
+      "latte",
+      "ghiaccio",
+      "caffè nero",
+      "dolce"
+    ],
+    "a": 1,
+    "ex": "Corretto: ghiaccio."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Consiglio barista)? #6",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per montare meglio il latte",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero"
+    ],
+    "a": 2,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Base)? #7",
+    "choices": [
+      "Solo per la latte art",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Crea caffeina",
+      "Cambia solo il colore"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (Consiglio barista)? #8",
+    "choices": [
+      "20–25°C",
+      "0–5°C",
+      "80–90°C",
+      "Circa 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (In pratica)? #9",
+    "choices": [
+      "20–25°C",
+      "Circa 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (In pratica)? #10",
+    "choices": [
+      "20–25°C",
+      "Circa 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu bitter? #11",
+    "choices": [
+      "Macinare più grosso o accorciare l’estrazione",
+      "Aumentare il tempo di contatto",
+      "Macinare più fine ed estrarre più a lungo",
+      "Acqua molto più calda"
+    ],
+    "a": 0,
+    "ex": "Corretto: Macinare più grosso o accorciare l’estrazione."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Consiglio barista)? #12",
+    "choices": [
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Cambia solo il colore",
+      "Solo per la latte art"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (In pratica)? #13",
+    "choices": [
+      "Solo per la latte art",
+      "Cambia solo il colore",
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto"
+    ],
+    "a": 3,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu wässrig? #14",
+    "choices": [
+      "Macinare più grosso",
+      "Estrarre più corto",
+      "Ridurre la dose",
+      "Aumentare la dose o macinare più fine"
+    ],
+    "a": 3,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu wässrig? #15",
+    "choices": [
+      "Macinare più grosso",
+      "Estrarre più corto",
+      "Ridurre la dose",
+      "Aumentare la dose o macinare più fine"
+    ],
+    "a": 3,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu sauer? #16",
+    "choices": [
+      "Acqua molto più fredda",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Macinare più grosso e accorciare"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (In pratica)? #17",
+    "choices": [
+      "20–25°C",
+      "Circa 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (In pratica)? #18",
+    "choices": [
+      "Solo per la latte art",
+      "Cambia solo il colore",
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto"
+    ],
+    "a": 3,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu sauer? #19",
+    "choices": [
+      "Acqua molto più fredda",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Macinare più grosso e accorciare"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu wässrig? #20",
+    "choices": [
+      "Macinare più grosso",
+      "Estrarre più corto",
+      "Ridurre la dose",
+      "Aumentare la dose o macinare più fine"
+    ],
+    "a": 3,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (Consiglio barista)? #21",
+    "choices": [
+      "20–25°C",
+      "0–5°C",
+      "80–90°C",
+      "Circa 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Base)? #22",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Cosa significa “sữa” in vietnamita? #23",
+    "choices": [
+      "filtro",
+      "zucchero",
+      "latte",
+      "ghiaccio"
+    ],
+    "a": 2,
+    "ex": "Corretto: latte."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (In pratica)? #24",
+    "choices": [
+      "20–25°C",
+      "Circa 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (In pratica)? #25",
+    "choices": [
+      "Solo per la latte art",
+      "Cambia solo il colore",
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto"
+    ],
+    "a": 3,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu sauer? #26",
+    "choices": [
+      "Acqua molto più fredda",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Macinare più grosso e accorciare"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu wässrig? #27",
+    "choices": [
+      "Aumentare la dose o macinare più fine",
+      "Estrarre più corto",
+      "Macinare più grosso",
+      "Ridurre la dose"
+    ],
+    "a": 0,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Consiglio barista)? #28",
+    "choices": [
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Cambia solo il colore",
+      "Solo per la latte art"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Base)? #29",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Cosa significa “đá” in vietnamita? #30",
+    "choices": [
+      "latte",
+      "ghiaccio",
+      "caffè nero",
+      "dolce"
+    ],
+    "a": 1,
+    "ex": "Corretto: ghiaccio."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Base)? #31",
+    "choices": [
+      "Solo per la latte art",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Crea caffeina",
+      "Cambia solo il colore"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu wässrig? #32",
+    "choices": [
+      "Macinare più grosso",
+      "Estrarre più corto",
+      "Ridurre la dose",
+      "Aumentare la dose o macinare più fine"
+    ],
+    "a": 3,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Perché la qualità dell’acqua è importante per il caffè (Consiglio barista)? #33",
+    "choices": [
+      "Crea caffeina",
+      "È la maggior parte della bevanda e influenza estrazione e gusto",
+      "Cambia solo il colore",
+      "Solo per la latte art"
+    ],
+    "a": 1,
+    "ex": "Corretto: È la maggior parte della bevanda e influenza estrazione e gusto."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu bitter? #34",
+    "choices": [
+      "Macinare più grosso o accorciare l’estrazione",
+      "Aumentare il tempo di contatto",
+      "Macinare più fine ed estrarre più a lungo",
+      "Acqua molto più calda"
+    ],
+    "a": 0,
+    "ex": "Corretto: Macinare più grosso o accorciare l’estrazione."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Base)? #35",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu bitter? #36",
+    "choices": [
+      "Macinare più grosso o accorciare l’estrazione",
+      "Aumentare il tempo di contatto",
+      "Macinare più fine ed estrarre più a lungo",
+      "Acqua molto più calda"
+    ],
+    "a": 0,
+    "ex": "Corretto: Macinare più grosso o accorciare l’estrazione."
+  },
+  {
+    "q": "Quale azione ha senso per un caffè zu sauer? #37",
+    "choices": [
+      "Acqua molto più fredda",
+      "Macinare più fine o estrarre un po’ più a lungo",
+      "Ridurre molto la dose",
+      "Macinare più grosso e accorciare"
+    ],
+    "a": 1,
+    "ex": "Corretto: Macinare più fine o estrarre un po’ più a lungo."
+  },
+  {
+    "q": "Perché nel pour-over si fa spesso un breve “bloom” (Base)? #38",
+    "choices": [
+      "Per raddoppiare la caffeina",
+      "Per far uscire la CO₂ ed estrarre in modo più uniforme",
+      "Per caramellare lo zucchero",
+      "Per montare meglio il latte"
+    ],
+    "a": 1,
+    "ex": "Corretto: Per far uscire la CO₂ ed estrarre in modo più uniforme."
+  },
+  {
+    "q": "Cosa aiuta se il caffè è zu wässrig? #39",
+    "choices": [
+      "Aumentare la dose o macinare più fine",
+      "Estrarre più corto",
+      "Macinare più grosso",
+      "Ridurre la dose"
+    ],
+    "a": 0,
+    "ex": "Corretto: Aumentare la dose o macinare più fine."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (In pratica)? #40",
+    "choices": [
+      "20–25°C",
+      "Circa 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Corretto: Circa 55–65°C."
+  },
+  {
+    "q": "Qual è di solito la temperatura ideale per il latte montato (senza bruciarlo) (Consiglio barista)? #41",
+    "choices": [
+      "20–25°C",
+      "0–5°C",
+      "80–90°C",
+      "Circa 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Corretto: Circa 55–65°C."
   }
 ]

@@ -13,13 +13,13 @@
   {
     "q": "Pourquoi beeinflusst der Mahlgrad den Geschmack von Café ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça ne change que l’apparence de la mouture",
+      "Parce que ça compte seulement pour le bruit du moulin",
+      "Parce que ça sert seulement à évaluer la qualité des grains",
+      "Parce qu’il change la vitesse d’extraction et donc le goût"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "La mouture contrôle l’extraction et l’équilibre des arômes."
   },
   {
     "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
@@ -35,13 +35,13 @@
   {
     "q": "Pourquoi sollte Café nicht mit kochendem Wasser gebrüht werden ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence"
     ],
     "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Brühzeit beim Filterkaffee ?",
@@ -57,13 +57,13 @@
   {
     "q": "Pourquoi sind frisch gemahlene Bohnen aromatischer ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
@@ -90,13 +90,13 @@
   {
     "q": "Pourquoi ist sauberes Wasser wichtig für guten Café ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
@@ -112,13 +112,13 @@
   {
     "q": "Pourquoi verlieren Bohnen nach dem Mahlen schnell Aroma ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was ist Crema bei Espresso?",
@@ -145,24 +145,24 @@
   {
     "q": "Pourquoi schmeckt Café bei Überextraktion bitter ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi schmeckt Café bei Unterextraktion sauer ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
     "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
@@ -178,13 +178,13 @@
   {
     "q": "Pourquoi sollte man Bohnen lichtgeschützt lagern ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
@@ -200,13 +200,13 @@
   {
     "q": "Pourquoi ist Frische beim Café so wichtig ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Bohnenherkunft für das Aroma ?",
@@ -222,13 +222,13 @@
   {
     "q": "Pourquoi sind luftdichte Behälter sinnvoll für die Lagerung ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Que signifie Blooming beim Filterkaffee ?",
@@ -244,13 +244,13 @@
   {
     "q": "Pourquoi ist das Verhältnis von Café zu Wasser wichtig ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Aromen können bei Café auftreten?",
@@ -266,24 +266,24 @@
   {
     "q": "Pourquoi kann altes Wasser den Geschmack verfälschen ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi ist die Reinigung der Maschine wichtig für den Geschmack ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
@@ -299,13 +299,13 @@
   {
     "q": "Pourquoi sollte man Cafémehl gleichmäßig befeuchten ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Que signifie Extraktion im Cafékontext ?",
@@ -321,24 +321,24 @@
   {
     "q": "Pourquoi verändert sich Geschmack mit der Brühmethode ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi ist Mahlgradanpassung wichtig bei neuen Bohnen ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça sert seulement à évaluer la qualité des grains",
+      "Parce qu’il change la vitesse d’extraction et donc le goût",
+      "Parce que ça compte seulement pour le bruit du moulin",
+      "Parce que ça ne change que l’apparence de la mouture"
     ],
     "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "La mouture contrôle l’extraction et l’équilibre des arômes."
   },
   {
     "q": "Quel rôle spielt die Kontaktzeit von Wasser und Café ?",
@@ -354,13 +354,13 @@
   {
     "q": "Pourquoi schmeckt kalter Café oft flacher ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
@@ -376,24 +376,24 @@
   {
     "q": "Pourquoi beeinflusst der Druck den Espressogeschmack ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi können zu alte Bohnen fade schmecken ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat Sauerstoff auf Caféaromen?",
@@ -409,13 +409,13 @@
   {
     "q": "Pourquoi ist konstante Brühtemperatur wichtig ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was bewirkt eine längere Röstzeit?",
@@ -431,13 +431,13 @@
   {
     "q": "Pourquoi sind frische Bohnen öliger ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Partikelgröße beim Mahlen ?",
@@ -453,13 +453,13 @@
   {
     "q": "Pourquoi sollte man Mühlen regelmäßig reinigen ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was bewirkt eine ungleichmäßige Extraktion?",
@@ -475,13 +475,13 @@
   {
     "q": "Pourquoi kann Leitungswasser je nach Region unterschiedlich schmecken ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
@@ -497,24 +497,24 @@
   {
     "q": "Pourquoi ist eine Waage beim Brühen hilfreich ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi sollte man Bohnen nicht im Kühlschrank lagern ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Röstfrische für Crema ?",
@@ -530,13 +530,13 @@
   {
     "q": "Pourquoi beeinflusst die Brühmethode die Klarheit im Geschmack ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was bewirkt längere Vorinfusion?",
@@ -552,24 +552,24 @@
   {
     "q": "Pourquoi kann Café metallisch schmecken ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi ist konstante Dosierung wichtig ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
@@ -585,24 +585,24 @@
   {
     "q": "Pourquoi sind saubere Filter wichtig ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Pourquoi beeinflusst die Wasserhärte den Geschmack ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
     "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was bewirkt Umrühren beim Blooming?",
@@ -618,13 +618,13 @@
   {
     "q": "Pourquoi kann Café schal schmecken ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
     "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt der Röstgrad für Süße ?",
@@ -640,13 +640,13 @@
   {
     "q": "Pourquoi ist gleichmäßige Extraktion wichtig ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Que signifie „sữa“ im vietnamesischen Café ?",
@@ -673,13 +673,13 @@
   {
     "q": "Pourquoi wird in Vietnam häufig Robusta verwendet ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was ist Cà phê sữa đá?",
@@ -695,13 +695,13 @@
   {
     "q": "Pourquoi ist vietnamesischer Café oft kräftiger geröstet ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
     "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt gesüßte Kondensmilch im vietnamesischen Café ?",
@@ -717,13 +717,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam häufig mit Glace serviert ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
@@ -750,13 +750,13 @@
   {
     "q": "Pourquoi passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Café im vietnamesischen Alltag?",
@@ -772,13 +772,13 @@
   {
     "q": "Pourquoi sind Cafés in Vietnam soziale Treffpunkte ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse"
     ],
     "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Wie beeinflusst Glace den Geschmack von Café?",
@@ -794,13 +794,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam oft stark gesüßt ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Röstgrad bei vietnamesischem Café ?",
@@ -849,13 +849,13 @@
   {
     "q": "Pourquoi schmeckt vietnamesischer Café oft schokoladig ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Café für die vietnamesische Café-Kultur?",
@@ -882,13 +882,13 @@
   {
     "q": "Pourquoi passt Kondensmilch gut zu Robusta ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
     "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Temperatur bei der Phin-Zubereitung ?",
@@ -937,13 +937,13 @@
   {
     "q": "Pourquoi kann vietnamesischer Café intensiver wirken ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
@@ -959,13 +959,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam oft draußen getrunken ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Glace bei der Erfrischung ?",
@@ -981,13 +981,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam auch abends getrunken ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Milch für die Balance der Bitterkeit ?",
@@ -1003,13 +1003,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam häufig als Ritual zelebriert ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
     "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Tasse für das Aroma ?",
@@ -1047,13 +1047,13 @@
   {
     "q": "Pourquoi ist vietnamesischer Café weltweit bekannt ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Sucre im Geschmacksausgleich ?",
@@ -1069,13 +1069,13 @@
   {
     "q": "Pourquoi ist Robusta widerstandsfähiger im Anbau ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Bohnenherkunft in Vietnam ?",
@@ -1091,13 +1091,13 @@
   {
     "q": "Pourquoi ist Café in Vietnam oft stärker dosiert ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
@@ -1113,13 +1113,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam oft mit Gesprächen verbunden ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Kondensmilch für das Mundgefühl ?",
@@ -1135,13 +1135,13 @@
   {
     "q": "Pourquoi ist Glacekaffee in Vietnam so beliebt ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
@@ -1179,13 +1179,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam häufig mit Freunden getrunken ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
@@ -1201,13 +1201,13 @@
   {
     "q": "Pourquoi ist Café Teil der Alltagskultur ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Brühtechnik für Konsistenz ?",
@@ -1223,13 +1223,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam oft süßer serviert ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
@@ -1245,13 +1245,13 @@
   {
     "q": "Pourquoi ist Café ein Treffpunkt-Getränk ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt das Glas bei Glacekaffee ?",
@@ -1267,13 +1267,13 @@
   {
     "q": "Pourquoi passt Café gut zu süßen Snacks ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
@@ -1289,13 +1289,13 @@
   {
     "q": "Pourquoi ist Robusta ertragreich ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Erntezeit für die Qualität ?",
@@ -1311,13 +1311,13 @@
   {
     "q": "Pourquoi ist vietnamesischer Café oft kräftig im Körper ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat die Präsentation im Glas?",
@@ -1333,13 +1333,13 @@
   {
     "q": "Pourquoi wird Café in Vietnam oft draußen serviert ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Umgebung für den Genuss ?",
@@ -1355,13 +1355,13 @@
   {
     "q": "Pourquoi wird Café oft langsam getrunken ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Wirkung hat Geduld auf den Genuss?",
@@ -1388,13 +1388,13 @@
   {
     "q": "Pourquoi werden in der vietnamesischen Küche frische Kräuter verwendet ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Reis in der vietnamesischen Küche ?",
@@ -1410,13 +1410,13 @@
   {
     "q": "Pourquoi sind vietnamesische Gerichte oft leicht und frisch ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
@@ -1432,13 +1432,13 @@
   {
     "q": "Pourquoi werden Speisen oft mit Limette serviert ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Fischsauce in der vietnamesischen Küche ?",
@@ -1454,13 +1454,13 @@
   {
     "q": "Pourquoi sind Kräuter wichtig für die Frische ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
@@ -1476,13 +1476,13 @@
   {
     "q": "Pourquoi werden Speisen oft mit frischem Gemüse kombiniert ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Brühe bei Suppengerichten ?",
@@ -1498,13 +1498,13 @@
   {
     "q": "Pourquoi ist Balance der Geschmäcker wichtig ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
     "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Süße in herzhaften Gerichten ?",
@@ -1520,13 +1520,13 @@
   {
     "q": "Pourquoi sind vietnamesische Gerichte oft nicht schwer ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
@@ -1542,13 +1542,13 @@
   {
     "q": "Pourquoi werden Gerichte oft individuell abgeschmeckt ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Frische bei Kräutern ?",
@@ -1564,13 +1564,13 @@
   {
     "q": "Pourquoi sind Nudeln aus Reis beliebt ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Knoblauch im Aroma ?",
@@ -1586,13 +1586,13 @@
   {
     "q": "Pourquoi werden Gerichte oft geteilt ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen?",
@@ -1608,13 +1608,13 @@
   {
     "q": "Pourquoi sind Suppen in Vietnam beliebt ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Dampf beim Garen ?",
@@ -1630,13 +1630,13 @@
   {
     "q": "Pourquoi sind Gerichte oft leicht verdaulich ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
     "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Säure für Frische ?",
@@ -1652,13 +1652,13 @@
   {
     "q": "Pourquoi werden Speisen oft mit Kräutern serviert ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat die Brühe für Phở?",
@@ -1674,13 +1674,13 @@
   {
     "q": "Pourquoi ist die Küche regional vielfältig ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Frische für den Geschmack ?",
@@ -1696,13 +1696,13 @@
   {
     "q": "Pourquoi werden Zutaten oft roh ergänzt ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Texturkontrast ?",
@@ -1718,13 +1718,13 @@
   {
     "q": "Pourquoi sind Gerichte ausgewogen gewürzt ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
@@ -1740,13 +1740,13 @@
   {
     "q": "Pourquoi sind Kräuter ein fester Bestandteil ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Reis als Grundnahrungsmittel ?",
@@ -1762,13 +1762,13 @@
   {
     "q": "Pourquoi sind Gerichte oft leicht süßlich ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Umami?",
@@ -1784,13 +1784,13 @@
   {
     "q": "Pourquoi werden Gerichte häufig mit Brühe serviert ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Temperatur beim Servieren ?",
@@ -1806,13 +1806,13 @@
   {
     "q": "Pourquoi sind Gerichte aromatisch, aber nicht schwer ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Frische der Zutaten ?",
@@ -1828,13 +1828,13 @@
   {
     "q": "Pourquoi werden Gerichte oft frisch zubereitet ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Vielfalt der Aromen?",
@@ -1850,13 +1850,13 @@
   {
     "q": "Pourquoi sind Gerichte gut ausbalanciert ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt die Präsentation ?",
@@ -1872,13 +1872,13 @@
   {
     "q": "Pourquoi werden Speisen oft mit Kräutern garniert ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Regionalität?",
@@ -1894,13 +1894,13 @@
   {
     "q": "Pourquoi sind Gerichte leicht bekömmlich ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt der Rhin für Handel und Kultur ?",
@@ -1927,13 +1927,13 @@
   {
     "q": "Pourquoi wächst die Café-Kultur in vietnamesischen Städten ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Urbanisierung in Vietnam ?",
@@ -1949,13 +1949,13 @@
   {
     "q": "Pourquoi sind Start-ups in Vietnam im Aufschwung ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
@@ -1971,13 +1971,13 @@
   {
     "q": "Pourquoi ist Streetfood weiterhin beliebt ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielen soziale Medien im Alltag ?",
@@ -1993,13 +1993,13 @@
   {
     "q": "Pourquoi verbinden junge Menschen Tradition und Moderne ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Tourismus für Vietnam?",
@@ -2026,13 +2026,13 @@
   {
     "q": "Pourquoi ist Nachhaltigkeit ein wachsendes Thema ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Technologie im Alltag?",
@@ -2048,13 +2048,13 @@
   {
     "q": "Pourquoi sind Cafés Arbeitsorte geworden ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Kreativwirtschaft ?",
@@ -2070,13 +2070,13 @@
   {
     "q": "Pourquoi sind Co-Working-Spaces beliebt ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
     "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat internationale Küche?",
@@ -2092,13 +2092,13 @@
   {
     "q": "Pourquoi ist Vietnam wirtschaftlich gewachsen ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Bildung für den Arbeitsmarkt ?",
@@ -2114,13 +2114,13 @@
   {
     "q": "Pourquoi sind junge Menschen offen für Neues ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Kultur für Identität?",
@@ -2136,13 +2136,13 @@
   {
     "q": "Pourquoi ist Tourismus wichtig für Städte ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 0,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Urban Gardening ?",
@@ -2158,13 +2158,13 @@
   {
     "q": "Pourquoi gewinnen lokale Marken an Bedeutung ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Design in Cafés?",
@@ -2180,13 +2180,13 @@
   {
     "q": "Pourquoi sind nachhaltige Konzepte gefragt ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 2,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Digitalisierung ?",
@@ -2202,13 +2202,13 @@
   {
     "q": "Pourquoi ist Vietnam international vernetzt ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Unternehmertum?",
@@ -2224,13 +2224,13 @@
   {
     "q": "Pourquoi ist der Alltag schneller geworden ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Gemeinschaft ?",
@@ -2257,13 +2257,13 @@
   {
     "q": "Pourquoi passen leichte Speisen gut zu Café ?",
     "choices": [
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Frische bei Snacks ?",
@@ -2279,13 +2279,13 @@
   {
     "q": "Pourquoi ergänzen herzhafte Snacks Café gut ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
@@ -2301,13 +2301,13 @@
   {
     "q": "Pourquoi sind frische Zutaten wichtig für Snacks ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Quel rôle spielt Textur bei kleinen Speisen ?",
@@ -2323,13 +2323,13 @@
   {
     "q": "Pourquoi passen Kräuter gut zu belegten Broten ?",
     "choices": [
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que c’est seulement pour le café instantané"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Frische für den Genuss?",
@@ -2345,13 +2345,13 @@
   {
     "q": "Pourquoi sind leichte Snacks beliebt ?",
     "choices": [
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur die Farbe verändert",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce qu’ils contiennent automatiquement de la caféine",
+      "Parce qu’ils sont toujours sans sucre",
+      "Parce qu’ils doivent être mangés froids",
+      "Parce qu’ils rassasient sans être lourds"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Ils sont appréciés car ils accompagnent bien le café sans alourdir."
   },
   {
     "q": "Quel rôle spielt Präsentation bei kleinen Gerichten ?",
@@ -2367,13 +2367,13 @@
   {
     "q": "Pourquoi sind ausgewogene Aromen wichtig ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Parce que es nur für Deko wichtig ist"
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que ça n’influence que l’apparence",
+      "Parce que cela influence l’arôme, la force et l’équilibre"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "a": 3,
+    "ex": "Ce facteur impacte l’extraction et le goût."
   },
   {
     "q": "Welche Bedeutung hat Qualität der Zutaten?",
@@ -2389,12 +2389,364 @@
   {
     "q": "Pourquoi ergänzen knusprige Texturen Café gut ?",
     "choices": [
-      "Parce que es nur die Farbe verändert",
-      "Parce que es nur die Koffeinmenge verdoppelt",
-      "Parce que es nur für Deko wichtig ist",
-      "Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Parce que ça ne change que la température de la tasse",
+      "Parce que cela influence l’arôme, la force et l’équilibre",
+      "Parce que c’est seulement pour le café instantané",
+      "Parce que ça n’influence que l’apparence"
+    ],
+    "a": 1,
+    "ex": "Ce facteur impacte l’extraction et le goût."
+  },
+  {
+    "q": "Que signifie « sữa » en vietnamien ?",
+    "choices": [
+      "filtre",
+      "lait",
+      "sucre",
+      "glace"
+    ],
+    "a": 1,
+    "ex": "Bonne réponse : lait."
+  },
+  {
+    "q": "Que signifie « đá » en vietnamien ?",
+    "choices": [
+      "café noir",
+      "lait",
+      "glace",
+      "sucré"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : glace."
+  },
+  {
+    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (Bases)?",
+    "choices": [
+      "Environ 55–65°C",
+      "20–25°C",
+      "0–5°C",
+      "80–90°C"
+    ],
+    "a": 0,
+    "ex": "Bonne réponse : Environ 55–65°C."
+  },
+  {
+    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (En pratique)?",
+    "choices": [
+      "80–90°C",
+      "20–25°C",
+      "Environ 55–65°C",
+      "0–5°C"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Environ 55–65°C."
+  },
+  {
+    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (Astuce barista)?",
+    "choices": [
+      "80–90°C",
+      "20–25°C",
+      "0–5°C",
+      "Environ 55–65°C"
     ],
     "a": 3,
-    "ex": "Bonne réponse : Parce que es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Ce facteur influence l’extraction/l’arôme et donc le goût."
+    "ex": "Bonne réponse : Environ 55–65°C."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Bases)?",
+    "choices": [
+      "Ça crée la caféine",
+      "Seulement pour le latte art",
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça ne change que la couleur"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (En pratique)?",
+    "choices": [
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça ne change que la couleur",
+      "Ça crée la caféine",
+      "Seulement pour le latte art"
+    ],
+    "a": 0,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Astuce barista)?",
+    "choices": [
+      "Ça ne change que la couleur",
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça crée la caféine",
+      "Seulement pour le latte art"
+    ],
+    "a": 1,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Bases)?",
+    "choices": [
+      "Pour doubler la caféine",
+      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
+      "Pour mieux mousser le lait",
+      "Pour caraméliser le sucre"
+    ],
+    "a": 1,
+    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+  },
+  {
+    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (En pratique)?",
+    "choices": [
+      "Pour doubler la caféine",
+      "Pour mieux mousser le lait",
+      "Pour caraméliser le sucre",
+      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+  },
+  {
+    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Astuce barista)?",
+    "choices": [
+      "Pour doubler la caféine",
+      "Pour mieux mousser le lait",
+      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
+      "Pour caraméliser le sucre"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+  },
+  {
+    "q": "Que faire si le café est zu sauer ?",
+    "choices": [
+      "Moudre plus gros et raccourcir l’extraction",
+      "Réduire fortement la dose",
+      "Moudre plus fin ou extraire un peu plus longtemps",
+      "Eau beaucoup plus froide"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Moudre plus fin ou extraire un peu plus longtemps."
+  },
+  {
+    "q": "Quelle action est pertinente pour un café zu sauer ?",
+    "choices": [
+      "Réduire fortement la dose",
+      "Moudre plus fin ou extraire un peu plus longtemps",
+      "Moudre plus gros et raccourcir l’extraction",
+      "Eau beaucoup plus froide"
+    ],
+    "a": 1,
+    "ex": "Bonne réponse : Moudre plus fin ou extraire un peu plus longtemps."
+  },
+  {
+    "q": "Que faire si le café est zu bitter ?",
+    "choices": [
+      "Moudre plus fin et extraire plus longtemps",
+      "Eau beaucoup plus chaude",
+      "Moudre plus gros ou réduire l’extraction",
+      "Augmenter le temps de contact"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Moudre plus gros ou réduire l’extraction."
+  },
+  {
+    "q": "Quelle action est pertinente pour un café zu bitter ?",
+    "choices": [
+      "Augmenter le temps de contact",
+      "Moudre plus fin et extraire plus longtemps",
+      "Moudre plus gros ou réduire l’extraction",
+      "Eau beaucoup plus chaude"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Moudre plus gros ou réduire l’extraction."
+  },
+  {
+    "q": "Que faire si le café est zu wässrig ?",
+    "choices": [
+      "Baisser la dose",
+      "Extraire plus court",
+      "Moudre plus gros",
+      "Augmenter la dose ou moudre plus fin"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+  },
+  {
+    "q": "Quelle action est pertinente pour un café zu wässrig ?",
+    "choices": [
+      "Augmenter la dose ou moudre plus fin",
+      "Moudre plus gros",
+      "Baisser la dose",
+      "Extraire plus court"
+    ],
+    "a": 0,
+    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+  },
+  {
+    "q": "Que faire si le café est zu wässrig ? #1",
+    "choices": [
+      "Baisser la dose",
+      "Extraire plus court",
+      "Moudre plus gros",
+      "Augmenter la dose ou moudre plus fin"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+  },
+  {
+    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (En pratique)? #2",
+    "choices": [
+      "Pour doubler la caféine",
+      "Pour mieux mousser le lait",
+      "Pour caraméliser le sucre",
+      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+  },
+  {
+    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Bases)? #3",
+    "choices": [
+      "Pour doubler la caféine",
+      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
+      "Pour mieux mousser le lait",
+      "Pour caraméliser le sucre"
+    ],
+    "a": 1,
+    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+  },
+  {
+    "q": "Que faire si le café est zu wässrig ? #4",
+    "choices": [
+      "Baisser la dose",
+      "Extraire plus court",
+      "Moudre plus gros",
+      "Augmenter la dose ou moudre plus fin"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (En pratique)? #5",
+    "choices": [
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça ne change que la couleur",
+      "Ça crée la caféine",
+      "Seulement pour le latte art"
+    ],
+    "a": 0,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Que faire si le café est zu wässrig ? #6",
+    "choices": [
+      "Baisser la dose",
+      "Extraire plus court",
+      "Moudre plus gros",
+      "Augmenter la dose ou moudre plus fin"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+  },
+  {
+    "q": "Que faire si le café est zu sauer ? #7",
+    "choices": [
+      "Moudre plus gros et raccourcir l’extraction",
+      "Réduire fortement la dose",
+      "Moudre plus fin ou extraire un peu plus longtemps",
+      "Eau beaucoup plus froide"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Moudre plus fin ou extraire un peu plus longtemps."
+  },
+  {
+    "q": "Que faire si le café est zu wässrig ? #8",
+    "choices": [
+      "Baisser la dose",
+      "Extraire plus court",
+      "Moudre plus gros",
+      "Augmenter la dose ou moudre plus fin"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Astuce barista)? #9",
+    "choices": [
+      "Ça ne change que la couleur",
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça crée la caféine",
+      "Seulement pour le latte art"
+    ],
+    "a": 1,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Astuce barista)? #10",
+    "choices": [
+      "Pour doubler la caféine",
+      "Pour mieux mousser le lait",
+      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
+      "Pour caraméliser le sucre"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Bases)? #11",
+    "choices": [
+      "Ça crée la caféine",
+      "Seulement pour le latte art",
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça ne change que la couleur"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Bases)? #12",
+    "choices": [
+      "Ça crée la caféine",
+      "Seulement pour le latte art",
+      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
+      "Ça ne change que la couleur"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+  },
+  {
+    "q": "Quelle action est pertinente pour un café zu bitter ? #13",
+    "choices": [
+      "Augmenter le temps de contact",
+      "Moudre plus fin et extraire plus longtemps",
+      "Moudre plus gros ou réduire l’extraction",
+      "Eau beaucoup plus chaude"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : Moudre plus gros ou réduire l’extraction."
+  },
+  {
+    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (Astuce barista)? #14",
+    "choices": [
+      "80–90°C",
+      "20–25°C",
+      "0–5°C",
+      "Environ 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Bonne réponse : Environ 55–65°C."
+  },
+  {
+    "q": "Que signifie « đá » en vietnamien ? #15",
+    "choices": [
+      "café noir",
+      "lait",
+      "glace",
+      "sucré"
+    ],
+    "a": 2,
+    "ex": "Bonne réponse : glace."
   }
 ]

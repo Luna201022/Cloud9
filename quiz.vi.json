@@ -13,13 +13,13 @@
   {
     "q": "Tại sao beeinflusst der Mahlgrad den Geschmack von Cà phê?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ liên quan tiếng ồn của máy xay",
+      "Vì độ mịn ảnh hưởng tốc độ chiết xuất và hương vị",
+      "Vì chỉ để đánh giá chất lượng hạt",
+      "Vì chỉ làm bột nhìn khác đi"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Độ mịn quyết định chiết xuất và độ cân bằng hương vị."
   },
   {
     "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
@@ -35,13 +35,13 @@
   {
     "q": "Tại sao sollte Cà phê nicht mit kochendem Wasser gebrüht werden?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Brühzeit beim Filterkaffee là gì?",
@@ -57,13 +57,13 @@
   {
     "q": "Tại sao sind frisch gemahlene Bohnen aromatischer?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
@@ -90,13 +90,13 @@
   {
     "q": "Tại sao ist sauberes Wasser wichtig für guten Cà phê?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
@@ -112,13 +112,13 @@
   {
     "q": "Tại sao verlieren Bohnen nach dem Mahlen schnell Aroma?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was ist Crema bei Espresso?",
@@ -145,24 +145,24 @@
   {
     "q": "Tại sao schmeckt Cà phê bei Überextraktion bitter?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao schmeckt Cà phê bei Unterextraktion sauer?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
@@ -178,13 +178,13 @@
   {
     "q": "Tại sao sollte man Bohnen lichtgeschützt lagern?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
@@ -200,13 +200,13 @@
   {
     "q": "Tại sao ist Frische beim Cà phê so wichtig?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Bohnenherkunft für das Aroma là gì?",
@@ -222,13 +222,13 @@
   {
     "q": "Tại sao sind luftdichte Behälter sinnvoll für die Lagerung?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "“Blooming beim Filterkaffee” nghĩa là gì?",
@@ -244,13 +244,13 @@
   {
     "q": "Tại sao ist das Verhältnis von Cà phê zu Wasser wichtig?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Aromen können bei Cà phê auftreten?",
@@ -266,24 +266,24 @@
   {
     "q": "Tại sao kann altes Wasser den Geschmack verfälschen?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao ist die Reinigung der Maschine wichtig für den Geschmack?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
@@ -299,13 +299,13 @@
   {
     "q": "Tại sao sollte man Cà phêmehl gleichmäßig befeuchten?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "“Extraktion im Cà phêkontext” nghĩa là gì?",
@@ -321,24 +321,24 @@
   {
     "q": "Tại sao verändert sich Geschmack mit der Brühmethode?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao ist Mahlgradanpassung wichtig bei neuen Bohnen?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ để đánh giá chất lượng hạt",
+      "Vì chỉ làm bột nhìn khác đi",
+      "Vì độ mịn ảnh hưởng tốc độ chiết xuất và hương vị",
+      "Vì chỉ liên quan tiếng ồn của máy xay"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Độ mịn quyết định chiết xuất và độ cân bằng hương vị."
   },
   {
     "q": "Vai trò của spielt die Kontaktzeit von Wasser und Cà phê là gì?",
@@ -354,13 +354,13 @@
   {
     "q": "Tại sao schmeckt kalter Cà phê oft flacher?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
@@ -376,24 +376,24 @@
   {
     "q": "Tại sao beeinflusst der Druck den Espressogeschmack?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao können zu alte Bohnen fade schmecken?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat Sauerstoff auf Cà phêaromen?",
@@ -409,13 +409,13 @@
   {
     "q": "Tại sao ist konstante Brühtemperatur wichtig?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was bewirkt eine längere Röstzeit?",
@@ -431,13 +431,13 @@
   {
     "q": "Tại sao sind frische Bohnen öliger?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Partikelgröße beim Mahlen là gì?",
@@ -453,13 +453,13 @@
   {
     "q": "Tại sao sollte man Mühlen regelmäßig reinigen?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was bewirkt eine ungleichmäßige Extraktion?",
@@ -475,13 +475,13 @@
   {
     "q": "Tại sao kann Leitungswasser je nach Region unterschiedlich schmecken?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
@@ -497,24 +497,24 @@
   {
     "q": "Tại sao ist eine Waage beim Brühen hilfreich?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao sollte man Bohnen nicht im Kühlschrank lagern?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Röstfrische für Crema là gì?",
@@ -530,13 +530,13 @@
   {
     "q": "Tại sao beeinflusst die Brühmethode die Klarheit im Geschmack?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was bewirkt längere Vorinfusion?",
@@ -552,24 +552,24 @@
   {
     "q": "Tại sao kann Cà phê metallisch schmecken?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao ist konstante Dosierung wichtig?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
@@ -585,24 +585,24 @@
   {
     "q": "Tại sao sind saubere Filter wichtig?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Tại sao beeinflusst die Wasserhärte den Geschmack?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was bewirkt Umrühren beim Blooming?",
@@ -618,13 +618,13 @@
   {
     "q": "Tại sao kann Cà phê schal schmecken?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt der Röstgrad für Süße là gì?",
@@ -640,13 +640,13 @@
   {
     "q": "Tại sao ist gleichmäßige Extraktion wichtig?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "“„sữa“ im vietnamesischen Cà phê” nghĩa là gì?",
@@ -684,13 +684,13 @@
   {
     "q": "Tại sao wird in Vietnam häufig Robusta verwendet?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was ist Cà phê sữa đá?",
@@ -706,13 +706,13 @@
   {
     "q": "Tại sao ist vietnamesischer Cà phê oft kräftiger geröstet?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt gesüßte Kondensmilch im vietnamesischen Cà phê là gì?",
@@ -728,13 +728,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam häufig mit Đá serviert?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
@@ -761,13 +761,13 @@
   {
     "q": "Tại sao passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Cà phê im vietnamesischen Alltag?",
@@ -783,13 +783,13 @@
   {
     "q": "Tại sao sind Cafés in Vietnam soziale Treffpunkte?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Wie beeinflusst Đá den Geschmack von Cà phê?",
@@ -805,13 +805,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam oft stark gesüßt?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Röstgrad bei vietnamesischem Cà phê là gì?",
@@ -860,13 +860,13 @@
   {
     "q": "Tại sao schmeckt vietnamesischer Cà phê oft schokoladig?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Cà phê für die vietnamesische Café-Kultur?",
@@ -893,13 +893,13 @@
   {
     "q": "Tại sao passt Kondensmilch gut zu Robusta?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Temperatur bei der Phin-Zubereitung là gì?",
@@ -948,13 +948,13 @@
   {
     "q": "Tại sao kann vietnamesischer Cà phê intensiver wirken?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
@@ -970,13 +970,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam oft draußen getrunken?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Đá bei der Erfrischung là gì?",
@@ -992,13 +992,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam auch abends getrunken?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Milch für die Balance der Bitterkeit là gì?",
@@ -1014,13 +1014,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam häufig als Ritual zelebriert?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Tasse für das Aroma là gì?",
@@ -1058,13 +1058,13 @@
   {
     "q": "Tại sao ist vietnamesischer Cà phê weltweit bekannt?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Đường im Geschmacksausgleich là gì?",
@@ -1080,13 +1080,13 @@
   {
     "q": "Tại sao ist Robusta widerstandsfähiger im Anbau?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Bohnenherkunft in Vietnam là gì?",
@@ -1102,13 +1102,13 @@
   {
     "q": "Tại sao ist Cà phê in Vietnam oft stärker dosiert?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
@@ -1124,13 +1124,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam oft mit Gesprächen verbunden?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Kondensmilch für das Mundgefühl là gì?",
@@ -1146,13 +1146,13 @@
   {
     "q": "Tại sao ist Đákaffee in Vietnam so beliebt?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
@@ -1190,13 +1190,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam häufig mit Freunden getrunken?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
@@ -1212,13 +1212,13 @@
   {
     "q": "Tại sao ist Cà phê Teil der Alltagskultur?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Brühtechnik für Konsistenz là gì?",
@@ -1234,13 +1234,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam oft süßer serviert?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
@@ -1256,13 +1256,13 @@
   {
     "q": "Tại sao ist Cà phê ein Treffpunkt-Getränk?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt das Glas bei Đákaffee là gì?",
@@ -1278,13 +1278,13 @@
   {
     "q": "Tại sao passt Cà phê gut zu süßen Snacks?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
@@ -1300,13 +1300,13 @@
   {
     "q": "Tại sao ist Robusta ertragreich?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Erntezeit für die Qualität là gì?",
@@ -1322,13 +1322,13 @@
   {
     "q": "Tại sao ist vietnamesischer Cà phê oft kräftig im Körper?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat die Präsentation im Glas?",
@@ -1344,13 +1344,13 @@
   {
     "q": "Tại sao wird Cà phê in Vietnam oft draußen serviert?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Umgebung für den Genuss là gì?",
@@ -1366,13 +1366,13 @@
   {
     "q": "Tại sao wird Cà phê oft langsam getrunken?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Wirkung hat Geduld auf den Genuss?",
@@ -1399,13 +1399,13 @@
   {
     "q": "Tại sao werden in der vietnamesischen Küche frische Kräuter verwendet?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Reis in der vietnamesischen Küche là gì?",
@@ -1421,13 +1421,13 @@
   {
     "q": "Tại sao sind vietnamesische Gerichte oft leicht und frisch?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
@@ -1443,13 +1443,13 @@
   {
     "q": "Tại sao werden Speisen oft mit Limette serviert?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Fischsauce in der vietnamesischen Küche là gì?",
@@ -1465,13 +1465,13 @@
   {
     "q": "Tại sao sind Kräuter wichtig für die Frische?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
@@ -1487,13 +1487,13 @@
   {
     "q": "Tại sao werden Speisen oft mit frischem Gemüse kombiniert?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Brühe bei Suppengerichten là gì?",
@@ -1509,13 +1509,13 @@
   {
     "q": "Tại sao ist Balance der Geschmäcker wichtig?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Süße in herzhaften Gerichten là gì?",
@@ -1531,13 +1531,13 @@
   {
     "q": "Tại sao sind vietnamesische Gerichte oft nicht schwer?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
@@ -1553,13 +1553,13 @@
   {
     "q": "Tại sao werden Gerichte oft individuell abgeschmeckt?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Frische bei Kräutern là gì?",
@@ -1575,13 +1575,13 @@
   {
     "q": "Tại sao sind Nudeln aus Reis beliebt?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Knoblauch im Aroma là gì?",
@@ -1597,13 +1597,13 @@
   {
     "q": "Tại sao werden Gerichte oft geteilt?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen?",
@@ -1619,13 +1619,13 @@
   {
     "q": "Tại sao sind Suppen in Vietnam beliebt?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Dampf beim Garen là gì?",
@@ -1641,13 +1641,13 @@
   {
     "q": "Tại sao sind Gerichte oft leicht verdaulich?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Säure für Frische là gì?",
@@ -1663,13 +1663,13 @@
   {
     "q": "Tại sao werden Speisen oft mit Kräutern serviert?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat die Brühe für Phở?",
@@ -1685,13 +1685,13 @@
   {
     "q": "Tại sao ist die Küche regional vielfältig?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Frische für den Geschmack là gì?",
@@ -1707,13 +1707,13 @@
   {
     "q": "Tại sao werden Zutaten oft roh ergänzt?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Texturkontrast là gì?",
@@ -1729,13 +1729,13 @@
   {
     "q": "Tại sao sind Gerichte ausgewogen gewürzt?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
@@ -1751,13 +1751,13 @@
   {
     "q": "Tại sao sind Kräuter ein fester Bestandteil?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Reis als Grundnahrungsmittel là gì?",
@@ -1773,13 +1773,13 @@
   {
     "q": "Tại sao sind Gerichte oft leicht süßlich?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Umami?",
@@ -1795,13 +1795,13 @@
   {
     "q": "Tại sao werden Gerichte häufig mit Brühe serviert?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Temperatur beim Servieren là gì?",
@@ -1817,13 +1817,13 @@
   {
     "q": "Tại sao sind Gerichte aromatisch, aber nicht schwer?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Frische der Zutaten là gì?",
@@ -1839,13 +1839,13 @@
   {
     "q": "Tại sao werden Gerichte oft frisch zubereitet?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Vielfalt der Aromen?",
@@ -1861,13 +1861,13 @@
   {
     "q": "Tại sao sind Gerichte gut ausbalanciert?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt die Präsentation là gì?",
@@ -1883,13 +1883,13 @@
   {
     "q": "Tại sao werden Speisen oft mit Kräutern garniert?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Regionalität?",
@@ -1905,13 +1905,13 @@
   {
     "q": "Tại sao sind Gerichte leicht bekömmlich?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt der sông Rhine für Handel und Kultur là gì?",
@@ -1938,13 +1938,13 @@
   {
     "q": "Tại sao wächst die Café-Kultur in vietnamesischen Städten?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Urbanisierung in Vietnam là gì?",
@@ -1960,13 +1960,13 @@
   {
     "q": "Tại sao sind Start-ups in Vietnam im Aufschwung?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
@@ -1982,13 +1982,13 @@
   {
     "q": "Tại sao ist Streetfood weiterhin beliebt?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielen soziale Medien im Alltag là gì?",
@@ -2004,13 +2004,13 @@
   {
     "q": "Tại sao verbinden junge Menschen Tradition und Moderne?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Tourismus für Vietnam?",
@@ -2037,13 +2037,13 @@
   {
     "q": "Tại sao ist Nachhaltigkeit ein wachsendes Thema?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Technologie im Alltag?",
@@ -2059,13 +2059,13 @@
   {
     "q": "Tại sao sind Cafés Arbeitsorte geworden?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Kreativwirtschaft là gì?",
@@ -2081,13 +2081,13 @@
   {
     "q": "Tại sao sind Co-Working-Spaces beliebt?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat internationale Küche?",
@@ -2103,13 +2103,13 @@
   {
     "q": "Tại sao ist Vietnam wirtschaftlich gewachsen?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Bildung für den Arbeitsmarkt là gì?",
@@ -2125,13 +2125,13 @@
   {
     "q": "Tại sao sind junge Menschen offen für Neues?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Kultur für Identität?",
@@ -2147,13 +2147,13 @@
   {
     "q": "Tại sao ist Tourismus wichtig für Städte?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Urban Gardening là gì?",
@@ -2169,13 +2169,13 @@
   {
     "q": "Tại sao gewinnen lokale Marken an Bedeutung?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
     "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Design in Cafés?",
@@ -2191,13 +2191,13 @@
   {
     "q": "Tại sao sind nachhaltige Konzepte gefragt?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Digitalisierung là gì?",
@@ -2213,13 +2213,13 @@
   {
     "q": "Tại sao ist Vietnam international vernetzt?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Unternehmertum?",
@@ -2235,13 +2235,13 @@
   {
     "q": "Tại sao ist der Alltag schneller geworden?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức"
     ],
     "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Gemeinschaft là gì?",
@@ -2268,13 +2268,13 @@
   {
     "q": "Tại sao passen leichte Speisen gut zu Cà phê?",
     "choices": [
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Frische bei Snacks là gì?",
@@ -2290,13 +2290,13 @@
   {
     "q": "Tại sao ergänzen herzhafte Snacks Cà phê gut?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 1,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
@@ -2312,13 +2312,13 @@
   {
     "q": "Tại sao sind frische Zutaten wichtig für Snacks?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Vai trò của spielt Textur bei kleinen Speisen là gì?",
@@ -2334,13 +2334,13 @@
   {
     "q": "Tại sao passen Kräuter gut zu belegten Broten?",
     "choices": [
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt"
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 2,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Frische für den Genuss?",
@@ -2356,13 +2356,13 @@
   {
     "q": "Tại sao sind leichte Snacks beliebt?",
     "choices": [
-      "Vì es nur für Deko wichtig ist",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur die Farbe verändert",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì tự động có caffeine",
+      "Vì luôn không đường",
+      "Vì bắt buộc ăn lạnh",
+      "Vì ăn nhẹ no vừa đủ mà không bị nặng bụng"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Đồ ăn nhẹ hợp cà phê và không gây nặng bụng."
   },
   {
     "q": "Vai trò của spielt Präsentation bei kleinen Gerichten là gì?",
@@ -2378,13 +2378,13 @@
   {
     "q": "Tại sao sind ausgewogene Aromen wichtig?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Vì es nur für Deko wichtig ist"
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ làm đổi nhiệt độ của cốc",
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "a": 3,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
   },
   {
     "q": "Welche Bedeutung hat Qualität der Zutaten?",
@@ -2400,12 +2400,353 @@
   {
     "q": "Tại sao ergänzen knusprige Texturen Cà phê gut?",
     "choices": [
-      "Vì es nur die Farbe verändert",
-      "Vì es nur die Koffeinmenge verdoppelt",
-      "Vì es nur für Deko wichtig ist",
-      "Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
+      "Vì chỉ quan trọng với cà phê hòa tan",
+      "Vì chỉ ảnh hưởng hình thức",
+      "Vì chỉ làm đổi nhiệt độ của cốc"
+    ],
+    "a": 0,
+    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+  },
+  {
+    "q": "“sữa” nghĩa là gì?",
+    "choices": [
+      "phin",
+      "đường",
+      "sữa",
+      "đá"
+    ],
+    "a": 2,
+    "ex": "Đúng: sữa."
+  },
+  {
+    "q": "“đá” nghĩa là gì?",
+    "choices": [
+      "đen",
+      "ngọt",
+      "đá",
+      "sữa"
+    ],
+    "a": 2,
+    "ex": "Đúng: đá."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Cơ bản)?",
+    "choices": [
+      "20–25°C",
+      "80–90°C",
+      "0–5°C",
+      "Khoảng 55–65°C"
     ],
     "a": 3,
-    "ex": "Đáp án đúng: Vì es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Yếu tố này ảnh hưởng đến chiết xuất/hương thơm và vì thế ảnh hưởng vị."
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Thực tế)?",
+    "choices": [
+      "20–25°C",
+      "0–5°C",
+      "80–90°C",
+      "Khoảng 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Mẹo barista)?",
+    "choices": [
+      "20–25°C",
+      "Khoảng 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Vì sao chất lượng nước quan trọng với cà phê (Cơ bản)?",
+    "choices": [
+      "Chỉ đổi màu",
+      "Tạo caffeine",
+      "Chỉ cho latte art",
+      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị"
+    ],
+    "a": 3,
+    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
+  },
+  {
+    "q": "Vì sao chất lượng nước quan trọng với cà phê (Thực tế)?",
+    "choices": [
+      "Chỉ cho latte art",
+      "Chỉ đổi màu",
+      "Tạo caffeine",
+      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị"
+    ],
+    "a": 3,
+    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
+  },
+  {
+    "q": "Vì sao chất lượng nước quan trọng với cà phê (Mẹo barista)?",
+    "choices": [
+      "Chỉ đổi màu",
+      "Chỉ cho latte art",
+      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị",
+      "Tạo caffeine"
+    ],
+    "a": 2,
+    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
+  },
+  {
+    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Cơ bản)?",
+    "choices": [
+      "Để caramen hóa đường",
+      "Để CO₂ thoát ra và chiết xuất đều hơn",
+      "Để tăng gấp đôi caffeine",
+      "Để đánh sữa tốt hơn"
+    ],
+    "a": 1,
+    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+  },
+  {
+    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Thực tế)?",
+    "choices": [
+      "Để CO₂ thoát ra và chiết xuất đều hơn",
+      "Để tăng gấp đôi caffeine",
+      "Để đánh sữa tốt hơn",
+      "Để caramen hóa đường"
+    ],
+    "a": 0,
+    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+  },
+  {
+    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Mẹo barista)?",
+    "choices": [
+      "Để tăng gấp đôi caffeine",
+      "Để caramen hóa đường",
+      "Để CO₂ thoát ra và chiết xuất đều hơn",
+      "Để đánh sữa tốt hơn"
+    ],
+    "a": 2,
+    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+  },
+  {
+    "q": "Nên làm gì khi cà phê zu sauer?",
+    "choices": [
+      "Xay thô hơn và rút ngắn",
+      "Dùng nước lạnh hơn nhiều",
+      "Xay mịn hơn hoặc chiết xuất lâu hơn",
+      "Giảm lượng bột nhiều"
+    ],
+    "a": 2,
+    "ex": "Đúng: Xay mịn hơn hoặc chiết xuất lâu hơn."
+  },
+  {
+    "q": "Biện pháp nào hợp lý khi cà phê zu sauer?",
+    "choices": [
+      "Dùng nước lạnh hơn nhiều",
+      "Xay thô hơn và rút ngắn",
+      "Xay mịn hơn hoặc chiết xuất lâu hơn",
+      "Giảm lượng bột nhiều"
+    ],
+    "a": 2,
+    "ex": "Đúng: Xay mịn hơn hoặc chiết xuất lâu hơn."
+  },
+  {
+    "q": "Nên làm gì khi cà phê zu bitter?",
+    "choices": [
+      "Tăng thời gian tiếp xúc",
+      "Xay thô hơn hoặc rút ngắn chiết xuất",
+      "Xay mịn hơn và chiết xuất lâu hơn",
+      "Nước nóng hơn nhiều"
+    ],
+    "a": 1,
+    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
+  },
+  {
+    "q": "Biện pháp nào hợp lý khi cà phê zu bitter?",
+    "choices": [
+      "Xay mịn hơn và chiết xuất lâu hơn",
+      "Tăng thời gian tiếp xúc",
+      "Nước nóng hơn nhiều",
+      "Xay thô hơn hoặc rút ngắn chiết xuất"
+    ],
+    "a": 3,
+    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
+  },
+  {
+    "q": "Nên làm gì khi cà phê zu wässrig?",
+    "choices": [
+      "Giảm lượng bột",
+      "Xay thô hơn",
+      "Chiết xuất ngắn hơn",
+      "Tăng lượng bột hoặc xay mịn hơn"
+    ],
+    "a": 3,
+    "ex": "Đúng: Tăng lượng bột hoặc xay mịn hơn."
+  },
+  {
+    "q": "Biện pháp nào hợp lý khi cà phê zu wässrig?",
+    "choices": [
+      "Xay thô hơn",
+      "Chiết xuất ngắn hơn",
+      "Tăng lượng bột hoặc xay mịn hơn",
+      "Giảm lượng bột"
+    ],
+    "a": 2,
+    "ex": "Đúng: Tăng lượng bột hoặc xay mịn hơn."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Thực tế)? #1",
+    "choices": [
+      "20–25°C",
+      "0–5°C",
+      "80–90°C",
+      "Khoảng 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "“đá” nghĩa là gì? #2",
+    "choices": [
+      "đen",
+      "ngọt",
+      "đá",
+      "sữa"
+    ],
+    "a": 2,
+    "ex": "Đúng: đá."
+  },
+  {
+    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Mẹo barista)? #3",
+    "choices": [
+      "Để tăng gấp đôi caffeine",
+      "Để caramen hóa đường",
+      "Để CO₂ thoát ra và chiết xuất đều hơn",
+      "Để đánh sữa tốt hơn"
+    ],
+    "a": 2,
+    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Mẹo barista)? #4",
+    "choices": [
+      "20–25°C",
+      "Khoảng 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Cơ bản)? #5",
+    "choices": [
+      "20–25°C",
+      "80–90°C",
+      "0–5°C",
+      "Khoảng 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Biện pháp nào hợp lý khi cà phê zu bitter? #6",
+    "choices": [
+      "Xay mịn hơn và chiết xuất lâu hơn",
+      "Tăng thời gian tiếp xúc",
+      "Nước nóng hơn nhiều",
+      "Xay thô hơn hoặc rút ngắn chiết xuất"
+    ],
+    "a": 3,
+    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Mẹo barista)? #7",
+    "choices": [
+      "20–25°C",
+      "Khoảng 55–65°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 1,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Vì sao chất lượng nước quan trọng với cà phê (Mẹo barista)? #8",
+    "choices": [
+      "Chỉ đổi màu",
+      "Chỉ cho latte art",
+      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị",
+      "Tạo caffeine"
+    ],
+    "a": 2,
+    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
+  },
+  {
+    "q": "“đá” nghĩa là gì? #9",
+    "choices": [
+      "đen",
+      "ngọt",
+      "đá",
+      "sữa"
+    ],
+    "a": 2,
+    "ex": "Đúng: đá."
+  },
+  {
+    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Thực tế)? #10",
+    "choices": [
+      "Để CO₂ thoát ra và chiết xuất đều hơn",
+      "Để tăng gấp đôi caffeine",
+      "Để đánh sữa tốt hơn",
+      "Để caramen hóa đường"
+    ],
+    "a": 0,
+    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+  },
+  {
+    "q": "Nên làm gì khi cà phê zu sauer? #11",
+    "choices": [
+      "Xay thô hơn và rút ngắn",
+      "Dùng nước lạnh hơn nhiều",
+      "Xay mịn hơn hoặc chiết xuất lâu hơn",
+      "Giảm lượng bột nhiều"
+    ],
+    "a": 2,
+    "ex": "Đúng: Xay mịn hơn hoặc chiết xuất lâu hơn."
+  },
+  {
+    "q": "“đá” nghĩa là gì? #12",
+    "choices": [
+      "đen",
+      "ngọt",
+      "đá",
+      "sữa"
+    ],
+    "a": 2,
+    "ex": "Đúng: đá."
+  },
+  {
+    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Cơ bản)? #13",
+    "choices": [
+      "20–25°C",
+      "80–90°C",
+      "0–5°C",
+      "Khoảng 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Đúng: Khoảng 55–65°C."
+  },
+  {
+    "q": "Biện pháp nào hợp lý khi cà phê zu bitter? #14",
+    "choices": [
+      "Xay mịn hơn và chiết xuất lâu hơn",
+      "Tăng thời gian tiếp xúc",
+      "Nước nóng hơn nhiều",
+      "Xay thô hơn hoặc rút ngắn chiết xuất"
+    ],
+    "a": 3,
+    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
   }
 ]

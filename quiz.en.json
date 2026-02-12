@@ -13,13 +13,13 @@
   {
     "q": "Why beeinflusst der Mahlgrad den Geschmack von Coffee?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it changes extraction speed and therefore taste",
+      "Because it only rates bean quality",
+      "Because it only matters for grinder noise",
+      "Because it only changes how the grounds look"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "Grind size controls extraction and flavor balance."
   },
   {
     "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
@@ -35,13 +35,13 @@
   {
     "q": "Why sollte Coffee nicht mit kochendem Wasser gebrüht werden?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Brühzeit beim Filterkaffee?",
@@ -57,13 +57,13 @@
   {
     "q": "Why sind frisch gemahlene Bohnen aromatischer?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
@@ -90,13 +90,13 @@
   {
     "q": "Why ist sauberes Wasser wichtig für guten Coffee?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist"
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
@@ -112,13 +112,13 @@
   {
     "q": "Why verlieren Bohnen nach dem Mahlen schnell Aroma?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was ist Crema bei Espresso?",
@@ -145,24 +145,24 @@
   {
     "q": "Why schmeckt Coffee bei Überextraktion bitter?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why schmeckt Coffee bei Unterextraktion sauer?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
@@ -178,13 +178,13 @@
   {
     "q": "Why sollte man Bohnen lichtgeschützt lagern?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
@@ -200,13 +200,13 @@
   {
     "q": "Why ist Frische beim Coffee so wichtig?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Bohnenherkunft für das Aroma?",
@@ -222,13 +222,13 @@
   {
     "q": "Why sind luftdichte Behälter sinnvoll für die Lagerung?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What does Blooming beim Filterkaffee mean?",
@@ -244,13 +244,13 @@
   {
     "q": "Why ist das Verhältnis von Coffee zu Wasser wichtig?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Aromen können bei Coffee auftreten?",
@@ -266,24 +266,24 @@
   {
     "q": "Why kann altes Wasser den Geschmack verfälschen?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why ist die Reinigung der Maschine wichtig für den Geschmack?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
@@ -299,13 +299,13 @@
   {
     "q": "Why sollte man Coffeemehl gleichmäßig befeuchten?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What does Extraktion im Coffeekontext mean?",
@@ -321,24 +321,24 @@
   {
     "q": "Why verändert sich Geschmack mit der Brühmethode?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
     "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why ist Mahlgradanpassung wichtig bei neuen Bohnen?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it changes extraction speed and therefore taste",
+      "Because it only changes how the grounds look",
+      "Because it only rates bean quality",
+      "Because it only matters for grinder noise"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "Grind size controls extraction and flavor balance."
   },
   {
     "q": "What role spielt die Kontaktzeit von Wasser und Coffee?",
@@ -354,13 +354,13 @@
   {
     "q": "Why schmeckt kalter Coffee oft flacher?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
@@ -376,24 +376,24 @@
   {
     "q": "Why beeinflusst der Druck den Espressogeschmack?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why können zu alte Bohnen fade schmecken?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat Sauerstoff auf Coffeearomen?",
@@ -409,13 +409,13 @@
   {
     "q": "Why ist konstante Brühtemperatur wichtig?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was bewirkt eine längere Röstzeit?",
@@ -431,13 +431,13 @@
   {
     "q": "Why sind frische Bohnen öliger?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Partikelgröße beim Mahlen?",
@@ -453,13 +453,13 @@
   {
     "q": "Why sollte man Mühlen regelmäßig reinigen?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
     "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was bewirkt eine ungleichmäßige Extraktion?",
@@ -475,13 +475,13 @@
   {
     "q": "Why kann Leitungswasser je nach Region unterschiedlich schmecken?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
@@ -497,24 +497,24 @@
   {
     "q": "Why ist eine Waage beim Brühen hilfreich?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why sollte man Bohnen nicht im Kühlschrank lagern?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Röstfrische für Crema?",
@@ -530,13 +530,13 @@
   {
     "q": "Why beeinflusst die Brühmethode die Klarheit im Geschmack?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was bewirkt längere Vorinfusion?",
@@ -552,24 +552,24 @@
   {
     "q": "Why kann Coffee metallisch schmecken?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why ist konstante Dosierung wichtig?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
     "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
@@ -585,24 +585,24 @@
   {
     "q": "Why sind saubere Filter wichtig?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Why beeinflusst die Wasserhärte den Geschmack?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was bewirkt Umrühren beim Blooming?",
@@ -618,13 +618,13 @@
   {
     "q": "Why kann Coffee schal schmecken?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
     "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt der Röstgrad für Süße?",
@@ -640,13 +640,13 @@
   {
     "q": "Why ist gleichmäßige Extraktion wichtig?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What does „sữa“ im vietnamesischen Coffee mean?",
@@ -684,13 +684,13 @@
   {
     "q": "Why wird in Vietnam häufig Robusta verwendet?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was ist Cà phê sữa đá?",
@@ -706,13 +706,13 @@
   {
     "q": "Why ist vietnamesischer Coffee oft kräftiger geröstet?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt gesüßte Kondensmilch im vietnamesischen Coffee?",
@@ -728,13 +728,13 @@
   {
     "q": "Why wird Coffee in Vietnam häufig mit Ice serviert?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
@@ -761,13 +761,13 @@
   {
     "q": "Why passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Coffee im vietnamesischen Alltag?",
@@ -783,13 +783,13 @@
   {
     "q": "Why sind Cafés in Vietnam soziale Treffpunkte?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
     "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Wie beeinflusst Ice den Geschmack von Coffee?",
@@ -805,13 +805,13 @@
   {
     "q": "Why wird Coffee in Vietnam oft stark gesüßt?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Röstgrad bei vietnamesischem Coffee?",
@@ -860,13 +860,13 @@
   {
     "q": "Why schmeckt vietnamesischer Coffee oft schokoladig?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Coffee für die vietnamesische Café-Kultur?",
@@ -893,13 +893,13 @@
   {
     "q": "Why passt Kondensmilch gut zu Robusta?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Temperatur bei der Phin-Zubereitung?",
@@ -948,13 +948,13 @@
   {
     "q": "Why kann vietnamesischer Coffee intensiver wirken?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
@@ -970,13 +970,13 @@
   {
     "q": "Why wird Coffee in Vietnam oft draußen getrunken?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Ice bei der Erfrischung?",
@@ -992,13 +992,13 @@
   {
     "q": "Why wird Coffee in Vietnam auch abends getrunken?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Milch für die Balance der Bitterkeit?",
@@ -1014,13 +1014,13 @@
   {
     "q": "Why wird Coffee in Vietnam häufig als Ritual zelebriert?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Tasse für das Aroma?",
@@ -1058,13 +1058,13 @@
   {
     "q": "Why ist vietnamesischer Coffee weltweit bekannt?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
     "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Sugar im Geschmacksausgleich?",
@@ -1080,13 +1080,13 @@
   {
     "q": "Why ist Robusta widerstandsfähiger im Anbau?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Bohnenherkunft in Vietnam?",
@@ -1102,13 +1102,13 @@
   {
     "q": "Why ist Coffee in Vietnam oft stärker dosiert?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
@@ -1124,13 +1124,13 @@
   {
     "q": "Why wird Coffee in Vietnam oft mit Gesprächen verbunden?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Kondensmilch für das Mundgefühl?",
@@ -1146,13 +1146,13 @@
   {
     "q": "Why ist Icekaffee in Vietnam so beliebt?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
@@ -1190,13 +1190,13 @@
   {
     "q": "Why wird Coffee in Vietnam häufig mit Freunden getrunken?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
@@ -1212,13 +1212,13 @@
   {
     "q": "Why ist Coffee Teil der Alltagskultur?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
     "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Brühtechnik für Konsistenz?",
@@ -1234,13 +1234,13 @@
   {
     "q": "Why wird Coffee in Vietnam oft süßer serviert?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
@@ -1256,13 +1256,13 @@
   {
     "q": "Why ist Coffee ein Treffpunkt-Getränk?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt das Glas bei Icekaffee?",
@@ -1278,13 +1278,13 @@
   {
     "q": "Why passt Coffee gut zu süßen Snacks?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
@@ -1300,13 +1300,13 @@
   {
     "q": "Why ist Robusta ertragreich?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Erntezeit für die Qualität?",
@@ -1322,13 +1322,13 @@
   {
     "q": "Why ist vietnamesischer Coffee oft kräftig im Körper?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat die Präsentation im Glas?",
@@ -1344,13 +1344,13 @@
   {
     "q": "Why wird Coffee in Vietnam oft draußen serviert?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Umgebung für den Genuss?",
@@ -1366,13 +1366,13 @@
   {
     "q": "Why wird Coffee oft langsam getrunken?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Wirkung hat Geduld auf den Genuss?",
@@ -1399,13 +1399,13 @@
   {
     "q": "Why werden in der vietnamesischen Küche frische Kräuter verwendet?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Reis in der vietnamesischen Küche?",
@@ -1421,13 +1421,13 @@
   {
     "q": "Why sind vietnamesische Gerichte oft leicht und frisch?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
@@ -1443,13 +1443,13 @@
   {
     "q": "Why werden Speisen oft mit Limette serviert?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
     "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Fischsauce in der vietnamesischen Küche?",
@@ -1465,13 +1465,13 @@
   {
     "q": "Why sind Kräuter wichtig für die Frische?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
@@ -1487,13 +1487,13 @@
   {
     "q": "Why werden Speisen oft mit frischem Gemüse kombiniert?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Brühe bei Suppengerichten?",
@@ -1509,13 +1509,13 @@
   {
     "q": "Why ist Balance der Geschmäcker wichtig?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Süße in herzhaften Gerichten?",
@@ -1531,13 +1531,13 @@
   {
     "q": "Why sind vietnamesische Gerichte oft nicht schwer?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
@@ -1553,13 +1553,13 @@
   {
     "q": "Why werden Gerichte oft individuell abgeschmeckt?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Frische bei Kräutern?",
@@ -1575,13 +1575,13 @@
   {
     "q": "Why sind Nudeln aus Reis beliebt?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Knoblauch im Aroma?",
@@ -1597,13 +1597,13 @@
   {
     "q": "Why werden Gerichte oft geteilt?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen?",
@@ -1619,13 +1619,13 @@
   {
     "q": "Why sind Suppen in Vietnam beliebt?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist"
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Dampf beim Garen?",
@@ -1641,13 +1641,13 @@
   {
     "q": "Why sind Gerichte oft leicht verdaulich?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Säure für Frische?",
@@ -1663,13 +1663,13 @@
   {
     "q": "Why werden Speisen oft mit Kräutern serviert?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat die Brühe für Phở?",
@@ -1685,13 +1685,13 @@
   {
     "q": "Why ist die Küche regional vielfältig?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Frische für den Geschmack?",
@@ -1707,13 +1707,13 @@
   {
     "q": "Why werden Zutaten oft roh ergänzt?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist"
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Texturkontrast?",
@@ -1729,13 +1729,13 @@
   {
     "q": "Why sind Gerichte ausgewogen gewürzt?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
@@ -1751,13 +1751,13 @@
   {
     "q": "Why sind Kräuter ein fester Bestandteil?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Reis als Grundnahrungsmittel?",
@@ -1773,13 +1773,13 @@
   {
     "q": "Why sind Gerichte oft leicht süßlich?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Umami?",
@@ -1795,13 +1795,13 @@
   {
     "q": "Why werden Gerichte häufig mit Brühe serviert?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Temperatur beim Servieren?",
@@ -1817,13 +1817,13 @@
   {
     "q": "Why sind Gerichte aromatisch, aber nicht schwer?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Frische der Zutaten?",
@@ -1839,13 +1839,13 @@
   {
     "q": "Why werden Gerichte oft frisch zubereitet?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Vielfalt der Aromen?",
@@ -1861,13 +1861,13 @@
   {
     "q": "Why sind Gerichte gut ausbalanciert?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt die Präsentation?",
@@ -1883,13 +1883,13 @@
   {
     "q": "Why werden Speisen oft mit Kräutern garniert?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Regionalität?",
@@ -1905,13 +1905,13 @@
   {
     "q": "Why sind Gerichte leicht bekömmlich?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt der Rhine für Handel und Kultur?",
@@ -1938,13 +1938,13 @@
   {
     "q": "Why wächst die Café-Kultur in vietnamesischen Städten?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance"
     ],
     "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Urbanisierung in Vietnam?",
@@ -1960,13 +1960,13 @@
   {
     "q": "Why sind Start-ups in Vietnam im Aufschwung?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
@@ -1982,13 +1982,13 @@
   {
     "q": "Why ist Streetfood weiterhin beliebt?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielen soziale Medien im Alltag?",
@@ -2004,13 +2004,13 @@
   {
     "q": "Why verbinden junge Menschen Tradition und Moderne?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Tourismus für Vietnam?",
@@ -2037,13 +2037,13 @@
   {
     "q": "Why ist Nachhaltigkeit ein wachsendes Thema?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Technologie im Alltag?",
@@ -2059,13 +2059,13 @@
   {
     "q": "Why sind Cafés Arbeitsorte geworden?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Kreativwirtschaft?",
@@ -2081,13 +2081,13 @@
   {
     "q": "Why sind Co-Working-Spaces beliebt?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat internationale Küche?",
@@ -2103,13 +2103,13 @@
   {
     "q": "Why ist Vietnam wirtschaftlich gewachsen?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Bildung für den Arbeitsmarkt?",
@@ -2125,13 +2125,13 @@
   {
     "q": "Why sind junge Menschen offen für Neues?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance"
     ],
-    "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Kultur für Identität?",
@@ -2147,13 +2147,13 @@
   {
     "q": "Why ist Tourismus wichtig für Städte?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Urban Gardening?",
@@ -2169,13 +2169,13 @@
   {
     "q": "Why gewinnen lokale Marken an Bedeutung?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Design in Cafés?",
@@ -2191,13 +2191,13 @@
   {
     "q": "Why sind nachhaltige Konzepte gefragt?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist"
+      "Because it only matters for instant coffee",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 3,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Digitalisierung?",
@@ -2213,13 +2213,13 @@
   {
     "q": "Why ist Vietnam international vernetzt?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance",
+      "Because it only changes the cup’s temperature"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 1,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Unternehmertum?",
@@ -2235,13 +2235,13 @@
   {
     "q": "Why ist der Alltag schneller geworden?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
     ],
     "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Gemeinschaft?",
@@ -2268,13 +2268,13 @@
   {
     "q": "Why passen leichte Speisen gut zu Coffee?",
     "choices": [
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Frische bei Snacks?",
@@ -2290,13 +2290,13 @@
   {
     "q": "Why ergänzen herzhafte Snacks Coffee gut?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it affects aroma, strength, and balance",
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it only affects appearance"
     ],
-    "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
@@ -2312,13 +2312,13 @@
   {
     "q": "Why sind frische Zutaten wichtig für Snacks?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only affects appearance",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee"
     ],
     "a": 1,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "What role spielt Textur bei kleinen Speisen?",
@@ -2334,13 +2334,13 @@
   {
     "q": "Why passen Kräuter gut zu belegten Broten?",
     "choices": [
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt"
+      "Because it only changes the cup’s temperature",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance"
     ],
-    "a": 0,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Frische für den Genuss?",
@@ -2356,13 +2356,13 @@
   {
     "q": "Why sind leichte Snacks beliebt?",
     "choices": [
-      "Because es nur für Deko wichtig ist",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur die Farbe verändert",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because they satisfy hunger without feeling heavy",
+      "Because they automatically contain caffeine",
+      "Because they are always sugar-free",
+      "Because they must be eaten cold"
     ],
-    "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "a": 0,
+    "ex": "Light snacks are popular because they pair well with coffee and don’t feel heavy."
   },
   {
     "q": "What role spielt Präsentation bei kleinen Gerichten?",
@@ -2378,13 +2378,13 @@
   {
     "q": "Why sind ausgewogene Aromen wichtig?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Because es nur für Deko wichtig ist"
+      "Because it only matters for instant coffee",
+      "Because it only changes the cup’s temperature",
+      "Because it affects aroma, strength, and balance",
+      "Because it only affects appearance"
     ],
     "a": 2,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "This factor impacts extraction and taste."
   },
   {
     "q": "Welche Bedeutung hat Qualität der Zutaten?",
@@ -2400,12 +2400,353 @@
   {
     "q": "Why ergänzen knusprige Texturen Coffee gut?",
     "choices": [
-      "Because es nur die Farbe verändert",
-      "Because es nur die Koffeinmenge verdoppelt",
-      "Because es nur für Deko wichtig ist",
-      "Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Because it only affects appearance",
+      "Because it only matters for instant coffee",
+      "Because it affects aroma, strength, and balance",
+      "Because it only changes the cup’s temperature"
+    ],
+    "a": 2,
+    "ex": "This factor impacts extraction and taste."
+  },
+  {
+    "q": "What does “sữa” mean in Vietnamese?",
+    "choices": [
+      "milk",
+      "sugar",
+      "filter",
+      "ice"
+    ],
+    "a": 0,
+    "ex": "Correct: milk."
+  },
+  {
+    "q": "What does “đá” mean in Vietnamese?",
+    "choices": [
+      "milk",
+      "black coffee",
+      "ice",
+      "sweet"
+    ],
+    "a": 2,
+    "ex": "Correct: ice."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (Basics)?",
+    "choices": [
+      "20–25°C",
+      "80–90°C",
+      "0–5°C",
+      "About 55–65°C"
     ],
     "a": 3,
-    "ex": "Correct: Because es Geschmack, Aroma oder Konsistenz direkt beeinflusst. This factor affects extraction/aroma and therefore taste."
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (In practice)?",
+    "choices": [
+      "0–5°C",
+      "About 55–65°C",
+      "80–90°C",
+      "20–25°C"
+    ],
+    "a": 1,
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)?",
+    "choices": [
+      "About 55–65°C",
+      "20–25°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 0,
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "Why is water quality important for coffee (Basics)?",
+    "choices": [
+      "It’s most of the drink and affects extraction and taste",
+      "It only changes color",
+      "Only matters for latte art",
+      "It creates caffeine"
+    ],
+    "a": 0,
+    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+  },
+  {
+    "q": "Why is water quality important for coffee (In practice)?",
+    "choices": [
+      "It only changes color",
+      "Only matters for latte art",
+      "It creates caffeine",
+      "It’s most of the drink and affects extraction and taste"
+    ],
+    "a": 3,
+    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+  },
+  {
+    "q": "Why is water quality important for coffee (Barista tip)?",
+    "choices": [
+      "It creates caffeine",
+      "It only changes color",
+      "Only matters for latte art",
+      "It’s most of the drink and affects extraction and taste"
+    ],
+    "a": 3,
+    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+  },
+  {
+    "q": "Why do many pour-over recipes include a short “bloom” (Basics)?",
+    "choices": [
+      "To let CO₂ escape and extract more evenly",
+      "To caramelize sugar",
+      "To double caffeine",
+      "To steam milk better"
+    ],
+    "a": 0,
+    "ex": "Correct: To let CO₂ escape and extract more evenly."
+  },
+  {
+    "q": "Why do many pour-over recipes include a short “bloom” (In practice)?",
+    "choices": [
+      "To steam milk better",
+      "To caramelize sugar",
+      "To let CO₂ escape and extract more evenly",
+      "To double caffeine"
+    ],
+    "a": 2,
+    "ex": "Correct: To let CO₂ escape and extract more evenly."
+  },
+  {
+    "q": "Why do many pour-over recipes include a short “bloom” (Barista tip)?",
+    "choices": [
+      "To let CO₂ escape and extract more evenly",
+      "To caramelize sugar",
+      "To double caffeine",
+      "To steam milk better"
+    ],
+    "a": 0,
+    "ex": "Correct: To let CO₂ escape and extract more evenly."
+  },
+  {
+    "q": "What helps if coffee tastes zu sauer?",
+    "choices": [
+      "Use much colder water",
+      "Grind coarser and shorten extraction",
+      "Grind finer or extract a bit longer",
+      "Reduce dose a lot"
+    ],
+    "a": 2,
+    "ex": "Correct: Grind finer or extract a bit longer."
+  },
+  {
+    "q": "Which action makes sense for coffee that tastes zu sauer?",
+    "choices": [
+      "Grind finer or extract a bit longer",
+      "Reduce dose a lot",
+      "Grind coarser and shorten extraction",
+      "Use much colder water"
+    ],
+    "a": 0,
+    "ex": "Correct: Grind finer or extract a bit longer."
+  },
+  {
+    "q": "What helps if coffee tastes zu bitter?",
+    "choices": [
+      "Grind finer and extract longer",
+      "Use much hotter water",
+      "Increase contact time",
+      "Grind coarser or shorten extraction"
+    ],
+    "a": 3,
+    "ex": "Correct: Grind coarser or shorten extraction."
+  },
+  {
+    "q": "Which action makes sense for coffee that tastes zu bitter?",
+    "choices": [
+      "Grind finer and extract longer",
+      "Use much hotter water",
+      "Increase contact time",
+      "Grind coarser or shorten extraction"
+    ],
+    "a": 3,
+    "ex": "Correct: Grind coarser or shorten extraction."
+  },
+  {
+    "q": "What helps if coffee tastes zu wässrig?",
+    "choices": [
+      "Increase dose or grind finer",
+      "Grind coarser",
+      "Lower the dose",
+      "Extract shorter"
+    ],
+    "a": 0,
+    "ex": "Correct: Increase dose or grind finer."
+  },
+  {
+    "q": "Which action makes sense for coffee that tastes zu wässrig?",
+    "choices": [
+      "Extract shorter",
+      "Lower the dose",
+      "Increase dose or grind finer",
+      "Grind coarser"
+    ],
+    "a": 2,
+    "ex": "Correct: Increase dose or grind finer."
+  },
+  {
+    "q": "Why is water quality important for coffee (Basics)? #1",
+    "choices": [
+      "It’s most of the drink and affects extraction and taste",
+      "It only changes color",
+      "Only matters for latte art",
+      "It creates caffeine"
+    ],
+    "a": 0,
+    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)? #2",
+    "choices": [
+      "About 55–65°C",
+      "20–25°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 0,
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "What does “sữa” mean in Vietnamese? #3",
+    "choices": [
+      "milk",
+      "sugar",
+      "filter",
+      "ice"
+    ],
+    "a": 0,
+    "ex": "Correct: milk."
+  },
+  {
+    "q": "What does “sữa” mean in Vietnamese? #4",
+    "choices": [
+      "milk",
+      "sugar",
+      "filter",
+      "ice"
+    ],
+    "a": 0,
+    "ex": "Correct: milk."
+  },
+  {
+    "q": "Which action makes sense for coffee that tastes zu sauer? #5",
+    "choices": [
+      "Grind finer or extract a bit longer",
+      "Reduce dose a lot",
+      "Grind coarser and shorten extraction",
+      "Use much colder water"
+    ],
+    "a": 0,
+    "ex": "Correct: Grind finer or extract a bit longer."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)? #6",
+    "choices": [
+      "About 55–65°C",
+      "20–25°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 0,
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "What does “đá” mean in Vietnamese? #7",
+    "choices": [
+      "milk",
+      "black coffee",
+      "ice",
+      "sweet"
+    ],
+    "a": 2,
+    "ex": "Correct: ice."
+  },
+  {
+    "q": "Which action makes sense for coffee that tastes zu sauer? #8",
+    "choices": [
+      "Grind finer or extract a bit longer",
+      "Reduce dose a lot",
+      "Grind coarser and shorten extraction",
+      "Use much colder water"
+    ],
+    "a": 0,
+    "ex": "Correct: Grind finer or extract a bit longer."
+  },
+  {
+    "q": "Why do many pour-over recipes include a short “bloom” (Basics)? #9",
+    "choices": [
+      "To let CO₂ escape and extract more evenly",
+      "To caramelize sugar",
+      "To double caffeine",
+      "To steam milk better"
+    ],
+    "a": 0,
+    "ex": "Correct: To let CO₂ escape and extract more evenly."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)? #10",
+    "choices": [
+      "About 55–65°C",
+      "20–25°C",
+      "80–90°C",
+      "0–5°C"
+    ],
+    "a": 0,
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "What milk temperature is usually ideal for steaming (without scalding) (Basics)? #11",
+    "choices": [
+      "20–25°C",
+      "80–90°C",
+      "0–5°C",
+      "About 55–65°C"
+    ],
+    "a": 3,
+    "ex": "Correct: About 55–65°C."
+  },
+  {
+    "q": "Which action makes sense for coffee that tastes zu bitter? #12",
+    "choices": [
+      "Grind finer and extract longer",
+      "Use much hotter water",
+      "Increase contact time",
+      "Grind coarser or shorten extraction"
+    ],
+    "a": 3,
+    "ex": "Correct: Grind coarser or shorten extraction."
+  },
+  {
+    "q": "Why do many pour-over recipes include a short “bloom” (In practice)? #13",
+    "choices": [
+      "To steam milk better",
+      "To caramelize sugar",
+      "To let CO₂ escape and extract more evenly",
+      "To double caffeine"
+    ],
+    "a": 2,
+    "ex": "Correct: To let CO₂ escape and extract more evenly."
+  },
+  {
+    "q": "What does “sữa” mean in Vietnamese? #14",
+    "choices": [
+      "milk",
+      "sugar",
+      "filter",
+      "ice"
+    ],
+    "a": 0,
+    "ex": "Correct: milk."
   }
 ]

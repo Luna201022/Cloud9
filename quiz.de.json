@@ -13,13 +13,13 @@
   {
     "q": "Warum beeinflusst der Mahlgrad den Geschmack von Kaffee?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil er nur für das Geräusch der Mühle wichtig ist",
+      "Weil er die Extraktionsgeschwindigkeit und damit Geschmack beeinflusst",
+      "Weil er nur die Bohnenqualität bewertet",
+      "Weil er nur die Optik des Pulvers ändert"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Mahlgrad steuert die Extraktion und damit Aroma und Balance."
   },
   {
     "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
@@ -35,13 +35,13 @@
   {
     "q": "Warum sollte Kaffee nicht mit kochendem Wasser gebrüht werden?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
     "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Brühzeit beim Filterkaffee?",
@@ -57,13 +57,13 @@
   {
     "q": "Warum sind frisch gemahlene Bohnen aromatischer?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
@@ -90,13 +90,13 @@
   {
     "q": "Warum ist sauberes Wasser wichtig für guten Kaffee?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
@@ -112,13 +112,13 @@
   {
     "q": "Warum verlieren Bohnen nach dem Mahlen schnell Aroma?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was ist Crema bei Espresso?",
@@ -145,24 +145,24 @@
   {
     "q": "Warum schmeckt Kaffee bei Überextraktion bitter?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum schmeckt Kaffee bei Unterextraktion sauer?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
@@ -178,13 +178,13 @@
   {
     "q": "Warum sollte man Bohnen lichtgeschützt lagern?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
@@ -200,13 +200,13 @@
   {
     "q": "Warum ist Frische beim Kaffee so wichtig?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Bohnenherkunft für das Aroma?",
@@ -222,13 +222,13 @@
   {
     "q": "Warum sind luftdichte Behälter sinnvoll für die Lagerung?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bedeutet Blooming beim Filterkaffee?",
@@ -244,13 +244,13 @@
   {
     "q": "Warum ist das Verhältnis von Kaffee zu Wasser wichtig?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Aromen können bei Kaffee auftreten?",
@@ -266,24 +266,24 @@
   {
     "q": "Warum kann altes Wasser den Geschmack verfälschen?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum ist die Reinigung der Maschine wichtig für den Geschmack?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
@@ -299,13 +299,13 @@
   {
     "q": "Warum sollte man Kaffeemehl gleichmäßig befeuchten?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bedeutet Extraktion im Kaffeekontext?",
@@ -321,24 +321,24 @@
   {
     "q": "Warum verändert sich Geschmack mit der Brühmethode?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum ist Mahlgradanpassung wichtig bei neuen Bohnen?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil er die Extraktionsgeschwindigkeit und damit Geschmack beeinflusst",
+      "Weil er nur für das Geräusch der Mühle wichtig ist",
+      "Weil er nur die Bohnenqualität bewertet",
+      "Weil er nur die Optik des Pulvers ändert"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Mahlgrad steuert die Extraktion und damit Aroma und Balance."
   },
   {
     "q": "Welche Rolle spielt die Kontaktzeit von Wasser und Kaffee?",
@@ -354,13 +354,13 @@
   {
     "q": "Warum schmeckt kalter Kaffee oft flacher?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
@@ -376,24 +376,24 @@
   {
     "q": "Warum beeinflusst der Druck den Espressogeschmack?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum können zu alte Bohnen fade schmecken?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat Sauerstoff auf Kaffeearomen?",
@@ -409,13 +409,13 @@
   {
     "q": "Warum ist konstante Brühtemperatur wichtig?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bewirkt eine längere Röstzeit?",
@@ -431,13 +431,13 @@
   {
     "q": "Warum sind frische Bohnen öliger?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Partikelgröße beim Mahlen?",
@@ -453,13 +453,13 @@
   {
     "q": "Warum sollte man Mühlen regelmäßig reinigen?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bewirkt eine ungleichmäßige Extraktion?",
@@ -475,13 +475,13 @@
   {
     "q": "Warum kann Leitungswasser je nach Region unterschiedlich schmecken?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
@@ -497,24 +497,24 @@
   {
     "q": "Warum ist eine Waage beim Brühen hilfreich?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum sollte man Bohnen nicht im Kühlschrank lagern?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Röstfrische für Crema?",
@@ -530,13 +530,13 @@
   {
     "q": "Warum beeinflusst die Brühmethode die Klarheit im Geschmack?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bewirkt längere Vorinfusion?",
@@ -552,24 +552,24 @@
   {
     "q": "Warum kann Kaffee metallisch schmecken?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum ist konstante Dosierung wichtig?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
@@ -585,24 +585,24 @@
   {
     "q": "Warum sind saubere Filter wichtig?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum beeinflusst die Wasserhärte den Geschmack?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bewirkt Umrühren beim Blooming?",
@@ -618,13 +618,13 @@
   {
     "q": "Warum kann Kaffee schal schmecken?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
     "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt der Röstgrad für Süße?",
@@ -640,13 +640,13 @@
   {
     "q": "Warum ist gleichmäßige Extraktion wichtig?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was bedeutet „sữa“ im vietnamesischen Kaffee?",
@@ -684,13 +684,13 @@
   {
     "q": "Warum wird in Vietnam häufig Robusta verwendet?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was ist Cà phê sữa đá?",
@@ -706,13 +706,13 @@
   {
     "q": "Warum ist vietnamesischer Kaffee oft kräftiger geröstet?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt gesüßte Kondensmilch im vietnamesischen Kaffee?",
@@ -728,13 +728,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam häufig mit Eis serviert?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
@@ -761,13 +761,13 @@
   {
     "q": "Warum passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Kaffee im vietnamesischen Alltag?",
@@ -783,13 +783,13 @@
   {
     "q": "Warum sind Cafés in Vietnam soziale Treffpunkte?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Wie beeinflusst Eis den Geschmack von Kaffee?",
@@ -805,13 +805,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam oft stark gesüßt?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Röstgrad bei vietnamesischem Kaffee?",
@@ -860,13 +860,13 @@
   {
     "q": "Warum schmeckt vietnamesischer Kaffee oft schokoladig?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Kaffee für die vietnamesische Café-Kultur?",
@@ -893,13 +893,13 @@
   {
     "q": "Warum passt Kondensmilch gut zu Robusta?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Temperatur bei der Phin-Zubereitung?",
@@ -948,13 +948,13 @@
   {
     "q": "Warum kann vietnamesischer Kaffee intensiver wirken?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
@@ -970,13 +970,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam oft draußen getrunken?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Eis bei der Erfrischung?",
@@ -992,13 +992,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam auch abends getrunken?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Milch für die Balance der Bitterkeit?",
@@ -1014,13 +1014,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam häufig als Ritual zelebriert?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Tasse für das Aroma?",
@@ -1058,13 +1058,13 @@
   {
     "q": "Warum ist vietnamesischer Kaffee weltweit bekannt?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Zucker im Geschmacksausgleich?",
@@ -1080,13 +1080,13 @@
   {
     "q": "Warum ist Robusta widerstandsfähiger im Anbau?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Bohnenherkunft in Vietnam?",
@@ -1102,13 +1102,13 @@
   {
     "q": "Warum ist Kaffee in Vietnam oft stärker dosiert?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
@@ -1124,13 +1124,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam oft mit Gesprächen verbunden?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Kondensmilch für das Mundgefühl?",
@@ -1146,13 +1146,13 @@
   {
     "q": "Warum ist Eiskaffee in Vietnam so beliebt?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
@@ -1190,13 +1190,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam häufig mit Freunden getrunken?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
@@ -1212,13 +1212,13 @@
   {
     "q": "Warum ist Kaffee Teil der Alltagskultur?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Brühtechnik für Konsistenz?",
@@ -1234,13 +1234,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam oft süßer serviert?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
@@ -1256,13 +1256,13 @@
   {
     "q": "Warum ist Kaffee ein Treffpunkt-Getränk?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt das Glas bei Eiskaffee?",
@@ -1278,13 +1278,13 @@
   {
     "q": "Warum passt Kaffee gut zu süßen Snacks?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
@@ -1300,13 +1300,13 @@
   {
     "q": "Warum ist Robusta ertragreich?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
     "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Erntezeit für die Qualität?",
@@ -1322,13 +1322,13 @@
   {
     "q": "Warum ist vietnamesischer Kaffee oft kräftig im Körper?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat die Präsentation im Glas?",
@@ -1344,13 +1344,13 @@
   {
     "q": "Warum wird Kaffee in Vietnam oft draußen serviert?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Umgebung für den Genuss?",
@@ -1366,13 +1366,13 @@
   {
     "q": "Warum wird Kaffee oft langsam getrunken?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Wirkung hat Geduld auf den Genuss?",
@@ -1399,13 +1399,13 @@
   {
     "q": "Warum werden in der vietnamesischen Küche frische Kräuter verwendet?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Reis in der vietnamesischen Küche?",
@@ -1421,13 +1421,13 @@
   {
     "q": "Warum sind vietnamesische Gerichte oft leicht und frisch?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
@@ -1443,13 +1443,13 @@
   {
     "q": "Warum werden Speisen oft mit Limette serviert?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Fischsauce in der vietnamesischen Küche?",
@@ -1465,13 +1465,13 @@
   {
     "q": "Warum sind Kräuter wichtig für die Frische?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
@@ -1487,13 +1487,13 @@
   {
     "q": "Warum werden Speisen oft mit frischem Gemüse kombiniert?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Brühe bei Suppengerichten?",
@@ -1509,13 +1509,13 @@
   {
     "q": "Warum ist Balance der Geschmäcker wichtig?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Süße in herzhaften Gerichten?",
@@ -1531,13 +1531,13 @@
   {
     "q": "Warum sind vietnamesische Gerichte oft nicht schwer?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
@@ -1553,13 +1553,13 @@
   {
     "q": "Warum werden Gerichte oft individuell abgeschmeckt?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Frische bei Kräutern?",
@@ -1575,13 +1575,13 @@
   {
     "q": "Warum sind Nudeln aus Reis beliebt?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Knoblauch im Aroma?",
@@ -1597,13 +1597,13 @@
   {
     "q": "Warum werden Gerichte oft geteilt?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen?",
@@ -1619,13 +1619,13 @@
   {
     "q": "Warum sind Suppen in Vietnam beliebt?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Dampf beim Garen?",
@@ -1641,13 +1641,13 @@
   {
     "q": "Warum sind Gerichte oft leicht verdaulich?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Säure für Frische?",
@@ -1663,13 +1663,13 @@
   {
     "q": "Warum werden Speisen oft mit Kräutern serviert?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat die Brühe für Phở?",
@@ -1685,13 +1685,13 @@
   {
     "q": "Warum ist die Küche regional vielfältig?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Frische für den Geschmack?",
@@ -1707,13 +1707,13 @@
   {
     "q": "Warum werden Zutaten oft roh ergänzt?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Texturkontrast?",
@@ -1729,13 +1729,13 @@
   {
     "q": "Warum sind Gerichte ausgewogen gewürzt?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
@@ -1751,13 +1751,13 @@
   {
     "q": "Warum sind Kräuter ein fester Bestandteil?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Reis als Grundnahrungsmittel?",
@@ -1773,13 +1773,13 @@
   {
     "q": "Warum sind Gerichte oft leicht süßlich?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Umami?",
@@ -1795,13 +1795,13 @@
   {
     "q": "Warum werden Gerichte häufig mit Brühe serviert?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
     "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Temperatur beim Servieren?",
@@ -1817,13 +1817,13 @@
   {
     "q": "Warum sind Gerichte aromatisch, aber nicht schwer?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Frische der Zutaten?",
@@ -1839,13 +1839,13 @@
   {
     "q": "Warum werden Gerichte oft frisch zubereitet?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Vielfalt der Aromen?",
@@ -1861,13 +1861,13 @@
   {
     "q": "Warum sind Gerichte gut ausbalanciert?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt die Präsentation?",
@@ -1883,13 +1883,13 @@
   {
     "q": "Warum werden Speisen oft mit Kräutern garniert?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Regionalität?",
@@ -1905,24 +1905,24 @@
   {
     "q": "Warum sind Gerichte leicht bekömmlich?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Warum wächst die Café-Kultur in vietnamesischen Städten?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Urbanisierung in Vietnam?",
@@ -1938,13 +1938,13 @@
   {
     "q": "Warum sind Start-ups in Vietnam im Aufschwung?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
@@ -1960,13 +1960,13 @@
   {
     "q": "Warum ist Streetfood weiterhin beliebt?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielen soziale Medien im Alltag?",
@@ -1982,13 +1982,13 @@
   {
     "q": "Warum verbinden junge Menschen Tradition und Moderne?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
-    "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Tourismus für Vietnam?",
@@ -2015,13 +2015,13 @@
   {
     "q": "Warum ist Nachhaltigkeit ein wachsendes Thema?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Technologie im Alltag?",
@@ -2037,13 +2037,13 @@
   {
     "q": "Warum sind Cafés Arbeitsorte geworden?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Kreativwirtschaft?",
@@ -2059,13 +2059,13 @@
   {
     "q": "Warum sind Co-Working-Spaces beliebt?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat internationale Küche?",
@@ -2081,13 +2081,13 @@
   {
     "q": "Warum ist Vietnam wirtschaftlich gewachsen?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Bildung für den Arbeitsmarkt?",
@@ -2103,13 +2103,13 @@
   {
     "q": "Warum sind junge Menschen offen für Neues?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Kultur für Identität?",
@@ -2125,13 +2125,13 @@
   {
     "q": "Warum ist Tourismus wichtig für Städte?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Urban Gardening?",
@@ -2147,13 +2147,13 @@
   {
     "q": "Warum gewinnen lokale Marken an Bedeutung?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Design in Cafés?",
@@ -2169,13 +2169,13 @@
   {
     "q": "Warum sind nachhaltige Konzepte gefragt?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Digitalisierung?",
@@ -2191,13 +2191,13 @@
   {
     "q": "Warum ist Vietnam international vernetzt?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
     ],
-    "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 3,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Unternehmertum?",
@@ -2213,13 +2213,13 @@
   {
     "q": "Warum ist der Alltag schneller geworden?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Gemeinschaft?",
@@ -2246,13 +2246,13 @@
   {
     "q": "Warum passen leichte Speisen gut zu Kaffee?",
     "choices": [
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Frische bei Snacks?",
@@ -2268,13 +2268,13 @@
   {
     "q": "Warum ergänzen herzhafte Snacks Kaffee gut?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 1,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
@@ -2290,13 +2290,13 @@
   {
     "q": "Warum sind frische Zutaten wichtig für Snacks?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst"
     ],
     "a": 1,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Rolle spielt Textur bei kleinen Speisen?",
@@ -2312,13 +2312,13 @@
   {
     "q": "Warum passen Kräuter gut zu belegten Broten?",
     "choices": [
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt"
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert",
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist"
     ],
     "a": 0,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Frische für den Genuss?",
@@ -2334,13 +2334,13 @@
   {
     "q": "Warum sind leichte Snacks beliebt?",
     "choices": [
-      "Weil es nur für Deko wichtig ist",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur die Farbe verändert",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil sie den Hunger stillen, ohne zu schwer im Magen zu liegen",
+      "Weil sie immer zuckerfrei sind",
+      "Weil sie automatisch koffeinhaltig sind",
+      "Weil sie nur kalt gegessen werden dürfen"
     ],
-    "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "a": 0,
+    "ex": "Leichte Snacks sind beliebt, weil sie nicht belasten und gut zu Kaffee passen."
   },
   {
     "q": "Welche Rolle spielt Präsentation bei kleinen Gerichten?",
@@ -2356,13 +2356,13 @@
   {
     "q": "Warum sind ausgewogene Aromen wichtig?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst",
-      "Weil es nur für Deko wichtig ist"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
     ],
     "a": 2,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
   },
   {
     "q": "Welche Bedeutung hat Qualität der Zutaten?",
@@ -2378,12 +2378,375 @@
   {
     "q": "Warum ergänzen knusprige Texturen Kaffee gut?",
     "choices": [
-      "Weil es nur die Farbe verändert",
-      "Weil es nur die Koffeinmenge verdoppelt",
-      "Weil es nur für Deko wichtig ist",
-      "Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst"
+      "Weil es nur die Optik beeinflusst",
+      "Weil es nur bei Instantkaffee relevant ist",
+      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
+      "Weil es nur die Temperatur der Tasse ändert"
+    ],
+    "a": 2,
+    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+  },
+  {
+    "q": "Was bedeutet „sữa“ auf Vietnamesisch?",
+    "choices": [
+      "Filter",
+      "Zucker",
+      "Eis",
+      "Milch"
     ],
     "a": 3,
-    "ex": "Richtig: Weil es Geschmack, Aroma oder Konsistenz direkt beeinflusst. Der genannte Faktor wirkt sich auf Extraktion/Aroma und damit auf den Geschmack aus."
+    "ex": "Richtig: Milch."
+  },
+  {
+    "q": "Was bedeutet „đá“ auf Vietnamesisch?",
+    "choices": [
+      "Eis",
+      "Schwarz (ohne Milch)",
+      "Milch",
+      "Süß"
+    ],
+    "a": 0,
+    "ex": "Richtig: Eis."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Basiswissen)?",
+    "choices": [
+      "20–25 °C",
+      "80–90 °C",
+      "Etwa 55–65 °C",
+      "0–5 °C"
+    ],
+    "a": 2,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Praxis)?",
+    "choices": [
+      "Etwa 55–65 °C",
+      "20–25 °C",
+      "0–5 °C",
+      "80–90 °C"
+    ],
+    "a": 0,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Barista-Tipp)?",
+    "choices": [
+      "80–90 °C",
+      "0–5 °C",
+      "20–25 °C",
+      "Etwa 55–65 °C"
+    ],
+    "a": 3,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Basiswissen)?",
+    "choices": [
+      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
+      "Wasser ändert nur die Farbe",
+      "Wasser erzeugt Koffein",
+      "Wasser ist nur für Latte-Art wichtig"
+    ],
+    "a": 0,
+    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+  },
+  {
+    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Praxis)?",
+    "choices": [
+      "Wasser ändert nur die Farbe",
+      "Wasser ist nur für Latte-Art wichtig",
+      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
+      "Wasser erzeugt Koffein"
+    ],
+    "a": 2,
+    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+  },
+  {
+    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Barista-Tipp)?",
+    "choices": [
+      "Wasser ändert nur die Farbe",
+      "Wasser ist nur für Latte-Art wichtig",
+      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
+      "Wasser erzeugt Koffein"
+    ],
+    "a": 2,
+    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+  },
+  {
+    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Basiswissen)?",
+    "choices": [
+      "Um den Koffeingehalt zu verdoppeln",
+      "Um Milch besser aufzuschäumen",
+      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren",
+      "Um Zucker zu karamellisieren"
+    ],
+    "a": 2,
+    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+  },
+  {
+    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Praxis)?",
+    "choices": [
+      "Um Zucker zu karamellisieren",
+      "Um den Koffeingehalt zu verdoppeln",
+      "Um Milch besser aufzuschäumen",
+      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren"
+    ],
+    "a": 3,
+    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+  },
+  {
+    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Barista-Tipp)?",
+    "choices": [
+      "Um den Koffeingehalt zu verdoppeln",
+      "Um Milch besser aufzuschäumen",
+      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren",
+      "Um Zucker zu karamellisieren"
+    ],
+    "a": 2,
+    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+  },
+  {
+    "q": "Was hilft, wenn Kaffee zu sauer ist?",
+    "choices": [
+      "Dosierung stark reduzieren",
+      "Grober mahlen und kürzer extrahieren",
+      "Feiner mahlen oder etwas länger extrahieren",
+      "Wasser deutlich kälter machen"
+    ],
+    "a": 2,
+    "ex": "Richtig: Feiner mahlen oder etwas länger extrahieren."
+  },
+  {
+    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu sauer schmeckt?",
+    "choices": [
+      "Feiner mahlen oder etwas länger extrahieren",
+      "Wasser deutlich kälter machen",
+      "Dosierung stark reduzieren",
+      "Grober mahlen und kürzer extrahieren"
+    ],
+    "a": 0,
+    "ex": "Richtig: Feiner mahlen oder etwas länger extrahieren."
+  },
+  {
+    "q": "Was hilft, wenn Kaffee zu bitter ist?",
+    "choices": [
+      "Wasser deutlich heißer machen",
+      "Etwas gröber mahlen oder kürzer extrahieren",
+      "Kontaktzeit erhöhen",
+      "Feiner mahlen und länger extrahieren"
+    ],
+    "a": 1,
+    "ex": "Richtig: Etwas gröber mahlen oder kürzer extrahieren."
+  },
+  {
+    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu bitter schmeckt?",
+    "choices": [
+      "Feiner mahlen und länger extrahieren",
+      "Wasser deutlich heißer machen",
+      "Kontaktzeit erhöhen",
+      "Etwas gröber mahlen oder kürzer extrahieren"
+    ],
+    "a": 3,
+    "ex": "Richtig: Etwas gröber mahlen oder kürzer extrahieren."
+  },
+  {
+    "q": "Was hilft, wenn Kaffee zu wässrig ist?",
+    "choices": [
+      "Grober mahlen",
+      "Dosierung senken",
+      "Kürzer extrahieren",
+      "Dosierung erhöhen oder feiner mahlen"
+    ],
+    "a": 3,
+    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+  },
+  {
+    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu wässrig schmeckt?",
+    "choices": [
+      "Grober mahlen",
+      "Kürzer extrahieren",
+      "Dosierung senken",
+      "Dosierung erhöhen oder feiner mahlen"
+    ],
+    "a": 3,
+    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Basiswissen)? #1",
+    "choices": [
+      "20–25 °C",
+      "80–90 °C",
+      "Etwa 55–65 °C",
+      "0–5 °C"
+    ],
+    "a": 2,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Was bedeutet „sữa“ auf Vietnamesisch? #2",
+    "choices": [
+      "Filter",
+      "Zucker",
+      "Eis",
+      "Milch"
+    ],
+    "a": 3,
+    "ex": "Richtig: Milch."
+  },
+  {
+    "q": "Was bedeutet „sữa“ auf Vietnamesisch? #3",
+    "choices": [
+      "Filter",
+      "Zucker",
+      "Eis",
+      "Milch"
+    ],
+    "a": 3,
+    "ex": "Richtig: Milch."
+  },
+  {
+    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Praxis)? #4",
+    "choices": [
+      "Um Zucker zu karamellisieren",
+      "Um den Koffeingehalt zu verdoppeln",
+      "Um Milch besser aufzuschäumen",
+      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren"
+    ],
+    "a": 3,
+    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+  },
+  {
+    "q": "Was hilft, wenn Kaffee zu sauer ist? #5",
+    "choices": [
+      "Dosierung stark reduzieren",
+      "Grober mahlen und kürzer extrahieren",
+      "Feiner mahlen oder etwas länger extrahieren",
+      "Wasser deutlich kälter machen"
+    ],
+    "a": 2,
+    "ex": "Richtig: Feiner mahlen oder etwas länger extrahieren."
+  },
+  {
+    "q": "Was hilft, wenn Kaffee zu wässrig ist? #6",
+    "choices": [
+      "Grober mahlen",
+      "Dosierung senken",
+      "Kürzer extrahieren",
+      "Dosierung erhöhen oder feiner mahlen"
+    ],
+    "a": 3,
+    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+  },
+  {
+    "q": "Was hilft, wenn Kaffee zu wässrig ist? #7",
+    "choices": [
+      "Grober mahlen",
+      "Dosierung senken",
+      "Kürzer extrahieren",
+      "Dosierung erhöhen oder feiner mahlen"
+    ],
+    "a": 3,
+    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Barista-Tipp)? #8",
+    "choices": [
+      "80–90 °C",
+      "0–5 °C",
+      "20–25 °C",
+      "Etwa 55–65 °C"
+    ],
+    "a": 3,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Praxis)? #9",
+    "choices": [
+      "Etwa 55–65 °C",
+      "20–25 °C",
+      "0–5 °C",
+      "80–90 °C"
+    ],
+    "a": 0,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu wässrig schmeckt? #10",
+    "choices": [
+      "Grober mahlen",
+      "Kürzer extrahieren",
+      "Dosierung senken",
+      "Dosierung erhöhen oder feiner mahlen"
+    ],
+    "a": 3,
+    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+  },
+  {
+    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Barista-Tipp)? #11",
+    "choices": [
+      "Um den Koffeingehalt zu verdoppeln",
+      "Um Milch besser aufzuschäumen",
+      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren",
+      "Um Zucker zu karamellisieren"
+    ],
+    "a": 2,
+    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Basiswissen)? #12",
+    "choices": [
+      "20–25 °C",
+      "80–90 °C",
+      "Etwa 55–65 °C",
+      "0–5 °C"
+    ],
+    "a": 2,
+    "ex": "Richtig: Etwa 55–65 °C."
+  },
+  {
+    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu wässrig schmeckt? #13",
+    "choices": [
+      "Grober mahlen",
+      "Kürzer extrahieren",
+      "Dosierung senken",
+      "Dosierung erhöhen oder feiner mahlen"
+    ],
+    "a": 3,
+    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+  },
+  {
+    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Basiswissen)? #14",
+    "choices": [
+      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
+      "Wasser ändert nur die Farbe",
+      "Wasser erzeugt Koffein",
+      "Wasser ist nur für Latte-Art wichtig"
+    ],
+    "a": 0,
+    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+  },
+  {
+    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Basiswissen)? #15",
+    "choices": [
+      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
+      "Wasser ändert nur die Farbe",
+      "Wasser erzeugt Koffein",
+      "Wasser ist nur für Latte-Art wichtig"
+    ],
+    "a": 0,
+    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+  },
+  {
+    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Barista-Tipp)? #16",
+    "choices": [
+      "80–90 °C",
+      "0–5 °C",
+      "20–25 °C",
+      "Etwa 55–65 °C"
+    ],
+    "a": 3,
+    "ex": "Richtig: Etwa 55–65 °C."
   }
 ]
