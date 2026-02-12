@@ -484,7 +484,7 @@
     "ex": "Richtig: vanilla syrup."
   },
   {
-    "q": "Which statement fits coffee in a café? (Question 45)",
+    "q": "Which statement fits coffee in a café?",
     "choices": [
       "Kaffee enthält kein Aroma",
       "Kaffee wird ohne Wasser zubereitet",
@@ -495,7 +495,7 @@
     "ex": "Richtig: Man kann Kaffee mit oder ohne Milch bestellen."
   },
   {
-    "q": "Which statement fits coffee in a café? (Question 46)",
+    "q": "Which statement fits coffee in a café?",
     "choices": [
       "Frische Bohnen riechen aromatisch",
       "Kaffee wird aus Kartoffeln gemacht",
@@ -506,7 +506,7 @@
     "ex": "Richtig: Frische Bohnen riechen aromatisch."
   },
   {
-    "q": "Which statement fits coffee in a café? (Question 47)",
+    "q": "Which statement fits coffee in a café?",
     "choices": [
       "Kaffee kann heiß oder kalt serviert werden",
       "Kaffee wird ohne Wasser zubereitet",
@@ -517,7 +517,7 @@
     "ex": "Richtig: Kaffee kann heiß oder kalt serviert werden."
   },
   {
-    "q": "Which statement fits coffee in a café? (Question 48)",
+    "q": "Which statement fits coffee in a café?",
     "choices": [
       "Kaffee kann heiß oder kalt serviert werden",
       "Kaffee ist immer koffeinfrei",
@@ -528,7 +528,7 @@
     "ex": "Richtig: Kaffee kann heiß oder kalt serviert werden."
   },
   {
-    "q": "Which statement fits coffee in a café? (Question 49)",
+    "q": "Which statement fits coffee in a café?",
     "choices": [
       "Kaffee enthält kein Aroma",
       "Kaffee wird ohne Wasser zubereitet",
@@ -539,7 +539,7 @@
     "ex": "Richtig: Viele Cafés bieten auch entkoffeiniert an."
   },
   {
-    "q": "Which statement fits coffee in a café? (Question 50)",
+    "q": "Which statement fits coffee in a café?",
     "choices": [
       "Kaffee wird aus Kartoffeln gemacht",
       "Kaffee ist immer koffeinfrei",
@@ -858,7 +858,7 @@
     "ex": "Richtig: Vietnam ist eines der größten Kaffee-Produzentenländer."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 29)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "Kaffee wird dort immer salzig gekocht",
@@ -869,7 +869,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 30)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "In Vietnam gibt es keine Cafés",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -880,7 +880,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 31)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Phin ist ein Brot",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -891,7 +891,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 32)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Vietnam baut viel Robusta an",
       "In Vietnam gibt es keine Cafés",
@@ -902,7 +902,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 33)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -913,7 +913,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 34)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -924,7 +924,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 35)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "Phin ist ein Brot",
@@ -935,7 +935,7 @@
     "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 36)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kaffee wird dort immer salzig gekocht",
       "Vietnam baut viel Robusta an",
@@ -946,7 +946,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 37)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "In Vietnam gibt es keine Cafés",
       "Phin ist ein Brot",
@@ -957,7 +957,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 38)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Phin ist ein Brot",
       "Kondensmilch ist sehr typisch",
@@ -968,7 +968,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 39)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "In Vietnam gibt es keine Cafés",
@@ -979,7 +979,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 40)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Der Phin-Filter lässt Kaffee langsam tropfen",
       "Kaffee wird dort immer salzig gekocht",
@@ -990,7 +990,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 41)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Vietnam baut viel Robusta an",
       "In Vietnam gibt es keine Cafés",
@@ -1001,7 +1001,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 42)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Phin ist ein Brot",
       "Vietnam baut viel Robusta an",
@@ -1012,7 +1012,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 43)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Phin ist ein Brot",
       "Kaffee wird dort immer salzig gekocht",
@@ -1023,7 +1023,7 @@
     "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 44)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "In Vietnam gibt es keine Cafés",
@@ -1034,7 +1034,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 45)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Viele Varianten werden mit Eis getrunken",
       "In Vietnam gibt es keine Cafés",
@@ -1045,7 +1045,7 @@
     "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 46)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kaffee wird dort immer salzig gekocht",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -1056,7 +1056,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 47)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "Kaffee wird dort immer salzig gekocht",
@@ -1067,7 +1067,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 48)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "In Vietnam gibt es keine Cafés",
       "Kaffee wird dort immer salzig gekocht",
@@ -1078,7 +1078,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 49)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kaffee wird dort immer salzig gekocht",
       "Vietnam baut viel Robusta an",
@@ -1089,7 +1089,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Which statement fits Vietnamese coffee? (Question 50)",
+    "q": "Which statement fits Vietnamese coffee?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -1408,7 +1408,7 @@
     "ex": "Richtig: the South China Sea."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 29)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat keine Küste",
       "In Vietnam bezahlt man mit Euro",
@@ -1419,7 +1419,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 30)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam ist bekannt für Streetfood",
@@ -1430,7 +1430,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 31)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat keine Küste",
       "Die Hauptstadt heißt Paris",
@@ -1441,7 +1441,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 32)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat keine Küste",
       "Die Hauptstadt heißt Paris",
@@ -1452,7 +1452,7 @@
     "ex": "Richtig: Tết ist das Neujahrsfest."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 33)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam ist bekannt für Streetfood",
       "Vietnam hat keine Küste",
@@ -1463,7 +1463,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 34)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat Berge, Küste und Deltas",
       "Vietnam liegt in Südamerika",
@@ -1474,7 +1474,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 35)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Die Hauptstadt heißt Paris",
       "Tết ist das Neujahrsfest",
@@ -1485,7 +1485,7 @@
     "ex": "Richtig: Tết ist das Neujahrsfest."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 36)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat keine Küste",
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
@@ -1496,7 +1496,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 37)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
       "In Vietnam bezahlt man mit Euro",
@@ -1507,7 +1507,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 38)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam ist bekannt für Streetfood",
@@ -1518,7 +1518,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 39)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat keine Küste",
       "Vietnam liegt in Südamerika",
@@ -1529,7 +1529,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 40)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
       "Vietnam hat keine Küste",
@@ -1540,7 +1540,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 41)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
       "Die Hauptstadt heißt Paris",
@@ -1551,7 +1551,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 42)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Die Hauptstadt heißt Paris",
@@ -1562,7 +1562,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 43)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat Berge, Küste und Deltas",
       "Vietnam hat keine Küste",
@@ -1573,7 +1573,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 44)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam hat keine Küste",
@@ -1584,7 +1584,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 45)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam hat keine Küste",
@@ -1595,7 +1595,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 46)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat Berge, Küste und Deltas",
       "In Vietnam bezahlt man mit Euro",
@@ -1606,7 +1606,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 47)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Die Hauptstadt heißt Paris",
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
@@ -1617,7 +1617,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 48)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Die Hauptstadt heißt Paris",
       "Vietnam hat keine Küste",
@@ -1628,7 +1628,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 49)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Tết ist das Neujahrsfest",
@@ -1639,7 +1639,7 @@
     "ex": "Richtig: Tết ist das Neujahrsfest."
   },
   {
-    "q": "Which statement about Vietnam is true? (Question 50)",
+    "q": "Which statement about Vietnam is true?",
     "choices": [
       "Vietnam hat keine Küste",
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
@@ -1969,7 +1969,7 @@
     "ex": "Richtig: Es hat seinen Sitz in Mainz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 30)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz ist eine Insel",
       "Mainz ist mit Gutenberg verbunden",
@@ -1980,7 +1980,7 @@
     "ex": "Richtig: Mainz ist mit Gutenberg verbunden."
   },
   {
-    "q": "Which statement fits Mainz? (Question 31)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -1991,7 +1991,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 32)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -2002,7 +2002,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 33)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt in Rheinland-Pfalz",
@@ -2013,7 +2013,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 34)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Meer",
       "Mainz liegt am Nil",
@@ -2024,7 +2024,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 35)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -2035,7 +2035,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 36)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz ist eine Insel",
@@ -2046,7 +2046,7 @@
     "ex": "Richtig: Mainz ist für Fastnacht bekannt."
   },
   {
-    "q": "Which statement fits Mainz? (Question 37)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz ist eine Insel",
@@ -2057,7 +2057,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Which statement fits Mainz? (Question 38)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz ist mit Gutenberg verbunden",
       "Mainz liegt am Meer",
@@ -2068,7 +2068,7 @@
     "ex": "Richtig: Mainz ist mit Gutenberg verbunden."
   },
   {
-    "q": "Which statement fits Mainz? (Question 39)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Meer",
@@ -2079,7 +2079,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 40)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz ist für Fastnacht bekannt",
       "Mainz liegt am Nil",
@@ -2090,7 +2090,7 @@
     "ex": "Richtig: Mainz ist für Fastnacht bekannt."
   },
   {
-    "q": "Which statement fits Mainz? (Question 41)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Meer",
@@ -2101,7 +2101,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 42)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt in Spanien",
@@ -2112,7 +2112,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Which statement fits Mainz? (Question 43)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -2123,7 +2123,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 44)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Rhein",
       "Mainz ist eine Insel",
@@ -2134,7 +2134,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Which statement fits Mainz? (Question 45)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt in Spanien",
       "Mainz liegt am Rhein",
@@ -2145,7 +2145,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Which statement fits Mainz? (Question 46)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz ist eine Insel",
       "Mainz liegt am Meer",
@@ -2156,7 +2156,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 47)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Rhein",
       "Mainz liegt am Nil",
@@ -2167,7 +2167,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Which statement fits Mainz? (Question 48)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt am Meer",
@@ -2178,7 +2178,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Which statement fits Mainz? (Question 49)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt am Rhein",
@@ -2189,7 +2189,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Which statement fits Mainz? (Question 50)",
+    "q": "Which statement fits Mainz?",
     "choices": [
       "Mainz ist eine Insel",
       "Mainz ist für Fastnacht bekannt",

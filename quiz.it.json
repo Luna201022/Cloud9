@@ -484,7 +484,7 @@
     "ex": "Richtig: Vanillesirup."
   },
   {
-    "q": "Quale affermazione si adatta al caffè al bar? (Domanda 45)",
+    "q": "Quale affermazione si adatta al caffè al bar?",
     "choices": [
       "Kaffee enthält kein Aroma",
       "Kaffee wird ohne Wasser zubereitet",
@@ -495,7 +495,7 @@
     "ex": "Richtig: Man kann Kaffee mit oder ohne Milch bestellen."
   },
   {
-    "q": "Quale affermazione si adatta al caffè al bar? (Domanda 46)",
+    "q": "Quale affermazione si adatta al caffè al bar?",
     "choices": [
       "Frische Bohnen riechen aromatisch",
       "Kaffee wird aus Kartoffeln gemacht",
@@ -506,7 +506,7 @@
     "ex": "Richtig: Frische Bohnen riechen aromatisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè al bar? (Domanda 47)",
+    "q": "Quale affermazione si adatta al caffè al bar?",
     "choices": [
       "Kaffee kann heiß oder kalt serviert werden",
       "Kaffee wird ohne Wasser zubereitet",
@@ -517,7 +517,7 @@
     "ex": "Richtig: Kaffee kann heiß oder kalt serviert werden."
   },
   {
-    "q": "Quale affermazione si adatta al caffè al bar? (Domanda 48)",
+    "q": "Quale affermazione si adatta al caffè al bar?",
     "choices": [
       "Kaffee kann heiß oder kalt serviert werden",
       "Kaffee ist immer koffeinfrei",
@@ -528,7 +528,7 @@
     "ex": "Richtig: Kaffee kann heiß oder kalt serviert werden."
   },
   {
-    "q": "Quale affermazione si adatta al caffè al bar? (Domanda 49)",
+    "q": "Quale affermazione si adatta al caffè al bar?",
     "choices": [
       "Kaffee enthält kein Aroma",
       "Kaffee wird ohne Wasser zubereitet",
@@ -539,7 +539,7 @@
     "ex": "Richtig: Viele Cafés bieten auch entkoffeiniert an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè al bar? (Domanda 50)",
+    "q": "Quale affermazione si adatta al caffè al bar?",
     "choices": [
       "Kaffee wird aus Kartoffeln gemacht",
       "Kaffee ist immer koffeinfrei",
@@ -858,7 +858,7 @@
     "ex": "Richtig: Vietnam ist eines der größten Kaffee-Produzentenländer."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 29)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "Kaffee wird dort immer salzig gekocht",
@@ -869,7 +869,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 30)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "In Vietnam gibt es keine Cafés",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -880,7 +880,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 31)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Phin ist ein Brot",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -891,7 +891,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 32)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Vietnam baut viel Robusta an",
       "In Vietnam gibt es keine Cafés",
@@ -902,7 +902,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 33)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -913,7 +913,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 34)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -924,7 +924,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 35)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "Phin ist ein Brot",
@@ -935,7 +935,7 @@
     "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 36)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kaffee wird dort immer salzig gekocht",
       "Vietnam baut viel Robusta an",
@@ -946,7 +946,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 37)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "In Vietnam gibt es keine Cafés",
       "Phin ist ein Brot",
@@ -957,7 +957,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 38)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Phin ist ein Brot",
       "Kondensmilch ist sehr typisch",
@@ -968,7 +968,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 39)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "In Vietnam gibt es keine Cafés",
@@ -979,7 +979,7 @@
     "ex": "Richtig: Kondensmilch ist sehr typisch."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 40)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Der Phin-Filter lässt Kaffee langsam tropfen",
       "Kaffee wird dort immer salzig gekocht",
@@ -990,7 +990,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 41)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Vietnam baut viel Robusta an",
       "In Vietnam gibt es keine Cafés",
@@ -1001,7 +1001,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 42)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Phin ist ein Brot",
       "Vietnam baut viel Robusta an",
@@ -1012,7 +1012,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 43)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Phin ist ein Brot",
       "Kaffee wird dort immer salzig gekocht",
@@ -1023,7 +1023,7 @@
     "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 44)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "In Vietnam gibt es keine Cafés",
@@ -1034,7 +1034,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 45)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Viele Varianten werden mit Eis getrunken",
       "In Vietnam gibt es keine Cafés",
@@ -1045,7 +1045,7 @@
     "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 46)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kaffee wird dort immer salzig gekocht",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -1056,7 +1056,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 47)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
       "Kaffee wird dort immer salzig gekocht",
@@ -1067,7 +1067,7 @@
     "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 48)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "In Vietnam gibt es keine Cafés",
       "Kaffee wird dort immer salzig gekocht",
@@ -1078,7 +1078,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 49)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kaffee wird dort immer salzig gekocht",
       "Vietnam baut viel Robusta an",
@@ -1089,7 +1089,7 @@
     "ex": "Richtig: Vietnam baut viel Robusta an."
   },
   {
-    "q": "Quale affermazione si adatta al caffè vietnamita? (Domanda 50)",
+    "q": "Quale affermazione si adatta al caffè vietnamita?",
     "choices": [
       "Kondensmilch ist sehr typisch",
       "Vietnamesischer Kaffee wird nur aus Tee gemacht",
@@ -1408,7 +1408,7 @@
     "ex": "Richtig: Südchinesisches Meer."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 29)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat keine Küste",
       "In Vietnam bezahlt man mit Euro",
@@ -1419,7 +1419,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 30)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam ist bekannt für Streetfood",
@@ -1430,7 +1430,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 31)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat keine Küste",
       "Die Hauptstadt heißt Paris",
@@ -1441,7 +1441,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 32)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat keine Küste",
       "Die Hauptstadt heißt Paris",
@@ -1452,7 +1452,7 @@
     "ex": "Richtig: Tết ist das Neujahrsfest."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 33)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam ist bekannt für Streetfood",
       "Vietnam hat keine Küste",
@@ -1463,7 +1463,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 34)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat Berge, Küste und Deltas",
       "Vietnam liegt in Südamerika",
@@ -1474,7 +1474,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 35)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Die Hauptstadt heißt Paris",
       "Tết ist das Neujahrsfest",
@@ -1485,7 +1485,7 @@
     "ex": "Richtig: Tết ist das Neujahrsfest."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 36)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat keine Küste",
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
@@ -1496,7 +1496,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 37)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
       "In Vietnam bezahlt man mit Euro",
@@ -1507,7 +1507,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 38)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam ist bekannt für Streetfood",
@@ -1518,7 +1518,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 39)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat keine Küste",
       "Vietnam liegt in Südamerika",
@@ -1529,7 +1529,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 40)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
       "Vietnam hat keine Küste",
@@ -1540,7 +1540,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 41)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
       "Die Hauptstadt heißt Paris",
@@ -1551,7 +1551,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 42)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Die Hauptstadt heißt Paris",
@@ -1562,7 +1562,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 43)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat Berge, Küste und Deltas",
       "Vietnam hat keine Küste",
@@ -1573,7 +1573,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 44)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam hat keine Küste",
@@ -1584,7 +1584,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 45)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Vietnam hat keine Küste",
@@ -1595,7 +1595,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 46)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat Berge, Küste und Deltas",
       "In Vietnam bezahlt man mit Euro",
@@ -1606,7 +1606,7 @@
     "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 47)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Die Hauptstadt heißt Paris",
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
@@ -1617,7 +1617,7 @@
     "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 48)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Die Hauptstadt heißt Paris",
       "Vietnam hat keine Küste",
@@ -1628,7 +1628,7 @@
     "ex": "Richtig: Vietnam ist bekannt für Streetfood."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 49)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam liegt in Südamerika",
       "Tết ist das Neujahrsfest",
@@ -1639,7 +1639,7 @@
     "ex": "Richtig: Tết ist das Neujahrsfest."
   },
   {
-    "q": "Quale affermazione sul Vietnam è vera? (Domanda 50)",
+    "q": "Quale affermazione sul Vietnam è vera?",
     "choices": [
       "Vietnam hat keine Küste",
       "Vietnam ist ein wichtiger Kaffee-Exporteur",
@@ -1969,7 +1969,7 @@
     "ex": "Richtig: Es hat seinen Sitz in Mainz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 30)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz ist eine Insel",
       "Mainz ist mit Gutenberg verbunden",
@@ -1980,7 +1980,7 @@
     "ex": "Richtig: Mainz ist mit Gutenberg verbunden."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 31)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -1991,7 +1991,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 32)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -2002,7 +2002,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 33)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt in Rheinland-Pfalz",
@@ -2013,7 +2013,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 34)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Meer",
       "Mainz liegt am Nil",
@@ -2024,7 +2024,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 35)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -2035,7 +2035,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 36)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz ist eine Insel",
@@ -2046,7 +2046,7 @@
     "ex": "Richtig: Mainz ist für Fastnacht bekannt."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 37)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz ist eine Insel",
@@ -2057,7 +2057,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 38)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz ist mit Gutenberg verbunden",
       "Mainz liegt am Meer",
@@ -2068,7 +2068,7 @@
     "ex": "Richtig: Mainz ist mit Gutenberg verbunden."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 39)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Meer",
@@ -2079,7 +2079,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 40)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz ist für Fastnacht bekannt",
       "Mainz liegt am Nil",
@@ -2090,7 +2090,7 @@
     "ex": "Richtig: Mainz ist für Fastnacht bekannt."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 41)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Meer",
@@ -2101,7 +2101,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 42)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt in Spanien",
@@ -2112,7 +2112,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 43)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Rheinland-Pfalz",
       "Mainz liegt am Nil",
@@ -2123,7 +2123,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 44)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Rhein",
       "Mainz ist eine Insel",
@@ -2134,7 +2134,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 45)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt in Spanien",
       "Mainz liegt am Rhein",
@@ -2145,7 +2145,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 46)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz ist eine Insel",
       "Mainz liegt am Meer",
@@ -2156,7 +2156,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 47)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Rhein",
       "Mainz liegt am Nil",
@@ -2167,7 +2167,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 48)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt am Meer",
@@ -2178,7 +2178,7 @@
     "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 49)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz liegt am Nil",
       "Mainz liegt am Rhein",
@@ -2189,7 +2189,7 @@
     "ex": "Richtig: Mainz liegt am Rhein."
   },
   {
-    "q": "Quale affermazione si adatta a Magonza? (Domanda 50)",
+    "q": "Quale affermazione si adatta a Magonza?",
     "choices": [
       "Mainz ist eine Insel",
       "Mainz ist für Fastnacht bekannt",
