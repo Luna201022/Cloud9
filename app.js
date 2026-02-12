@@ -907,7 +907,14 @@ ${t.total}: ${money(cartTotal())}`;
         fb.innerHTML = `
           <div class="chapter">
             <h3>${ok ? t.correct : t.wrong}</h3>
-            <p>${escapeHtml(q.ex || "")}</p>
+            <p>${escapeHtml((() => {
+              const ex = String(q.ex || "").trim();
+              const cleanEx = ex.replace(/^\s*Richtig:\s*/i, "");
+              if (ok) return cleanEx || "";
+              const correctText = (q.choices && q.choices[q.a] != null) ? String(q.choices[q.a]) : "";
+              const lead = correctText ? (`Richtig: ${correctText}. `) : "";
+              return (lead + cleanEx).trim();
+            })())}</p>
             <button class="btn primary" id="nextBtn">${idx+1 < session.length ? t.next : t.again}</button>
           </div>
         `;
