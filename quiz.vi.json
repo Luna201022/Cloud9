@@ -1,2752 +1,2002 @@
 [
   {
-    "q": "“Single Origin bei Cà phê” nghĩa là gì?",
-    "choices": [
-      "Hỗn hợp từ nhiều nước",
-      "Cà phê khử caffeine",
-      "Chỉ hạt Arabica",
-      "Hạt cà phê từ một nguồn gốc duy nhất (vùng/trang trại)"
+    "q": "“Arabica” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein Gewürz",
+      "ein Softdrink",
+      "eine verbreitete Kaffeebohnenart",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Hạt cà phê từ một nguồn gốc duy nhất (vùng/trang trại). „Single Origin“ meint eine klar definierte Herkunft statt Blend."
+    "a": 2
   },
   {
-    "q": "Tại sao beeinflusst der Mahlgrad den Geschmack von Cà phê?",
-    "choices": [
-      "Vì chỉ liên quan tiếng ồn của máy xay",
-      "Vì độ mịn ảnh hưởng tốc độ chiết xuất và hương vị",
-      "Vì chỉ để đánh giá chất lượng hạt",
-      "Vì chỉ làm bột nhìn khác đi"
+    "q": "“Robusta” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "eine Bohnenart mit oft mehr Koffein"
     ],
-    "a": 1,
-    "ex": "Độ mịn quyết định chiết xuất và độ cân bằng hương vị."
+    "a": 3
   },
   {
-    "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
-    "choices": [
-      "Robusta",
-      "Kommt nur auf die Röstung an",
-      "Beide gleich",
-      "Arabica"
+    "q": "“Espresso” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "eine Nudelsuppe",
+      "ein Käse-Dip",
+      "ein kleiner, konzentrierter Kaffee",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Arabica. Arabica wirkt häufig fruchtiger/heller, Robusta eher kräftig und bitterer."
+    "a": 2
   },
   {
-    "q": "Tại sao sollte Cà phê nicht mit kochendem Wasser gebrüht werden?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
+    "q": "“Cappuccino” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "Espresso mit Milch und Milchschaum",
+      "eine Nudelsuppe"
     ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 2
   },
   {
-    "q": "Vai trò của spielt die Brühzeit beim Filterkaffee là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
+    "q": "“Latte Macchiato” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "Milch mit Espresso in Schichten",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "eine Stadt in Italien"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 0
   },
   {
-    "q": "Tại sao sind frisch gemahlene Bohnen aromatischer?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
+    "q": "“Americano” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "Espresso mit heißem Wasser verlängert",
+      "ein Gewürz",
+      "ein Softdrink"
     ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 1
   },
   {
-    "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì"
+    "q": "“Cold Brew” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "Kaffee, der lange kalt gezogen wird",
+      "eine Teesorte",
+      "ein Gewürz",
+      "eine Kuchensorte"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
+    "a": 0
   },
   {
-    "q": "Was bewirkt ein zu grober Mahlgrad bei der Extraktion?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
+    "q": "“Entkoffeiniert” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "eine Teesorte",
+      "Kaffee mit stark reduziertem Koffein"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
+    "a": 3
   },
   {
-    "q": "Tại sao ist sauberes Wasser wichtig für guten Cà phê?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
+    "q": "“Single Origin” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "eine Stadt in Italien",
+      "Bohnen aus einem bestimmten Ursprung",
+      "ein Softdrink",
+      "eine Nudelsuppe"
     ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 1
   },
   {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng"
+    "q": "“Blend” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "eine Teesorte",
+      "Mischung aus Bohnen verschiedener Herkünfte",
+      "ein Softdrink",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
+    "a": 1
   },
   {
-    "q": "Tại sao verlieren Bohnen nach dem Mahlen schnell Aroma?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
+    "q": "“Barista” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "Person, die Kaffee professionell zubereitet",
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 0
   },
   {
-    "q": "Was ist Crema bei Espresso?",
-    "choices": [
-      "Đườngkruste auf Cà phê",
-      "Cà phêsatz am Tassenboden",
-      "Milchschaum",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso"
+    "q": "“Milchschaum” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "aufgeschäumte Milch für cremige Textur",
+      "ein Gewürz"
     ],
-    "a": 3,
-    "ex": "Đáp án đúng: Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
+    "a": 2
   },
   {
-    "q": "Welche Temperatur ist ideal zum Cà phêbrühen?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
+    "q": "“Röstgrad” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein Softdrink",
+      "wie hell oder dunkel Bohnen geröstet sind",
+      "eine Stadt in Italien",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
+    "a": 1
   },
   {
-    "q": "Tại sao schmeckt Cà phê bei Überextraktion bitter?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
+    "q": "“Kaffeekirsche” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "die Frucht, in der die Bohne steckt",
+      "eine Nudelsuppe",
+      "eine Kuchensorte"
     ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 1
   },
   {
-    "q": "Tại sao schmeckt Cà phê bei Unterextraktion sauer?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan"
+    "q": "“Filterkaffee” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Teesorte",
+      "Kaffee, der durch einen Filter läuft",
+      "ein Softdrink"
     ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 2
   },
   {
-    "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng"
+    "q": "“French Press” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "Kanne, bei der Kaffee zieht und gepresst wird",
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "eine Nudelsuppe"
     ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
+    "a": 0
   },
   {
-    "q": "Tại sao sollte man Bohnen lichtgeschützt lagern?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
+    "q": "“Doppio” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "doppelter Espresso",
+      "eine Kuchensorte",
+      "ein Softdrink",
+      "ein Käse-Dip"
     ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 0
   },
   {
-    "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
+    "q": "“Flat White” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "Espresso mit feinporiger, cremiger Milch",
+      "ein Gewürz",
+      "ein Käse-Dip",
+      "ein alkoholfreier Cocktail"
     ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
+    "a": 0
   },
   {
-    "q": "Tại sao ist Frische beim Cà phê so wichtig?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
+    "q": "“Mokka” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "Kaffee mit Kakao/Schokolade",
+      "eine Stadt in Italien"
     ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 2
   },
   {
-    "q": "Vai trò của spielt die Bohnenherkunft für das Aroma là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
+    "q": "“Affogato” nghĩa là gì (trong bối cảnh cà phê)?",
+    "c": [
+      "ein Käse-Dip",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "Espresso über Vanilleeis"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 3
   },
   {
-    "q": "Tại sao sind luftdichte Behälter sinnvoll für die Lagerung?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
+    "q": "Woraus wird Kaffee gemacht?",
+    "c": [
+      "Aus Teeblättern",
+      "Aus gerösteten Kaffeebohnen",
+      "Aus Kakaopulver",
+      "Aus Getreide"
     ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
+    "a": 1
   },
   {
-    "q": "“Blooming beim Filterkaffee” nghĩa là gì?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Das Mahlen direkt vor dem Brühen",
-      "Schnelles Abkühlen des Cà phês"
+    "q": "Warum trinken viele Menschen morgens Kaffee?",
+    "c": [
+      "Weil er wach macht",
+      "Weil er kein Koffein enthält",
+      "Weil er immer süß ist",
+      "Weil er nur kalt getrunken wird"
     ],
-    "a": 0,
-    "ex": "Đáp án đúng: Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Cà phêmehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
+    "a": 0
   },
   {
-    "q": "Tại sao ist das Verhältnis von Cà phê zu Wasser wichtig?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Aromen können bei Cà phê auftreten?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao kann altes Wasser den Geschmack verfälschen?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Tại sao ist die Reinigung der Maschine wichtig für den Geschmack?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sollte man Cà phêmehl gleichmäßig befeuchten?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "“Extraktion im Cà phêkontext” nghĩa là gì?",
-    "choices": [
-      "Das Filtern von Koffein",
-      "Das Rösten der Bohnen",
-      "Das Herauslösen von Aromastoffen aus dem Cà phêmehl ins Wasser",
-      "Das Abkühlen des Cà phês"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Das Herauslösen von Aromastoffen aus dem Cà phêmehl ins Wasser. Extraktion beschreibt, was beim Brühen aus dem Cà phê gelöst wird."
-  },
-  {
-    "q": "Tại sao verändert sich Geschmack mit der Brühmethode?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Tại sao ist Mahlgradanpassung wichtig bei neuen Bohnen?",
-    "choices": [
-      "Vì chỉ để đánh giá chất lượng hạt",
-      "Vì chỉ làm bột nhìn khác đi",
-      "Vì độ mịn ảnh hưởng tốc độ chiết xuất và hương vị",
-      "Vì chỉ liên quan tiếng ồn của máy xay"
-    ],
-    "a": 2,
-    "ex": "Độ mịn quyết định chiết xuất và độ cân bằng hương vị."
-  },
-  {
-    "q": "Vai trò của spielt die Kontaktzeit von Wasser und Cà phê là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao schmeckt kalter Cà phê oft flacher?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao beeinflusst der Druck den Espressogeschmack?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Tại sao können zu alte Bohnen fade schmecken?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat Sauerstoff auf Cà phêaromen?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist konstante Brühtemperatur wichtig?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was bewirkt eine längere Röstzeit?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind frische Bohnen öliger?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Partikelgröße beim Mahlen là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sollte man Mühlen regelmäßig reinigen?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was bewirkt eine ungleichmäßige Extraktion?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao kann Leitungswasser je nach Region unterschiedlich schmecken?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist eine Waage beim Brühen hilfreich?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Tại sao sollte man Bohnen nicht im Kühlschrank lagern?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Röstfrische für Crema là gì?",
-    "choices": [
-      "Milchschaum",
-      "Cà phêsatz am Tassenboden",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso",
-      "Đườngkruste auf Cà phê"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
-  },
-  {
-    "q": "Tại sao beeinflusst die Brühmethode die Klarheit im Geschmack?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was bewirkt längere Vorinfusion?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao kann Cà phê metallisch schmecken?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Tại sao ist konstante Dosierung wichtig?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind saubere Filter wichtig?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Tại sao beeinflusst die Wasserhärte den Geschmack?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was bewirkt Umrühren beim Blooming?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Schnelles Abkühlen des Cà phês",
-      "Das Mahlen direkt vor dem Brühen"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Cà phêmehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
-  },
-  {
-    "q": "Tại sao kann Cà phê schal schmecken?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt der Röstgrad für Süße là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist gleichmäßige Extraktion wichtig?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "“„sữa“ im vietnamesischen Cà phê” nghĩa là gì?",
-    "choices": [
-      "Cà phê",
-      "Sữa (thường là sữa đặc có đường)",
-      "Đường",
-      "Đá"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Sữa (thường là sữa đặc có đường). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "“„đá“ bei vietnamesischen Getränken” nghĩa là gì?",
-    "choices": [
-      "Nóng",
-      "Ohne Đường",
-      "Đen (không sữa)",
-      "Đá / có đá"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Đá / có đá. „đá“ bedeutet Đá – also eine kalte Variante."
-  },
-  {
-    "q": "Was ist ein Phin-Filter?",
-    "choices": [
-      "Bình French press",
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Lọc giấy pour-over"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao wird in Vietnam häufig Robusta verwendet?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was ist Cà phê sữa đá?",
-    "choices": [
-      "Sữa (thường là sữa đặc có đường)",
-      "Đá",
-      "Cà phê",
-      "Đường"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Sữa (thường là sữa đặc có đường). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "Tại sao ist vietnamesischer Cà phê oft kräftiger geröstet?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt gesüßte Kondensmilch im vietnamesischen Cà phê là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam häufig mit Đá serviert?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
-    "choices": [
-      "Bình French press",
-      "Lọc giấy pour-over",
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao ist die Extraktion mit Phin langsamer?",
-    "choices": [
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Bình French press",
-      "Lọc giấy pour-over",
-      "Máy espresso (portafilter)"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Cà phê im vietnamesischen Alltag?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind Cafés in Vietnam soziale Treffpunkte?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Wie beeinflusst Đá den Geschmack von Cà phê?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam oft stark gesüßt?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Röstgrad bei vietnamesischem Cà phê là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist der Phin aus Metall?",
-    "choices": [
-      "Lọc giấy pour-over",
-      "Bình French press",
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Durchtropfen auf das Aroma?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist der Phin einfach zu reinigen?",
-    "choices": [
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Máy espresso (portafilter)",
-      "Lọc giấy pour-over",
-      "Bình French press"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao schmeckt vietnamesischer Cà phê oft schokoladig?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Cà phê für die vietnamesische Café-Kultur?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Robusta koffeinhaltiger als Arabica?",
-    "choices": [
-      "Robusta enthält meist mehr Koffein",
-      "Koffeingehalt ist unabhängig von der Bohne",
-      "Arabica enthält immer mehr Koffein",
-      "Koffein entsteht erst beim Rösten"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Robusta enthält meist mehr Koffein. Robusta hat typischerweise einen höheren Koffeingehalt."
-  },
-  {
-    "q": "Tại sao passt Kondensmilch gut zu Robusta?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Temperatur bei der Phin-Zubereitung là gì?",
-    "choices": [
-      "Máy espresso (portafilter)",
-      "Bình French press",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Lọc giấy pour-over"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao ist Geduld bei der Phin-Zubereitung wichtig?",
-    "choices": [
-      "Bình French press",
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Lọc giấy pour-over"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat feiner Mahlgrad im Phin?",
-    "choices": [
-      "Lọc giấy pour-over",
-      "Bình French press",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Máy espresso (portafilter)"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat grober Mahlgrad im Phin?",
-    "choices": [
-      "Lọc giấy pour-over",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Máy espresso (portafilter)",
-      "Bình French press"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao kann vietnamesischer Cà phê intensiver wirken?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
-    "choices": [
-      "Bình French press",
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Lọc giấy pour-over"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam oft draußen getrunken?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Đá bei der Erfrischung là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam auch abends getrunken?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Milch für die Balance der Bitterkeit là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam häufig als Ritual zelebriert?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Tasse für das Aroma là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist der Phin ideal für einzelne Portionen?",
-    "choices": [
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Lọc giấy pour-over",
-      "Bình French press"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat heißes Wasser auf dunkle Röstungen?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist vietnamesischer Cà phê weltweit bekannt?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Đường im Geschmacksausgleich là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist Robusta widerstandsfähiger im Anbau?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Bohnenherkunft in Vietnam là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist Cà phê in Vietnam oft stärker dosiert?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam oft mit Gesprächen verbunden?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Kondensmilch für das Mundgefühl là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist Đákaffee in Vietnam so beliebt?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist die Phin-Zubereitung traditionell?",
-    "choices": [
-      "Máy espresso (portafilter)",
-      "Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm",
-      "Lọc giấy pour-over",
-      "Bình French press"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Phin lọc kim loại kiểu Việt để pha nhỏ giọt chậm. Der Phin lässt Cà phê langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Vai trò của spielt der Mahlgrad bei vietnamesischem Cà phê là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam häufig mit Freunden getrunken?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Cà phê Teil der Alltagskultur?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Brühtechnik für Konsistenz là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam oft süßer serviert?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Cà phê ein Treffpunkt-Getränk?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt das Glas bei Đákaffee là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao passt Cà phê gut zu süßen Snacks?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Robusta ertragreich?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Erntezeit für die Qualität là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist vietnamesischer Cà phê oft kräftig im Körper?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat die Präsentation im Glas?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao wird Cà phê in Vietnam oft draußen serviert?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Umgebung für den Genuss là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao wird Cà phê oft langsam getrunken?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Wirkung hat Geduld auf den Genuss?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Was zeichnet Phở aus?",
-    "choices": [
-      "Phở: súp bánh phở với nước dùng thơm",
-      "Salad mì lạnh",
-      "Mì xào",
-      "Viên cơm"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Phở: súp bánh phở với nước dùng thơm. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Tại sao werden in der vietnamesischen Küche frische Kräuter verwendet?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Reis in der vietnamesischen Küche là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind vietnamesische Gerichte oft leicht und frisch?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao werden Speisen oft mit Limette serviert?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Fischsauce in der vietnamesischen Küche là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Kräuter wichtig für die Frische?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao werden Speisen oft mit frischem Gemüse kombiniert?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Brühe bei Suppengerichten là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist Balance der Geschmäcker wichtig?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Süße in herzhaften Gerichten là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind vietnamesische Gerichte oft nicht schwer?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao werden Gerichte oft individuell abgeschmeckt?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Frische bei Kräutern là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Nudeln aus Reis beliebt?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Knoblauch im Aroma là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao werden Gerichte oft geteilt?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind Suppen in Vietnam beliebt?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Dampf beim Garen là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Gerichte oft leicht verdaulich?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Säure für Frische là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao werden Speisen oft mit Kräutern serviert?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühe für Phở?",
-    "choices": [
-      "Viên cơm",
-      "Salad mì lạnh",
-      "Phở: súp bánh phở với nước dùng thơm",
-      "Mì xào"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Phở: súp bánh phở với nước dùng thơm. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Tại sao ist die Küche regional vielfältig?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Frische für den Geschmack là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao werden Zutaten oft roh ergänzt?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Texturkontrast là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Gerichte ausgewogen gewürzt?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind Kräuter ein fester Bestandteil?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Reis als Grundnahrungsmittel là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Gerichte oft leicht süßlich?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Umami?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao werden Gerichte häufig mit Brühe serviert?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Temperatur beim Servieren là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Gerichte aromatisch, aber nicht schwer?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Frische der Zutaten là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao werden Gerichte oft frisch zubereitet?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Vielfalt der Aromen?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind Gerichte gut ausbalanciert?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt die Präsentation là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao werden Speisen oft mit Kräutern garniert?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Regionalität?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind Gerichte leicht bekömmlich?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt der sông Rhine für Handel und Kultur là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Bedeutung hat die Lage am sông Rhine?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao wächst die Café-Kultur in vietnamesischen Städten?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Urbanisierung in Vietnam là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Start-ups in Vietnam im Aufschwung?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Streetfood weiterhin beliebt?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielen soziale Medien im Alltag là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao verbinden junge Menschen Tradition und Moderne?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Tourismus für Vietnam?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Không quan trọng, miễn là nóng",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Vai trò của spielt Mobilität in Großstädten là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist Nachhaltigkeit ein wachsendes Thema?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Technologie im Alltag?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind Cafés Arbeitsorte geworden?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Kreativwirtschaft là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind Co-Working-Spaces beliebt?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat internationale Küche?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ liên quan đến bao bì",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Vietnam wirtschaftlich gewachsen?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Bildung für den Arbeitsmarkt là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind junge Menschen offen für Neues?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Kultur für Identität?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist Tourismus wichtig für Städte?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Urban Gardening là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao gewinnen lokale Marken an Bedeutung?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Design in Cafés?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind nachhaltige Konzepte gefragt?",
-    "choices": [
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Digitalisierung là gì?",
-    "choices": [
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ist Vietnam international vernetzt?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Unternehmertum?",
-    "choices": [
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ist der Alltag schneller geworden?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Gemeinschaft là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Không ảnh hưởng"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Geschmacksrichtung ist bei Bánh mì typisch ausgewogen?",
-    "choices": [
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 0,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao passen leichte Speisen gut zu Cà phê?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Frische bei Snacks là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Không ảnh hưởng"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao ergänzen herzhafte Snacks Cà phê gut?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 1,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
-    "choices": [
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Chỉ ảnh hưởng đến hình thức"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind frische Zutaten wichtig für Snacks?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Vai trò của spielt Textur bei kleinen Speisen là gì?",
-    "choices": [
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao passen Kräuter gut zu belegten Broten?",
-    "choices": [
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan"
-    ],
-    "a": 2,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Frische für den Genuss?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng",
-      "Chỉ liên quan đến bao bì"
-    ],
-    "a": 1,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao sind leichte Snacks beliebt?",
-    "choices": [
-      "Vì tự động có caffeine",
-      "Vì luôn không đường",
-      "Vì bắt buộc ăn lạnh",
-      "Vì ăn nhẹ no vừa đủ mà không bị nặng bụng"
-    ],
-    "a": 3,
-    "ex": "Đồ ăn nhẹ hợp cà phê và không gây nặng bụng."
-  },
-  {
-    "q": "Vai trò của spielt Präsentation bei kleinen Gerichten là gì?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Không ảnh hưởng",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị"
-    ],
-    "a": 3,
-    "ex": "Đáp án đúng: Nó ảnh hưởng đến chiết xuất, cân bằng và hương vị. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Tại sao sind ausgewogene Aromen wichtig?",
-    "choices": [
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ làm đổi nhiệt độ của cốc",
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng"
-    ],
-    "a": 3,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "Welche Bedeutung hat Qualität der Zutaten?",
-    "choices": [
-      "Chỉ ảnh hưởng đến hình thức",
-      "Chỉ liên quan đến bao bì",
-      "Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng",
-      "Không quan trọng, miễn là nóng"
-    ],
-    "a": 2,
-    "ex": "Đáp án đúng: Nó ảnh hưởng rõ rệt đến hương vị và sự cân bằng. Trong thực tế quán cà phê, điều này ảnh hưởng trực tiếp đến ly cà phê."
-  },
-  {
-    "q": "Tại sao ergänzen knusprige Texturen Cà phê gut?",
-    "choices": [
-      "Vì nó ảnh hưởng hương thơm, độ đậm và cân bằng",
-      "Vì chỉ quan trọng với cà phê hòa tan",
-      "Vì chỉ ảnh hưởng hình thức",
-      "Vì chỉ làm đổi nhiệt độ của cốc"
-    ],
-    "a": 0,
-    "ex": "Yếu tố này tác động đến chiết xuất và vị."
-  },
-  {
-    "q": "“sữa” nghĩa là gì?",
-    "choices": [
-      "phin",
-      "đường",
+    "q": "Was macht Kaffee oft milder im Geschmack?",
+    "c": [
+      "Zitronensaft",
       "sữa",
-      "đá"
+      "Essig",
+      "Pfeffer"
     ],
-    "a": 2,
-    "ex": "Đúng: sữa."
+    "a": 1
   },
   {
-    "q": "“đá” nghĩa là gì?",
-    "choices": [
-      "đen",
-      "ngọt",
+    "q": "Warum ist frisches Wasser beim Kaffee wichtig?",
+    "c": [
+      "Weil es die Tasse färbt",
+      "Weil es den Koffeinwert verdoppelt",
+      "Weil es Zucker ersetzt",
+      "Weil es den Geschmack stark beeinflusst"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Was kann Kaffee bitter machen?",
+    "c": [
+      "Zu viel Zucker",
+      "Zu viele Eiswürfel",
+      "Zu lange oder zu heiß extrahiert",
+      "Zu wenig Tassen"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cái gì là ein Eiskaffee (klassisch)?",
+    "c": [
+      "Tee mit Eis",
+      "Heißer Kaffee ohne Tasse",
+      "Kaffee kalt mit Eis, oft mit Milch oder Vanille",
+      "Wasser mit Kakao"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wozu nutzen viele Menschen eine Kaffeemühle?",
+    "c": [
+      "Damit Kaffee koffeinfrei wird",
+      "Damit Kaffee automatisch süß wird",
+      "Damit man kein Wasser braucht",
+      "Für mehr Aroma durch frisch gemahlenen Kaffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Zutat macht einen Kaffee schokoladig?",
+    "c": [
+      "Schnittlauch",
+      "Kakao oder Schokolade",
+      "Sojasauce",
+      "Senf"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was bedeutet „to go“ im Café?",
+    "c": [
+      "Zum Einfrieren",
+      "mang đi",
+      "Zum Aufwärmen",
+      "Zum Umtauschen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Milchalternative ist in Cafés häufig?",
+    "c": [
+      "Bratensoße",
+      "sữa yến mạch",
+      "Sojasauce",
+      "Fischsauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Bohnenart hat oft mehr Koffein?",
+    "c": [
+      "Vanille",
+      "Arabica",
+      "Kakao",
+      "Robusta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Bohnenart ist weltweit sehr verbreitet?",
+    "c": [
+      "Jasmin",
+      "Rooibos",
+      "Arabica",
+      "Matcha"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Getränkebasis ist bei Cappuccino und Latte gleich?",
+    "c": [
+      "Wasser",
+      "Espresso",
+      "Tee",
+      "Kakao"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was passiert bei dunklerer Röstung oft?",
+    "c": [
+      "Er wird koffeinfrei",
+      "Er wird salziger",
+      "Er wird immer fruchtiger",
+      "Der Kaffee schmeckt kräftiger und röstiger"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Cái gì là ein Espresso Macchiato?",
+    "c": [
+      "Cold Brew mit Sahne",
+      "Milch mit viel Sirup",
+      "Filterkaffee mit Eis",
+      "Espresso mit einem kleinen Klecks Milch oder Schaum"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage stimmt meistens?",
+    "c": [
+      "Filterkaffee enthält nie Koffein",
+      "Kaffee muss immer kalt sein",
+      "Kaffee besteht nur aus Zucker",
+      "Espresso ist konzentrierter als Filterkaffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Cái gì là Instant-Kaffee?",
+    "c": [
+      "Kaffee, der sich direkt in Wasser auflöst",
+      "Kaffee ohne Wasser",
+      "Kaffee aus Kakao",
+      "Kaffee aus Teeblättern"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cái gì là ein Affogato?",
+    "c": [
+      "Espresso über Vanilleeis",
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Filterkaffee mit Eis"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cái gì là ein „Shot“ im Café meistens?",
+    "c": [
+      "Ein Smoothie",
+      "Eine kleine Portion Espresso",
+      "Ein Stück Kuchen",
+      "Ein Glas Wasser"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Warum reinigen Cafés ihre Mühlen regelmäßig?",
+    "c": [
+      "Damit kein alter Kaffeerest den Geschmack verfälscht",
+      "Damit die Bohnen größer werden",
+      "Damit das Koffein steigt",
+      "Damit Kaffee süßer wird"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Option ist koffeinfrei(er)?",
+    "c": [
+      "Entkoffeinierter Kaffee",
+      "Doppio",
+      "Ristretto",
+      "Espresso Shot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was bedeutet „Crema“ bei Espresso oft?",
+    "c": [
+      "Ein Sirup",
+      "Eine Bohnenart",
+      "Ein Gewürz",
+      "Eine helle Schaumschicht auf dem Espresso"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Cái gì là ein „Iced Latte“?",
+    "c": [
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Heißer Espresso ohne Tasse",
+      "Kaffee mit Milch und Eis"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Zutat ist typisch für einen Vanilla Latte?",
+    "c": [
+      "Sojasprossen",
+      "Vanillesirup",
+      "Chilipaste",
+      "Fischsauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê ở quán? (Câu 45)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird aus Kartoffeln gemacht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê ở quán? (Câu 46)",
+    "c": [
+      "Frische Bohnen riechen aromatisch",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê ở quán? (Câu 47)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee enthält kein Aroma",
+      "Kaffee ist immer koffeinfrei"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê ở quán? (Câu 48)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee ist immer koffeinfrei",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê ở quán? (Câu 49)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Viele Cafés bieten auch entkoffeiniert an"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê ở quán? (Câu 50)",
+    "c": [
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee ist immer koffeinfrei",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Nếu gọi “Cà phê sữa đá”, bạn sẽ nhận được gì?",
+    "c": [
+      "Kakao mit Sahne",
+      "Espresso Martini",
+      "cà phê sữa đá (cà phê đá với sữa đặc)",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Nếu gọi “Cà phê sữa nóng”, bạn sẽ nhận được gì?",
+    "c": [
+      "Milch ohne Kaffee",
+      "Schwarzen Kaffee ohne Zucker",
+      "Tee mit Kondensmilch",
+      "cà phê sữa nóng"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Nếu gọi “Cà phê đen”, bạn sẽ nhận được gì?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
+      "cà phê đen",
+      "Milch ohne Kaffee"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Nếu gọi “Cà phê đen đá”, bạn sẽ nhận được gì?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
+      "Schwarzen Kaffee ohne Zucker",
+      "Schwarzer Eiskaffee ohne Milch"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Nếu gọi “Bạc xỉu”, bạn sẽ nhận được gì?",
+    "c": [
+      "Espresso Martini",
+      "Kakao mit Sahne",
+      "Sehr milchiges, süßes Getränk mit wenig Kaffee",
+      "Tee mit Kondensmilch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Nếu gọi “Cà phê trứng”, bạn sẽ nhận được gì?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kakao mit Sahne",
+      "Grünen Tee mit Zitrone",
+      "Eierkaffee (Egg Coffee)"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Nếu gọi “Cà phê muối”, bạn sẽ nhận được gì?",
+    "c": [
+      "Espresso Martini",
+      "Tee mit Kondensmilch",
+      "Kaffee mit einer Prise Salz (salzige Note)",
+      "Schwarzen Kaffee ohne Zucker"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Nếu gọi “Cà phê dừa”, bạn sẽ nhận được gì?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kaffee mit Kokos",
+      "Milch ohne Kaffee",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Nếu gọi “Cà phê sữa chua”, bạn sẽ nhận được gì?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Grünen Tee mit Zitrone",
+      "Milch ohne Kaffee",
+      "Kaffee mit Joghurt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Nếu gọi “Phin”, bạn sẽ nhận được gì?",
+    "c": [
+      "kleiner vietnamesischer Metallfilter zum Tropfen",
+      "Grünen Tee mit Zitrone",
+      "Tee mit Kondensmilch",
+      "Kakao mit Sahne"
+    ],
+    "a": 0
+  },
+  {
+    "q": "“sữa” nghĩa là gì (tiếng Việt, đồ uống)?",
+    "c": [
+      "Kakao",
+      "Kaffee",
+      "sữa",
+      "Honig"
+    ],
+    "a": 2
+  },
+  {
+    "q": "“đá” nghĩa là gì (tiếng Việt, đồ uống)?",
+    "c": [
       "đá",
-      "sữa"
+      "Kaffee",
+      "Zucker",
+      "Kokos"
     ],
-    "a": 2,
-    "ex": "Đúng: đá."
+    "a": 0
   },
   {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Cơ bản)?",
-    "choices": [
-      "20–25°C",
-      "80–90°C",
-      "0–5°C",
-      "Khoảng 55–65°C"
-    ],
-    "a": 3,
-    "ex": "Đúng: Khoảng 55–65°C."
-  },
-  {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Thực tế)?",
-    "choices": [
-      "20–25°C",
-      "0–5°C",
-      "80–90°C",
-      "Khoảng 55–65°C"
-    ],
-    "a": 3,
-    "ex": "Đúng: Khoảng 55–65°C."
-  },
-  {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Mẹo barista)?",
-    "choices": [
-      "20–25°C",
-      "Khoảng 55–65°C",
-      "80–90°C",
-      "0–5°C"
-    ],
-    "a": 1,
-    "ex": "Đúng: Khoảng 55–65°C."
-  },
-  {
-    "q": "Vì sao chất lượng nước quan trọng với cà phê (Cơ bản)?",
-    "choices": [
-      "Chỉ đổi màu",
-      "Tạo caffeine",
-      "Chỉ cho latte art",
-      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị"
-    ],
-    "a": 3,
-    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
-  },
-  {
-    "q": "Vì sao chất lượng nước quan trọng với cà phê (Thực tế)?",
-    "choices": [
-      "Chỉ cho latte art",
-      "Chỉ đổi màu",
-      "Tạo caffeine",
-      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị"
-    ],
-    "a": 3,
-    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
-  },
-  {
-    "q": "Vì sao chất lượng nước quan trọng với cà phê (Mẹo barista)?",
-    "choices": [
-      "Chỉ đổi màu",
-      "Chỉ cho latte art",
-      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị",
-      "Tạo caffeine"
-    ],
-    "a": 2,
-    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
-  },
-  {
-    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Cơ bản)?",
-    "choices": [
-      "Để caramen hóa đường",
-      "Để CO₂ thoát ra và chiết xuất đều hơn",
-      "Để tăng gấp đôi caffeine",
-      "Để đánh sữa tốt hơn"
-    ],
-    "a": 1,
-    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
-  },
-  {
-    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Thực tế)?",
-    "choices": [
-      "Để CO₂ thoát ra và chiết xuất đều hơn",
-      "Để tăng gấp đôi caffeine",
-      "Để đánh sữa tốt hơn",
-      "Để caramen hóa đường"
-    ],
-    "a": 0,
-    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
-  },
-  {
-    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Mẹo barista)?",
-    "choices": [
-      "Để tăng gấp đôi caffeine",
-      "Để caramen hóa đường",
-      "Để CO₂ thoát ra và chiết xuất đều hơn",
-      "Để đánh sữa tốt hơn"
-    ],
-    "a": 2,
-    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
-  },
-  {
-    "q": "Nên làm gì khi cà phê zu sauer?",
-    "choices": [
-      "Xay thô hơn và rút ngắn",
-      "Dùng nước lạnh hơn nhiều",
-      "Xay mịn hơn hoặc chiết xuất lâu hơn",
-      "Giảm lượng bột nhiều"
-    ],
-    "a": 2,
-    "ex": "Đúng: Xay mịn hơn hoặc chiết xuất lâu hơn."
-  },
-  {
-    "q": "Biện pháp nào hợp lý khi cà phê zu sauer?",
-    "choices": [
-      "Dùng nước lạnh hơn nhiều",
-      "Xay thô hơn và rút ngắn",
-      "Xay mịn hơn hoặc chiết xuất lâu hơn",
-      "Giảm lượng bột nhiều"
-    ],
-    "a": 2,
-    "ex": "Đúng: Xay mịn hơn hoặc chiết xuất lâu hơn."
-  },
-  {
-    "q": "Nên làm gì khi cà phê zu bitter?",
-    "choices": [
-      "Tăng thời gian tiếp xúc",
-      "Xay thô hơn hoặc rút ngắn chiết xuất",
-      "Xay mịn hơn và chiết xuất lâu hơn",
-      "Nước nóng hơn nhiều"
-    ],
-    "a": 1,
-    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
-  },
-  {
-    "q": "Biện pháp nào hợp lý khi cà phê zu bitter?",
-    "choices": [
-      "Xay mịn hơn và chiết xuất lâu hơn",
-      "Tăng thời gian tiếp xúc",
-      "Nước nóng hơn nhiều",
-      "Xay thô hơn hoặc rút ngắn chiết xuất"
-    ],
-    "a": 3,
-    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
-  },
-  {
-    "q": "Nên làm gì khi cà phê zu wässrig?",
-    "choices": [
-      "Giảm lượng bột",
-      "Xay thô hơn",
-      "Chiết xuất ngắn hơn",
-      "Tăng lượng bột hoặc xay mịn hơn"
-    ],
-    "a": 3,
-    "ex": "Đúng: Tăng lượng bột hoặc xay mịn hơn."
-  },
-  {
-    "q": "Biện pháp nào hợp lý khi cà phê zu wässrig?",
-    "choices": [
-      "Xay thô hơn",
-      "Chiết xuất ngắn hơn",
-      "Tăng lượng bột hoặc xay mịn hơn",
-      "Giảm lượng bột"
-    ],
-    "a": 2,
-    "ex": "Đúng: Tăng lượng bột hoặc xay mịn hơn."
-  },
-  {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Thực tế)? #1",
-    "choices": [
-      "20–25°C",
-      "0–5°C",
-      "80–90°C",
-      "Khoảng 55–65°C"
-    ],
-    "a": 3,
-    "ex": "Đúng: Khoảng 55–65°C."
-  },
-  {
-    "q": "“đá” nghĩa là gì? #2",
-    "choices": [
+    "q": "“đen” nghĩa là gì (tiếng Việt, đồ uống)?",
+    "c": [
       "đen",
-      "ngọt",
-      "đá",
-      "sữa"
+      "Honig",
+      "Zucker",
+      "Kakao"
     ],
-    "a": 2,
-    "ex": "Đúng: đá."
+    "a": 0
   },
   {
-    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Mẹo barista)? #3",
-    "choices": [
-      "Để tăng gấp đôi caffeine",
-      "Để caramen hóa đường",
-      "Để CO₂ thoát ra và chiết xuất đều hơn",
-      "Để đánh sữa tốt hơn"
+    "q": "“nóng” nghĩa là gì (tiếng Việt, đồ uống)?",
+    "c": [
+      "Kakao",
+      "nóng",
+      "Honig",
+      "Kokos"
     ],
-    "a": 2,
-    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+    "a": 1
   },
   {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Mẹo barista)? #4",
-    "choices": [
-      "20–25°C",
-      "Khoảng 55–65°C",
-      "80–90°C",
-      "0–5°C"
+    "q": "“chua” nghĩa là gì (tiếng Việt, đồ uống)?",
+    "c": [
+      "Honig",
+      "Kaffee",
+      "Kokos",
+      "Joghurt (in „sữa chua“)"
     ],
-    "a": 1,
-    "ex": "Đúng: Khoảng 55–65°C."
+    "a": 3
   },
   {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Cơ bản)? #5",
-    "choices": [
-      "20–25°C",
-      "80–90°C",
-      "0–5°C",
-      "Khoảng 55–65°C"
+    "q": "Wie heißt der typische vietnamesische Kaffee-Filter?",
+    "c": [
+      "Papierfilter",
+      "Teesieb",
+      "Siebträgerkorb",
+      "Phin-Filter"
     ],
-    "a": 3,
-    "ex": "Đúng: Khoảng 55–65°C."
+    "a": 3
   },
   {
-    "q": "Biện pháp nào hợp lý khi cà phê zu bitter? #6",
-    "choices": [
-      "Xay mịn hơn và chiết xuất lâu hơn",
-      "Tăng thời gian tiếp xúc",
-      "Nước nóng hơn nhiều",
-      "Xay thô hơn hoặc rút ngắn chiết xuất"
+    "q": "Warum wird vietnamesischer Kaffee oft auf Eis serviert?",
+    "c": [
+      "Weil es sonst nicht trinkbar ist",
+      "Weil es erfrischend ist, besonders bei Wärme",
+      "Weil Eis Koffein entfernt",
+      "Weil es dann automatisch süßer wird"
     ],
-    "a": 3,
-    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
+    "a": 1
   },
   {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Mẹo barista)? #7",
-    "choices": [
-      "20–25°C",
-      "Khoảng 55–65°C",
-      "80–90°C",
-      "0–5°C"
+    "q": "Welche Milch wird in Vietnam oft für süßen Kaffee genutzt?",
+    "c": [
+      "Sauerrahm",
+      "Buttermilch",
+      "Gesüßte Kondensmilch",
+      "Schmand"
     ],
-    "a": 1,
-    "ex": "Đúng: Khoảng 55–65°C."
+    "a": 2
   },
   {
-    "q": "Vì sao chất lượng nước quan trọng với cà phê (Mẹo barista)? #8",
-    "choices": [
-      "Chỉ đổi màu",
-      "Chỉ cho latte art",
-      "Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị",
-      "Tạo caffeine"
+    "q": "In welcher Stadt ist Egg Coffee besonders bekannt?",
+    "c": [
+      "London",
+      "Hanoi",
+      "Mainz",
+      "Madrid"
     ],
-    "a": 2,
-    "ex": "Đúng: Nước chiếm phần lớn và ảnh hưởng chiết xuất, hương vị."
+    "a": 1
   },
   {
-    "q": "“đá” nghĩa là gì? #9",
-    "choices": [
-      "đen",
-      "ngọt",
-      "đá",
-      "sữa"
+    "q": "Welche Bohnenart baut Vietnam sehr viel an?",
+    "c": [
+      "Tee",
+      "Arabica nur",
+      "Kakao",
+      "Robusta"
     ],
-    "a": 2,
-    "ex": "Đúng: đá."
+    "a": 3
   },
   {
-    "q": "Vì sao pha lọc tay thường có bước “bloom” (ủ nở) (Thực tế)? #10",
-    "choices": [
-      "Để CO₂ thoát ra và chiết xuất đều hơn",
-      "Để tăng gấp đôi caffeine",
-      "Để đánh sữa tốt hơn",
-      "Để caramen hóa đường"
+    "q": "Welche Reihenfolge passt oft zu Phin-Kaffee mit Kondensmilch?",
+    "c": [
+      "Eis zuerst, dann Salz, dann Tee",
+      "Kaffee einfrieren, dann warm machen",
+      "Kondensmilch ins Glas, Kaffee tropft darüber, dann umrühren",
+      "Milch aufschäumen, dann Kakao"
     ],
-    "a": 0,
-    "ex": "Đúng: Để CO₂ thoát ra và chiết xuất đều hơn."
+    "a": 2
   },
   {
-    "q": "Nên làm gì khi cà phê zu sauer? #11",
-    "choices": [
-      "Xay thô hơn và rút ngắn",
-      "Dùng nước lạnh hơn nhiều",
-      "Xay mịn hơn hoặc chiết xuất lâu hơn",
-      "Giảm lượng bột nhiều"
+    "q": "Cái gì là „Cà phê muối“?",
+    "c": [
+      "Kaffee mit Sojasauce",
+      "Kaffee ohne Wasser",
+      "Kaffee mit einer Prise Salz (salzige Note)",
+      "Kaffee nur aus Zucker"
     ],
-    "a": 2,
-    "ex": "Đúng: Xay mịn hơn hoặc chiết xuất lâu hơn."
+    "a": 2
   },
   {
-    "q": "“đá” nghĩa là gì? #12",
-    "choices": [
-      "đen",
-      "ngọt",
-      "đá",
-      "sữa"
+    "q": "Cái gì là „Bạc xỉu“?",
+    "c": [
+      "Süßes Milchgetränk mit wenig Kaffee",
+      "Kaffee mit Chili",
+      "Tee mit Zitronengras",
+      "Schwarzer Espresso doppelt"
     ],
-    "a": 2,
-    "ex": "Đúng: đá."
+    "a": 0
   },
   {
-    "q": "Nhiệt độ sữa đánh nóng thường lý tưởng là bao nhiêu (không bị cháy) (Cơ bản)? #13",
-    "choices": [
-      "20–25°C",
-      "80–90°C",
-      "0–5°C",
-      "Khoảng 55–65°C"
+    "q": "Cái gì là „Cà phê trứng“ am ehesten?",
+    "c": [
+      "Kaffee mit Käse",
+      "Kaffee mit einer cremigen Ei-Mischung",
+      "Kaffee mit Fischsauce",
+      "Kaffee mit Spinat"
     ],
-    "a": 3,
-    "ex": "Đúng: Khoảng 55–65°C."
+    "a": 1
   },
   {
-    "q": "Biện pháp nào hợp lý khi cà phê zu bitter? #14",
-    "choices": [
-      "Xay mịn hơn và chiết xuất lâu hơn",
-      "Tăng thời gian tiếp xúc",
-      "Nước nóng hơn nhiều",
-      "Xay thô hơn hoặc rút ngắn chiết xuất"
+    "q": "Welche Kombination passt zu „Cà phê dừa“?",
+    "c": [
+      "Kaffee + Ketchup",
+      "Kaffee + Essig",
+      "Kaffee + Sojasauce",
+      "Kaffee + Kokos"
     ],
-    "a": 3,
-    "ex": "Đúng: Xay thô hơn hoặc rút ngắn chiết xuất."
+    "a": 3
+  },
+  {
+    "q": "Welche Variante ist meist ohne Milch?",
+    "c": [
+      "Bạc xỉu",
+      "Cà phê dừa",
+      "Cà phê sữa đá",
+      "Cà phê đen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Variante ist typischerweise kalt?",
+    "c": [
+      "Cà phê sữa nóng",
+      "Espresso pur heiß",
+      "Cà phê sữa đá",
+      "Filterkaffee frisch heiß"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage über Vietnam und Kaffee stimmt?",
+    "c": [
+      "Vietnam produziert nur Tee",
+      "Vietnam ist eines der größten Kaffee-Produzentenländer",
+      "Vietnam produziert keinen Kaffee",
+      "Vietnam exportiert keinen Kaffee"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 29)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Kondensmilch ist sehr typisch"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 30)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 31)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kondensmilch ist sehr typisch",
+      "Kaffee wird dort immer salzig gekocht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 32)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 33)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 34)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 35)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Phin ist ein Brot",
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 36)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 37)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 38)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 39)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 40)",
+    "c": [
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 41)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 42)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 43)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Viele Varianten werden mit Eis getrunken"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 44)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 45)",
+    "c": [
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 46)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 47)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 48)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 49)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào đúng về cà phê Việt Nam? (Câu 50)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Việt Nam nằm ở châu lục nào?",
+    "c": [
+      "Europa",
+      "Châu Á",
+      "Südamerika",
+      "Afrika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Thủ đô của Việt Nam là gì?",
+    "c": [
+      "Kuala Lumpur",
+      "Manila",
+      "Hanoi",
+      "Bangkok"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Thành phố lớn nhất Việt Nam hiện nay là gì?",
+    "c": [
+      "Hanoi",
+      "Ho-Chi-Minh-Stadt",
+      "Da Nang",
+      "Hue"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Tiền tệ của Việt Nam là gì?",
+    "c": [
+      "Yen",
+      "Dollar (USD)",
+      "Đồng (VND)",
+      "Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Tết là lễ gì ở Việt Nam?",
+    "c": [
+      "Tết",
+      "Hanami",
+      "Diwali",
+      "Oktoberfest"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche berühmte Bucht ist für Felseninseln bekannt?",
+    "c": [
+      "Hudson Bay",
+      "San Francisco Bay",
+      "Ha Long Bay",
+      "Biskaya"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Việt Nam giáp những nước nào?",
+    "c": [
+      "Indien, Nepal, Bhutan",
+      "China, Laos, Kambodscha",
+      "Thailand, Malaysia, Singapur",
+      "Japan, Korea, Taiwan"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Con sông lớn quan trọng ở miền Nam Việt Nam là sông nào?",
+    "c": [
+      "Amazonas",
+      "Mekong",
+      "Nil",
+      "Rhein"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Thành phố nào nổi tiếng với đèn lồng và phố cổ?",
+    "c": [
+      "Hội An",
+      "Edinburgh",
+      "Oslo",
+      "Zürich"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Khu vực nào nổi tiếng với ruộng bậc thang?",
+    "c": [
+      "Rotterdam",
+      "Sapa",
+      "Bremen",
+      "Tübingen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phở là món gì?",
+    "c": [
+      "Sushi",
+      "Pizza",
+      "Vietnamesische Nudelsuppe",
+      "Gulasch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Bánh mì là gì?",
+    "c": [
+      "Käsekuchen",
+      "Vietnamesisches Baguette-Sandwich",
+      "Sushi-Rolle",
+      "Paella"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cái gì là Gỏi cuốn?",
+    "c": [
+      "Frische Sommerrollen aus Reispapier",
+      "Lasagne",
+      "Frittierte Pommes",
+      "Apfelstrudel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Nước mắm là gì?",
+    "c": [
+      "Mineralwasser",
+      "Fischsauce",
+      "Ahornsirup",
+      "Ketchup"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Đảo nào ở Việt Nam nổi tiếng du lịch?",
+    "c": [
+      "Mallorca",
+      "Bali",
+      "Sylt",
+      "Phú Quốc"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Stadt ist für Laternenfeste und Atmosphäre berühmt?",
+    "c": [
+      "Huế",
+      "Hanoi",
+      "Da Nang",
+      "Hội An"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Sprache wird in Vietnam gesprochen?",
+    "c": [
+      "Schwedisch",
+      "Vietnamesisch",
+      "Arabisch",
+      "Portugiesisch"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Schrift nutzt Vietnamesisch heute?",
+    "c": [
+      "Hebräisch",
+      "Arabische Schrift",
+      "Kyrillisch",
+      "Lateinisches Alphabet mit Zeichen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Cái gì là „áo dài“?",
+    "c": [
+      "Ein Metallhut",
+      "Ein Motorradmodell",
+      "Ein traditionelles vietnamesisches Kleid",
+      "Ein Gewürz"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cái gì là typisch als Transportmittel in Vietnam?",
+    "c": [
+      "Motorroller",
+      "Kamel",
+      "Schlitten",
+      "Gondel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Stadt liegt an der Küste und ist für Strände bekannt?",
+    "c": [
+      "Da Nang",
+      "Oslo",
+      "Bern",
+      "Ulaanbaatar"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Region gehört zu Vietnam?",
+    "c": [
+      "Alpen",
+      "Anden",
+      "Sahara",
+      "Mekong-Delta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Cái gì là Bún chả?",
+    "c": [
+      "Paella",
+      "Sauerbraten",
+      "Käsefondue",
+      "Gegrilltes Fleisch mit Reisnudeln"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Cái gì là Bánh xèo?",
+    "c": [
+      "Schokokuchen",
+      "Sushi-Box",
+      "Käsespätzle",
+      "Knuspriger vietnamesischer Pfannkuchen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Jahreszeiten sind in vielen Teilen Vietnams typisch?",
+    "c": [
+      "Vier gleich kalte Winter",
+      "Nur Schneezeit",
+      "Nur Herbst",
+      "Regen- und Trockenzeit"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Stadt liegt im Süden Vietnams?",
+    "c": [
+      "Hanoi",
+      "Ha Giang",
+      "Sapa",
+      "Ho-Chi-Minh-Stadt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Stadt liegt im Norden Vietnams?",
+    "c": [
+      "Vũng Tàu",
+      "Phú Quốc",
+      "Hanoi",
+      "Cần Thơ"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Meer liegt östlich von Vietnam?",
+    "c": [
+      "Nordsee",
+      "Karibisches Meer",
+      "Ostsee",
+      "Südchinesisches Meer"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 29)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 30)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 31)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 32)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Tết ist das Neujahrsfest"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 33)",
+    "c": [
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 34)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 35)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Tết ist das Neujahrsfest",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 36)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 37)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 38)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 39)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 40)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 41)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 42)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 43)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 44)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Vietnam ist bekannt für Streetfood",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 45)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 46)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 47)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 48)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 49)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Tết ist das Neujahrsfest",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào về Việt Nam là đúng? (Câu 50)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Mainz nằm bên sông nào?",
+    "c": [
+      "An der Elbe",
+      "An der Donau",
+      "An der Weser",
+      "Am Rhein"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Mainz thuộc bang nào của Đức?",
+    "c": [
+      "Bayern",
+      "Rheinland-Pfalz",
+      "Schleswig-Holstein",
+      "Sachsen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Mainz nổi tiếng lịch sử vì điều gì?",
+    "c": [
+      "Vulkaninsel",
+      "Goldrausch",
+      "Johannes Gutenberg und der Buchdruck",
+      "Pyramidenbau"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt die Universität in Mainz?",
+    "c": [
+      "Humboldt-Universität",
+      "RWTH Aachen",
+      "TU München",
+      "Johannes Gutenberg-Universität"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Wie heißt der Fußballverein aus Mainz?",
+    "c": [
+      "1. FSV Mainz 05",
+      "Borussia Dortmund",
+      "FC Bayern München",
+      "HSV"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Veranstaltung ist in Mainz besonders bekannt?",
+    "c": [
+      "Oktoberfest",
+      "Karneval in Rio",
+      "Fastnacht",
+      "Wacken"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Nachbarstadt liegt direkt gegenüber am Rhein?",
+    "c": [
+      "Wiesbaden",
+      "München",
+      "Bremen",
+      "Dresden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Wie heißt der große Dom in Mainz?",
+    "c": [
+      "Kölner Dom",
+      "Berliner Dom",
+      "Mainzer Dom (St. Martin)",
+      "Ulmer Münster"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt das bekannte Museum rund um Gutenberg in Mainz?",
+    "c": [
+      "Pergamonmuseum",
+      "Gutenberg-Museum",
+      "Senckenberg Museum",
+      "Deutsches Museum"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Wie heißt der große Fernsehsender mit Sitz in Mainz?",
+    "c": [
+      "BBC",
+      "CNN",
+      "ZDF",
+      "NHK"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Region ist Mainz zugeordnet?",
+    "c": [
+      "Harz",
+      "Rheinhessen",
+      "Erzgebirge",
+      "Allgäu"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Brücke verbindet Mainz und Wiesbaden?",
+    "c": [
+      "Tower Bridge",
+      "Golden Gate Bridge",
+      "Brooklyn Bridge",
+      "Theodor-Heuss-Brücke"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welches Getränk ist in Rheinhessen besonders typisch?",
+    "c": [
+      "Wein",
+      "Sake",
+      "Whisky",
+      "Tequila"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cái gì là „Spundekäs“?",
+    "c": [
+      "Fischsuppe",
+      "Schokoladenkuchen",
+      "Würziger Frischkäse-Dip",
+      "Nudelsalat"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage über Mainz stimmt?",
+    "c": [
+      "Mainz ist eine Landeshauptstadt",
+      "Mainz liegt in Österreich",
+      "Mainz liegt in der Schweiz",
+      "Mainz ist eine Insel in der Nordsee"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cái gì là am Rhein in Mainz beliebt?",
+    "c": [
+      "Spazieren und Radfahren",
+      "Skispringen",
+      "Eishockey auf dem Fluss",
+      "Sandboarden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Farbe sieht man oft bei Mainz 05?",
+    "c": [
+      "Blau und Gelb",
+      "Grün und Pink",
+      "Rot und Weiß",
+      "Schwarz und Gold"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt der Stadtteil mit dem ZDF?",
+    "c": [
+      "Lerchenberg",
+      "Altona",
+      "Ehrenfeld",
+      "Schwabing"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Stadt ist nahe Mainz und bekannt für einen großen Flughafen?",
+    "c": [
+      "Kiel",
+      "Rostock",
+      "Frankfurt am Main",
+      "Flensburg"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz' Geschichte?",
+    "c": [
+      "Sie liegt am Nil",
+      "Sie reicht bis in die Römerzeit zurück",
+      "Sie ist ein Vulkan",
+      "Sie wurde 2010 gegründet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zur Mainzer Altstadt?",
+    "c": [
+      "Nur Wolkenkratzer",
+      "Viele Gassen und Weinstuben",
+      "Nur Industrieanlagen",
+      "Keine Restaurants"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Cái gì là ein typisches Mainzer Souvenir?",
+    "c": [
+      "Gutenberg-bezogene Artikel",
+      "Wüstenkamele",
+      "Korallen",
+      "Surfbretter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zur Lage von Mainz?",
+    "c": [
+      "Auf einer Insel im Pazifik",
+      "Mitten in der Wüste",
+      "Zwischen Rhein und Weinbergen",
+      "Auf einem Gletscher"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Cái gì là eine Weinstube?",
+    "c": [
+      "Ein Kino",
+      "Ein Sportplatz",
+      "Ein Lokal mit regionalen Weinen",
+      "Eine Bibliothek"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Sehenswürdigkeit steht zentral nahe dem Marktplatz?",
+    "c": [
+      "Der Dom",
+      "Big Ben",
+      "Eiffelturm",
+      "Kolosseum"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Cái gì là in Mainz im Frühling/Sommer beliebt?",
+    "c": [
+      "Polarlichter anschauen",
+      "Am Rhein sitzen und draußen unterwegs sein",
+      "Gletscherfahren",
+      "Sanddünen besuchen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Stadt ist Landeshauptstadt von Hessen und liegt nahe Mainz?",
+    "c": [
+      "Wiesbaden",
+      "Leipzig",
+      "Dortmund",
+      "Stuttgart"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Wofür ist Rheinhessen bekannt?",
+    "c": [
+      "Wein und Weinberge",
+      "Wüste",
+      "Gletscher",
+      "Regenwald"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zum ZDF in Mainz?",
+    "c": [
+      "Es ist ein Fußballverein",
+      "Es ist ein Bahnhof",
+      "Es sitzt in Tokio",
+      "Es hat seinen Sitz in Mainz"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 30)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 31)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 32)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 33)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 34)",
+    "c": [
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 35)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 36)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Meer"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 37)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Rhein",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 38)",
+    "c": [
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 39)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 40)",
+    "c": [
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 41)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 42)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Rhein"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 43)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 44)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 45)",
+    "c": [
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 46)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 47)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 48)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 49)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Phát biểu nào phù hợp về Mainz? (Câu 50)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 1
   }
 ]

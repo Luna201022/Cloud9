@@ -1,2752 +1,2002 @@
 [
   {
-    "q": "Was bedeutet Single Origin bei Kaffee?",
-    "choices": [
-      "Eine Mischung aus vielen Ländern",
-      "Entkoffeinierter Kaffee",
-      "Nur Arabica-Bohnen",
-      "Bohnen aus einer einzigen Herkunft (Region/Farm)"
+    "q": "Was bedeutet „Arabica“ im Kaffee-Kontext?",
+    "c": [
+      "ein Gewürz",
+      "ein Softdrink",
+      "eine verbreitete Kaffeebohnenart",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Richtig: Bohnen aus einer einzigen Herkunft (Region/Farm). „Single Origin“ meint eine klar definierte Herkunft statt Blend."
+    "a": 2
   },
   {
-    "q": "Warum beeinflusst der Mahlgrad den Geschmack von Kaffee?",
-    "choices": [
-      "Weil er nur für das Geräusch der Mühle wichtig ist",
-      "Weil er die Extraktionsgeschwindigkeit und damit Geschmack beeinflusst",
-      "Weil er nur die Bohnenqualität bewertet",
-      "Weil er nur die Optik des Pulvers ändert"
+    "q": "Was bedeutet „Robusta“ im Kaffee-Kontext?",
+    "c": [
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "eine Bohnenart mit oft mehr Koffein"
     ],
-    "a": 1,
-    "ex": "Der Mahlgrad steuert die Extraktion und damit Aroma und Balance."
+    "a": 3
   },
   {
-    "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
-    "choices": [
-      "Robusta",
-      "Kommt nur auf die Röstung an",
-      "Beide gleich",
-      "Arabica"
+    "q": "Was bedeutet „Espresso“ im Kaffee-Kontext?",
+    "c": [
+      "eine Nudelsuppe",
+      "ein Käse-Dip",
+      "ein kleiner, konzentrierter Kaffee",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Richtig: Arabica. Arabica wirkt häufig fruchtiger/heller, Robusta eher kräftig und bitterer."
+    "a": 2
   },
   {
-    "q": "Warum sollte Kaffee nicht mit kochendem Wasser gebrüht werden?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
+    "q": "Was bedeutet „Cappuccino“ im Kaffee-Kontext?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "Espresso mit Milch und Milchschaum",
+      "eine Nudelsuppe"
     ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 2
   },
   {
-    "q": "Welche Rolle spielt die Brühzeit beim Filterkaffee?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
+    "q": "Was bedeutet „Latte Macchiato“ im Kaffee-Kontext?",
+    "c": [
+      "Milch mit Espresso in Schichten",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "eine Stadt in Italien"
     ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 0
   },
   {
-    "q": "Warum sind frisch gemahlene Bohnen aromatischer?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
+    "q": "Was bedeutet „Americano“ im Kaffee-Kontext?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "Espresso mit heißem Wasser verlängert",
+      "ein Gewürz",
+      "ein Softdrink"
     ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung"
+    "q": "Was bedeutet „Cold Brew“ im Kaffee-Kontext?",
+    "c": [
+      "Kaffee, der lange kalt gezogen wird",
+      "eine Teesorte",
+      "ein Gewürz",
+      "eine Kuchensorte"
     ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
+    "a": 0
   },
   {
-    "q": "Was bewirkt ein zu grober Mahlgrad bei der Extraktion?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
+    "q": "Was bedeutet „Entkoffeiniert“ im Kaffee-Kontext?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "eine Teesorte",
+      "Kaffee mit stark reduziertem Koffein"
     ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
+    "a": 3
   },
   {
-    "q": "Warum ist sauberes Wasser wichtig für guten Kaffee?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst"
+    "q": "Was bedeutet „Single Origin“ im Kaffee-Kontext?",
+    "c": [
+      "eine Stadt in Italien",
+      "Bohnen aus einem bestimmten Ursprung",
+      "ein Softdrink",
+      "eine Nudelsuppe"
     ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß"
+    "q": "Was bedeutet „Blend“ im Kaffee-Kontext?",
+    "c": [
+      "eine Teesorte",
+      "Mischung aus Bohnen verschiedener Herkünfte",
+      "ein Softdrink",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
+    "a": 1
   },
   {
-    "q": "Warum verlieren Bohnen nach dem Mahlen schnell Aroma?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
+    "q": "Was bedeutet „Barista“ im Kaffee-Kontext?",
+    "c": [
+      "Person, die Kaffee professionell zubereitet",
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 0
   },
   {
-    "q": "Was ist Crema bei Espresso?",
-    "choices": [
-      "Zuckerkruste auf Kaffee",
-      "Kaffeesatz am Tassenboden",
-      "Milchschaum",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso"
+    "q": "Was bedeutet „Milchschaum“ im Kaffee-Kontext?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "aufgeschäumte Milch für cremige Textur",
+      "ein Gewürz"
     ],
-    "a": 3,
-    "ex": "Richtig: Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
+    "a": 2
   },
   {
-    "q": "Welche Temperatur ist ideal zum Kaffeebrühen?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
+    "q": "Was bedeutet „Röstgrad“ im Kaffee-Kontext?",
+    "c": [
+      "ein Softdrink",
+      "wie hell oder dunkel Bohnen geröstet sind",
+      "eine Stadt in Italien",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
+    "a": 1
   },
   {
-    "q": "Warum schmeckt Kaffee bei Überextraktion bitter?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
+    "q": "Was bedeutet „Kaffeekirsche“ im Kaffee-Kontext?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "die Frucht, in der die Bohne steckt",
+      "eine Nudelsuppe",
+      "eine Kuchensorte"
     ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Warum schmeckt Kaffee bei Unterextraktion sauer?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert"
+    "q": "Was bedeutet „Filterkaffee“ im Kaffee-Kontext?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Teesorte",
+      "Kaffee, der durch einen Filter läuft",
+      "ein Softdrink"
     ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 2
   },
   {
-    "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß"
+    "q": "Was bedeutet „French Press“ im Kaffee-Kontext?",
+    "c": [
+      "Kanne, bei der Kaffee zieht und gepresst wird",
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "eine Nudelsuppe"
     ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
+    "a": 0
   },
   {
-    "q": "Warum sollte man Bohnen lichtgeschützt lagern?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
+    "q": "Was bedeutet „Doppio“ im Kaffee-Kontext?",
+    "c": [
+      "doppelter Espresso",
+      "eine Kuchensorte",
+      "ein Softdrink",
+      "ein Käse-Dip"
     ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 0
   },
   {
-    "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
+    "q": "Was bedeutet „Flat White“ im Kaffee-Kontext?",
+    "c": [
+      "Espresso mit feinporiger, cremiger Milch",
+      "ein Gewürz",
+      "ein Käse-Dip",
+      "ein alkoholfreier Cocktail"
     ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
+    "a": 0
   },
   {
-    "q": "Warum ist Frische beim Kaffee so wichtig?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
+    "q": "Was bedeutet „Mokka“ im Kaffee-Kontext?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "Kaffee mit Kakao/Schokolade",
+      "eine Stadt in Italien"
     ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 2
   },
   {
-    "q": "Welche Rolle spielt die Bohnenherkunft für das Aroma?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
+    "q": "Was bedeutet „Affogato“ im Kaffee-Kontext?",
+    "c": [
+      "ein Käse-Dip",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "Espresso über Vanilleeis"
     ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 3
   },
   {
-    "q": "Warum sind luftdichte Behälter sinnvoll für die Lagerung?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
+    "q": "Woraus wird Kaffee gemacht?",
+    "c": [
+      "Aus Teeblättern",
+      "Aus gerösteten Kaffeebohnen",
+      "Aus Kakaopulver",
+      "Aus Getreide"
     ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Was bedeutet Blooming beim Filterkaffee?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Das Mahlen direkt vor dem Brühen",
-      "Schnelles Abkühlen des Kaffees"
+    "q": "Warum trinken viele Menschen morgens Kaffee?",
+    "c": [
+      "Weil er wach macht",
+      "Weil er kein Koffein enthält",
+      "Weil er immer süß ist",
+      "Weil er nur kalt getrunken wird"
     ],
-    "a": 0,
-    "ex": "Richtig: Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Kaffeemehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
+    "a": 0
   },
   {
-    "q": "Warum ist das Verhältnis von Kaffee zu Wasser wichtig?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Aromen können bei Kaffee auftreten?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum kann altes Wasser den Geschmack verfälschen?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum ist die Reinigung der Maschine wichtig für den Geschmack?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sollte man Kaffeemehl gleichmäßig befeuchten?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bedeutet Extraktion im Kaffeekontext?",
-    "choices": [
-      "Das Filtern von Koffein",
-      "Das Rösten der Bohnen",
-      "Das Herauslösen von Aromastoffen aus dem Kaffeemehl ins Wasser",
-      "Das Abkühlen des Kaffees"
-    ],
-    "a": 2,
-    "ex": "Richtig: Das Herauslösen von Aromastoffen aus dem Kaffeemehl ins Wasser. Extraktion beschreibt, was beim Brühen aus dem Kaffee gelöst wird."
-  },
-  {
-    "q": "Warum verändert sich Geschmack mit der Brühmethode?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum ist Mahlgradanpassung wichtig bei neuen Bohnen?",
-    "choices": [
-      "Weil er die Extraktionsgeschwindigkeit und damit Geschmack beeinflusst",
-      "Weil er nur für das Geräusch der Mühle wichtig ist",
-      "Weil er nur die Bohnenqualität bewertet",
-      "Weil er nur die Optik des Pulvers ändert"
-    ],
-    "a": 0,
-    "ex": "Der Mahlgrad steuert die Extraktion und damit Aroma und Balance."
-  },
-  {
-    "q": "Welche Rolle spielt die Kontaktzeit von Wasser und Kaffee?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum schmeckt kalter Kaffee oft flacher?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum beeinflusst der Druck den Espressogeschmack?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum können zu alte Bohnen fade schmecken?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat Sauerstoff auf Kaffeearomen?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist konstante Brühtemperatur wichtig?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bewirkt eine längere Röstzeit?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind frische Bohnen öliger?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Partikelgröße beim Mahlen?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sollte man Mühlen regelmäßig reinigen?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bewirkt eine ungleichmäßige Extraktion?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum kann Leitungswasser je nach Region unterschiedlich schmecken?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist eine Waage beim Brühen hilfreich?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum sollte man Bohnen nicht im Kühlschrank lagern?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Röstfrische für Crema?",
-    "choices": [
-      "Milchschaum",
-      "Kaffeesatz am Tassenboden",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso",
-      "Zuckerkruste auf Kaffee"
-    ],
-    "a": 2,
-    "ex": "Richtig: Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
-  },
-  {
-    "q": "Warum beeinflusst die Brühmethode die Klarheit im Geschmack?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bewirkt längere Vorinfusion?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum kann Kaffee metallisch schmecken?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum ist konstante Dosierung wichtig?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind saubere Filter wichtig?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum beeinflusst die Wasserhärte den Geschmack?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bewirkt Umrühren beim Blooming?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Schnelles Abkühlen des Kaffees",
-      "Das Mahlen direkt vor dem Brühen"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Kaffeemehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
-  },
-  {
-    "q": "Warum kann Kaffee schal schmecken?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt der Röstgrad für Süße?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist gleichmäßige Extraktion wichtig?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bedeutet „sữa“ im vietnamesischen Kaffee?",
-    "choices": [
-      "Kaffee",
-      "Milch (oft gesüßte Kondensmilch)",
-      "Zucker",
-      "Eis"
-    ],
-    "a": 1,
-    "ex": "Richtig: Milch (oft gesüßte Kondensmilch). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "Was bedeutet „đá“ bei vietnamesischen Getränken?",
-    "choices": [
-      "Heiß",
-      "Ohne Zucker",
-      "Schwarz (ohne Milch)",
-      "Eis / mit Eis"
-    ],
-    "a": 3,
-    "ex": "Richtig: Eis / mit Eis. „đá“ bedeutet Eis – also eine kalte Variante."
-  },
-  {
-    "q": "Was ist ein Phin-Filter?",
-    "choices": [
-      "French Press mit Stempel",
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Papierfilter für Pour-Over"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum wird in Vietnam häufig Robusta verwendet?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was ist Cà phê sữa đá?",
-    "choices": [
-      "Milch (oft gesüßte Kondensmilch)",
-      "Eis",
-      "Kaffee",
-      "Zucker"
-    ],
-    "a": 0,
-    "ex": "Richtig: Milch (oft gesüßte Kondensmilch). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "Warum ist vietnamesischer Kaffee oft kräftiger geröstet?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt gesüßte Kondensmilch im vietnamesischen Kaffee?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam häufig mit Eis serviert?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
-    "choices": [
-      "French Press mit Stempel",
-      "Papierfilter für Pour-Over",
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum ist die Extraktion mit Phin langsamer?",
-    "choices": [
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "French Press mit Stempel",
-      "Papierfilter für Pour-Over",
-      "Siebträger-Maschine"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Kaffee im vietnamesischen Alltag?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind Cafés in Vietnam soziale Treffpunkte?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Wie beeinflusst Eis den Geschmack von Kaffee?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam oft stark gesüßt?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Röstgrad bei vietnamesischem Kaffee?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist der Phin aus Metall?",
-    "choices": [
-      "Papierfilter für Pour-Over",
-      "French Press mit Stempel",
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Durchtropfen auf das Aroma?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist der Phin einfach zu reinigen?",
-    "choices": [
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Siebträger-Maschine",
-      "Papierfilter für Pour-Over",
-      "French Press mit Stempel"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum schmeckt vietnamesischer Kaffee oft schokoladig?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Kaffee für die vietnamesische Café-Kultur?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Robusta koffeinhaltiger als Arabica?",
-    "choices": [
-      "Robusta enthält meist mehr Koffein",
-      "Koffeingehalt ist unabhängig von der Bohne",
-      "Arabica enthält immer mehr Koffein",
-      "Koffein entsteht erst beim Rösten"
-    ],
-    "a": 0,
-    "ex": "Richtig: Robusta enthält meist mehr Koffein. Robusta hat typischerweise einen höheren Koffeingehalt."
-  },
-  {
-    "q": "Warum passt Kondensmilch gut zu Robusta?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Temperatur bei der Phin-Zubereitung?",
-    "choices": [
-      "Siebträger-Maschine",
-      "French Press mit Stempel",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Papierfilter für Pour-Over"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum ist Geduld bei der Phin-Zubereitung wichtig?",
-    "choices": [
-      "French Press mit Stempel",
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Papierfilter für Pour-Over"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat feiner Mahlgrad im Phin?",
-    "choices": [
-      "Papierfilter für Pour-Over",
-      "French Press mit Stempel",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Siebträger-Maschine"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat grober Mahlgrad im Phin?",
-    "choices": [
-      "Papierfilter für Pour-Over",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Siebträger-Maschine",
-      "French Press mit Stempel"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum kann vietnamesischer Kaffee intensiver wirken?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
-    "choices": [
-      "French Press mit Stempel",
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Papierfilter für Pour-Over"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam oft draußen getrunken?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Eis bei der Erfrischung?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam auch abends getrunken?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Milch für die Balance der Bitterkeit?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam häufig als Ritual zelebriert?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Tasse für das Aroma?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist der Phin ideal für einzelne Portionen?",
-    "choices": [
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Papierfilter für Pour-Over",
-      "French Press mit Stempel"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat heißes Wasser auf dunkle Röstungen?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist vietnamesischer Kaffee weltweit bekannt?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Zucker im Geschmacksausgleich?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist Robusta widerstandsfähiger im Anbau?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Bohnenherkunft in Vietnam?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist Kaffee in Vietnam oft stärker dosiert?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam oft mit Gesprächen verbunden?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Kondensmilch für das Mundgefühl?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist Eiskaffee in Vietnam so beliebt?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist die Phin-Zubereitung traditionell?",
-    "choices": [
-      "Siebträger-Maschine",
-      "Vietnamesischer Metall-Dripfilter für langsames Brühen",
-      "Papierfilter für Pour-Over",
-      "French Press mit Stempel"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnamesischer Metall-Dripfilter für langsames Brühen. Der Phin lässt Kaffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Rolle spielt der Mahlgrad bei vietnamesischem Kaffee?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam häufig mit Freunden getrunken?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Kaffee Teil der Alltagskultur?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Brühtechnik für Konsistenz?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam oft süßer serviert?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Kaffee ein Treffpunkt-Getränk?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt das Glas bei Eiskaffee?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum passt Kaffee gut zu süßen Snacks?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Robusta ertragreich?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Erntezeit für die Qualität?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist vietnamesischer Kaffee oft kräftig im Körper?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat die Präsentation im Glas?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum wird Kaffee in Vietnam oft draußen serviert?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Umgebung für den Genuss?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum wird Kaffee oft langsam getrunken?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Wirkung hat Geduld auf den Genuss?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Was zeichnet Phở aus?",
-    "choices": [
-      "Reisnudelsuppe mit aromatischer Brühe",
-      "Kalter Nudelsalat",
-      "Gebratene Nudeln",
-      "Reisbällchen"
-    ],
-    "a": 0,
-    "ex": "Richtig: Reisnudelsuppe mit aromatischer Brühe. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Warum werden in der vietnamesischen Küche frische Kräuter verwendet?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Reis in der vietnamesischen Küche?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind vietnamesische Gerichte oft leicht und frisch?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum werden Speisen oft mit Limette serviert?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Fischsauce in der vietnamesischen Küche?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Kräuter wichtig für die Frische?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum werden Speisen oft mit frischem Gemüse kombiniert?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Brühe bei Suppengerichten?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist Balance der Geschmäcker wichtig?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Süße in herzhaften Gerichten?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind vietnamesische Gerichte oft nicht schwer?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum werden Gerichte oft individuell abgeschmeckt?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Frische bei Kräutern?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Nudeln aus Reis beliebt?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Knoblauch im Aroma?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum werden Gerichte oft geteilt?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind Suppen in Vietnam beliebt?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Dampf beim Garen?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Gerichte oft leicht verdaulich?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Säure für Frische?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum werden Speisen oft mit Kräutern serviert?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühe für Phở?",
-    "choices": [
-      "Reisbällchen",
-      "Kalter Nudelsalat",
-      "Reisnudelsuppe mit aromatischer Brühe",
-      "Gebratene Nudeln"
-    ],
-    "a": 2,
-    "ex": "Richtig: Reisnudelsuppe mit aromatischer Brühe. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Warum ist die Küche regional vielfältig?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Frische für den Geschmack?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum werden Zutaten oft roh ergänzt?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Texturkontrast?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Gerichte ausgewogen gewürzt?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind Kräuter ein fester Bestandteil?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Reis als Grundnahrungsmittel?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Gerichte oft leicht süßlich?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Umami?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum werden Gerichte häufig mit Brühe serviert?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Temperatur beim Servieren?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Gerichte aromatisch, aber nicht schwer?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Frische der Zutaten?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum werden Gerichte oft frisch zubereitet?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Vielfalt der Aromen?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind Gerichte gut ausbalanciert?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt die Präsentation?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum werden Speisen oft mit Kräutern garniert?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Regionalität?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind Gerichte leicht bekömmlich?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Warum wächst die Café-Kultur in vietnamesischen Städten?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Urbanisierung in Vietnam?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Start-ups in Vietnam im Aufschwung?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Streetfood weiterhin beliebt?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielen soziale Medien im Alltag?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum verbinden junge Menschen Tradition und Moderne?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Tourismus für Vietnam?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es ist egal, Hauptsache heiß",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Welche Rolle spielt Mobilität in Großstädten?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist Nachhaltigkeit ein wachsendes Thema?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Technologie im Alltag?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind Cafés Arbeitsorte geworden?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Kreativwirtschaft?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind Co-Working-Spaces beliebt?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat internationale Küche?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Verpackung",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Vietnam wirtschaftlich gewachsen?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Bildung für den Arbeitsmarkt?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind junge Menschen offen für Neues?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Kultur für Identität?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist Tourismus wichtig für Städte?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Urban Gardening?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum gewinnen lokale Marken an Bedeutung?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Design in Cafés?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind nachhaltige Konzepte gefragt?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Digitalisierung?",
-    "choices": [
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ist Vietnam international vernetzt?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Unternehmertum?",
-    "choices": [
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ist der Alltag schneller geworden?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Gemeinschaft?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Geschmacksrichtung ist bei Bánh mì typisch ausgewogen?",
-    "choices": [
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 0,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum passen leichte Speisen gut zu Kaffee?",
-    "choices": [
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Frische bei Snacks?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie hat keinen Einfluss"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum ergänzen herzhafte Snacks Kaffee gut?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
-    "choices": [
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es betrifft nur die Optik"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind frische Zutaten wichtig für Snacks?",
-    "choices": [
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst"
-    ],
-    "a": 1,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Rolle spielt Textur bei kleinen Speisen?",
-    "choices": [
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst Extraktion, Balance und Geschmack",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum passen Kräuter gut zu belegten Broten?",
-    "choices": [
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert",
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist"
-    ],
-    "a": 0,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Frische für den Genuss?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß",
-      "Es betrifft nur die Verpackung"
-    ],
-    "a": 1,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum sind leichte Snacks beliebt?",
-    "choices": [
-      "Weil sie den Hunger stillen, ohne zu schwer im Magen zu liegen",
-      "Weil sie immer zuckerfrei sind",
-      "Weil sie automatisch koffeinhaltig sind",
-      "Weil sie nur kalt gegessen werden dürfen"
-    ],
-    "a": 0,
-    "ex": "Leichte Snacks sind beliebt, weil sie nicht belasten und gut zu Kaffee passen."
-  },
-  {
-    "q": "Welche Rolle spielt Präsentation bei kleinen Gerichten?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie hat keinen Einfluss",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst Extraktion, Balance und Geschmack"
-    ],
-    "a": 3,
-    "ex": "Richtig: Sie beeinflusst Extraktion, Balance und Geschmack. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Warum sind ausgewogene Aromen wichtig?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Welche Bedeutung hat Qualität der Zutaten?",
-    "choices": [
-      "Es betrifft nur die Optik",
-      "Es betrifft nur die Verpackung",
-      "Es hat einen spürbaren Einfluss auf Geschmack und Balance",
-      "Es ist egal, Hauptsache heiß"
-    ],
-    "a": 2,
-    "ex": "Richtig: Es hat einen spürbaren Einfluss auf Geschmack und Balance. Im Café-Alltag wirkt sich dieser Punkt direkt auf das Ergebnis in der Tasse aus."
-  },
-  {
-    "q": "Warum ergänzen knusprige Texturen Kaffee gut?",
-    "choices": [
-      "Weil es nur die Optik beeinflusst",
-      "Weil es nur bei Instantkaffee relevant ist",
-      "Weil es Aroma, Stärke und Balance der Zubereitung beeinflusst",
-      "Weil es nur die Temperatur der Tasse ändert"
-    ],
-    "a": 2,
-    "ex": "Der Faktor wirkt auf Extraktion und Geschmack."
-  },
-  {
-    "q": "Was bedeutet „sữa“ auf Vietnamesisch?",
-    "choices": [
-      "Filter",
-      "Zucker",
-      "Eis",
-      "Milch"
-    ],
-    "a": 3,
-    "ex": "Richtig: Milch."
-  },
-  {
-    "q": "Was bedeutet „đá“ auf Vietnamesisch?",
-    "choices": [
-      "Eis",
-      "Schwarz (ohne Milch)",
+    "q": "Was macht Kaffee oft milder im Geschmack?",
+    "c": [
+      "Zitronensaft",
       "Milch",
-      "Süß"
+      "Essig",
+      "Pfeffer"
     ],
-    "a": 0,
-    "ex": "Richtig: Eis."
+    "a": 1
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Basiswissen)?",
-    "choices": [
-      "20–25 °C",
-      "80–90 °C",
-      "Etwa 55–65 °C",
-      "0–5 °C"
+    "q": "Warum ist frisches Wasser beim Kaffee wichtig?",
+    "c": [
+      "Weil es die Tasse färbt",
+      "Weil es den Koffeinwert verdoppelt",
+      "Weil es Zucker ersetzt",
+      "Weil es den Geschmack stark beeinflusst"
     ],
-    "a": 2,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 3
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Praxis)?",
-    "choices": [
-      "Etwa 55–65 °C",
-      "20–25 °C",
-      "0–5 °C",
-      "80–90 °C"
+    "q": "Was kann Kaffee bitter machen?",
+    "c": [
+      "Zu viel Zucker",
+      "Zu viele Eiswürfel",
+      "Zu lange oder zu heiß extrahiert",
+      "Zu wenig Tassen"
     ],
-    "a": 0,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 2
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Barista-Tipp)?",
-    "choices": [
-      "80–90 °C",
-      "0–5 °C",
-      "20–25 °C",
-      "Etwa 55–65 °C"
+    "q": "Was ist ein Eiskaffee (klassisch)?",
+    "c": [
+      "Tee mit Eis",
+      "Heißer Kaffee ohne Tasse",
+      "Kaffee kalt mit Eis, oft mit Milch oder Vanille",
+      "Wasser mit Kakao"
     ],
-    "a": 3,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 2
   },
   {
-    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Basiswissen)?",
-    "choices": [
-      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
-      "Wasser ändert nur die Farbe",
-      "Wasser erzeugt Koffein",
-      "Wasser ist nur für Latte-Art wichtig"
+    "q": "Wozu nutzen viele Menschen eine Kaffeemühle?",
+    "c": [
+      "Damit Kaffee koffeinfrei wird",
+      "Damit Kaffee automatisch süß wird",
+      "Damit man kein Wasser braucht",
+      "Für mehr Aroma durch frisch gemahlenen Kaffee"
     ],
-    "a": 0,
-    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+    "a": 3
   },
   {
-    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Praxis)?",
-    "choices": [
-      "Wasser ändert nur die Farbe",
-      "Wasser ist nur für Latte-Art wichtig",
-      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
-      "Wasser erzeugt Koffein"
+    "q": "Welche Zutat macht einen Kaffee schokoladig?",
+    "c": [
+      "Schnittlauch",
+      "Kakao oder Schokolade",
+      "Sojasauce",
+      "Senf"
     ],
-    "a": 2,
-    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Barista-Tipp)?",
-    "choices": [
-      "Wasser ändert nur die Farbe",
-      "Wasser ist nur für Latte-Art wichtig",
-      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
-      "Wasser erzeugt Koffein"
+    "q": "Was bedeutet „to go“ im Café?",
+    "c": [
+      "Zum Einfrieren",
+      "Zum Mitnehmen",
+      "Zum Aufwärmen",
+      "Zum Umtauschen"
     ],
-    "a": 2,
-    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Basiswissen)?",
-    "choices": [
-      "Um den Koffeingehalt zu verdoppeln",
-      "Um Milch besser aufzuschäumen",
-      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren",
-      "Um Zucker zu karamellisieren"
+    "q": "Welche Milchalternative ist in Cafés häufig?",
+    "c": [
+      "Bratensoße",
+      "Haferdrink",
+      "Sojasauce",
+      "Fischsauce"
     ],
-    "a": 2,
-    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+    "a": 1
   },
   {
-    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Praxis)?",
-    "choices": [
-      "Um Zucker zu karamellisieren",
-      "Um den Koffeingehalt zu verdoppeln",
-      "Um Milch besser aufzuschäumen",
-      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren"
+    "q": "Welche Bohnenart hat oft mehr Koffein?",
+    "c": [
+      "Vanille",
+      "Arabica",
+      "Kakao",
+      "Robusta"
     ],
-    "a": 3,
-    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+    "a": 3
   },
   {
-    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Barista-Tipp)?",
-    "choices": [
-      "Um den Koffeingehalt zu verdoppeln",
-      "Um Milch besser aufzuschäumen",
-      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren",
-      "Um Zucker zu karamellisieren"
+    "q": "Welche Bohnenart ist weltweit sehr verbreitet?",
+    "c": [
+      "Jasmin",
+      "Rooibos",
+      "Arabica",
+      "Matcha"
     ],
-    "a": 2,
-    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+    "a": 2
   },
   {
-    "q": "Was hilft, wenn Kaffee zu sauer ist?",
-    "choices": [
-      "Dosierung stark reduzieren",
-      "Grober mahlen und kürzer extrahieren",
-      "Feiner mahlen oder etwas länger extrahieren",
-      "Wasser deutlich kälter machen"
+    "q": "Welche Getränkebasis ist bei Cappuccino und Latte gleich?",
+    "c": [
+      "Wasser",
+      "Espresso",
+      "Tee",
+      "Kakao"
     ],
-    "a": 2,
-    "ex": "Richtig: Feiner mahlen oder etwas länger extrahieren."
+    "a": 1
   },
   {
-    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu sauer schmeckt?",
-    "choices": [
-      "Feiner mahlen oder etwas länger extrahieren",
-      "Wasser deutlich kälter machen",
-      "Dosierung stark reduzieren",
-      "Grober mahlen und kürzer extrahieren"
+    "q": "Was passiert bei dunklerer Röstung oft?",
+    "c": [
+      "Er wird koffeinfrei",
+      "Er wird salziger",
+      "Er wird immer fruchtiger",
+      "Der Kaffee schmeckt kräftiger und röstiger"
     ],
-    "a": 0,
-    "ex": "Richtig: Feiner mahlen oder etwas länger extrahieren."
+    "a": 3
   },
   {
-    "q": "Was hilft, wenn Kaffee zu bitter ist?",
-    "choices": [
-      "Wasser deutlich heißer machen",
-      "Etwas gröber mahlen oder kürzer extrahieren",
-      "Kontaktzeit erhöhen",
-      "Feiner mahlen und länger extrahieren"
+    "q": "Was ist ein Espresso Macchiato?",
+    "c": [
+      "Cold Brew mit Sahne",
+      "Milch mit viel Sirup",
+      "Filterkaffee mit Eis",
+      "Espresso mit einem kleinen Klecks Milch oder Schaum"
     ],
-    "a": 1,
-    "ex": "Richtig: Etwas gröber mahlen oder kürzer extrahieren."
+    "a": 3
   },
   {
-    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu bitter schmeckt?",
-    "choices": [
-      "Feiner mahlen und länger extrahieren",
-      "Wasser deutlich heißer machen",
-      "Kontaktzeit erhöhen",
-      "Etwas gröber mahlen oder kürzer extrahieren"
+    "q": "Welche Aussage stimmt meistens?",
+    "c": [
+      "Filterkaffee enthält nie Koffein",
+      "Kaffee muss immer kalt sein",
+      "Kaffee besteht nur aus Zucker",
+      "Espresso ist konzentrierter als Filterkaffee"
     ],
-    "a": 3,
-    "ex": "Richtig: Etwas gröber mahlen oder kürzer extrahieren."
+    "a": 3
   },
   {
-    "q": "Was hilft, wenn Kaffee zu wässrig ist?",
-    "choices": [
-      "Grober mahlen",
-      "Dosierung senken",
-      "Kürzer extrahieren",
-      "Dosierung erhöhen oder feiner mahlen"
+    "q": "Was ist Instant-Kaffee?",
+    "c": [
+      "Kaffee, der sich direkt in Wasser auflöst",
+      "Kaffee ohne Wasser",
+      "Kaffee aus Kakao",
+      "Kaffee aus Teeblättern"
     ],
-    "a": 3,
-    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+    "a": 0
   },
   {
-    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu wässrig schmeckt?",
-    "choices": [
-      "Grober mahlen",
-      "Kürzer extrahieren",
-      "Dosierung senken",
-      "Dosierung erhöhen oder feiner mahlen"
+    "q": "Was ist ein Affogato?",
+    "c": [
+      "Espresso über Vanilleeis",
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Filterkaffee mit Eis"
     ],
-    "a": 3,
-    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+    "a": 0
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Basiswissen)? #1",
-    "choices": [
-      "20–25 °C",
-      "80–90 °C",
-      "Etwa 55–65 °C",
-      "0–5 °C"
+    "q": "Was ist ein „Shot“ im Café meistens?",
+    "c": [
+      "Ein Smoothie",
+      "Eine kleine Portion Espresso",
+      "Ein Stück Kuchen",
+      "Ein Glas Wasser"
     ],
-    "a": 2,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 1
   },
   {
-    "q": "Was bedeutet „sữa“ auf Vietnamesisch? #2",
-    "choices": [
-      "Filter",
-      "Zucker",
+    "q": "Warum reinigen Cafés ihre Mühlen regelmäßig?",
+    "c": [
+      "Damit kein alter Kaffeerest den Geschmack verfälscht",
+      "Damit die Bohnen größer werden",
+      "Damit das Koffein steigt",
+      "Damit Kaffee süßer wird"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Option ist koffeinfrei(er)?",
+    "c": [
+      "Entkoffeinierter Kaffee",
+      "Doppio",
+      "Ristretto",
+      "Espresso Shot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was bedeutet „Crema“ bei Espresso oft?",
+    "c": [
+      "Ein Sirup",
+      "Eine Bohnenart",
+      "Ein Gewürz",
+      "Eine helle Schaumschicht auf dem Espresso"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Was ist ein „Iced Latte“?",
+    "c": [
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Heißer Espresso ohne Tasse",
+      "Kaffee mit Milch und Eis"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Zutat ist typisch für einen Vanilla Latte?",
+    "c": [
+      "Sojasprossen",
+      "Vanillesirup",
+      "Chilipaste",
+      "Fischsauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu Kaffee im Café? (Frage 45)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird aus Kartoffeln gemacht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Kaffee im Café? (Frage 46)",
+    "c": [
+      "Frische Bohnen riechen aromatisch",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Kaffee im Café? (Frage 47)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee enthält kein Aroma",
+      "Kaffee ist immer koffeinfrei"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Kaffee im Café? (Frage 48)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee ist immer koffeinfrei",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Kaffee im Café? (Frage 49)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Viele Cafés bieten auch entkoffeiniert an"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu Kaffee im Café? (Frage 50)",
+    "c": [
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee ist immer koffeinfrei",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wenn du „Cà phê sữa đá“ bestellst, was bekommst du?",
+    "c": [
+      "Kakao mit Sahne",
+      "Espresso Martini",
+      "Eiskaffee mit gesüßter Kondensmilch",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wenn du „Cà phê sữa nóng“ bestellst, was bekommst du?",
+    "c": [
+      "Milch ohne Kaffee",
+      "Schwarzen Kaffee ohne Zucker",
+      "Tee mit Kondensmilch",
+      "Heißer Kaffee mit Kondensmilch"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Wenn du „Cà phê đen“ bestellst, was bekommst du?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
+      "Schwarzer Kaffee",
+      "Milch ohne Kaffee"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wenn du „Cà phê đen đá“ bestellst, was bekommst du?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
+      "Schwarzen Kaffee ohne Zucker",
+      "Schwarzer Eiskaffee ohne Milch"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Wenn du „Bạc xỉu“ bestellst, was bekommst du?",
+    "c": [
+      "Espresso Martini",
+      "Kakao mit Sahne",
+      "Sehr milchiges, süßes Getränk mit wenig Kaffee",
+      "Tee mit Kondensmilch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wenn du „Cà phê trứng“ bestellst, was bekommst du?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kakao mit Sahne",
+      "Grünen Tee mit Zitrone",
+      "Eierkaffee (Egg Coffee)"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Wenn du „Cà phê muối“ bestellst, was bekommst du?",
+    "c": [
+      "Espresso Martini",
+      "Tee mit Kondensmilch",
+      "Kaffee mit einer Prise Salz (salzige Note)",
+      "Schwarzen Kaffee ohne Zucker"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wenn du „Cà phê dừa“ bestellst, was bekommst du?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kaffee mit Kokos",
+      "Milch ohne Kaffee",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Wenn du „Cà phê sữa chua“ bestellst, was bekommst du?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Grünen Tee mit Zitrone",
+      "Milch ohne Kaffee",
+      "Kaffee mit Joghurt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Wenn du „Phin“ bestellst, was bekommst du?",
+    "c": [
+      "kleiner vietnamesischer Metallfilter zum Tropfen",
+      "Grünen Tee mit Zitrone",
+      "Tee mit Kondensmilch",
+      "Kakao mit Sahne"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was bedeutet „sữa“ auf Vietnamesisch (Getränke-Kontext)?",
+    "c": [
+      "Kakao",
+      "Kaffee",
+      "Milch",
+      "Honig"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Was bedeutet „đá“ auf Vietnamesisch (Getränke-Kontext)?",
+    "c": [
       "Eis",
-      "Milch"
-    ],
-    "a": 3,
-    "ex": "Richtig: Milch."
-  },
-  {
-    "q": "Was bedeutet „sữa“ auf Vietnamesisch? #3",
-    "choices": [
-      "Filter",
+      "Kaffee",
       "Zucker",
-      "Eis",
-      "Milch"
+      "Kokos"
     ],
-    "a": 3,
-    "ex": "Richtig: Milch."
+    "a": 0
   },
   {
-    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Praxis)? #4",
-    "choices": [
-      "Um Zucker zu karamellisieren",
-      "Um den Koffeingehalt zu verdoppeln",
-      "Um Milch besser aufzuschäumen",
-      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren"
+    "q": "Was bedeutet „đen“ auf Vietnamesisch (Getränke-Kontext)?",
+    "c": [
+      "schwarz",
+      "Honig",
+      "Zucker",
+      "Kakao"
     ],
-    "a": 3,
-    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+    "a": 0
   },
   {
-    "q": "Was hilft, wenn Kaffee zu sauer ist? #5",
-    "choices": [
-      "Dosierung stark reduzieren",
-      "Grober mahlen und kürzer extrahieren",
-      "Feiner mahlen oder etwas länger extrahieren",
-      "Wasser deutlich kälter machen"
+    "q": "Was bedeutet „nóng“ auf Vietnamesisch (Getränke-Kontext)?",
+    "c": [
+      "Kakao",
+      "heiß",
+      "Honig",
+      "Kokos"
     ],
-    "a": 2,
-    "ex": "Richtig: Feiner mahlen oder etwas länger extrahieren."
+    "a": 1
   },
   {
-    "q": "Was hilft, wenn Kaffee zu wässrig ist? #6",
-    "choices": [
-      "Grober mahlen",
-      "Dosierung senken",
-      "Kürzer extrahieren",
-      "Dosierung erhöhen oder feiner mahlen"
+    "q": "Was bedeutet „chua“ auf Vietnamesisch (Getränke-Kontext)?",
+    "c": [
+      "Honig",
+      "Kaffee",
+      "Kokos",
+      "Joghurt (in „sữa chua“)"
     ],
-    "a": 3,
-    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+    "a": 3
   },
   {
-    "q": "Was hilft, wenn Kaffee zu wässrig ist? #7",
-    "choices": [
-      "Grober mahlen",
-      "Dosierung senken",
-      "Kürzer extrahieren",
-      "Dosierung erhöhen oder feiner mahlen"
+    "q": "Wie heißt der typische vietnamesische Kaffee-Filter?",
+    "c": [
+      "Papierfilter",
+      "Teesieb",
+      "Siebträgerkorb",
+      "Phin-Filter"
     ],
-    "a": 3,
-    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+    "a": 3
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Barista-Tipp)? #8",
-    "choices": [
-      "80–90 °C",
-      "0–5 °C",
-      "20–25 °C",
-      "Etwa 55–65 °C"
+    "q": "Warum wird vietnamesischer Kaffee oft auf Eis serviert?",
+    "c": [
+      "Weil es sonst nicht trinkbar ist",
+      "Weil es erfrischend ist, besonders bei Wärme",
+      "Weil Eis Koffein entfernt",
+      "Weil es dann automatisch süßer wird"
     ],
-    "a": 3,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 1
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Praxis)? #9",
-    "choices": [
-      "Etwa 55–65 °C",
-      "20–25 °C",
-      "0–5 °C",
-      "80–90 °C"
+    "q": "Welche Milch wird in Vietnam oft für süßen Kaffee genutzt?",
+    "c": [
+      "Sauerrahm",
+      "Buttermilch",
+      "Gesüßte Kondensmilch",
+      "Schmand"
     ],
-    "a": 0,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 2
   },
   {
-    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu wässrig schmeckt? #10",
-    "choices": [
-      "Grober mahlen",
-      "Kürzer extrahieren",
-      "Dosierung senken",
-      "Dosierung erhöhen oder feiner mahlen"
+    "q": "In welcher Stadt ist Egg Coffee besonders bekannt?",
+    "c": [
+      "London",
+      "Hanoi",
+      "Mainz",
+      "Madrid"
     ],
-    "a": 3,
-    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+    "a": 1
   },
   {
-    "q": "Warum macht man beim Handfilter oft ein kurzes „Blooming“ (Barista-Tipp)? #11",
-    "choices": [
-      "Um den Koffeingehalt zu verdoppeln",
-      "Um Milch besser aufzuschäumen",
-      "Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren",
-      "Um Zucker zu karamellisieren"
+    "q": "Welche Bohnenart baut Vietnam sehr viel an?",
+    "c": [
+      "Tee",
+      "Arabica nur",
+      "Kakao",
+      "Robusta"
     ],
-    "a": 2,
-    "ex": "Richtig: Um CO₂ entweichen zu lassen und gleichmäßiger zu extrahieren."
+    "a": 3
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Basiswissen)? #12",
-    "choices": [
-      "20–25 °C",
-      "80–90 °C",
-      "Etwa 55–65 °C",
-      "0–5 °C"
+    "q": "Welche Reihenfolge passt oft zu Phin-Kaffee mit Kondensmilch?",
+    "c": [
+      "Eis zuerst, dann Salz, dann Tee",
+      "Kaffee einfrieren, dann warm machen",
+      "Kondensmilch ins Glas, Kaffee tropft darüber, dann umrühren",
+      "Milch aufschäumen, dann Kakao"
     ],
-    "a": 2,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 2
   },
   {
-    "q": "Welche Maßnahme ist sinnvoll bei Kaffee, der zu wässrig schmeckt? #13",
-    "choices": [
-      "Grober mahlen",
-      "Kürzer extrahieren",
-      "Dosierung senken",
-      "Dosierung erhöhen oder feiner mahlen"
+    "q": "Was ist „Cà phê muối“?",
+    "c": [
+      "Kaffee mit Sojasauce",
+      "Kaffee ohne Wasser",
+      "Kaffee mit einer Prise Salz (salzige Note)",
+      "Kaffee nur aus Zucker"
     ],
-    "a": 3,
-    "ex": "Richtig: Dosierung erhöhen oder feiner mahlen."
+    "a": 2
   },
   {
-    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Basiswissen)? #14",
-    "choices": [
-      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
-      "Wasser ändert nur die Farbe",
-      "Wasser erzeugt Koffein",
-      "Wasser ist nur für Latte-Art wichtig"
+    "q": "Was ist „Bạc xỉu“?",
+    "c": [
+      "Süßes Milchgetränk mit wenig Kaffee",
+      "Kaffee mit Chili",
+      "Tee mit Zitronengras",
+      "Schwarzer Espresso doppelt"
     ],
-    "a": 0,
-    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+    "a": 0
   },
   {
-    "q": "Warum ist Wasserqualität beim Kaffee wichtig (Basiswissen)? #15",
-    "choices": [
-      "Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack",
-      "Wasser ändert nur die Farbe",
-      "Wasser erzeugt Koffein",
-      "Wasser ist nur für Latte-Art wichtig"
+    "q": "Was ist „Cà phê trứng“ am ehesten?",
+    "c": [
+      "Kaffee mit Käse",
+      "Kaffee mit einer cremigen Ei-Mischung",
+      "Kaffee mit Fischsauce",
+      "Kaffee mit Spinat"
     ],
-    "a": 0,
-    "ex": "Richtig: Wasser macht den Großteil des Getränks aus und beeinflusst Extraktion und Geschmack."
+    "a": 1
   },
   {
-    "q": "Welche Temperatur ist für aufgeschäumte Milch meist ideal (ohne zu verbrühen) (Barista-Tipp)? #16",
-    "choices": [
-      "80–90 °C",
-      "0–5 °C",
-      "20–25 °C",
-      "Etwa 55–65 °C"
+    "q": "Welche Kombination passt zu „Cà phê dừa“?",
+    "c": [
+      "Kaffee + Ketchup",
+      "Kaffee + Essig",
+      "Kaffee + Sojasauce",
+      "Kaffee + Kokos"
     ],
-    "a": 3,
-    "ex": "Richtig: Etwa 55–65 °C."
+    "a": 3
+  },
+  {
+    "q": "Welche Variante ist meist ohne Milch?",
+    "c": [
+      "Bạc xỉu",
+      "Cà phê dừa",
+      "Cà phê sữa đá",
+      "Cà phê đen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Variante ist typischerweise kalt?",
+    "c": [
+      "Cà phê sữa nóng",
+      "Espresso pur heiß",
+      "Cà phê sữa đá",
+      "Filterkaffee frisch heiß"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage über Vietnam und Kaffee stimmt?",
+    "c": [
+      "Vietnam produziert nur Tee",
+      "Vietnam ist eines der größten Kaffee-Produzentenländer",
+      "Vietnam produziert keinen Kaffee",
+      "Vietnam exportiert keinen Kaffee"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 29)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Kondensmilch ist sehr typisch"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 30)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 31)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kondensmilch ist sehr typisch",
+      "Kaffee wird dort immer salzig gekocht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 32)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 33)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 34)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 35)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Phin ist ein Brot",
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 36)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 37)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 38)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 39)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 40)",
+    "c": [
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 41)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 42)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 43)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Viele Varianten werden mit Eis getrunken"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 44)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 45)",
+    "c": [
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 46)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 47)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 48)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 49)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu vietnamesischem Kaffee? (Frage 50)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "In welchem Kontinent liegt Vietnam?",
+    "c": [
+      "Europa",
+      "Asien",
+      "Südamerika",
+      "Afrika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Wie heißt die Hauptstadt von Vietnam?",
+    "c": [
+      "Kuala Lumpur",
+      "Manila",
+      "Hanoi",
+      "Bangkok"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt die größte Stadt Vietnams heute?",
+    "c": [
+      "Hanoi",
+      "Ho-Chi-Minh-Stadt",
+      "Da Nang",
+      "Hue"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Währung hat Vietnam?",
+    "c": [
+      "Yen",
+      "Dollar (USD)",
+      "Đồng (VND)",
+      "Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Neujahrsfest feiert man in Vietnam?",
+    "c": [
+      "Tết",
+      "Hanami",
+      "Diwali",
+      "Oktoberfest"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche berühmte Bucht ist für Felseninseln bekannt?",
+    "c": [
+      "Hudson Bay",
+      "San Francisco Bay",
+      "Ha Long Bay",
+      "Biskaya"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Nachbarländer hat Vietnam?",
+    "c": [
+      "Indien, Nepal, Bhutan",
+      "China, Laos, Kambodscha",
+      "Thailand, Malaysia, Singapur",
+      "Japan, Korea, Taiwan"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welcher große Fluss ist im Süden Vietnams wichtig?",
+    "c": [
+      "Amazonas",
+      "Mekong",
+      "Nil",
+      "Rhein"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Stadt ist bekannt für Laternen und Altstadt?",
+    "c": [
+      "Hội An",
+      "Edinburgh",
+      "Oslo",
+      "Zürich"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Region ist bekannt für Reisterrassen?",
+    "c": [
+      "Rotterdam",
+      "Sapa",
+      "Bremen",
+      "Tübingen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was ist Pho?",
+    "c": [
+      "Sushi",
+      "Pizza",
+      "Vietnamesische Nudelsuppe",
+      "Gulasch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Was ist Bánh mì?",
+    "c": [
+      "Käsekuchen",
+      "Vietnamesisches Baguette-Sandwich",
+      "Sushi-Rolle",
+      "Paella"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was ist Gỏi cuốn?",
+    "c": [
+      "Frische Sommerrollen aus Reispapier",
+      "Lasagne",
+      "Frittierte Pommes",
+      "Apfelstrudel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was ist Nước mắm?",
+    "c": [
+      "Mineralwasser",
+      "Fischsauce",
+      "Ahornsirup",
+      "Ketchup"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Insel ist in Vietnam als Urlaubsziel bekannt?",
+    "c": [
+      "Mallorca",
+      "Bali",
+      "Sylt",
+      "Phú Quốc"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Stadt ist für Laternenfeste und Atmosphäre berühmt?",
+    "c": [
+      "Huế",
+      "Hanoi",
+      "Da Nang",
+      "Hội An"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Sprache wird in Vietnam gesprochen?",
+    "c": [
+      "Schwedisch",
+      "Vietnamesisch",
+      "Arabisch",
+      "Portugiesisch"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Schrift nutzt Vietnamesisch heute?",
+    "c": [
+      "Hebräisch",
+      "Arabische Schrift",
+      "Kyrillisch",
+      "Lateinisches Alphabet mit Zeichen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Was ist „áo dài“?",
+    "c": [
+      "Ein Metallhut",
+      "Ein Motorradmodell",
+      "Ein traditionelles vietnamesisches Kleid",
+      "Ein Gewürz"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Was ist typisch als Transportmittel in Vietnam?",
+    "c": [
+      "Motorroller",
+      "Kamel",
+      "Schlitten",
+      "Gondel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Stadt liegt an der Küste und ist für Strände bekannt?",
+    "c": [
+      "Da Nang",
+      "Oslo",
+      "Bern",
+      "Ulaanbaatar"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Region gehört zu Vietnam?",
+    "c": [
+      "Alpen",
+      "Anden",
+      "Sahara",
+      "Mekong-Delta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Was ist Bún chả?",
+    "c": [
+      "Paella",
+      "Sauerbraten",
+      "Käsefondue",
+      "Gegrilltes Fleisch mit Reisnudeln"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Was ist Bánh xèo?",
+    "c": [
+      "Schokokuchen",
+      "Sushi-Box",
+      "Käsespätzle",
+      "Knuspriger vietnamesischer Pfannkuchen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Jahreszeiten sind in vielen Teilen Vietnams typisch?",
+    "c": [
+      "Vier gleich kalte Winter",
+      "Nur Schneezeit",
+      "Nur Herbst",
+      "Regen- und Trockenzeit"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Stadt liegt im Süden Vietnams?",
+    "c": [
+      "Hanoi",
+      "Ha Giang",
+      "Sapa",
+      "Ho-Chi-Minh-Stadt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Stadt liegt im Norden Vietnams?",
+    "c": [
+      "Vũng Tàu",
+      "Phú Quốc",
+      "Hanoi",
+      "Cần Thơ"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Meer liegt östlich von Vietnam?",
+    "c": [
+      "Nordsee",
+      "Karibisches Meer",
+      "Ostsee",
+      "Südchinesisches Meer"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 29)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 30)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 31)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 32)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Tết ist das Neujahrsfest"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 33)",
+    "c": [
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 34)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 35)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Tết ist das Neujahrsfest",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 36)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 37)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 38)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 39)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 40)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 41)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 42)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 43)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 44)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Vietnam ist bekannt für Streetfood",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 45)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 46)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 47)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 48)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 49)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Tết ist das Neujahrsfest",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage über Vietnam stimmt? (Frage 50)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "An welchem Fluss liegt Mainz?",
+    "c": [
+      "An der Elbe",
+      "An der Donau",
+      "An der Weser",
+      "Am Rhein"
+    ],
+    "a": 3
+  },
+  {
+    "q": "In welchem Bundesland liegt Mainz?",
+    "c": [
+      "Bayern",
+      "Rheinland-Pfalz",
+      "Schleswig-Holstein",
+      "Sachsen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Wofür ist Mainz historisch besonders bekannt?",
+    "c": [
+      "Vulkaninsel",
+      "Goldrausch",
+      "Johannes Gutenberg und der Buchdruck",
+      "Pyramidenbau"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt die Universität in Mainz?",
+    "c": [
+      "Humboldt-Universität",
+      "RWTH Aachen",
+      "TU München",
+      "Johannes Gutenberg-Universität"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Wie heißt der Fußballverein aus Mainz?",
+    "c": [
+      "1. FSV Mainz 05",
+      "Borussia Dortmund",
+      "FC Bayern München",
+      "HSV"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Veranstaltung ist in Mainz besonders bekannt?",
+    "c": [
+      "Oktoberfest",
+      "Karneval in Rio",
+      "Fastnacht",
+      "Wacken"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Nachbarstadt liegt direkt gegenüber am Rhein?",
+    "c": [
+      "Wiesbaden",
+      "München",
+      "Bremen",
+      "Dresden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Wie heißt der große Dom in Mainz?",
+    "c": [
+      "Kölner Dom",
+      "Berliner Dom",
+      "Mainzer Dom (St. Martin)",
+      "Ulmer Münster"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt das bekannte Museum rund um Gutenberg in Mainz?",
+    "c": [
+      "Pergamonmuseum",
+      "Gutenberg-Museum",
+      "Senckenberg Museum",
+      "Deutsches Museum"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Wie heißt der große Fernsehsender mit Sitz in Mainz?",
+    "c": [
+      "BBC",
+      "CNN",
+      "ZDF",
+      "NHK"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Region ist Mainz zugeordnet?",
+    "c": [
+      "Harz",
+      "Rheinhessen",
+      "Erzgebirge",
+      "Allgäu"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Brücke verbindet Mainz und Wiesbaden?",
+    "c": [
+      "Tower Bridge",
+      "Golden Gate Bridge",
+      "Brooklyn Bridge",
+      "Theodor-Heuss-Brücke"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welches Getränk ist in Rheinhessen besonders typisch?",
+    "c": [
+      "Wein",
+      "Sake",
+      "Whisky",
+      "Tequila"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was ist „Spundekäs“?",
+    "c": [
+      "Fischsuppe",
+      "Schokoladenkuchen",
+      "Würziger Frischkäse-Dip",
+      "Nudelsalat"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage über Mainz stimmt?",
+    "c": [
+      "Mainz ist eine Landeshauptstadt",
+      "Mainz liegt in Österreich",
+      "Mainz liegt in der Schweiz",
+      "Mainz ist eine Insel in der Nordsee"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was ist am Rhein in Mainz beliebt?",
+    "c": [
+      "Spazieren und Radfahren",
+      "Skispringen",
+      "Eishockey auf dem Fluss",
+      "Sandboarden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Farbe sieht man oft bei Mainz 05?",
+    "c": [
+      "Blau und Gelb",
+      "Grün und Pink",
+      "Rot und Weiß",
+      "Schwarz und Gold"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wie heißt der Stadtteil mit dem ZDF?",
+    "c": [
+      "Lerchenberg",
+      "Altona",
+      "Ehrenfeld",
+      "Schwabing"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Stadt ist nahe Mainz und bekannt für einen großen Flughafen?",
+    "c": [
+      "Kiel",
+      "Rostock",
+      "Frankfurt am Main",
+      "Flensburg"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz' Geschichte?",
+    "c": [
+      "Sie liegt am Nil",
+      "Sie reicht bis in die Römerzeit zurück",
+      "Sie ist ein Vulkan",
+      "Sie wurde 2010 gegründet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zur Mainzer Altstadt?",
+    "c": [
+      "Nur Wolkenkratzer",
+      "Viele Gassen und Weinstuben",
+      "Nur Industrieanlagen",
+      "Keine Restaurants"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was ist ein typisches Mainzer Souvenir?",
+    "c": [
+      "Gutenberg-bezogene Artikel",
+      "Wüstenkamele",
+      "Korallen",
+      "Surfbretter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zur Lage von Mainz?",
+    "c": [
+      "Auf einer Insel im Pazifik",
+      "Mitten in der Wüste",
+      "Zwischen Rhein und Weinbergen",
+      "Auf einem Gletscher"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Was ist eine Weinstube?",
+    "c": [
+      "Ein Kino",
+      "Ein Sportplatz",
+      "Ein Lokal mit regionalen Weinen",
+      "Eine Bibliothek"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Sehenswürdigkeit steht zentral nahe dem Marktplatz?",
+    "c": [
+      "Der Dom",
+      "Big Ben",
+      "Eiffelturm",
+      "Kolosseum"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was ist in Mainz im Frühling/Sommer beliebt?",
+    "c": [
+      "Polarlichter anschauen",
+      "Am Rhein sitzen und draußen unterwegs sein",
+      "Gletscherfahren",
+      "Sanddünen besuchen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Stadt ist Landeshauptstadt von Hessen und liegt nahe Mainz?",
+    "c": [
+      "Wiesbaden",
+      "Leipzig",
+      "Dortmund",
+      "Stuttgart"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Wofür ist Rheinhessen bekannt?",
+    "c": [
+      "Wein und Weinberge",
+      "Wüste",
+      "Gletscher",
+      "Regenwald"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zum ZDF in Mainz?",
+    "c": [
+      "Es ist ein Fußballverein",
+      "Es ist ein Bahnhof",
+      "Es sitzt in Tokio",
+      "Es hat seinen Sitz in Mainz"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 30)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 31)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 32)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 33)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 34)",
+    "c": [
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 35)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 36)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Meer"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 37)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Rhein",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 38)",
+    "c": [
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 39)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 40)",
+    "c": [
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 41)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 42)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Rhein"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 43)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 44)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 45)",
+    "c": [
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 46)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 47)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 48)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 49)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welche Aussage passt zu Mainz? (Frage 50)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 1
   }
 ]

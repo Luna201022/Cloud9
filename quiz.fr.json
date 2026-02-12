@@ -1,2752 +1,2002 @@
 [
   {
-    "q": "Que signifie Single Origin bei Café ?",
-    "choices": [
-      "Un mélange de plusieurs pays",
-      "Café décaféiné",
-      "Uniquement des grains d’Arabica",
-      "Grains d’une origine unique (région/ferme)"
+    "q": "Que signifie « Arabica » dans le contexte du café ?",
+    "c": [
+      "ein Gewürz",
+      "ein Softdrink",
+      "eine verbreitete Kaffeebohnenart",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Grains d’une origine unique (région/ferme). „Single Origin“ meint eine klar definierte Herkunft statt Blend."
+    "a": 2
   },
   {
-    "q": "Pourquoi beeinflusst der Mahlgrad den Geschmack von Café ?",
-    "choices": [
-      "Parce que ça ne change que l’apparence de la mouture",
-      "Parce que ça compte seulement pour le bruit du moulin",
-      "Parce que ça sert seulement à évaluer la qualité des grains",
-      "Parce qu’il change la vitesse d’extraction et donc le goût"
+    "q": "Que signifie « Robusta » dans le contexte du café ?",
+    "c": [
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "eine Bohnenart mit oft mehr Koffein"
     ],
-    "a": 3,
-    "ex": "La mouture contrôle l’extraction et l’équilibre des arômes."
+    "a": 3
   },
   {
-    "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
-    "choices": [
-      "Robusta",
-      "Kommt nur auf die Röstung an",
-      "Beide gleich",
-      "Arabica"
+    "q": "Que signifie « Espresso » dans le contexte du café ?",
+    "c": [
+      "eine Nudelsuppe",
+      "ein Käse-Dip",
+      "ein kleiner, konzentrierter Kaffee",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Arabica. Arabica wirkt häufig fruchtiger/heller, Robusta eher kräftig und bitterer."
+    "a": 2
   },
   {
-    "q": "Pourquoi sollte Café nicht mit kochendem Wasser gebrüht werden ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence"
+    "q": "Que signifie « Cappuccino » dans le contexte du café ?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "Espresso mit Milch und Milchschaum",
+      "eine Nudelsuppe"
     ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 2
   },
   {
-    "q": "Quel rôle spielt die Brühzeit beim Filterkaffee ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût"
+    "q": "Que signifie « Latte Macchiato » dans le contexte du café ?",
+    "c": [
+      "Milch mit Espresso in Schichten",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "eine Stadt in Italien"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 0
   },
   {
-    "q": "Pourquoi sind frisch gemahlene Bohnen aromatischer ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
+    "q": "Que signifie « Americano » dans le contexte du café ?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "Espresso mit heißem Wasser verlängert",
+      "ein Gewürz",
+      "ein Softdrink"
     ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage"
+    "q": "Que signifie « Cold Brew » dans le contexte du café ?",
+    "c": [
+      "Kaffee, der lange kalt gezogen wird",
+      "eine Teesorte",
+      "ein Gewürz",
+      "eine Kuchensorte"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
+    "a": 0
   },
   {
-    "q": "Was bewirkt ein zu grober Mahlgrad bei der Extraktion?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
+    "q": "Que signifie « Entkoffeiniert » dans le contexte du café ?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "eine Teesorte",
+      "Kaffee mit stark reduziertem Koffein"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
+    "a": 3
   },
   {
-    "q": "Pourquoi ist sauberes Wasser wichtig für guten Café ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence"
+    "q": "Que signifie « Single Origin » dans le contexte du café ?",
+    "c": [
+      "eine Stadt in Italien",
+      "Bohnen aus einem bestimmten Ursprung",
+      "ein Softdrink",
+      "eine Nudelsuppe"
     ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud"
+    "q": "Que signifie « Blend » dans le contexte du café ?",
+    "c": [
+      "eine Teesorte",
+      "Mischung aus Bohnen verschiedener Herkünfte",
+      "ein Softdrink",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
+    "a": 1
   },
   {
-    "q": "Pourquoi verlieren Bohnen nach dem Mahlen schnell Aroma ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
+    "q": "Que signifie « Barista » dans le contexte du café ?",
+    "c": [
+      "Person, die Kaffee professionell zubereitet",
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "eine Teesorte"
     ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 0
   },
   {
-    "q": "Was ist Crema bei Espresso?",
-    "choices": [
-      "Sucrekruste auf Café",
-      "Cafésatz am Tassenboden",
-      "Milchschaum",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso"
+    "q": "Que signifie « Milchschaum » dans le contexte du café ?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "aufgeschäumte Milch für cremige Textur",
+      "ein Gewürz"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
+    "a": 2
   },
   {
-    "q": "Welche Temperatur ist ideal zum Cafébrühen?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
+    "q": "Que signifie « Röstgrad » dans le contexte du café ?",
+    "c": [
+      "ein Softdrink",
+      "wie hell oder dunkel Bohnen geröstet sind",
+      "eine Stadt in Italien",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
+    "a": 1
   },
   {
-    "q": "Pourquoi schmeckt Café bei Überextraktion bitter ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
+    "q": "Que signifie « Kaffeekirsche » dans le contexte du café ?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "die Frucht, in der die Bohne steckt",
+      "eine Nudelsuppe",
+      "eine Kuchensorte"
     ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Pourquoi schmeckt Café bei Unterextraktion sauer ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
+    "q": "Que signifie « Filterkaffee » dans le contexte du café ?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Teesorte",
+      "Kaffee, der durch einen Filter läuft",
+      "ein Softdrink"
     ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 2
   },
   {
-    "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud"
+    "q": "Que signifie « French Press » dans le contexte du café ?",
+    "c": [
+      "Kanne, bei der Kaffee zieht und gepresst wird",
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "eine Nudelsuppe"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
+    "a": 0
   },
   {
-    "q": "Pourquoi sollte man Bohnen lichtgeschützt lagern ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
+    "q": "Que signifie « Doppio » dans le contexte du café ?",
+    "c": [
+      "doppelter Espresso",
+      "eine Kuchensorte",
+      "ein Softdrink",
+      "ein Käse-Dip"
     ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 0
   },
   {
-    "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
+    "q": "Que signifie « Flat White » dans le contexte du café ?",
+    "c": [
+      "Espresso mit feinporiger, cremiger Milch",
+      "ein Gewürz",
+      "ein Käse-Dip",
+      "ein alkoholfreier Cocktail"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
+    "a": 0
   },
   {
-    "q": "Pourquoi ist Frische beim Café so wichtig ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence"
+    "q": "Que signifie « Mokka » dans le contexte du café ?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "Kaffee mit Kakao/Schokolade",
+      "eine Stadt in Italien"
     ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 2
   },
   {
-    "q": "Quel rôle spielt die Bohnenherkunft für das Aroma ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
+    "q": "Que signifie « Affogato » dans le contexte du café ?",
+    "c": [
+      "ein Käse-Dip",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "Espresso über Vanilleeis"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 3
   },
   {
-    "q": "Pourquoi sind luftdichte Behälter sinnvoll für die Lagerung ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
+    "q": "Woraus wird Kaffee gemacht?",
+    "c": [
+      "Aus Teeblättern",
+      "Aus gerösteten Kaffeebohnen",
+      "Aus Kakaopulver",
+      "Aus Getreide"
     ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Que signifie Blooming beim Filterkaffee ?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Das Mahlen direkt vor dem Brühen",
-      "Schnelles Abkühlen des Cafés"
+    "q": "Pourquoi trinken viele Menschen morgens Kaffee?",
+    "c": [
+      "Weil er wach macht",
+      "Weil er kein Koffein enthält",
+      "Weil er immer süß ist",
+      "Weil er nur kalt getrunken wird"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Cafémehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
+    "a": 0
   },
   {
-    "q": "Pourquoi ist das Verhältnis von Café zu Wasser wichtig ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Aromen können bei Café auftreten?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi kann altes Wasser den Geschmack verfälschen ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Pourquoi ist die Reinigung der Maschine wichtig für den Geschmack ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sollte man Cafémehl gleichmäßig befeuchten ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Que signifie Extraktion im Cafékontext ?",
-    "choices": [
-      "Das Filtern von Koffein",
-      "Das Rösten der Bohnen",
-      "Das Herauslösen von Aromastoffen aus dem Cafémehl ins Wasser",
-      "Das Abkühlen des Cafés"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Das Herauslösen von Aromastoffen aus dem Cafémehl ins Wasser. Extraktion beschreibt, was beim Brühen aus dem Café gelöst wird."
-  },
-  {
-    "q": "Pourquoi verändert sich Geschmack mit der Brühmethode ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Pourquoi ist Mahlgradanpassung wichtig bei neuen Bohnen ?",
-    "choices": [
-      "Parce que ça sert seulement à évaluer la qualité des grains",
-      "Parce qu’il change la vitesse d’extraction et donc le goût",
-      "Parce que ça compte seulement pour le bruit du moulin",
-      "Parce que ça ne change que l’apparence de la mouture"
-    ],
-    "a": 1,
-    "ex": "La mouture contrôle l’extraction et l’équilibre des arômes."
-  },
-  {
-    "q": "Quel rôle spielt die Kontaktzeit von Wasser und Café ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi schmeckt kalter Café oft flacher ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi beeinflusst der Druck den Espressogeschmack ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Pourquoi können zu alte Bohnen fade schmecken ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat Sauerstoff auf Caféaromen?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist konstante Brühtemperatur wichtig ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was bewirkt eine längere Röstzeit?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind frische Bohnen öliger ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Partikelgröße beim Mahlen ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sollte man Mühlen regelmäßig reinigen ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was bewirkt eine ungleichmäßige Extraktion?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi kann Leitungswasser je nach Region unterschiedlich schmecken ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist eine Waage beim Brühen hilfreich ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Pourquoi sollte man Bohnen nicht im Kühlschrank lagern ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Röstfrische für Crema ?",
-    "choices": [
-      "Milchschaum",
-      "Cafésatz am Tassenboden",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso",
-      "Sucrekruste auf Café"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
-  },
-  {
-    "q": "Pourquoi beeinflusst die Brühmethode die Klarheit im Geschmack ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was bewirkt längere Vorinfusion?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi kann Café metallisch schmecken ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Pourquoi ist konstante Dosierung wichtig ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind saubere Filter wichtig ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Pourquoi beeinflusst die Wasserhärte den Geschmack ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was bewirkt Umrühren beim Blooming?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Schnelles Abkühlen des Cafés",
-      "Das Mahlen direkt vor dem Brühen"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Cafémehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
-  },
-  {
-    "q": "Pourquoi kann Café schal schmecken ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt der Röstgrad für Süße ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist gleichmäßige Extraktion wichtig ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Que signifie „sữa“ im vietnamesischen Café ?",
-    "choices": [
-      "Café",
-      "Lait (souvent lait concentré sucré)",
-      "Sucre",
-      "Glace"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Lait (souvent lait concentré sucré). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "Was ist ein Phin-Filter?",
-    "choices": [
-      "Cafetière à piston",
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Filtre papier (pour-over)"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi wird in Vietnam häufig Robusta verwendet ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was ist Cà phê sữa đá?",
-    "choices": [
-      "Lait (souvent lait concentré sucré)",
-      "Glace",
-      "Café",
-      "Sucre"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Lait (souvent lait concentré sucré). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "Pourquoi ist vietnamesischer Café oft kräftiger geröstet ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt gesüßte Kondensmilch im vietnamesischen Café ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam häufig mit Glace serviert ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
-    "choices": [
-      "Cafetière à piston",
-      "Filtre papier (pour-over)",
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi ist die Extraktion mit Phin langsamer ?",
-    "choices": [
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Cafetière à piston",
-      "Filtre papier (pour-over)",
-      "Machine espresso à porte-filtre"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Café im vietnamesischen Alltag?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Cafés in Vietnam soziale Treffpunkte ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Wie beeinflusst Glace den Geschmack von Café?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam oft stark gesüßt ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Röstgrad bei vietnamesischem Café ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist der Phin aus Metall ?",
-    "choices": [
-      "Filtre papier (pour-over)",
-      "Cafetière à piston",
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Durchtropfen auf das Aroma?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist der Phin einfach zu reinigen ?",
-    "choices": [
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Machine espresso à porte-filtre",
-      "Filtre papier (pour-over)",
-      "Cafetière à piston"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi schmeckt vietnamesischer Café oft schokoladig ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Café für die vietnamesische Café-Kultur?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Robusta koffeinhaltiger als Arabica ?",
-    "choices": [
-      "Robusta enthält meist mehr Koffein",
-      "Koffeingehalt ist unabhängig von der Bohne",
-      "Arabica enthält immer mehr Koffein",
-      "Koffein entsteht erst beim Rösten"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Robusta enthält meist mehr Koffein. Robusta hat typischerweise einen höheren Koffeingehalt."
-  },
-  {
-    "q": "Pourquoi passt Kondensmilch gut zu Robusta ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Temperatur bei der Phin-Zubereitung ?",
-    "choices": [
-      "Machine espresso à porte-filtre",
-      "Cafetière à piston",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Filtre papier (pour-over)"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi ist Geduld bei der Phin-Zubereitung wichtig ?",
-    "choices": [
-      "Cafetière à piston",
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Filtre papier (pour-over)"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat feiner Mahlgrad im Phin?",
-    "choices": [
-      "Filtre papier (pour-over)",
-      "Cafetière à piston",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Machine espresso à porte-filtre"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat grober Mahlgrad im Phin?",
-    "choices": [
-      "Filtre papier (pour-over)",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Machine espresso à porte-filtre",
-      "Cafetière à piston"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi kann vietnamesischer Café intensiver wirken ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
-    "choices": [
-      "Cafetière à piston",
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Filtre papier (pour-over)"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam oft draußen getrunken ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Glace bei der Erfrischung ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam auch abends getrunken ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Milch für die Balance der Bitterkeit ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam häufig als Ritual zelebriert ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Tasse für das Aroma ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist der Phin ideal für einzelne Portionen ?",
-    "choices": [
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Filtre papier (pour-over)",
-      "Cafetière à piston"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat heißes Wasser auf dunkle Röstungen?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist vietnamesischer Café weltweit bekannt ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Sucre im Geschmacksausgleich ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Robusta widerstandsfähiger im Anbau ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Bohnenherkunft in Vietnam ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Café in Vietnam oft stärker dosiert ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam oft mit Gesprächen verbunden ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Kondensmilch für das Mundgefühl ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Glacekaffee in Vietnam so beliebt ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist die Phin-Zubereitung traditionell ?",
-    "choices": [
-      "Machine espresso à porte-filtre",
-      "Filtre goutte-à-goutte métallique vietnamien pour une extraction lente",
-      "Filtre papier (pour-over)",
-      "Cafetière à piston"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Filtre goutte-à-goutte métallique vietnamien pour une extraction lente. Der Phin lässt Café langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Quel rôle spielt der Mahlgrad bei vietnamesischem Café ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam häufig mit Freunden getrunken ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Café Teil der Alltagskultur ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Brühtechnik für Konsistenz ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam oft süßer serviert ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Café ein Treffpunkt-Getränk ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt das Glas bei Glacekaffee ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi passt Café gut zu süßen Snacks ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Robusta ertragreich ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Erntezeit für die Qualität ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist vietnamesischer Café oft kräftig im Körper ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat die Präsentation im Glas?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi wird Café in Vietnam oft draußen serviert ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Umgebung für den Genuss ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi wird Café oft langsam getrunken ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Wirkung hat Geduld auf den Genuss?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Was zeichnet Phở aus?",
-    "choices": [
-      "Soupe de nouilles de riz au bouillon parfumé",
-      "Salade de nouilles froide",
-      "Nouilles sautées",
-      "Boulettes de riz"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Soupe de nouilles de riz au bouillon parfumé. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Pourquoi werden in der vietnamesischen Küche frische Kräuter verwendet ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Reis in der vietnamesischen Küche ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind vietnamesische Gerichte oft leicht und frisch ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi werden Speisen oft mit Limette serviert ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Fischsauce in der vietnamesischen Küche ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Kräuter wichtig für die Frische ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi werden Speisen oft mit frischem Gemüse kombiniert ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Brühe bei Suppengerichten ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Balance der Geschmäcker wichtig ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Süße in herzhaften Gerichten ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind vietnamesische Gerichte oft nicht schwer ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi werden Gerichte oft individuell abgeschmeckt ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Frische bei Kräutern ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Nudeln aus Reis beliebt ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Knoblauch im Aroma ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi werden Gerichte oft geteilt ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Suppen in Vietnam beliebt ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Dampf beim Garen ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Gerichte oft leicht verdaulich ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Säure für Frische ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi werden Speisen oft mit Kräutern serviert ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühe für Phở?",
-    "choices": [
-      "Boulettes de riz",
-      "Salade de nouilles froide",
-      "Soupe de nouilles de riz au bouillon parfumé",
-      "Nouilles sautées"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Soupe de nouilles de riz au bouillon parfumé. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Pourquoi ist die Küche regional vielfältig ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Frische für den Geschmack ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi werden Zutaten oft roh ergänzt ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Texturkontrast ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Gerichte ausgewogen gewürzt ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Kräuter ein fester Bestandteil ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Reis als Grundnahrungsmittel ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Gerichte oft leicht süßlich ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Umami?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi werden Gerichte häufig mit Brühe serviert ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Temperatur beim Servieren ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Gerichte aromatisch, aber nicht schwer ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Frische der Zutaten ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi werden Gerichte oft frisch zubereitet ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Vielfalt der Aromen?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Gerichte gut ausbalanciert ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt die Präsentation ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi werden Speisen oft mit Kräutern garniert ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Regionalität?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Gerichte leicht bekömmlich ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt der Rhin für Handel und Kultur ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Bedeutung hat die Lage am Rhin?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi wächst die Café-Kultur in vietnamesischen Städten ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Urbanisierung in Vietnam ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Start-ups in Vietnam im Aufschwung ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Streetfood weiterhin beliebt ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielen soziale Medien im Alltag ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi verbinden junge Menschen Tradition und Moderne ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Tourismus für Vietnam?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Peu importe, du moment que c’est chaud",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Quel rôle spielt Mobilität in Großstädten ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Nachhaltigkeit ein wachsendes Thema ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Technologie im Alltag?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind Cafés Arbeitsorte geworden ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Kreativwirtschaft ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind Co-Working-Spaces beliebt ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat internationale Küche?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’emballage",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Vietnam wirtschaftlich gewachsen ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Bildung für den Arbeitsmarkt ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind junge Menschen offen für Neues ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Kultur für Identität?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist Tourismus wichtig für Städte ?",
-    "choices": [
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 0,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Urban Gardening ?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi gewinnen lokale Marken an Bedeutung ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Design in Cafés?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind nachhaltige Konzepte gefragt ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Digitalisierung ?",
-    "choices": [
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ist Vietnam international vernetzt ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Unternehmertum?",
-    "choices": [
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ist der Alltag schneller geworden ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Gemeinschaft ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Cela n’a aucun impact"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Geschmacksrichtung ist bei Bánh mì typisch ausgewogen?",
-    "choices": [
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 0,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi passen leichte Speisen gut zu Café ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Frische bei Snacks ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Cela n’a aucun impact"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi ergänzen herzhafte Snacks Café gut ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
-    "choices": [
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Cela ne concerne que l’apparence"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind frische Zutaten wichtig für Snacks ?",
-    "choices": [
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Quel rôle spielt Textur bei kleinen Speisen ?",
-    "choices": [
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Elle influence l’extraction, l’équilibre et le goût",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi passen Kräuter gut zu belegten Broten ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que c’est seulement pour le café instantané"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Frische für den Genuss?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud",
-      "Cela ne concerne que l’emballage"
-    ],
-    "a": 1,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi sind leichte Snacks beliebt ?",
-    "choices": [
-      "Parce qu’ils contiennent automatiquement de la caféine",
-      "Parce qu’ils sont toujours sans sucre",
-      "Parce qu’ils doivent être mangés froids",
-      "Parce qu’ils rassasient sans être lourds"
-    ],
-    "a": 3,
-    "ex": "Ils sont appréciés car ils accompagnent bien le café sans alourdir."
-  },
-  {
-    "q": "Quel rôle spielt Präsentation bei kleinen Gerichten ?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Cela n’a aucun impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Elle influence l’extraction, l’équilibre et le goût"
-    ],
-    "a": 3,
-    "ex": "Bonne réponse : Elle influence l’extraction, l’équilibre et le goût. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Pourquoi sind ausgewogene Aromen wichtig ?",
-    "choices": [
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que ça n’influence que l’apparence",
-      "Parce que cela influence l’arôme, la force et l’équilibre"
-    ],
-    "a": 3,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Welche Bedeutung hat Qualität der Zutaten?",
-    "choices": [
-      "Cela ne concerne que l’apparence",
-      "Cela ne concerne que l’emballage",
-      "Cela a un impact net sur le goût et l’équilibre",
-      "Peu importe, du moment que c’est chaud"
-    ],
-    "a": 2,
-    "ex": "Bonne réponse : Cela a un impact net sur le goût et l’équilibre. En pratique, cela affecte directement le résultat en tasse."
-  },
-  {
-    "q": "Pourquoi ergänzen knusprige Texturen Café gut ?",
-    "choices": [
-      "Parce que ça ne change que la température de la tasse",
-      "Parce que cela influence l’arôme, la force et l’équilibre",
-      "Parce que c’est seulement pour le café instantané",
-      "Parce que ça n’influence que l’apparence"
-    ],
-    "a": 1,
-    "ex": "Ce facteur impacte l’extraction et le goût."
-  },
-  {
-    "q": "Que signifie « sữa » en vietnamien ?",
-    "choices": [
-      "filtre",
+    "q": "Was macht Kaffee oft milder im Geschmack?",
+    "c": [
+      "Zitronensaft",
       "lait",
-      "sucre",
-      "glace"
+      "Essig",
+      "Pfeffer"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : lait."
+    "a": 1
   },
   {
-    "q": "Que signifie « đá » en vietnamien ?",
-    "choices": [
+    "q": "Pourquoi ist frisches Wasser beim Kaffee wichtig?",
+    "c": [
+      "Weil es die Tasse färbt",
+      "Weil es den Koffeinwert verdoppelt",
+      "Weil es Zucker ersetzt",
+      "Weil es den Geschmack stark beeinflusst"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Was kann Kaffee bitter machen?",
+    "c": [
+      "Zu viel Zucker",
+      "Zu viele Eiswürfel",
+      "Zu lange oder zu heiß extrahiert",
+      "Zu wenig Tassen"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Qu’est-ce que ein Eiskaffee (klassisch)?",
+    "c": [
+      "Tee mit Eis",
+      "Heißer Kaffee ohne Tasse",
+      "Kaffee kalt mit Eis, oft mit Milch oder Vanille",
+      "Wasser mit Kakao"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wozu nutzen viele Menschen eine Kaffeemühle?",
+    "c": [
+      "Damit Kaffee koffeinfrei wird",
+      "Damit Kaffee automatisch süß wird",
+      "Damit man kein Wasser braucht",
+      "Für mehr Aroma durch frisch gemahlenen Kaffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Zutat macht einen Kaffee schokoladig?",
+    "c": [
+      "Schnittlauch",
+      "Kakao oder Schokolade",
+      "Sojasauce",
+      "Senf"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was bedeutet „to go“ im Café?",
+    "c": [
+      "Zum Einfrieren",
+      "Zum Mitnehmen",
+      "Zum Aufwärmen",
+      "Zum Umtauschen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Milchalternative ist in Cafés häufig?",
+    "c": [
+      "Bratensoße",
+      "Haferdrink",
+      "Sojasauce",
+      "Fischsauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Bohnenart hat oft mehr Koffein?",
+    "c": [
+      "Vanille",
+      "Arabica",
+      "Kakao",
+      "Robusta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Bohnenart ist weltweit sehr verbreitet?",
+    "c": [
+      "Jasmin",
+      "Rooibos",
+      "Arabica",
+      "Matcha"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Getränkebasis ist bei Cappuccino und Latte gleich?",
+    "c": [
+      "Wasser",
+      "Espresso",
+      "Tee",
+      "Kakao"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Was passiert bei dunklerer Röstung oft?",
+    "c": [
+      "Er wird koffeinfrei",
+      "Er wird salziger",
+      "Er wird immer fruchtiger",
+      "Der Kaffee schmeckt kräftiger und röstiger"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Qu’est-ce que ein Espresso Macchiato?",
+    "c": [
+      "Cold Brew mit Sahne",
+      "Milch mit viel Sirup",
+      "Filterkaffee mit Eis",
+      "Espresso mit einem kleinen Klecks Milch oder Schaum"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Aussage stimmt meistens?",
+    "c": [
+      "Filterkaffee enthält nie Koffein",
+      "Kaffee muss immer kalt sein",
+      "Kaffee besteht nur aus Zucker",
+      "Espresso ist konzentrierter als Filterkaffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Qu’est-ce que Instant-Kaffee?",
+    "c": [
+      "Kaffee, der sich direkt in Wasser auflöst",
+      "Kaffee ohne Wasser",
+      "Kaffee aus Kakao",
+      "Kaffee aus Teeblättern"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qu’est-ce que ein Affogato?",
+    "c": [
+      "Espresso über Vanilleeis",
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Filterkaffee mit Eis"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qu’est-ce que ein „Shot“ im Café meistens?",
+    "c": [
+      "Ein Smoothie",
+      "Eine kleine Portion Espresso",
+      "Ein Stück Kuchen",
+      "Ein Glas Wasser"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Pourquoi reinigen Cafés ihre Mühlen regelmäßig?",
+    "c": [
+      "Damit kein alter Kaffeerest den Geschmack verfälscht",
+      "Damit die Bohnen größer werden",
+      "Damit das Koffein steigt",
+      "Damit Kaffee süßer wird"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Option ist koffeinfrei(er)?",
+    "c": [
+      "Entkoffeinierter Kaffee",
+      "Doppio",
+      "Ristretto",
+      "Espresso Shot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Was bedeutet „Crema“ bei Espresso oft?",
+    "c": [
+      "Ein Sirup",
+      "Eine Bohnenart",
+      "Ein Gewürz",
+      "Eine helle Schaumschicht auf dem Espresso"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Qu’est-ce que ein „Iced Latte“?",
+    "c": [
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Heißer Espresso ohne Tasse",
+      "Kaffee mit Milch und Eis"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Zutat ist typisch für einen Vanilla Latte?",
+    "c": [
+      "Sojasprossen",
+      "Vanillesirup",
+      "Chilipaste",
+      "Fischsauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond au café au café ? (Question 45)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird aus Kartoffeln gemacht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond au café au café ? (Question 46)",
+    "c": [
+      "Frische Bohnen riechen aromatisch",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond au café au café ? (Question 47)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee enthält kein Aroma",
+      "Kaffee ist immer koffeinfrei"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond au café au café ? (Question 48)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee ist immer koffeinfrei",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond au café au café ? (Question 49)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Viele Cafés bieten auch entkoffeiniert an"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond au café au café ? (Question 50)",
+    "c": [
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee ist immer koffeinfrei",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si tu commandes « Cà phê sữa đá », qu’est-ce que tu reçois ?",
+    "c": [
+      "Kakao mit Sahne",
+      "Espresso Martini",
+      "café glacé au lait concentré sucré",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si tu commandes « Cà phê sữa nóng », qu’est-ce que tu reçois ?",
+    "c": [
+      "Milch ohne Kaffee",
+      "Schwarzen Kaffee ohne Zucker",
+      "Tee mit Kondensmilch",
+      "café chaud au lait concentré"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Si tu commandes « Cà phê đen », qu’est-ce que tu reçois ?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
       "café noir",
+      "Milch ohne Kaffee"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si tu commandes « Cà phê đen đá », qu’est-ce que tu reçois ?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
+      "Schwarzen Kaffee ohne Zucker",
+      "Schwarzer Eiskaffee ohne Milch"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Si tu commandes « Bạc xỉu », qu’est-ce que tu reçois ?",
+    "c": [
+      "Espresso Martini",
+      "Kakao mit Sahne",
+      "Sehr milchiges, süßes Getränk mit wenig Kaffee",
+      "Tee mit Kondensmilch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si tu commandes « Cà phê trứng », qu’est-ce que tu reçois ?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kakao mit Sahne",
+      "Grünen Tee mit Zitrone",
+      "Eierkaffee (Egg Coffee)"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Si tu commandes « Cà phê muối », qu’est-ce que tu reçois ?",
+    "c": [
+      "Espresso Martini",
+      "Tee mit Kondensmilch",
+      "Kaffee mit einer Prise Salz (salzige Note)",
+      "Schwarzen Kaffee ohne Zucker"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Si tu commandes « Cà phê dừa », qu’est-ce que tu reçois ?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kaffee mit Kokos",
+      "Milch ohne Kaffee",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Si tu commandes « Cà phê sữa chua », qu’est-ce que tu reçois ?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Grünen Tee mit Zitrone",
+      "Milch ohne Kaffee",
+      "Kaffee mit Joghurt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Si tu commandes « Phin », qu’est-ce que tu reçois ?",
+    "c": [
+      "kleiner vietnamesischer Metallfilter zum Tropfen",
+      "Grünen Tee mit Zitrone",
+      "Tee mit Kondensmilch",
+      "Kakao mit Sahne"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Que signifie « sữa » en vietnamien (boissons) ?",
+    "c": [
+      "Kakao",
+      "Kaffee",
       "lait",
+      "Honig"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Que signifie « đá » en vietnamien (boissons) ?",
+    "c": [
       "glace",
-      "sucré"
+      "Kaffee",
+      "Zucker",
+      "Kokos"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : glace."
+    "a": 0
   },
   {
-    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (Bases)?",
-    "choices": [
-      "Environ 55–65°C",
-      "20–25°C",
-      "0–5°C",
-      "80–90°C"
+    "q": "Que signifie « đen » en vietnamien (boissons) ?",
+    "c": [
+      "noir",
+      "Honig",
+      "Zucker",
+      "Kakao"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Environ 55–65°C."
+    "a": 0
   },
   {
-    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (En pratique)?",
-    "choices": [
-      "80–90°C",
-      "20–25°C",
-      "Environ 55–65°C",
-      "0–5°C"
+    "q": "Que signifie « nóng » en vietnamien (boissons) ?",
+    "c": [
+      "Kakao",
+      "chaud",
+      "Honig",
+      "Kokos"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Environ 55–65°C."
+    "a": 1
   },
   {
-    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (Astuce barista)?",
-    "choices": [
-      "80–90°C",
-      "20–25°C",
-      "0–5°C",
-      "Environ 55–65°C"
+    "q": "Que signifie « chua » en vietnamien (boissons) ?",
+    "c": [
+      "Honig",
+      "Kaffee",
+      "Kokos",
+      "Joghurt (in „sữa chua“)"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Environ 55–65°C."
+    "a": 3
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Bases)?",
-    "choices": [
-      "Ça crée la caféine",
-      "Seulement pour le latte art",
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça ne change que la couleur"
+    "q": "Comment s’appelle der typische vietnamesische Kaffee-Filter?",
+    "c": [
+      "Papierfilter",
+      "Teesieb",
+      "Siebträgerkorb",
+      "filtre phin"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 3
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (En pratique)?",
-    "choices": [
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça ne change que la couleur",
-      "Ça crée la caféine",
-      "Seulement pour le latte art"
+    "q": "Pourquoi wird vietnamesischer Kaffee oft auf Eis serviert?",
+    "c": [
+      "Weil es sonst nicht trinkbar ist",
+      "Weil es erfrischend ist, besonders bei Wärme",
+      "Weil Eis Koffein entfernt",
+      "Weil es dann automatisch süßer wird"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Astuce barista)?",
-    "choices": [
-      "Ça ne change que la couleur",
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça crée la caféine",
-      "Seulement pour le latte art"
+    "q": "Quelle Milch wird in Vietnam oft für süßen Kaffee genutzt?",
+    "c": [
+      "Sauerrahm",
+      "Buttermilch",
+      "Gesüßte Kondensmilch",
+      "Schmand"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 2
   },
   {
-    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Bases)?",
-    "choices": [
-      "Pour doubler la caféine",
-      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
-      "Pour mieux mousser le lait",
-      "Pour caraméliser le sucre"
+    "q": "In welcher Stadt ist Egg Coffee besonders bekannt?",
+    "c": [
+      "London",
+      "Hanoi",
+      "Mainz",
+      "Madrid"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+    "a": 1
   },
   {
-    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (En pratique)?",
-    "choices": [
-      "Pour doubler la caféine",
-      "Pour mieux mousser le lait",
-      "Pour caraméliser le sucre",
-      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement"
+    "q": "Quelle Bohnenart baut Vietnam sehr viel an?",
+    "c": [
+      "Tee",
+      "Arabica nur",
+      "Kakao",
+      "Robusta"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+    "a": 3
   },
   {
-    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Astuce barista)?",
-    "choices": [
-      "Pour doubler la caféine",
-      "Pour mieux mousser le lait",
-      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
-      "Pour caraméliser le sucre"
+    "q": "Quelle Reihenfolge passt oft zu Phin-Kaffee mit Kondensmilch?",
+    "c": [
+      "Eis zuerst, dann Salz, dann Tee",
+      "Kaffee einfrieren, dann warm machen",
+      "Kondensmilch ins Glas, Kaffee tropft darüber, dann umrühren",
+      "Milch aufschäumen, dann Kakao"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+    "a": 2
   },
   {
-    "q": "Que faire si le café est zu sauer ?",
-    "choices": [
-      "Moudre plus gros et raccourcir l’extraction",
-      "Réduire fortement la dose",
-      "Moudre plus fin ou extraire un peu plus longtemps",
-      "Eau beaucoup plus froide"
+    "q": "Qu’est-ce que „Cà phê muối“?",
+    "c": [
+      "Kaffee mit Sojasauce",
+      "Kaffee ohne Wasser",
+      "Kaffee mit einer Prise Salz (salzige Note)",
+      "Kaffee nur aus Zucker"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Moudre plus fin ou extraire un peu plus longtemps."
+    "a": 2
   },
   {
-    "q": "Quelle action est pertinente pour un café zu sauer ?",
-    "choices": [
-      "Réduire fortement la dose",
-      "Moudre plus fin ou extraire un peu plus longtemps",
-      "Moudre plus gros et raccourcir l’extraction",
-      "Eau beaucoup plus froide"
+    "q": "Qu’est-ce que „Bạc xỉu“?",
+    "c": [
+      "Süßes Milchgetränk mit wenig Kaffee",
+      "Kaffee mit Chili",
+      "Tee mit Zitronengras",
+      "Schwarzer Espresso doppelt"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Moudre plus fin ou extraire un peu plus longtemps."
+    "a": 0
   },
   {
-    "q": "Que faire si le café est zu bitter ?",
-    "choices": [
-      "Moudre plus fin et extraire plus longtemps",
-      "Eau beaucoup plus chaude",
-      "Moudre plus gros ou réduire l’extraction",
-      "Augmenter le temps de contact"
+    "q": "Qu’est-ce que „Cà phê trứng“ am ehesten?",
+    "c": [
+      "Kaffee mit Käse",
+      "Kaffee mit einer cremigen Ei-Mischung",
+      "Kaffee mit Fischsauce",
+      "Kaffee mit Spinat"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Moudre plus gros ou réduire l’extraction."
+    "a": 1
   },
   {
-    "q": "Quelle action est pertinente pour un café zu bitter ?",
-    "choices": [
-      "Augmenter le temps de contact",
-      "Moudre plus fin et extraire plus longtemps",
-      "Moudre plus gros ou réduire l’extraction",
-      "Eau beaucoup plus chaude"
+    "q": "Quelle Kombination passt zu „Cà phê dừa“?",
+    "c": [
+      "Kaffee + Ketchup",
+      "Kaffee + Essig",
+      "Kaffee + Sojasauce",
+      "Kaffee + Kokos"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Moudre plus gros ou réduire l’extraction."
+    "a": 3
   },
   {
-    "q": "Que faire si le café est zu wässrig ?",
-    "choices": [
-      "Baisser la dose",
-      "Extraire plus court",
-      "Moudre plus gros",
-      "Augmenter la dose ou moudre plus fin"
+    "q": "Quelle Variante ist meist ohne Milch?",
+    "c": [
+      "Bạc xỉu",
+      "Cà phê dừa",
+      "Cà phê sữa đá",
+      "Cà phê đen"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+    "a": 3
   },
   {
-    "q": "Quelle action est pertinente pour un café zu wässrig ?",
-    "choices": [
-      "Augmenter la dose ou moudre plus fin",
-      "Moudre plus gros",
-      "Baisser la dose",
-      "Extraire plus court"
+    "q": "Quelle Variante ist typischerweise kalt?",
+    "c": [
+      "Cà phê sữa nóng",
+      "Espresso pur heiß",
+      "Cà phê sữa đá",
+      "Filterkaffee frisch heiß"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+    "a": 2
   },
   {
-    "q": "Que faire si le café est zu wässrig ? #1",
-    "choices": [
-      "Baisser la dose",
-      "Extraire plus court",
-      "Moudre plus gros",
-      "Augmenter la dose ou moudre plus fin"
+    "q": "Quelle Aussage über Vietnam und Kaffee stimmt?",
+    "c": [
+      "Vietnam produziert nur Tee",
+      "Vietnam ist eines der größten Kaffee-Produzentenländer",
+      "Vietnam produziert keinen Kaffee",
+      "Vietnam exportiert keinen Kaffee"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+    "a": 1
   },
   {
-    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (En pratique)? #2",
-    "choices": [
-      "Pour doubler la caféine",
-      "Pour mieux mousser le lait",
-      "Pour caraméliser le sucre",
-      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 29)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Kondensmilch ist sehr typisch"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+    "a": 3
   },
   {
-    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Bases)? #3",
-    "choices": [
-      "Pour doubler la caféine",
-      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
-      "Pour mieux mousser le lait",
-      "Pour caraméliser le sucre"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 30)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+    "a": 2
   },
   {
-    "q": "Que faire si le café est zu wässrig ? #4",
-    "choices": [
-      "Baisser la dose",
-      "Extraire plus court",
-      "Moudre plus gros",
-      "Augmenter la dose ou moudre plus fin"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 31)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kondensmilch ist sehr typisch",
+      "Kaffee wird dort immer salzig gekocht"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+    "a": 2
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (En pratique)? #5",
-    "choices": [
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça ne change que la couleur",
-      "Ça crée la caféine",
-      "Seulement pour le latte art"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 32)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 0,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 0
   },
   {
-    "q": "Que faire si le café est zu wässrig ? #6",
-    "choices": [
-      "Baisser la dose",
-      "Extraire plus court",
-      "Moudre plus gros",
-      "Augmenter la dose ou moudre plus fin"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 33)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+    "a": 0
   },
   {
-    "q": "Que faire si le café est zu sauer ? #7",
-    "choices": [
-      "Moudre plus gros et raccourcir l’extraction",
-      "Réduire fortement la dose",
-      "Moudre plus fin ou extraire un peu plus longtemps",
-      "Eau beaucoup plus froide"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 34)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Moudre plus fin ou extraire un peu plus longtemps."
+    "a": 0
   },
   {
-    "q": "Que faire si le café est zu wässrig ? #8",
-    "choices": [
-      "Baisser la dose",
-      "Extraire plus court",
-      "Moudre plus gros",
-      "Augmenter la dose ou moudre plus fin"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 35)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Phin ist ein Brot",
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Augmenter la dose ou moudre plus fin."
+    "a": 2
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Astuce barista)? #9",
-    "choices": [
-      "Ça ne change que la couleur",
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça crée la caféine",
-      "Seulement pour le latte art"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 36)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 1,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Pourquoi fait-on souvent un « bloom » en filtre manuel  (Astuce barista)? #10",
-    "choices": [
-      "Pour doubler la caféine",
-      "Pour mieux mousser le lait",
-      "Pour laisser s’échapper le CO₂ et extraire plus régulièrement",
-      "Pour caraméliser le sucre"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 37)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Pour laisser s’échapper le CO₂ et extraire plus régulièrement."
+    "a": 2
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Bases)? #11",
-    "choices": [
-      "Ça crée la caféine",
-      "Seulement pour le latte art",
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça ne change que la couleur"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 38)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 1
   },
   {
-    "q": "Pourquoi la qualité de l’eau est-elle importante pour le café  (Bases)? #12",
-    "choices": [
-      "Ça crée la caféine",
-      "Seulement pour le latte art",
-      "C’est la majeure partie de la boisson et cela influence l’extraction et le goût",
-      "Ça ne change que la couleur"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 39)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : C’est la majeure partie de la boisson et cela influence l’extraction et le goût."
+    "a": 0
   },
   {
-    "q": "Quelle action est pertinente pour un café zu bitter ? #13",
-    "choices": [
-      "Augmenter le temps de contact",
-      "Moudre plus fin et extraire plus longtemps",
-      "Moudre plus gros ou réduire l’extraction",
-      "Eau beaucoup plus chaude"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 40)",
+    "c": [
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : Moudre plus gros ou réduire l’extraction."
+    "a": 0
   },
   {
-    "q": "Quelle température est généralement idéale pour le lait chauffé (sans le brûler)  (Astuce barista)? #14",
-    "choices": [
-      "80–90°C",
-      "20–25°C",
-      "0–5°C",
-      "Environ 55–65°C"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 41)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 3,
-    "ex": "Bonne réponse : Environ 55–65°C."
+    "a": 0
   },
   {
-    "q": "Que signifie « đá » en vietnamien ? #15",
-    "choices": [
-      "café noir",
-      "lait",
-      "glace",
-      "sucré"
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 42)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 2,
-    "ex": "Bonne réponse : glace."
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 43)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Viele Varianten werden mit Eis getrunken"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 44)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 45)",
+    "c": [
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 46)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 47)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 48)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 49)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond au café vietnamien ? (Question 50)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Sur quel continent se trouve le Vietnam ?",
+    "c": [
+      "Europa",
+      "Asie",
+      "Südamerika",
+      "Afrika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle est la capitale du Vietnam ?",
+    "c": [
+      "Kuala Lumpur",
+      "Manila",
+      "Hanoi",
+      "Bangkok"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Comment s’appelle die größte Stadt Vietnams heute?",
+    "c": [
+      "Hanoi",
+      "Ho-Chi-Minh-Stadt",
+      "Da Nang",
+      "Hue"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle est la monnaie du Vietnam ?",
+    "c": [
+      "Yen",
+      "Dollar (USD)",
+      "Đồng (VND)",
+      "Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Neujahrsfest feiert man in Vietnam?",
+    "c": [
+      "Tết",
+      "Hanami",
+      "Diwali",
+      "Oktoberfest"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle berühmte Bucht ist für Felseninseln bekannt?",
+    "c": [
+      "Hudson Bay",
+      "San Francisco Bay",
+      "Ha Long Bay",
+      "Biskaya"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Nachbarländer hat Vietnam?",
+    "c": [
+      "Indien, Nepal, Bhutan",
+      "China, Laos, Kambodscha",
+      "Thailand, Malaysia, Singapur",
+      "Japan, Korea, Taiwan"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welcher große Fluss ist im Süden Vietnams wichtig?",
+    "c": [
+      "Amazonas",
+      "Mekong",
+      "Nil",
+      "Rhein"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Stadt ist bekannt für Laternen und Altstadt?",
+    "c": [
+      "Hội An",
+      "Edinburgh",
+      "Oslo",
+      "Zürich"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Region ist bekannt für Reisterrassen?",
+    "c": [
+      "Rotterdam",
+      "Sapa",
+      "Bremen",
+      "Tübingen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Qu’est-ce que Pho?",
+    "c": [
+      "Sushi",
+      "Pizza",
+      "Vietnamesische Nudelsuppe",
+      "Gulasch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Qu’est-ce que Bánh mì?",
+    "c": [
+      "Käsekuchen",
+      "Vietnamesisches Baguette-Sandwich",
+      "Sushi-Rolle",
+      "Paella"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Qu’est-ce que Gỏi cuốn?",
+    "c": [
+      "Frische Sommerrollen aus Reispapier",
+      "Lasagne",
+      "Frittierte Pommes",
+      "Apfelstrudel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qu’est-ce que Nước mắm?",
+    "c": [
+      "Mineralwasser",
+      "Fischsauce",
+      "Ahornsirup",
+      "Ketchup"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Insel ist in Vietnam als Urlaubsziel bekannt?",
+    "c": [
+      "Mallorca",
+      "Bali",
+      "Sylt",
+      "Phú Quốc"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Stadt ist für Laternenfeste und Atmosphäre berühmt?",
+    "c": [
+      "Huế",
+      "Hanoi",
+      "Da Nang",
+      "Hội An"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Sprache wird in Vietnam gesprochen?",
+    "c": [
+      "Schwedisch",
+      "Vietnamesisch",
+      "Arabisch",
+      "Portugiesisch"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Schrift nutzt Vietnamesisch heute?",
+    "c": [
+      "Hebräisch",
+      "Arabische Schrift",
+      "Kyrillisch",
+      "Lateinisches Alphabet mit Zeichen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Qu’est-ce que „áo dài“?",
+    "c": [
+      "Ein Metallhut",
+      "Ein Motorradmodell",
+      "Ein traditionelles vietnamesisches Kleid",
+      "Ein Gewürz"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Qu’est-ce que typisch als Transportmittel in Vietnam?",
+    "c": [
+      "Motorroller",
+      "Kamel",
+      "Schlitten",
+      "Gondel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Stadt liegt an der Küste und ist für Strände bekannt?",
+    "c": [
+      "Da Nang",
+      "Oslo",
+      "Bern",
+      "Ulaanbaatar"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Region gehört zu Vietnam?",
+    "c": [
+      "Alpen",
+      "Anden",
+      "Sahara",
+      "Mekong-Delta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Qu’est-ce que Bún chả?",
+    "c": [
+      "Paella",
+      "Sauerbraten",
+      "Käsefondue",
+      "Gegrilltes Fleisch mit Reisnudeln"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Qu’est-ce que Bánh xèo?",
+    "c": [
+      "Schokokuchen",
+      "Sushi-Box",
+      "Käsespätzle",
+      "Knuspriger vietnamesischer Pfannkuchen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Jahreszeiten sind in vielen Teilen Vietnams typisch?",
+    "c": [
+      "Vier gleich kalte Winter",
+      "Nur Schneezeit",
+      "Nur Herbst",
+      "Regen- und Trockenzeit"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Stadt liegt im Süden Vietnams?",
+    "c": [
+      "Hanoi",
+      "Ha Giang",
+      "Sapa",
+      "Ho-Chi-Minh-Stadt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle Stadt liegt im Norden Vietnams?",
+    "c": [
+      "Vũng Tàu",
+      "Phú Quốc",
+      "Hanoi",
+      "Cần Thơ"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Meer liegt östlich von Vietnam?",
+    "c": [
+      "Nordsee",
+      "Karibisches Meer",
+      "Ostsee",
+      "Südchinesisches Meer"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 29)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 30)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 31)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 32)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Tết ist das Neujahrsfest"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 33)",
+    "c": [
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 34)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 35)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Tết ist das Neujahrsfest",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 36)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 37)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 38)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 39)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 40)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 41)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 42)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 43)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 44)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Vietnam ist bekannt für Streetfood",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 45)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 46)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 47)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 48)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 49)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Tết ist das Neujahrsfest",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation sur le Vietnam est vraie ? (Question 50)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "An welchem Fluss liegt Mainz?",
+    "c": [
+      "An der Elbe",
+      "An der Donau",
+      "An der Weser",
+      "sur le Rhin"
+    ],
+    "a": 3
+  },
+  {
+    "q": "In welchem Bundesland liegt Mainz?",
+    "c": [
+      "Bayern",
+      "Rhénanie-Palatinat",
+      "Schleswig-Holstein",
+      "Sachsen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Wofür ist Mainz historisch besonders bekannt?",
+    "c": [
+      "Vulkaninsel",
+      "Goldrausch",
+      "Johannes Gutenberg et l’imprimerie",
+      "Pyramidenbau"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Comment s’appelle die Universität in Mainz?",
+    "c": [
+      "Humboldt-Universität",
+      "RWTH Aachen",
+      "TU München",
+      "Université Johannes Gutenberg"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Comment s’appelle der Fußballverein aus Mainz?",
+    "c": [
+      "1. FSV Mainz 05",
+      "Borussia Dortmund",
+      "FC Bayern München",
+      "HSV"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Veranstaltung ist in Mainz besonders bekannt?",
+    "c": [
+      "Oktoberfest",
+      "Karneval in Rio",
+      "carnaval (Fastnacht)",
+      "Wacken"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Nachbarstadt liegt direkt gegenüber am Rhein?",
+    "c": [
+      "Wiesbaden",
+      "München",
+      "Bremen",
+      "Dresden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Comment s’appelle der große Dom in Mainz?",
+    "c": [
+      "Kölner Dom",
+      "Berliner Dom",
+      "cathédrale de Mayence (Saint-Martin)",
+      "Ulmer Münster"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Comment s’appelle das bekannte Museum rund um Gutenberg in Mainz?",
+    "c": [
+      "Pergamonmuseum",
+      "musée Gutenberg",
+      "Senckenberg Museum",
+      "Deutsches Museum"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Comment s’appelle der große Fernsehsender mit Sitz in Mainz?",
+    "c": [
+      "BBC",
+      "CNN",
+      "ZDF",
+      "NHK"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Region ist Mainz zugeordnet?",
+    "c": [
+      "Harz",
+      "Rheinhessen",
+      "Erzgebirge",
+      "Allgäu"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Brücke verbindet Mainz und Wiesbaden?",
+    "c": [
+      "Tower Bridge",
+      "Golden Gate Bridge",
+      "Brooklyn Bridge",
+      "Theodor-Heuss-Brücke"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welches Getränk ist in Rheinhessen besonders typisch?",
+    "c": [
+      "vin",
+      "Sake",
+      "Whisky",
+      "Tequila"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qu’est-ce que „Spundekäs“?",
+    "c": [
+      "Fischsuppe",
+      "Schokoladenkuchen",
+      "Würziger Frischkäse-Dip",
+      "Nudelsalat"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Aussage über Mainz stimmt?",
+    "c": [
+      "Mainz ist eine Landeshauptstadt",
+      "Mainz liegt in Österreich",
+      "Mainz liegt in der Schweiz",
+      "Mainz ist eine Insel in der Nordsee"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qu’est-ce que am Rhein in Mainz beliebt?",
+    "c": [
+      "Spazieren und Radfahren",
+      "Skispringen",
+      "Eishockey auf dem Fluss",
+      "Sandboarden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Farbe sieht man oft bei Mainz 05?",
+    "c": [
+      "Blau und Gelb",
+      "Grün und Pink",
+      "Rot und Weiß",
+      "Schwarz und Gold"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Comment s’appelle der Stadtteil mit dem ZDF?",
+    "c": [
+      "Lerchenberg",
+      "Altona",
+      "Ehrenfeld",
+      "Schwabing"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Stadt ist nahe Mainz und bekannt für einen großen Flughafen?",
+    "c": [
+      "Kiel",
+      "Rostock",
+      "Frankfurt am Main",
+      "Flensburg"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Aussage passt zu Mainz' Geschichte?",
+    "c": [
+      "Sie liegt am Nil",
+      "Sie reicht bis in die Römerzeit zurück",
+      "Sie ist ein Vulkan",
+      "Sie wurde 2010 gegründet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Aussage passt zur Mainzer Altstadt?",
+    "c": [
+      "Nur Wolkenkratzer",
+      "Viele Gassen und Weinstuben",
+      "Nur Industrieanlagen",
+      "Keine Restaurants"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Qu’est-ce que ein typisches Mainzer Souvenir?",
+    "c": [
+      "Gutenberg-bezogene Artikel",
+      "Wüstenkamele",
+      "Korallen",
+      "Surfbretter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Aussage passt zur Lage von Mainz?",
+    "c": [
+      "Auf einer Insel im Pazifik",
+      "Mitten in der Wüste",
+      "Zwischen Rhein und Weinbergen",
+      "Auf einem Gletscher"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Qu’est-ce que eine Weinstube?",
+    "c": [
+      "Ein Kino",
+      "Ein Sportplatz",
+      "Ein Lokal mit regionalen Weinen",
+      "Eine Bibliothek"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle Sehenswürdigkeit steht zentral nahe dem Marktplatz?",
+    "c": [
+      "Der Dom",
+      "Big Ben",
+      "Eiffelturm",
+      "Kolosseum"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Qu’est-ce que in Mainz im Frühling/Sommer beliebt?",
+    "c": [
+      "Polarlichter anschauen",
+      "Am Rhein sitzen und draußen unterwegs sein",
+      "Gletscherfahren",
+      "Sanddünen besuchen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle Stadt ist Landeshauptstadt von Hessen und liegt nahe Mainz?",
+    "c": [
+      "Wiesbaden",
+      "Leipzig",
+      "Dortmund",
+      "Stuttgart"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Wofür ist Rheinhessen bekannt?",
+    "c": [
+      "Wein und Weinberge",
+      "Wüste",
+      "Gletscher",
+      "Regenwald"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle Aussage passt zum ZDF in Mainz?",
+    "c": [
+      "Es ist ein Fußballverein",
+      "Es ist ein Bahnhof",
+      "Es sitzt in Tokio",
+      "Es hat seinen Sitz in Mainz"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 30)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 31)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 32)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 33)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 34)",
+    "c": [
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 35)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 36)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Meer"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 37)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Rhein",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 38)",
+    "c": [
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 39)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 40)",
+    "c": [
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 41)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 42)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Rhein"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 43)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 44)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 45)",
+    "c": [
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 46)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 47)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 48)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 49)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Quelle affirmation correspond à Mayence ? (Question 50)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 1
   }
 ]

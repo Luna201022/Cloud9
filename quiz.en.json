@@ -1,2752 +1,2002 @@
 [
   {
-    "q": "What does Single Origin bei Coffee mean?",
-    "choices": [
-      "A blend from many countries",
-      "Decaffeinated coffee",
-      "Only Arabica beans",
-      "Beans from a single origin (region/farm)"
+    "q": "What does “Arabica” mean in a coffee context?",
+    "c": [
+      "ein Gewürz",
+      "ein Softdrink",
+      "eine verbreitete Kaffeebohnenart",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Correct: Beans from a single origin (region/farm). „Single Origin“ meint eine klar definierte Herkunft statt Blend."
+    "a": 2
   },
   {
-    "q": "Why beeinflusst der Mahlgrad den Geschmack von Coffee?",
-    "choices": [
-      "Because it changes extraction speed and therefore taste",
-      "Because it only rates bean quality",
-      "Because it only matters for grinder noise",
-      "Because it only changes how the grounds look"
+    "q": "What does “Robusta” mean in a coffee context?",
+    "c": [
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "eine Bohnenart mit oft mehr Koffein"
     ],
-    "a": 0,
-    "ex": "Grind size controls extraction and flavor balance."
+    "a": 3
   },
   {
-    "q": "Welche Bohnenart ist typischerweise säurebetonter: Arabica oder Robusta?",
-    "choices": [
-      "Robusta",
-      "Kommt nur auf die Röstung an",
-      "Beide gleich",
-      "Arabica"
+    "q": "What does “Espresso” mean in a coffee context?",
+    "c": [
+      "eine Nudelsuppe",
+      "ein Käse-Dip",
+      "ein kleiner, konzentrierter Kaffee",
+      "eine Teesorte"
     ],
-    "a": 3,
-    "ex": "Correct: Arabica. Arabica wirkt häufig fruchtiger/heller, Robusta eher kräftig und bitterer."
+    "a": 2
   },
   {
-    "q": "Why sollte Coffee nicht mit kochendem Wasser gebrüht werden?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
+    "q": "What does “Cappuccino” mean in a coffee context?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "Espresso mit Milch und Milchschaum",
+      "eine Nudelsuppe"
     ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
+    "a": 2
   },
   {
-    "q": "What role spielt die Brühzeit beim Filterkaffee?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste"
+    "q": "What does “Latte Macchiato” mean in a coffee context?",
+    "c": [
+      "Milch mit Espresso in Schichten",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "eine Stadt in Italien"
     ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 0
   },
   {
-    "q": "Why sind frisch gemahlene Bohnen aromatischer?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance"
+    "q": "What does “Americano” mean in a coffee context?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "Espresso mit heißem Wasser verlängert",
+      "ein Gewürz",
+      "ein Softdrink"
     ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
+    "a": 1
   },
   {
-    "q": "Was bewirkt ein zu feiner Mahlgrad bei der Extraktion?",
-    "choices": [
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging"
+    "q": "What does “Cold Brew” mean in a coffee context?",
+    "c": [
+      "Kaffee, der lange kalt gezogen wird",
+      "eine Teesorte",
+      "ein Gewürz",
+      "eine Kuchensorte"
     ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
+    "a": 0
   },
   {
-    "q": "Was bewirkt ein zu grober Mahlgrad bei der Extraktion?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
+    "q": "What does “Entkoffeiniert” mean in a coffee context?",
+    "c": [
+      "ein Softdrink",
+      "eine Kuchensorte",
+      "eine Teesorte",
+      "Kaffee mit stark reduziertem Koffein"
     ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
+    "a": 3
   },
   {
-    "q": "Why ist sauberes Wasser wichtig für guten Coffee?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance"
+    "q": "What does “Single Origin” mean in a coffee context?",
+    "c": [
+      "eine Stadt in Italien",
+      "Bohnen aus einem bestimmten Ursprung",
+      "ein Softdrink",
+      "eine Nudelsuppe"
     ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
+    "a": 1
   },
   {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit und Säure?",
-    "choices": [
-      "It only affects appearance",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot"
+    "q": "What does “Blend” mean in a coffee context?",
+    "c": [
+      "eine Teesorte",
+      "Mischung aus Bohnen verschiedener Herkünfte",
+      "ein Softdrink",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
+    "a": 1
   },
   {
-    "q": "Why verlieren Bohnen nach dem Mahlen schnell Aroma?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
+    "q": "What does “Barista” mean in a coffee context?",
+    "c": [
+      "Person, die Kaffee professionell zubereitet",
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "eine Teesorte"
     ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
+    "a": 0
   },
   {
-    "q": "Was ist Crema bei Espresso?",
-    "choices": [
-      "Sugarkruste auf Coffee",
-      "Coffeesatz am Tassenboden",
-      "Milchschaum",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso"
+    "q": "What does “Milchschaum” mean in a coffee context?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "ein Softdrink",
+      "aufgeschäumte Milch für cremige Textur",
+      "ein Gewürz"
     ],
-    "a": 3,
-    "ex": "Correct: Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
+    "a": 2
   },
   {
-    "q": "Welche Temperatur ist ideal zum Coffeebrühen?",
-    "choices": [
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
+    "q": "What does “Röstgrad” mean in a coffee context?",
+    "c": [
+      "ein Softdrink",
+      "wie hell oder dunkel Bohnen geröstet sind",
+      "eine Stadt in Italien",
+      "ein Gewürz"
     ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
+    "a": 1
   },
   {
-    "q": "Why schmeckt Coffee bei Überextraktion bitter?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance"
+    "q": "What does “Kaffeekirsche” mean in a coffee context?",
+    "c": [
+      "ein alkoholfreier Cocktail",
+      "die Frucht, in der die Bohne steckt",
+      "eine Nudelsuppe",
+      "eine Kuchensorte"
     ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
+    "a": 1
   },
   {
-    "q": "Why schmeckt Coffee bei Unterextraktion sauer?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
+    "q": "What does “Filterkaffee” mean in a coffee context?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Teesorte",
+      "Kaffee, der durch einen Filter läuft",
+      "ein Softdrink"
     ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
+    "a": 2
   },
   {
-    "q": "Welche Wirkung haben Mineralien im Wasser auf den Geschmack?",
-    "choices": [
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot"
+    "q": "What does “French Press” mean in a coffee context?",
+    "c": [
+      "Kanne, bei der Kaffee zieht und gepresst wird",
+      "eine Teesorte",
+      "ein alkoholfreier Cocktail",
+      "eine Nudelsuppe"
     ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
+    "a": 0
   },
   {
-    "q": "Why sollte man Bohnen lichtgeschützt lagern?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
+    "q": "What does “Doppio” mean in a coffee context?",
+    "c": [
+      "doppelter Espresso",
+      "eine Kuchensorte",
+      "ein Softdrink",
+      "ein Käse-Dip"
     ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
+    "a": 0
   },
   {
-    "q": "Was ist der Unterschied zwischen heller und dunkler Röstung?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
+    "q": "What does “Flat White” mean in a coffee context?",
+    "c": [
+      "Espresso mit feinporiger, cremiger Milch",
+      "ein Gewürz",
+      "ein Käse-Dip",
+      "ein alkoholfreier Cocktail"
     ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
+    "a": 0
   },
   {
-    "q": "Why ist Frische beim Coffee so wichtig?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
+    "q": "What does “Mokka” mean in a coffee context?",
+    "c": [
+      "eine Nudelsuppe",
+      "eine Kuchensorte",
+      "Kaffee mit Kakao/Schokolade",
+      "eine Stadt in Italien"
     ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
+    "a": 2
   },
   {
-    "q": "What role spielt die Bohnenherkunft für das Aroma?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
+    "q": "What does “Affogato” mean in a coffee context?",
+    "c": [
+      "ein Käse-Dip",
+      "eine Teesorte",
+      "eine Nudelsuppe",
+      "espresso over vanilla ice cream"
     ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
+    "a": 3
   },
   {
-    "q": "Why sind luftdichte Behälter sinnvoll für die Lagerung?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance"
+    "q": "Woraus wird Kaffee gemacht?",
+    "c": [
+      "From Teeblättern",
+      "from roasted coffee beans",
+      "From Kakaopulver",
+      "From Getreide"
     ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
+    "a": 1
   },
   {
-    "q": "What does Blooming beim Filterkaffee mean?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Das Mahlen direkt vor dem Brühen",
-      "Schnelles Abkühlen des Coffees"
+    "q": "Why trinken viele Menschen morgens Kaffee?",
+    "c": [
+      "because it helps you wake up",
+      "Because er kein Koffein enthält",
+      "Because er immer süß ist",
+      "Because er nur kalt getrunken wird"
     ],
-    "a": 0,
-    "ex": "Correct: Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Coffeemehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
+    "a": 0
   },
   {
-    "q": "Why ist das Verhältnis von Coffee zu Wasser wichtig?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Aromen können bei Coffee auftreten?",
-    "choices": [
-      "It only affects appearance",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why kann altes Wasser den Geschmack verfälschen?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Why ist die Reinigung der Maschine wichtig für den Geschmack?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat zu heißes Wasser auf das Aroma?",
-    "choices": [
-      "It only affects packaging",
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sollte man Coffeemehl gleichmäßig befeuchten?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What does Extraktion im Coffeekontext mean?",
-    "choices": [
-      "Das Filtern von Koffein",
-      "Das Rösten der Bohnen",
-      "Das Herauslösen von Aromastoffen aus dem Coffeemehl ins Wasser",
-      "Das Abkühlen des Coffees"
-    ],
-    "a": 2,
-    "ex": "Correct: Das Herauslösen von Aromastoffen aus dem Coffeemehl ins Wasser. Extraktion beschreibt, was beim Brühen aus dem Coffee gelöst wird."
-  },
-  {
-    "q": "Why verändert sich Geschmack mit der Brühmethode?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Why ist Mahlgradanpassung wichtig bei neuen Bohnen?",
-    "choices": [
-      "Because it changes extraction speed and therefore taste",
-      "Because it only changes how the grounds look",
-      "Because it only rates bean quality",
-      "Because it only matters for grinder noise"
-    ],
-    "a": 0,
-    "ex": "Grind size controls extraction and flavor balance."
-  },
-  {
-    "q": "What role spielt die Kontaktzeit von Wasser und Coffee?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why schmeckt kalter Coffee oft flacher?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was ist der Unterschied zwischen Filterkaffee und Espresso?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why beeinflusst der Druck den Espressogeschmack?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Why können zu alte Bohnen fade schmecken?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat Sauerstoff auf Coffeearomen?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist konstante Brühtemperatur wichtig?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was bewirkt eine längere Röstzeit?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It only affects appearance"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind frische Bohnen öliger?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Partikelgröße beim Mahlen?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sollte man Mühlen regelmäßig reinigen?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was bewirkt eine ungleichmäßige Extraktion?",
-    "choices": [
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why kann Leitungswasser je nach Region unterschiedlich schmecken?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat Mahlgut-Verteilung im Siebträger?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It only affects appearance"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist eine Waage beim Brühen hilfreich?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Why sollte man Bohnen nicht im Kühlschrank lagern?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Röstfrische für Crema?",
-    "choices": [
-      "Milchschaum",
-      "Coffeesatz am Tassenboden",
-      "Schaumschicht aus emulgierten Ölen und Gasen auf Espresso",
-      "Sugarkruste auf Coffee"
-    ],
-    "a": 2,
-    "ex": "Correct: Schaumschicht aus emulgierten Ölen und Gasen auf Espresso. Crema entsteht durch Druckextraktion und gelöste Gase/Öle."
-  },
-  {
-    "q": "Why beeinflusst die Brühmethode die Klarheit im Geschmack?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was bewirkt längere Vorinfusion?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why kann Coffee metallisch schmecken?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Why ist konstante Dosierung wichtig?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat der Mahlgrad auf die Durchlaufzeit?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind saubere Filter wichtig?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Why beeinflusst die Wasserhärte den Geschmack?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was bewirkt Umrühren beim Blooming?",
-    "choices": [
-      "Kurzes Vorbenetzen, damit CO₂ entweichen kann",
-      "Das Filtern mit Papier statt Metall",
-      "Schnelles Abkühlen des Coffees",
-      "Das Mahlen direkt vor dem Brühen"
-    ],
-    "a": 0,
-    "ex": "Correct: Kurzes Vorbenetzen, damit CO₂ entweichen kann. Beim Blooming wird das Coffeemehl kurz angefeuchtet, um Gas auszutreiben und gleichmäßiger zu extrahieren."
-  },
-  {
-    "q": "Why kann Coffee schal schmecken?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt der Röstgrad für Süße?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist gleichmäßige Extraktion wichtig?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What does „sữa“ im vietnamesischen Coffee mean?",
-    "choices": [
-      "Coffee",
-      "Milk (often sweetened condensed milk)",
-      "Sugar",
-      "Ice"
-    ],
-    "a": 1,
-    "ex": "Correct: Milk (often sweetened condensed milk). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "What does „đá“ bei vietnamesischen Getränken mean?",
-    "choices": [
-      "Hot",
-      "Ohne Sugar",
-      "Black (no milk)",
-      "Ice / iced"
-    ],
-    "a": 3,
-    "ex": "Correct: Ice / iced. „đá“ bedeutet Ice – also eine kalte Variante."
-  },
-  {
-    "q": "Was ist ein Phin-Filter?",
-    "choices": [
-      "French press",
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing",
-      "Paper filter for pour-over"
-    ],
-    "a": 2,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why wird in Vietnam häufig Robusta verwendet?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was ist Cà phê sữa đá?",
-    "choices": [
-      "Milk (often sweetened condensed milk)",
-      "Ice",
-      "Coffee",
-      "Sugar"
-    ],
-    "a": 0,
-    "ex": "Correct: Milk (often sweetened condensed milk). „sữa“ heißt Milch; in Vietnam oft als süße Kondensmilch genutzt."
-  },
-  {
-    "q": "Why ist vietnamesischer Coffee oft kräftiger geröstet?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt gesüßte Kondensmilch im vietnamesischen Coffee?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam häufig mit Ice serviert?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Was zeichnet die Phin-Zubereitung geschmacklich aus?",
-    "choices": [
-      "French press",
-      "Paper filter for pour-over",
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing"
-    ],
-    "a": 3,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why ist die Extraktion mit Phin langsamer?",
-    "choices": [
-      "Vietnamese metal drip filter for slow brewing",
-      "French press",
-      "Paper filter for pour-over",
-      "Espresso machine (portafilter)"
-    ],
-    "a": 0,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why passt Milch gut zur kräftigen Röstung vietnamesischer Bohnen?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Coffee im vietnamesischen Alltag?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind Cafés in Vietnam soziale Treffpunkte?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Wie beeinflusst Ice den Geschmack von Coffee?",
-    "choices": [
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam oft stark gesüßt?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Röstgrad bei vietnamesischem Coffee?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist der Phin aus Metall?",
-    "choices": [
-      "Paper filter for pour-over",
-      "French press",
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing"
-    ],
-    "a": 3,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Durchtropfen auf das Aroma?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist der Phin einfach zu reinigen?",
-    "choices": [
-      "Vietnamese metal drip filter for slow brewing",
-      "Espresso machine (portafilter)",
-      "Paper filter for pour-over",
-      "French press"
-    ],
-    "a": 0,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why schmeckt vietnamesischer Coffee oft schokoladig?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Coffee für die vietnamesische Café-Kultur?",
-    "choices": [
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Robusta koffeinhaltiger als Arabica?",
-    "choices": [
-      "Robusta enthält meist mehr Koffein",
-      "Koffeingehalt ist unabhängig von der Bohne",
-      "Arabica enthält immer mehr Koffein",
-      "Koffein entsteht erst beim Rösten"
-    ],
-    "a": 0,
-    "ex": "Correct: Robusta enthält meist mehr Koffein. Robusta hat typischerweise einen höheren Koffeingehalt."
-  },
-  {
-    "q": "Why passt Kondensmilch gut zu Robusta?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Temperatur bei der Phin-Zubereitung?",
-    "choices": [
-      "Espresso machine (portafilter)",
-      "French press",
-      "Vietnamese metal drip filter for slow brewing",
-      "Paper filter for pour-over"
-    ],
-    "a": 2,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why ist Geduld bei der Phin-Zubereitung wichtig?",
-    "choices": [
-      "French press",
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing",
-      "Paper filter for pour-over"
-    ],
-    "a": 2,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat feiner Mahlgrad im Phin?",
-    "choices": [
-      "Paper filter for pour-over",
-      "French press",
-      "Vietnamese metal drip filter for slow brewing",
-      "Espresso machine (portafilter)"
-    ],
-    "a": 2,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat grober Mahlgrad im Phin?",
-    "choices": [
-      "Paper filter for pour-over",
-      "Vietnamese metal drip filter for slow brewing",
-      "Espresso machine (portafilter)",
-      "French press"
-    ],
-    "a": 1,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why kann vietnamesischer Coffee intensiver wirken?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühzeit beim Phin?",
-    "choices": [
-      "French press",
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing",
-      "Paper filter for pour-over"
-    ],
-    "a": 2,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam oft draußen getrunken?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Ice bei der Erfrischung?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam auch abends getrunken?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Milch für die Balance der Bitterkeit?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam häufig als Ritual zelebriert?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Tasse für das Aroma?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist der Phin ideal für einzelne Portionen?",
-    "choices": [
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing",
-      "Paper filter for pour-over",
-      "French press"
-    ],
-    "a": 1,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "Welche Wirkung hat heißes Wasser auf dunkle Röstungen?",
-    "choices": [
-      "It only affects appearance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist vietnamesischer Coffee weltweit bekannt?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Sugar im Geschmacksausgleich?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist Robusta widerstandsfähiger im Anbau?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Bohnenherkunft in Vietnam?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist Coffee in Vietnam oft stärker dosiert?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat langsames Brühen für den Genuss?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It only affects appearance"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam oft mit Gesprächen verbunden?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Kondensmilch für das Mundgefühl?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist Icekaffee in Vietnam so beliebt?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat die Röstung auf Bitterkeit?",
-    "choices": [
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist die Phin-Zubereitung traditionell?",
-    "choices": [
-      "Espresso machine (portafilter)",
-      "Vietnamese metal drip filter for slow brewing",
-      "Paper filter for pour-over",
-      "French press"
-    ],
-    "a": 1,
-    "ex": "Correct: Vietnamese metal drip filter for slow brewing. Der Phin lässt Coffee langsam in die Tasse tropfen."
-  },
-  {
-    "q": "What role spielt der Mahlgrad bei vietnamesischem Coffee?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam häufig mit Freunden getrunken?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat langsames Abkühlen auf Aromen?",
-    "choices": [
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Coffee Teil der Alltagskultur?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Brühtechnik für Konsistenz?",
-    "choices": [
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam oft süßer serviert?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat die Café-Kultur für junge Menschen?",
-    "choices": [
-      "It only affects appearance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Coffee ein Treffpunkt-Getränk?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt das Glas bei Icekaffee?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why passt Coffee gut zu süßen Snacks?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat Kondensmilch auf das Mundgefühl?",
-    "choices": [
-      "It only affects packaging",
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Robusta ertragreich?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Erntezeit für die Qualität?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist vietnamesischer Coffee oft kräftig im Körper?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat die Präsentation im Glas?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why wird Coffee in Vietnam oft draußen serviert?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Umgebung für den Genuss?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why wird Coffee oft langsam getrunken?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Wirkung hat Geduld auf den Genuss?",
-    "choices": [
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Was zeichnet Phở aus?",
-    "choices": [
-      "Rice-noodle soup with aromatic broth",
-      "Cold noodle salad",
-      "Fried noodles",
-      "Rice balls"
-    ],
-    "a": 0,
-    "ex": "Correct: Rice-noodle soup with aromatic broth. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Why werden in der vietnamesischen Küche frische Kräuter verwendet?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Reis in der vietnamesischen Küche?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind vietnamesische Gerichte oft leicht und frisch?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Zutat sorgt für Säure in vielen Gerichten?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why werden Speisen oft mit Limette serviert?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Fischsauce in der vietnamesischen Küche?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Kräuter wichtig für die Frische?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Textur in vietnamesischen Gerichten?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why werden Speisen oft mit frischem Gemüse kombiniert?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Brühe bei Suppengerichten?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist Balance der Geschmäcker wichtig?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Süße in herzhaften Gerichten?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind vietnamesische Gerichte oft nicht schwer?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Schärfe in manchen Gerichten?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It only affects appearance"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why werden Gerichte oft individuell abgeschmeckt?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Frische bei Kräutern?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste",
-      "It has no impact"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Nudeln aus Reis beliebt?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Knoblauch im Aroma?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why werden Gerichte oft geteilt?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind Suppen in Vietnam beliebt?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Dampf beim Garen?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Gerichte oft leicht verdaulich?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Säure für Frische?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why werden Speisen oft mit Kräutern serviert?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat die Brühe für Phở?",
-    "choices": [
-      "Rice balls",
-      "Cold noodle salad",
-      "Rice-noodle soup with aromatic broth",
-      "Fried noodles"
-    ],
-    "a": 2,
-    "ex": "Correct: Rice-noodle soup with aromatic broth. Phở ist eine Suppe mit Brühe und Reisnudeln."
-  },
-  {
-    "q": "Why ist die Küche regional vielfältig?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Frische für den Geschmack?",
-    "choices": [
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why werden Zutaten oft roh ergänzt?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Texturkontrast?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Gerichte ausgewogen gewürzt?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat gemeinsames Essen in Vietnam?",
-    "choices": [
-      "It only affects appearance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind Kräuter ein fester Bestandteil?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Reis als Grundnahrungsmittel?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Gerichte oft leicht süßlich?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Umami?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why werden Gerichte häufig mit Brühe serviert?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Temperatur beim Servieren?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Gerichte aromatisch, aber nicht schwer?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Frische der Zutaten?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why werden Gerichte oft frisch zubereitet?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Vielfalt der Aromen?",
-    "choices": [
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind Gerichte gut ausbalanciert?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt die Präsentation?",
-    "choices": [
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why werden Speisen oft mit Kräutern garniert?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Regionalität?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind Gerichte leicht bekömmlich?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt der Rhine für Handel und Kultur?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Bedeutung hat die Lage am Rhine?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance"
-    ],
-    "a": 3,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why wächst die Café-Kultur in vietnamesischen Städten?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Urbanisierung in Vietnam?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Start-ups in Vietnam im Aufschwung?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Bildung für junge Vietnamesen?",
-    "choices": [
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Streetfood weiterhin beliebt?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielen soziale Medien im Alltag?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why verbinden junge Menschen Tradition und Moderne?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Tourismus für Vietnam?",
-    "choices": [
-      "It only affects appearance",
-      "It doesn't matter as long as it's hot",
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "What role spielt Mobilität in Großstädten?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist Nachhaltigkeit ein wachsendes Thema?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Technologie im Alltag?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind Cafés Arbeitsorte geworden?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Kreativwirtschaft?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind Co-Working-Spaces beliebt?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat internationale Küche?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It only affects packaging",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Vietnam wirtschaftlich gewachsen?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Bildung für den Arbeitsmarkt?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind junge Menschen offen für Neues?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Kultur für Identität?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist Tourismus wichtig für Städte?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Urban Gardening?",
-    "choices": [
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why gewinnen lokale Marken an Bedeutung?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Design in Cafés?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects appearance",
-      "It only affects packaging"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind nachhaltige Konzepte gefragt?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance"
-    ],
-    "a": 3,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Digitalisierung?",
-    "choices": [
-      "It affects extraction, balance, and taste",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "Sie beeinflusst nur die Tassenfarbe"
-    ],
-    "a": 0,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ist Vietnam international vernetzt?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Unternehmertum?",
-    "choices": [
-      "It only affects packaging",
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ist der Alltag schneller geworden?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Gemeinschaft?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste",
-      "It has no impact"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Welche Geschmacksrichtung ist bei Bánh mì typisch ausgewogen?",
-    "choices": [
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It only affects appearance"
-    ],
-    "a": 0,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why passen leichte Speisen gut zu Coffee?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Frische bei Snacks?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It has no impact"
-    ],
-    "a": 1,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why ergänzen herzhafte Snacks Coffee gut?",
-    "choices": [
-      "Because it affects aroma, strength, and balance",
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it only affects appearance"
-    ],
-    "a": 0,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Balance von süß und herzhaft?",
-    "choices": [
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It only affects appearance"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind frische Zutaten wichtig für Snacks?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee"
-    ],
-    "a": 1,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What role spielt Textur bei kleinen Speisen?",
-    "choices": [
-      "It has no impact",
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It affects extraction, balance, and taste",
-      "Sie beeinflusst nur die Lautstärke der Maschine"
-    ],
-    "a": 2,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why passen Kräuter gut zu belegten Broten?",
-    "choices": [
-      "Because it only changes the cup’s temperature",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Frische für den Genuss?",
-    "choices": [
-      "It only affects appearance",
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot",
-      "It only affects packaging"
-    ],
-    "a": 1,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why sind leichte Snacks beliebt?",
-    "choices": [
-      "Because they satisfy hunger without feeling heavy",
-      "Because they automatically contain caffeine",
-      "Because they are always sugar-free",
-      "Because they must be eaten cold"
-    ],
-    "a": 0,
-    "ex": "Light snacks are popular because they pair well with coffee and don’t feel heavy."
-  },
-  {
-    "q": "What role spielt Präsentation bei kleinen Gerichten?",
-    "choices": [
-      "Sie beeinflusst nur die Tassenfarbe",
-      "It has no impact",
-      "Sie beeinflusst nur die Lautstärke der Maschine",
-      "It affects extraction, balance, and taste"
-    ],
-    "a": 3,
-    "ex": "Correct: It affects extraction, balance, and taste. Die Rolle ist geschmacklich relevant (Extraktion/Balance)."
-  },
-  {
-    "q": "Why sind ausgewogene Aromen wichtig?",
-    "choices": [
-      "Because it only matters for instant coffee",
-      "Because it only changes the cup’s temperature",
-      "Because it affects aroma, strength, and balance",
-      "Because it only affects appearance"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "Welche Bedeutung hat Qualität der Zutaten?",
-    "choices": [
-      "It only affects appearance",
-      "It only affects packaging",
-      "It has a noticeable impact on taste and balance",
-      "It doesn't matter as long as it's hot"
-    ],
-    "a": 2,
-    "ex": "Correct: It has a noticeable impact on taste and balance. In café practice, this directly affects the result in the cup."
-  },
-  {
-    "q": "Why ergänzen knusprige Texturen Coffee gut?",
-    "choices": [
-      "Because it only affects appearance",
-      "Because it only matters for instant coffee",
-      "Because it affects aroma, strength, and balance",
-      "Because it only changes the cup’s temperature"
-    ],
-    "a": 2,
-    "ex": "This factor impacts extraction and taste."
-  },
-  {
-    "q": "What does “sữa” mean in Vietnamese?",
-    "choices": [
+    "q": "What macht Kaffee oft milder im Geschmack?",
+    "c": [
+      "Zitronensaft",
       "milk",
-      "sugar",
-      "filter",
-      "ice"
+      "Essig",
+      "Pfeffer"
     ],
-    "a": 0,
-    "ex": "Correct: milk."
+    "a": 1
   },
   {
-    "q": "What does “đá” mean in Vietnamese?",
-    "choices": [
-      "milk",
+    "q": "Why ist frisches Wasser beim Kaffee wichtig?",
+    "c": [
+      "Because es die Tasse färbt",
+      "Because es den Koffeinwert verdoppelt",
+      "Because es Zucker ersetzt",
+      "because it strongly affects the taste"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What kann Kaffee bitter machen?",
+    "c": [
+      "Zu viel Zucker",
+      "Zu viele Eiswürfel",
+      "extracted too long or too hot",
+      "Zu wenig Tassen"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What ist ein Eiskaffee (klassisch)?",
+    "c": [
+      "Tee mit Eis",
+      "Heißer Kaffee ohne Tasse",
+      "coffee served cold with ice, often with milk or vanilla",
+      "Wasser mit Kakao"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Wozu nutzen viele Menschen eine Kaffeemühle?",
+    "c": [
+      "Damit Kaffee koffeinfrei wird",
+      "Damit Kaffee automatisch süß wird",
+      "Damit man kein Wasser braucht",
+      "for more aroma from freshly ground coffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Zutat macht einen Kaffee schokoladig?",
+    "c": [
+      "Schnittlauch",
+      "cocoa or chocolate",
+      "Sojasauce",
+      "Senf"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What bedeutet „to go“ im Café?",
+    "c": [
+      "Zum Einfrieren",
+      "to go / takeaway",
+      "Zum Aufwärmen",
+      "Zum Umtauschen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Milchalternative ist in Cafés häufig?",
+    "c": [
+      "Bratensoße",
+      "oat milk",
+      "Sojasauce",
+      "fish sauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Bohnenart hat oft mehr Koffein?",
+    "c": [
+      "Vanille",
+      "Arabica",
+      "Kakao",
+      "Robusta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Bohnenart ist weltweit sehr verbreitet?",
+    "c": [
+      "Jasmin",
+      "Rooibos",
+      "Arabica",
+      "Matcha"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Getränkebasis ist bei Cappuccino und Latte gleich?",
+    "c": [
+      "Wasser",
+      "espresso",
+      "Tee",
+      "Kakao"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What passiert bei dunklerer Röstung oft?",
+    "c": [
+      "Er wird koffeinfrei",
+      "Er wird salziger",
+      "Er wird immer fruchtiger",
+      "the coffee tastes stronger and more roasty"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What ist ein Espresso Macchiato?",
+    "c": [
+      "Cold Brew mit Sahne",
+      "Milch mit viel Sirup",
+      "Filterkaffee mit Eis",
+      "espresso with a small dot of milk/foam"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Aussage stimmt meistens?",
+    "c": [
+      "Filterkaffee enthält nie Koffein",
+      "Kaffee muss immer kalt sein",
+      "Kaffee besteht nur aus Zucker",
+      "espresso is more concentrated than filter coffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What ist Instant-Kaffee?",
+    "c": [
+      "coffee that dissolves directly in water",
+      "Kaffee ohne Wasser",
+      "Kaffee aus Kakao",
+      "Kaffee aus Teeblättern"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What ist ein Affogato?",
+    "c": [
+      "espresso over vanilla ice cream",
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Filterkaffee mit Eis"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What ist ein „Shot“ im Café meistens?",
+    "c": [
+      "Ein Smoothie",
+      "a small shot of espresso",
+      "Ein Stück Kuchen",
+      "Ein Glas Wasser"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Why reinigen Cafés ihre Mühlen regelmäßig?",
+    "c": [
+      "so old grounds don’t spoil the taste",
+      "Damit die Bohnen größer werden",
+      "Damit das Koffein steigt",
+      "Damit Kaffee süßer wird"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Option ist koffeinfrei(er)?",
+    "c": [
+      "decaf coffee",
+      "Doppio",
+      "Ristretto",
+      "Espresso Shot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What bedeutet „Crema“ bei Espresso oft?",
+    "c": [
+      "Ein Sirup",
+      "Eine Bohnenart",
+      "Ein Gewürz",
+      "a light crema on the espresso"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What ist ein „Iced Latte“?",
+    "c": [
+      "Tee mit Honig",
+      "Kakao ohne Milch",
+      "Heißer Espresso ohne Tasse",
+      "Kaffee mit Milch und Eis"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Zutat ist typisch für einen Vanilla Latte?",
+    "c": [
+      "Sojasprossen",
+      "vanilla syrup",
+      "Chilipaste",
+      "fish sauce"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits coffee in a café? (Question 45)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird aus Kartoffeln gemacht"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits coffee in a café? (Question 46)",
+    "c": [
+      "Frische Bohnen riechen aromatisch",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits coffee in a café? (Question 47)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee enthält kein Aroma",
+      "Kaffee ist immer koffeinfrei"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits coffee in a café? (Question 48)",
+    "c": [
+      "Kaffee kann heiß oder kalt serviert werden",
+      "Kaffee ist immer koffeinfrei",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee enthält kein Aroma"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits coffee in a café? (Question 49)",
+    "c": [
+      "Kaffee enthält kein Aroma",
+      "Kaffee wird ohne Wasser zubereitet",
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Viele Cafés bieten auch entkoffeiniert an"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits coffee in a café? (Question 50)",
+    "c": [
+      "Kaffee wird aus Kartoffeln gemacht",
+      "Kaffee ist immer koffeinfrei",
+      "Man kann Kaffee mit oder ohne Milch bestellen",
+      "Kaffee wird ohne Wasser zubereitet"
+    ],
+    "a": 2
+  },
+  {
+    "q": "If you order “Cà phê sữa đá”, what do you get?",
+    "c": [
+      "Kakao mit Sahne",
+      "Espresso Martini",
+      "iced coffee with sweetened condensed milk",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 2
+  },
+  {
+    "q": "If you order “Cà phê sữa nóng”, what do you get?",
+    "c": [
+      "Milch ohne Kaffee",
+      "Schwarzen Kaffee ohne Zucker",
+      "Tee mit Kondensmilch",
+      "hot coffee with condensed milk"
+    ],
+    "a": 3
+  },
+  {
+    "q": "If you order “Cà phê đen”, what do you get?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
       "black coffee",
+      "Milch ohne Kaffee"
+    ],
+    "a": 2
+  },
+  {
+    "q": "If you order “Cà phê đen đá”, what do you get?",
+    "c": [
+      "Espresso Martini",
+      "Grünen Tee mit Zitrone",
+      "Schwarzen Kaffee ohne Zucker",
+      "black iced coffee without milk"
+    ],
+    "a": 3
+  },
+  {
+    "q": "If you order “Bạc xỉu”, what do you get?",
+    "c": [
+      "Espresso Martini",
+      "Kakao mit Sahne",
+      "a sweet, very milky drink with a little coffee",
+      "Tee mit Kondensmilch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "If you order “Cà phê trứng”, what do you get?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Kakao mit Sahne",
+      "Grünen Tee mit Zitrone",
+      "egg coffee"
+    ],
+    "a": 3
+  },
+  {
+    "q": "If you order “Cà phê muối”, what do you get?",
+    "c": [
+      "Espresso Martini",
+      "Tee mit Kondensmilch",
+      "coffee with a pinch of salt (salty note)",
+      "Schwarzen Kaffee ohne Zucker"
+    ],
+    "a": 2
+  },
+  {
+    "q": "If you order “Cà phê dừa”, what do you get?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "coffee with coconut",
+      "Milch ohne Kaffee",
+      "Grünen Tee mit Zitrone"
+    ],
+    "a": 1
+  },
+  {
+    "q": "If you order “Cà phê sữa chua”, what do you get?",
+    "c": [
+      "Schwarzen Kaffee ohne Zucker",
+      "Grünen Tee mit Zitrone",
+      "Milch ohne Kaffee",
+      "coffee with yogurt"
+    ],
+    "a": 3
+  },
+  {
+    "q": "If you order “Phin”, what do you get?",
+    "c": [
+      "a small Vietnamese metal drip filter",
+      "Grünen Tee mit Zitrone",
+      "Tee mit Kondensmilch",
+      "Kakao mit Sahne"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What does “sữa” mean in Vietnamese (drinks)?",
+    "c": [
+      "Kakao",
+      "Kaffee",
+      "milk",
+      "Honig"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What does “đá” mean in Vietnamese (drinks)?",
+    "c": [
       "ice",
-      "sweet"
+      "Kaffee",
+      "Zucker",
+      "Kokos"
     ],
-    "a": 2,
-    "ex": "Correct: ice."
+    "a": 0
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (Basics)?",
-    "choices": [
-      "20–25°C",
-      "80–90°C",
-      "0–5°C",
-      "About 55–65°C"
+    "q": "What does “đen” mean in Vietnamese (drinks)?",
+    "c": [
+      "black",
+      "Honig",
+      "Zucker",
+      "Kakao"
     ],
-    "a": 3,
-    "ex": "Correct: About 55–65°C."
+    "a": 0
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (In practice)?",
-    "choices": [
-      "0–5°C",
-      "About 55–65°C",
-      "80–90°C",
-      "20–25°C"
+    "q": "What does “nóng” mean in Vietnamese (drinks)?",
+    "c": [
+      "Kakao",
+      "hot",
+      "Honig",
+      "Kokos"
     ],
-    "a": 1,
-    "ex": "Correct: About 55–65°C."
+    "a": 1
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)?",
-    "choices": [
-      "About 55–65°C",
-      "20–25°C",
-      "80–90°C",
-      "0–5°C"
+    "q": "What does “chua” mean in Vietnamese (drinks)?",
+    "c": [
+      "Honig",
+      "Kaffee",
+      "Kokos",
+      "yogurt (in “sữa chua”)"
     ],
-    "a": 0,
-    "ex": "Correct: About 55–65°C."
+    "a": 3
   },
   {
-    "q": "Why is water quality important for coffee (Basics)?",
-    "choices": [
-      "It’s most of the drink and affects extraction and taste",
-      "It only changes color",
-      "Only matters for latte art",
-      "It creates caffeine"
+    "q": "What is the name of der typische vietnamesische Kaffee-Filter?",
+    "c": [
+      "Papierfilter",
+      "Teesieb",
+      "Siebträgerkorb",
+      "Phin-Filter"
     ],
-    "a": 0,
-    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+    "a": 3
   },
   {
-    "q": "Why is water quality important for coffee (In practice)?",
-    "choices": [
-      "It only changes color",
-      "Only matters for latte art",
-      "It creates caffeine",
-      "It’s most of the drink and affects extraction and taste"
+    "q": "Why wird vietnamesischer Kaffee oft auf Eis serviert?",
+    "c": [
+      "Because es sonst nicht trinkbar ist",
+      "Because es erfrischend ist, besonders bei Wärme",
+      "Because Eis Koffein entfernt",
+      "Because es dann automatisch süßer wird"
     ],
-    "a": 3,
-    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+    "a": 1
   },
   {
-    "q": "Why is water quality important for coffee (Barista tip)?",
-    "choices": [
-      "It creates caffeine",
-      "It only changes color",
-      "Only matters for latte art",
-      "It’s most of the drink and affects extraction and taste"
+    "q": "Which Milch wird in Vietnam oft für süßen Kaffee genutzt?",
+    "c": [
+      "Sauerrahm",
+      "Buttermilch",
+      "Gesüßte Kondensmilch",
+      "Schmand"
     ],
-    "a": 3,
-    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+    "a": 2
   },
   {
-    "q": "Why do many pour-over recipes include a short “bloom” (Basics)?",
-    "choices": [
-      "To let CO₂ escape and extract more evenly",
-      "To caramelize sugar",
-      "To double caffeine",
-      "To steam milk better"
+    "q": "In welcher Stadt ist Egg Coffee besonders bekannt?",
+    "c": [
+      "London",
+      "Hanoi",
+      "Mainz",
+      "Madrid"
     ],
-    "a": 0,
-    "ex": "Correct: To let CO₂ escape and extract more evenly."
+    "a": 1
   },
   {
-    "q": "Why do many pour-over recipes include a short “bloom” (In practice)?",
-    "choices": [
-      "To steam milk better",
-      "To caramelize sugar",
-      "To let CO₂ escape and extract more evenly",
-      "To double caffeine"
+    "q": "Which Bohnenart baut Vietnam sehr viel an?",
+    "c": [
+      "Tee",
+      "Arabica nur",
+      "Kakao",
+      "Robusta"
     ],
-    "a": 2,
-    "ex": "Correct: To let CO₂ escape and extract more evenly."
+    "a": 3
   },
   {
-    "q": "Why do many pour-over recipes include a short “bloom” (Barista tip)?",
-    "choices": [
-      "To let CO₂ escape and extract more evenly",
-      "To caramelize sugar",
-      "To double caffeine",
-      "To steam milk better"
+    "q": "Which Reihenfolge fits oft zu Phin-Kaffee mit Kondensmilch?",
+    "c": [
+      "Eis zuerst, dann Salz, dann Tee",
+      "Kaffee einfrieren, dann warm machen",
+      "Kondensmilch ins Glas, Kaffee tropft darüber, dann umrühren",
+      "Milch aufschäumen, dann Kakao"
     ],
-    "a": 0,
-    "ex": "Correct: To let CO₂ escape and extract more evenly."
+    "a": 2
   },
   {
-    "q": "What helps if coffee tastes zu sauer?",
-    "choices": [
-      "Use much colder water",
-      "Grind coarser and shorten extraction",
-      "Grind finer or extract a bit longer",
-      "Reduce dose a lot"
+    "q": "What ist „Cà phê muối“?",
+    "c": [
+      "Kaffee mit Sojasauce",
+      "Kaffee ohne Wasser",
+      "coffee with a pinch of salt (salty note)",
+      "Kaffee nur aus Zucker"
     ],
-    "a": 2,
-    "ex": "Correct: Grind finer or extract a bit longer."
+    "a": 2
   },
   {
-    "q": "Which action makes sense for coffee that tastes zu sauer?",
-    "choices": [
-      "Grind finer or extract a bit longer",
-      "Reduce dose a lot",
-      "Grind coarser and shorten extraction",
-      "Use much colder water"
+    "q": "What ist „Bạc xỉu“?",
+    "c": [
+      "Süßes Milchgetränk mit wenig Kaffee",
+      "Kaffee mit Chili",
+      "Tee mit Zitronengras",
+      "Schwarzer Espresso doppelt"
     ],
-    "a": 0,
-    "ex": "Correct: Grind finer or extract a bit longer."
+    "a": 0
   },
   {
-    "q": "What helps if coffee tastes zu bitter?",
-    "choices": [
-      "Grind finer and extract longer",
-      "Use much hotter water",
-      "Increase contact time",
-      "Grind coarser or shorten extraction"
+    "q": "What ist „Cà phê trứng“ best?",
+    "c": [
+      "Kaffee mit Käse",
+      "Kaffee mit einer cremigen Ei-Mischung",
+      "Kaffee mit Fischsauce",
+      "Kaffee mit Spinat"
     ],
-    "a": 3,
-    "ex": "Correct: Grind coarser or shorten extraction."
+    "a": 1
   },
   {
-    "q": "Which action makes sense for coffee that tastes zu bitter?",
-    "choices": [
-      "Grind finer and extract longer",
-      "Use much hotter water",
-      "Increase contact time",
-      "Grind coarser or shorten extraction"
+    "q": "Which Kombination fits zu „Cà phê dừa“?",
+    "c": [
+      "Kaffee + Ketchup",
+      "Kaffee + Essig",
+      "Kaffee + Sojasauce",
+      "Kaffee + Kokos"
     ],
-    "a": 3,
-    "ex": "Correct: Grind coarser or shorten extraction."
+    "a": 3
   },
   {
-    "q": "What helps if coffee tastes zu wässrig?",
-    "choices": [
-      "Increase dose or grind finer",
-      "Grind coarser",
-      "Lower the dose",
-      "Extract shorter"
+    "q": "Which Variante ist meist ohne Milch?",
+    "c": [
+      "Bạc xỉu",
+      "Cà phê dừa",
+      "Cà phê sữa đá",
+      "Cà phê đen"
     ],
-    "a": 0,
-    "ex": "Correct: Increase dose or grind finer."
+    "a": 3
   },
   {
-    "q": "Which action makes sense for coffee that tastes zu wässrig?",
-    "choices": [
-      "Extract shorter",
-      "Lower the dose",
-      "Increase dose or grind finer",
-      "Grind coarser"
+    "q": "Which Variante ist typischerweise kalt?",
+    "c": [
+      "Cà phê sữa nóng",
+      "Espresso pur heiß",
+      "Cà phê sữa đá",
+      "Filterkaffee frisch heiß"
     ],
-    "a": 2,
-    "ex": "Correct: Increase dose or grind finer."
+    "a": 2
   },
   {
-    "q": "Why is water quality important for coffee (Basics)? #1",
-    "choices": [
-      "It’s most of the drink and affects extraction and taste",
-      "It only changes color",
-      "Only matters for latte art",
-      "It creates caffeine"
+    "q": "Which Aussage über Vietnam und Kaffee is true?",
+    "c": [
+      "Vietnam produziert nur Tee",
+      "Vietnam ist eines der größten Kaffee-Produzentenländer",
+      "Vietnam produziert keinen Kaffee",
+      "Vietnam exportiert keinen Kaffee"
     ],
-    "a": 0,
-    "ex": "Correct: It’s most of the drink and affects extraction and taste."
+    "a": 1
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)? #2",
-    "choices": [
-      "About 55–65°C",
-      "20–25°C",
-      "80–90°C",
-      "0–5°C"
+    "q": "Which statement fits Vietnamese coffee? (Question 29)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Kondensmilch ist sehr typisch"
     ],
-    "a": 0,
-    "ex": "Correct: About 55–65°C."
+    "a": 3
   },
   {
-    "q": "What does “sữa” mean in Vietnamese? #3",
-    "choices": [
-      "milk",
-      "sugar",
-      "filter",
-      "ice"
+    "q": "Which statement fits Vietnamese coffee? (Question 30)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht"
     ],
-    "a": 0,
-    "ex": "Correct: milk."
+    "a": 2
   },
   {
-    "q": "What does “sữa” mean in Vietnamese? #4",
-    "choices": [
-      "milk",
-      "sugar",
-      "filter",
-      "ice"
+    "q": "Which statement fits Vietnamese coffee? (Question 31)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kondensmilch ist sehr typisch",
+      "Kaffee wird dort immer salzig gekocht"
     ],
-    "a": 0,
-    "ex": "Correct: milk."
+    "a": 2
   },
   {
-    "q": "Which action makes sense for coffee that tastes zu sauer? #5",
-    "choices": [
-      "Grind finer or extract a bit longer",
-      "Reduce dose a lot",
-      "Grind coarser and shorten extraction",
-      "Use much colder water"
+    "q": "Which statement fits Vietnamese coffee? (Question 32)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 0,
-    "ex": "Correct: Grind finer or extract a bit longer."
+    "a": 0
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)? #6",
-    "choices": [
-      "About 55–65°C",
-      "20–25°C",
-      "80–90°C",
-      "0–5°C"
+    "q": "Which statement fits Vietnamese coffee? (Question 33)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 0,
-    "ex": "Correct: About 55–65°C."
+    "a": 0
   },
   {
-    "q": "What does “đá” mean in Vietnamese? #7",
-    "choices": [
-      "milk",
-      "black coffee",
-      "ice",
-      "sweet"
+    "q": "Which statement fits Vietnamese coffee? (Question 34)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht"
     ],
-    "a": 2,
-    "ex": "Correct: ice."
+    "a": 0
   },
   {
-    "q": "Which action makes sense for coffee that tastes zu sauer? #8",
-    "choices": [
-      "Grind finer or extract a bit longer",
-      "Reduce dose a lot",
-      "Grind coarser and shorten extraction",
-      "Use much colder water"
+    "q": "Which statement fits Vietnamese coffee? (Question 35)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Phin ist ein Brot",
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 0,
-    "ex": "Correct: Grind finer or extract a bit longer."
+    "a": 2
   },
   {
-    "q": "Why do many pour-over recipes include a short “bloom” (Basics)? #9",
-    "choices": [
-      "To let CO₂ escape and extract more evenly",
-      "To caramelize sugar",
-      "To double caffeine",
-      "To steam milk better"
+    "q": "Which statement fits Vietnamese coffee? (Question 36)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 0,
-    "ex": "Correct: To let CO₂ escape and extract more evenly."
+    "a": 1
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (Barista tip)? #10",
-    "choices": [
-      "About 55–65°C",
-      "20–25°C",
-      "80–90°C",
-      "0–5°C"
+    "q": "Which statement fits Vietnamese coffee? (Question 37)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 0,
-    "ex": "Correct: About 55–65°C."
+    "a": 2
   },
   {
-    "q": "What milk temperature is usually ideal for steaming (without scalding) (Basics)? #11",
-    "choices": [
-      "20–25°C",
-      "80–90°C",
-      "0–5°C",
-      "About 55–65°C"
+    "q": "Which statement fits Vietnamese coffee? (Question 38)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 3,
-    "ex": "Correct: About 55–65°C."
+    "a": 1
   },
   {
-    "q": "Which action makes sense for coffee that tastes zu bitter? #12",
-    "choices": [
-      "Grind finer and extract longer",
-      "Use much hotter water",
-      "Increase contact time",
-      "Grind coarser or shorten extraction"
+    "q": "Which statement fits Vietnamese coffee? (Question 39)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot"
     ],
-    "a": 3,
-    "ex": "Correct: Grind coarser or shorten extraction."
+    "a": 0
   },
   {
-    "q": "Why do many pour-over recipes include a short “bloom” (In practice)? #13",
-    "choices": [
-      "To steam milk better",
-      "To caramelize sugar",
-      "To let CO₂ escape and extract more evenly",
-      "To double caffeine"
+    "q": "Which statement fits Vietnamese coffee? (Question 40)",
+    "c": [
+      "Der Phin-Filter lässt Kaffee langsam tropfen",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "In Vietnam gibt es keine Cafés"
     ],
-    "a": 2,
-    "ex": "Correct: To let CO₂ escape and extract more evenly."
+    "a": 0
   },
   {
-    "q": "What does “sữa” mean in Vietnamese? #14",
-    "choices": [
-      "milk",
-      "sugar",
-      "filter",
-      "ice"
+    "q": "Which statement fits Vietnamese coffee? (Question 41)",
+    "c": [
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
     ],
-    "a": 0,
-    "ex": "Correct: milk."
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 42)",
+    "c": [
+      "Phin ist ein Brot",
+      "Vietnam baut viel Robusta an",
+      "In Vietnam gibt es keine Cafés",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 43)",
+    "c": [
+      "Phin ist ein Brot",
+      "Kaffee wird dort immer salzig gekocht",
+      "In Vietnam gibt es keine Cafés",
+      "Viele Varianten werden mit Eis getrunken"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 44)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 45)",
+    "c": [
+      "Viele Varianten werden mit Eis getrunken",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 46)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 47)",
+    "c": [
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "Kaffee wird dort immer salzig gekocht",
+      "Phin ist ein Brot",
+      "Der Phin-Filter lässt Kaffee langsam tropfen"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 48)",
+    "c": [
+      "In Vietnam gibt es keine Cafés",
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Phin ist ein Brot"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 49)",
+    "c": [
+      "Kaffee wird dort immer salzig gekocht",
+      "Vietnam baut viel Robusta an",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits Vietnamese coffee? (Question 50)",
+    "c": [
+      "Kondensmilch ist sehr typisch",
+      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
+      "In Vietnam gibt es keine Cafés",
+      "Phin ist ein Brot"
+    ],
+    "a": 0
+  },
+  {
+    "q": "In which Kontinent liegt Vietnam?",
+    "c": [
+      "Europa",
+      "Asia",
+      "Südamerika",
+      "Afrika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What is the name of die Hauptstadt von Vietnam?",
+    "c": [
+      "Kuala Lumpur",
+      "Manila",
+      "Hanoi",
+      "Bangkok"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What is the name of die größte Stadt Vietnams heute?",
+    "c": [
+      "Hanoi",
+      "Ho Chi Minh City",
+      "Da Nang",
+      "Hue"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Währung hat Vietnam?",
+    "c": [
+      "Yen",
+      "Dollar (USD)",
+      "đồng (VND)",
+      "Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Neujahrsfest feiert man in Vietnam?",
+    "c": [
+      "Tết",
+      "Hanami",
+      "Diwali",
+      "Oktoberfest"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which berühmte Bucht ist für Felseninseln bekannt?",
+    "c": [
+      "Hudson Bay",
+      "San Francisco Bay",
+      "Ha Long Bay",
+      "Biskaya"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Nachbarländer hat Vietnam?",
+    "c": [
+      "Indien, Nepal, Bhutan",
+      "China, Laos, Cambodia",
+      "Thailand, Malaysia, Singapur",
+      "Japan, Korea, Taiwan"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Welcher große Fluss ist im Süden Vietnams wichtig?",
+    "c": [
+      "Amazonas",
+      "Mekong",
+      "Nil",
+      "Rhein"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Stadt ist bekannt für Laternen und Altstadt?",
+    "c": [
+      "Hội An",
+      "Edinburgh",
+      "Oslo",
+      "Zürich"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Region ist bekannt für Reisterrassen?",
+    "c": [
+      "Rotterdam",
+      "Sa Pa",
+      "Bremen",
+      "Tübingen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What ist Pho?",
+    "c": [
+      "Sushi",
+      "Pizza",
+      "Vietnamese noodle soup",
+      "Gulasch"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What ist Bánh mì?",
+    "c": [
+      "Käsekuchen",
+      "a Vietnamese baguette sandwich",
+      "Sushi-Rolle",
+      "Paella"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What ist Gỏi cuốn?",
+    "c": [
+      "fresh rice-paper summer rolls",
+      "Lasagne",
+      "Frittierte Pommes",
+      "Apfelstrudel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What ist Nước mắm?",
+    "c": [
+      "Mineralwasser",
+      "fish sauce",
+      "Ahornsirup",
+      "Ketchup"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Insel ist in Vietnam als Urlaubsziel bekannt?",
+    "c": [
+      "Mallorca",
+      "Bali",
+      "Sylt",
+      "Phú Quốc"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Stadt ist für Laternenfeste und Atmosphäre berühmt?",
+    "c": [
+      "Huế",
+      "Hanoi",
+      "Da Nang",
+      "Hội An"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Sprache wird in Vietnam gesprochen?",
+    "c": [
+      "Schwedisch",
+      "Vietnamese",
+      "Arabisch",
+      "Portugiesisch"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Schrift nutzt Vietnamesisch heute?",
+    "c": [
+      "Hebräisch",
+      "Arabische Schrift",
+      "Kyrillisch",
+      "Latin alphabet with diacritics"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What ist „áo dài“?",
+    "c": [
+      "Ein Metallhut",
+      "Ein Motorradmodell",
+      "a traditional Vietnamese dress",
+      "Ein Gewürz"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What ist typisch als Transportmittel in Vietnam?",
+    "c": [
+      "scooter",
+      "Kamel",
+      "Schlitten",
+      "Gondel"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Stadt liegt an der Küste und ist für Strände bekannt?",
+    "c": [
+      "Da Nang",
+      "Oslo",
+      "Bern",
+      "Ulaanbaatar"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Region gehört zu Vietnam?",
+    "c": [
+      "Alpen",
+      "Anden",
+      "Sahara",
+      "the Mekong Delta"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What ist Bún chả?",
+    "c": [
+      "Paella",
+      "Sauerbraten",
+      "Käsefondue",
+      "grilled pork with rice noodles"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What ist Bánh xèo?",
+    "c": [
+      "Schokokuchen",
+      "Sushi-Box",
+      "Käsespätzle",
+      "a crispy Vietnamese pancake"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Jahreszeiten sind in vielen Teilen Vietnams typisch?",
+    "c": [
+      "Vier gleich kalte Winter",
+      "Nur Schneezeit",
+      "Nur Herbst",
+      "rainy and dry season"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Stadt liegt im Süden Vietnams?",
+    "c": [
+      "Hanoi",
+      "Ha Giang",
+      "Sa Pa",
+      "Ho Chi Minh City"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which Stadt liegt im Norden Vietnams?",
+    "c": [
+      "Vũng Tàu",
+      "Phú Quốc",
+      "Hanoi",
+      "Cần Thơ"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Welches Meer liegt östlich von Vietnam?",
+    "c": [
+      "Nordsee",
+      "Karibisches Meer",
+      "Ostsee",
+      "the South China Sea"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 29)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 30)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 31)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 32)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Tết ist das Neujahrsfest"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 33)",
+    "c": [
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 34)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 35)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Tết ist das Neujahrsfest",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 36)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 37)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 38)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood",
+      "Vietnam hat keine Küste",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 39)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 40)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 41)",
+    "c": [
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam hat keine Küste"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 42)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 43)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 44)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Vietnam ist bekannt für Streetfood",
+      "Die Hauptstadt heißt Paris"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 45)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Vietnam hat keine Küste",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 46)",
+    "c": [
+      "Vietnam hat Berge, Küste und Deltas",
+      "In Vietnam bezahlt man mit Euro",
+      "Die Hauptstadt heißt Paris",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 47)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "In Vietnam bezahlt man mit Euro",
+      "Vietnam liegt in Südamerika"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 48)",
+    "c": [
+      "Die Hauptstadt heißt Paris",
+      "Vietnam hat keine Küste",
+      "Vietnam liegt in Südamerika",
+      "Vietnam ist bekannt für Streetfood"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 49)",
+    "c": [
+      "Vietnam liegt in Südamerika",
+      "Tết ist das Neujahrsfest",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement about Vietnam is true? (Question 50)",
+    "c": [
+      "Vietnam hat keine Küste",
+      "Vietnam ist ein wichtiger Kaffee-Exporteur",
+      "Die Hauptstadt heißt Paris",
+      "In Vietnam bezahlt man mit Euro"
+    ],
+    "a": 1
+  },
+  {
+    "q": "An welchem Fluss liegt Mainz?",
+    "c": [
+      "An der Elbe",
+      "An der Donau",
+      "An der Weser",
+      "on the Rhine"
+    ],
+    "a": 3
+  },
+  {
+    "q": "In which Bundesland liegt Mainz?",
+    "c": [
+      "Bayern",
+      "Rhineland-Palatinate",
+      "Schleswig-Holstein",
+      "Sachsen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What is ist Mainz historisch besonders bekannt?",
+    "c": [
+      "Vulkaninsel",
+      "Goldrausch",
+      "Johannes Gutenberg and printing",
+      "Pyramidenbau"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What is the name of die Universität in Mainz?",
+    "c": [
+      "Humboldt-Universität",
+      "RWTH Aachen",
+      "TU München",
+      "Johannes Gutenberg University"
+    ],
+    "a": 3
+  },
+  {
+    "q": "What is the name of der Fußballverein aus Mainz?",
+    "c": [
+      "1. FSV Mainz 05",
+      "Borussia Dortmund",
+      "FC Bayern München",
+      "HSV"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Veranstaltung ist in Mainz besonders bekannt?",
+    "c": [
+      "Oktoberfest",
+      "Karneval in Rio",
+      "Carnival (Fastnacht)",
+      "Wacken"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Nachbarstadt liegt direkt gegenüber am Rhein?",
+    "c": [
+      "Wiesbaden",
+      "München",
+      "Bremen",
+      "Dresden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What is the name of der große Dom in Mainz?",
+    "c": [
+      "Kölner Dom",
+      "Berliner Dom",
+      "Mainz Cathedral (St. Martin)",
+      "Ulmer Münster"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What is the name of das bekannte Museum rund um Gutenberg in Mainz?",
+    "c": [
+      "Pergamonmuseum",
+      "Gutenberg Museum",
+      "Senckenberg Museum",
+      "Deutsches Museum"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What is the name of der große Fernsehsender mit Sitz in Mainz?",
+    "c": [
+      "BBC",
+      "CNN",
+      "ZDF",
+      "NHK"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Region ist Mainz zugeordnet?",
+    "c": [
+      "Harz",
+      "Rheinhessen",
+      "Erzgebirge",
+      "Allgäu"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Brücke verbindet Mainz und Wiesbaden?",
+    "c": [
+      "Tower Bridge",
+      "Golden Gate Bridge",
+      "Brooklyn Bridge",
+      "Theodor Heuss Bridge"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Welches Getränk ist in Rheinhessen besonders typisch?",
+    "c": [
+      "wine",
+      "Sake",
+      "Whisky",
+      "Tequila"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What ist „Spundekäs“?",
+    "c": [
+      "Fischsuppe",
+      "Schokoladenkuchen",
+      "a savory cream-cheese dip",
+      "Nudelsalat"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Aussage über Mainz is true?",
+    "c": [
+      "Mainz ist eine Landeshauptstadt",
+      "Mainz liegt in Österreich",
+      "Mainz liegt in der Schweiz",
+      "Mainz ist eine Insel in der Nordsee"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What ist am Rhein in Mainz beliebt?",
+    "c": [
+      "walking and cycling",
+      "Skispringen",
+      "Eishockey auf dem Fluss",
+      "Sandboarden"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Farbe sieht man oft bei Mainz 05?",
+    "c": [
+      "Blau und Gelb",
+      "Grün und Pink",
+      "red and white",
+      "Schwarz und Gold"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What is the name of der Stadtteil mit dem ZDF?",
+    "c": [
+      "Lerchenberg",
+      "Altona",
+      "Ehrenfeld",
+      "Schwabing"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Stadt ist nahe Mainz und bekannt für einen großen Flughafen?",
+    "c": [
+      "Kiel",
+      "Rostock",
+      "Frankfurt am Main",
+      "Flensburg"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Aussage fits zu Mainz' Geschichte?",
+    "c": [
+      "Sie liegt am Nil",
+      "It goes back to Roman times",
+      "Sie ist ein Vulkan",
+      "Sie wurde 2010 gegründet"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Aussage fits zur Mainzer Altstadt?",
+    "c": [
+      "Nur Wolkenkratzer",
+      "Viele Gassen und Weinstuben",
+      "Nur Industrieanlagen",
+      "Keine Restaurants"
+    ],
+    "a": 1
+  },
+  {
+    "q": "What ist ein typisches Mainzer Souvenir?",
+    "c": [
+      "Gutenberg-bezogene Artikel",
+      "Wüstenkamele",
+      "Korallen",
+      "Surfbretter"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Aussage fits zur Lage von Mainz?",
+    "c": [
+      "Auf einer Insel im Pazifik",
+      "Mitten in der Wüste",
+      "Zwischen Rhein und Weinbergen",
+      "Auf einem Gletscher"
+    ],
+    "a": 2
+  },
+  {
+    "q": "What ist eine Weinstube?",
+    "c": [
+      "Ein Kino",
+      "Ein Sportplatz",
+      "Ein Lokal mit regionalen Weinen",
+      "Eine Bibliothek"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which Sehenswürdigkeit steht zentral nahe dem Marktplatz?",
+    "c": [
+      "Der Dom",
+      "Big Ben",
+      "Eiffelturm",
+      "Kolosseum"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What ist in Mainz im Frühling/Sommer beliebt?",
+    "c": [
+      "Polarlichter anschauen",
+      "Am Rhein sitzen und draußen unterwegs sein",
+      "Gletscherfahren",
+      "Sanddünen besuchen"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which Stadt ist Landeshauptstadt von Hessen und liegt nahe Mainz?",
+    "c": [
+      "Wiesbaden",
+      "Leipzig",
+      "Dortmund",
+      "Stuttgart"
+    ],
+    "a": 0
+  },
+  {
+    "q": "What is ist Rheinhessen bekannt?",
+    "c": [
+      "Wein und Weinberge",
+      "Wüste",
+      "Gletscher",
+      "Regenwald"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which Aussage fits zum ZDF in Mainz?",
+    "c": [
+      "Es ist ein Fußballverein",
+      "Es ist ein Bahnhof",
+      "Es sitzt in Tokio",
+      "Es hat seinen Sitz in Mainz"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 30)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 31)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 32)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 33)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 34)",
+    "c": [
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz ist eine Insel"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 35)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 36)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Meer"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 37)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Rhein",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 38)",
+    "c": [
+      "Mainz ist mit Gutenberg verbunden",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 39)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 40)",
+    "c": [
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 41)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 42)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer",
+      "Mainz liegt am Rhein"
+    ],
+    "a": 3
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 43)",
+    "c": [
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Meer"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 44)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Nil"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 45)",
+    "c": [
+      "Mainz liegt in Spanien",
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 46)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt am Nil"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 47)",
+    "c": [
+      "Mainz liegt am Rhein",
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 0
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 48)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Meer",
+      "Mainz liegt in Rheinland-Pfalz",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 2
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 49)",
+    "c": [
+      "Mainz liegt am Nil",
+      "Mainz liegt am Rhein",
+      "Mainz ist eine Insel",
+      "Mainz liegt am Meer"
+    ],
+    "a": 1
+  },
+  {
+    "q": "Which statement fits Mainz? (Question 50)",
+    "c": [
+      "Mainz ist eine Insel",
+      "Mainz ist für Fastnacht bekannt",
+      "Mainz liegt am Nil",
+      "Mainz liegt in Spanien"
+    ],
+    "a": 1
   }
 ]
