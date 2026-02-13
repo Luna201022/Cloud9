@@ -1,347 +1,28 @@
 [
   {
-    "q": "Que signifie « Arabica » dans le contexte du café ?",
+    "q": "De quoi est fait le café ?",
     "choices": [
-      "ein Gewürz",
-      "ein Softdrink",
-      "eine verbreitete Kaffeebohnenart",
-      "eine Teesorte"
+      "De feuilles de thé",
+      "De grains de café torréfiés",
+      "De poudre de cacao",
+      "De céréales"
     ],
-    "a": 2,
-    "ex": "Richtig: eine verbreitete Kaffeebohnenart."
+    "a": 1,
+    "ex": "Correct : le café est fait à partir de grains de café torréfiés."
   },
   {
-    "q": "Que signifie « Robusta » dans le contexte du café ?",
+    "q": "Pourquoi beaucoup de gens boivent-ils du café le matin ?",
     "choices": [
-      "eine Teesorte",
-      "ein alkoholfreier Cocktail",
-      "ein Softdrink",
-      "eine Bohnenart mit oft mehr Koffein"
-    ],
-    "a": 3,
-    "ex": "Richtig: eine Bohnenart mit oft mehr Koffein."
-  },
-  {
-    "q": "Que signifie « Espresso » dans le contexte du café ?",
-    "choices": [
-      "eine Nudelsuppe",
-      "ein Käse-Dip",
-      "ein kleiner, konzentrierter Kaffee",
-      "eine Teesorte"
-    ],
-    "a": 2,
-    "ex": "Richtig: ein kleiner, konzentrierter Kaffee."
-  },
-  {
-    "q": "Que signifie « Cappuccino » dans le contexte du café ?",
-    "choices": [
-      "ein Softdrink",
-      "eine Kuchensorte",
-      "Espresso mit Milch und Milchschaum",
-      "eine Nudelsuppe"
-    ],
-    "a": 2,
-    "ex": "Richtig: Espresso mit Milch und Milchschaum."
-  },
-  {
-    "q": "Que signifie « Latte Macchiato » dans le contexte du café ?",
-    "choices": [
-      "Milch mit Espresso in Schichten",
-      "eine Teesorte",
-      "eine Nudelsuppe",
-      "eine Stadt in Italien"
+      "Parce que cela réveille",
+      "Parce qu’il ne contient pas de caféine",
+      "Parce qu’il est toujours sucré",
+      "Parce qu’on ne le boit que froid"
     ],
     "a": 0,
-    "ex": "Richtig: Milch mit Espresso in Schichten."
+    "ex": "Correct : beaucoup de gens boivent du café le matin parce que cela aide à se réveiller."
   },
   {
-    "q": "Que signifie « Americano » dans le contexte du café ?",
-    "choices": [
-      "ein alkoholfreier Cocktail",
-      "Espresso mit heißem Wasser verlängert",
-      "ein Gewürz",
-      "ein Softdrink"
-    ],
-    "a": 1,
-    "ex": "Richtig: Espresso mit heißem Wasser verlängert."
-  },
-  {
-    "q": "Que signifie « Cold Brew » dans le contexte du café ?",
-    "choices": [
-      "Kaffee, der lange kalt gezogen wird",
-      "eine Teesorte",
-      "ein Gewürz",
-      "eine Kuchensorte"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kaffee, der lange kalt gezogen wird."
-  },
-  {
-    "q": "Que signifie « Entkoffeiniert » dans le contexte du café ?",
-    "choices": [
-      "ein Softdrink",
-      "eine Kuchensorte",
-      "eine Teesorte",
-      "Kaffee mit stark reduziertem Koffein"
-    ],
-    "a": 3,
-    "ex": "Richtig: Kaffee mit stark reduziertem Koffein."
-  },
-  {
-    "q": "Que signifie « Single Origin » dans le contexte du café ?",
-    "choices": [
-      "eine Stadt in Italien",
-      "Bohnen aus einem bestimmten Ursprung",
-      "ein Softdrink",
-      "eine Nudelsuppe"
-    ],
-    "a": 1,
-    "ex": "Richtig: Bohnen aus einem bestimmten Ursprung."
-  },
-  {
-    "q": "Que signifie « Blend » dans le contexte du café ?",
-    "choices": [
-      "eine Teesorte",
-      "Mischung aus Bohnen verschiedener Herkünfte",
-      "ein Softdrink",
-      "ein Gewürz"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mischung aus Bohnen verschiedener Herkünfte."
-  },
-  {
-    "q": "Que signifie « Barista » dans le contexte du café ?",
-    "choices": [
-      "Person, die Kaffee professionell zubereitet",
-      "eine Nudelsuppe",
-      "eine Kuchensorte",
-      "eine Teesorte"
-    ],
-    "a": 0,
-    "ex": "Richtig: Person, die Kaffee professionell zubereitet."
-  },
-  {
-    "q": "Que signifie « Milchschaum » dans le contexte du café ?",
-    "choices": [
-      "ein alkoholfreier Cocktail",
-      "ein Softdrink",
-      "aufgeschäumte Milch für cremige Textur",
-      "ein Gewürz"
-    ],
-    "a": 2,
-    "ex": "Richtig: aufgeschäumte Milch für cremige Textur."
-  },
-  {
-    "q": "Que signifie « Röstgrad » dans le contexte du café ?",
-    "choices": [
-      "ein Softdrink",
-      "wie hell oder dunkel Bohnen geröstet sind",
-      "eine Stadt in Italien",
-      "ein Gewürz"
-    ],
-    "a": 1,
-    "ex": "Richtig: wie hell oder dunkel Bohnen geröstet sind."
-  },
-  {
-    "q": "Que signifie « Kaffeekirsche » dans le contexte du café ?",
-    "choices": [
-      "ein alkoholfreier Cocktail",
-      "die Frucht, in der die Bohne steckt",
-      "eine Nudelsuppe",
-      "eine Kuchensorte"
-    ],
-    "a": 1,
-    "ex": "Richtig: die Frucht, in der die Bohne steckt."
-  },
-  {
-    "q": "Que signifie « Filterkaffee » dans le contexte du café ?",
-    "choices": [
-      "eine Nudelsuppe",
-      "eine Teesorte",
-      "Kaffee, der durch einen Filter läuft",
-      "ein Softdrink"
-    ],
-    "a": 2,
-    "ex": "Richtig: Kaffee, der durch einen Filter läuft."
-  },
-  {
-    "q": "Que signifie « French Press » dans le contexte du café ?",
-    "choices": [
-      "Kanne, bei der Kaffee zieht und gepresst wird",
-      "eine Teesorte",
-      "ein alkoholfreier Cocktail",
-      "eine Nudelsuppe"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kanne, bei der Kaffee zieht und gepresst wird."
-  },
-  {
-    "q": "Que signifie « Doppio » dans le contexte du café ?",
-    "choices": [
-      "doppelter Espresso",
-      "eine Kuchensorte",
-      "ein Softdrink",
-      "ein Käse-Dip"
-    ],
-    "a": 0,
-    "ex": "Richtig: doppelter Espresso."
-  },
-  {
-    "q": "Que signifie « Flat White » dans le contexte du café ?",
-    "choices": [
-      "Espresso mit feinporiger, cremiger Milch",
-      "ein Gewürz",
-      "ein Käse-Dip",
-      "ein alkoholfreier Cocktail"
-    ],
-    "a": 0,
-    "ex": "Richtig: Espresso mit feinporiger, cremiger Milch."
-  },
-  {
-    "q": "Que signifie « Mokka » dans le contexte du café ?",
-    "choices": [
-      "eine Nudelsuppe",
-      "eine Kuchensorte",
-      "Kaffee mit Kakao/Schokolade",
-      "eine Stadt in Italien"
-    ],
-    "a": 2,
-    "ex": "Richtig: Kaffee mit Kakao/Schokolade."
-  },
-  {
-    "q": "Que signifie « Affogato » dans le contexte du café ?",
-    "choices": [
-      "ein Käse-Dip",
-      "eine Teesorte",
-      "eine Nudelsuppe",
-      "Espresso über Vanilleeis"
-    ],
-    "a": 3,
-    "ex": "Richtig: Espresso über Vanilleeis."
-  },
-  {
-    "q": "Woraus wird Kaffee gemacht?",
-    "choices": [
-      "Aus Teeblättern",
-      "Aus gerösteten Kaffeebohnen",
-      "Aus Kakaopulver",
-      "Aus Getreide"
-    ],
-    "a": 1,
-    "ex": "Richtig: Aus gerösteten Kaffeebohnen."
-  },
-  {
-    "q": "Pourquoi trinken viele Menschen morgens Kaffee?",
-    "choices": [
-      "Weil er wach macht",
-      "Weil er kein Koffein enthält",
-      "Weil er immer süß ist",
-      "Weil er nur kalt getrunken wird"
-    ],
-    "a": 0,
-    "ex": "Richtig: Weil er wach macht."
-  },
-  {
-    "q": "Was macht Kaffee oft milder im Geschmack?",
-    "choices": [
-      "Zitronensaft",
-      "lait",
-      "Essig",
-      "Pfeffer"
-    ],
-    "a": 1,
-    "ex": "Richtig: lait."
-  },
-  {
-    "q": "Pourquoi ist frisches Wasser beim Kaffee wichtig?",
-    "choices": [
-      "Weil es die Tasse färbt",
-      "Weil es den Koffeinwert verdoppelt",
-      "Weil es Zucker ersetzt",
-      "Weil es den Geschmack stark beeinflusst"
-    ],
-    "a": 3,
-    "ex": "Richtig: Weil es den Geschmack stark beeinflusst."
-  },
-  {
-    "q": "Was kann Kaffee bitter machen?",
-    "choices": [
-      "Zu viel Zucker",
-      "Zu viele Eiswürfel",
-      "Zu lange oder zu heiß extrahiert",
-      "Zu wenig Tassen"
-    ],
-    "a": 2,
-    "ex": "Richtig: Zu lange oder zu heiß extrahiert."
-  },
-  {
-    "q": "Qu’est-ce que ein Eiskaffee (klassisch)?",
-    "choices": [
-      "Tee mit Eis",
-      "Heißer Kaffee ohne Tasse",
-      "Kaffee kalt mit Eis, oft mit Milch oder Vanille",
-      "Wasser mit Kakao"
-    ],
-    "a": 2,
-    "ex": "Richtig: Kaffee kalt mit Eis, oft mit Milch oder Vanille."
-  },
-  {
-    "q": "Wozu nutzen viele Menschen eine Kaffeemühle?",
-    "choices": [
-      "Damit Kaffee koffeinfrei wird",
-      "Damit Kaffee automatisch süß wird",
-      "Damit man kein Wasser braucht",
-      "Für mehr Aroma durch frisch gemahlenen Kaffee"
-    ],
-    "a": 3,
-    "ex": "Richtig: Für mehr Aroma durch frisch gemahlenen Kaffee."
-  },
-  {
-    "q": "Quelle Zutat macht einen Kaffee schokoladig?",
-    "choices": [
-      "Schnittlauch",
-      "Kakao oder Schokolade",
-      "Sojasauce",
-      "Senf"
-    ],
-    "a": 1,
-    "ex": "Richtig: Kakao oder Schokolade."
-  },
-  {
-    "q": "Was bedeutet „to go“ im Café?",
-    "choices": [
-      "Zum Einfrieren",
-      "Zum Mitnehmen",
-      "Zum Aufwärmen",
-      "Zum Umtauschen"
-    ],
-    "a": 1,
-    "ex": "Richtig: Zum Mitnehmen."
-  },
-  {
-    "q": "Quelle Milchalternative ist in Cafés häufig?",
-    "choices": [
-      "Bratensoße",
-      "Haferdrink",
-      "Sojasauce",
-      "Fischsauce"
-    ],
-    "a": 1,
-    "ex": "Richtig: Haferdrink."
-  },
-  {
-    "q": "Quelle Bohnenart hat oft mehr Koffein?",
-    "choices": [
-      "Vanille",
-      "Arabica",
-      "Kakao",
-      "Robusta"
-    ],
-    "a": 3,
-    "ex": "Richtig: Robusta."
-  },
-  {
-    "q": "Quelle Bohnenart ist weltweit sehr verbreitet?",
+    "q": "Quelle variété de grains est très répandue dans le monde ?",
     "choices": [
       "Jasmin",
       "Rooibos",
@@ -349,1854 +30,386 @@
       "Matcha"
     ],
     "a": 2,
-    "ex": "Richtig: Arabica."
+    "ex": "Correct : l’Arabica est l’une des variétés de café les plus répandues au monde."
   },
   {
-    "q": "Quelle Getränkebasis ist bei Cappuccino und Latte gleich?",
+    "q": "Quelle variété de grains contient souvent plus de caféine ?",
     "choices": [
-      "Wasser",
-      "Espresso",
-      "Tee",
-      "Kakao"
-    ],
-    "a": 1,
-    "ex": "Richtig: Espresso."
-  },
-  {
-    "q": "Was passiert bei dunklerer Röstung oft?",
-    "choices": [
-      "Er wird koffeinfrei",
-      "Er wird salziger",
-      "Er wird immer fruchtiger",
-      "Der Kaffee schmeckt kräftiger und röstiger"
-    ],
-    "a": 3,
-    "ex": "Richtig: Der Kaffee schmeckt kräftiger und röstiger."
-  },
-  {
-    "q": "Qu’est-ce que ein Espresso Macchiato?",
-    "choices": [
-      "Cold Brew mit Sahne",
-      "Milch mit viel Sirup",
-      "Filterkaffee mit Eis",
-      "Espresso mit einem kleinen Klecks Milch oder Schaum"
-    ],
-    "a": 3,
-    "ex": "Richtig: Espresso mit einem kleinen Klecks Milch oder Schaum."
-  },
-  {
-    "q": "Quelle Aussage stimmt meistens?",
-    "choices": [
-      "Filterkaffee enthält nie Koffein",
-      "Kaffee muss immer kalt sein",
-      "Kaffee besteht nur aus Zucker",
-      "Espresso ist konzentrierter als Filterkaffee"
-    ],
-    "a": 3,
-    "ex": "Richtig: Espresso ist konzentrierter als Filterkaffee."
-  },
-  {
-    "q": "Qu’est-ce que Instant-Kaffee?",
-    "choices": [
-      "Kaffee, der sich direkt in Wasser auflöst",
-      "Kaffee ohne Wasser",
-      "Kaffee aus Kakao",
-      "Kaffee aus Teeblättern"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kaffee, der sich direkt in Wasser auflöst."
-  },
-  {
-    "q": "Qu’est-ce que ein Affogato?",
-    "choices": [
-      "Espresso über Vanilleeis",
-      "Tee mit Honig",
-      "Kakao ohne Milch",
-      "Filterkaffee mit Eis"
-    ],
-    "a": 0,
-    "ex": "Richtig: Espresso über Vanilleeis."
-  },
-  {
-    "q": "Qu’est-ce que ein „Shot“ im Café meistens?",
-    "choices": [
-      "Ein Smoothie",
-      "Eine kleine Portion Espresso",
-      "Ein Stück Kuchen",
-      "Ein Glas Wasser"
-    ],
-    "a": 1,
-    "ex": "Richtig: Eine kleine Portion Espresso."
-  },
-  {
-    "q": "Pourquoi reinigen Cafés ihre Mühlen regelmäßig?",
-    "choices": [
-      "Damit kein alter Kaffeerest den Geschmack verfälscht",
-      "Damit die Bohnen größer werden",
-      "Damit das Koffein steigt",
-      "Damit Kaffee süßer wird"
-    ],
-    "a": 0,
-    "ex": "Richtig: Damit kein alter Kaffeerest den Geschmack verfälscht."
-  },
-  {
-    "q": "Quelle Option ist koffeinfrei(er)?",
-    "choices": [
-      "Entkoffeinierter Kaffee",
-      "Doppio",
-      "Ristretto",
-      "Espresso Shot"
-    ],
-    "a": 0,
-    "ex": "Richtig: Entkoffeinierter Kaffee."
-  },
-  {
-    "q": "Was bedeutet „Crema“ bei Espresso oft?",
-    "choices": [
-      "Ein Sirup",
-      "Eine Bohnenart",
-      "Ein Gewürz",
-      "Eine helle Schaumschicht auf dem Espresso"
-    ],
-    "a": 3,
-    "ex": "Richtig: Eine helle Schaumschicht auf dem Espresso."
-  },
-  {
-    "q": "Qu’est-ce que ein „Iced Latte“?",
-    "choices": [
-      "Tee mit Honig",
-      "Kakao ohne Milch",
-      "Heißer Espresso ohne Tasse",
-      "Kaffee mit Milch und Eis"
-    ],
-    "a": 3,
-    "ex": "Richtig: Kaffee mit Milch und Eis."
-  },
-  {
-    "q": "Quelle Zutat ist typisch für einen Vanilla Latte?",
-    "choices": [
-      "Sojasprossen",
-      "Vanillesirup",
-      "Chilipaste",
-      "Fischsauce"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vanillesirup."
-  },
-  {
-    "q": "Quelle affirmation correspond au café au café ?",
-    "choices": [
-      "Kaffee enthält kein Aroma",
-      "Kaffee wird ohne Wasser zubereitet",
-      "Man kann Kaffee mit oder ohne Milch bestellen",
-      "Kaffee wird aus Kartoffeln gemacht"
-    ],
-    "a": 2,
-    "ex": "Richtig: Man kann Kaffee mit oder ohne Milch bestellen."
-  },
-  {
-    "q": "Quelle affirmation correspond au café au café ?",
-    "choices": [
-      "Frische Bohnen riechen aromatisch",
-      "Kaffee wird aus Kartoffeln gemacht",
-      "Kaffee enthält kein Aroma",
-      "Kaffee wird ohne Wasser zubereitet"
-    ],
-    "a": 0,
-    "ex": "Richtig: Frische Bohnen riechen aromatisch."
-  },
-  {
-    "q": "Quelle affirmation correspond au café au café ?",
-    "choices": [
-      "Kaffee kann heiß oder kalt serviert werden",
-      "Kaffee wird ohne Wasser zubereitet",
-      "Kaffee enthält kein Aroma",
-      "Kaffee ist immer koffeinfrei"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kaffee kann heiß oder kalt serviert werden."
-  },
-  {
-    "q": "Quelle affirmation correspond au café au café ?",
-    "choices": [
-      "Kaffee kann heiß oder kalt serviert werden",
-      "Kaffee ist immer koffeinfrei",
-      "Kaffee wird aus Kartoffeln gemacht",
-      "Kaffee enthält kein Aroma"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kaffee kann heiß oder kalt serviert werden."
-  },
-  {
-    "q": "Quelle affirmation correspond au café au café ?",
-    "choices": [
-      "Kaffee enthält kein Aroma",
-      "Kaffee wird ohne Wasser zubereitet",
-      "Kaffee wird aus Kartoffeln gemacht",
-      "Viele Cafés bieten auch entkoffeiniert an"
-    ],
-    "a": 3,
-    "ex": "Richtig: Viele Cafés bieten auch entkoffeiniert an."
-  },
-  {
-    "q": "Quelle affirmation correspond au café au café ?",
-    "choices": [
-      "Kaffee wird aus Kartoffeln gemacht",
-      "Kaffee ist immer koffeinfrei",
-      "Man kann Kaffee mit oder ohne Milch bestellen",
-      "Kaffee wird ohne Wasser zubereitet"
-    ],
-    "a": 2,
-    "ex": "Richtig: Man kann Kaffee mit oder ohne Milch bestellen."
-  },
-  {
-    "q": "Si tu commandes « Cà phê sữa đá », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Kakao mit Sahne",
-      "Espresso Martini",
-      "café glacé au lait concentré sucré",
-      "Grünen Tee mit Zitrone"
-    ],
-    "a": 2,
-    "ex": "Richtig: café glacé au lait concentré sucré."
-  },
-  {
-    "q": "Si tu commandes « Cà phê sữa nóng », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Milch ohne Kaffee",
-      "Schwarzen Kaffee ohne Zucker",
-      "Tee mit Kondensmilch",
-      "café chaud au lait concentré"
-    ],
-    "a": 3,
-    "ex": "Richtig: café chaud au lait concentré."
-  },
-  {
-    "q": "Si tu commandes « Cà phê đen », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Espresso Martini",
-      "Grünen Tee mit Zitrone",
-      "café noir",
-      "Milch ohne Kaffee"
-    ],
-    "a": 2,
-    "ex": "Richtig: café noir."
-  },
-  {
-    "q": "Si tu commandes « Cà phê đen đá », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Espresso Martini",
-      "Grünen Tee mit Zitrone",
-      "Schwarzen Kaffee ohne Zucker",
-      "Schwarzer Eiskaffee ohne Milch"
-    ],
-    "a": 3,
-    "ex": "Richtig: Schwarzer Eiskaffee ohne Milch."
-  },
-  {
-    "q": "Si tu commandes « Bạc xỉu », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Espresso Martini",
-      "Kakao mit Sahne",
-      "Sehr milchiges, süßes Getränk mit wenig Kaffee",
-      "Tee mit Kondensmilch"
-    ],
-    "a": 2,
-    "ex": "Richtig: Sehr milchiges, süßes Getränk mit wenig Kaffee."
-  },
-  {
-    "q": "Si tu commandes « Cà phê trứng », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Schwarzen Kaffee ohne Zucker",
-      "Kakao mit Sahne",
-      "Grünen Tee mit Zitrone",
-      "Eierkaffee (Egg Coffee)"
-    ],
-    "a": 3,
-    "ex": "Richtig: Eierkaffee (Egg Coffee)."
-  },
-  {
-    "q": "Si tu commandes « Cà phê muối », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Espresso Martini",
-      "Tee mit Kondensmilch",
-      "Kaffee mit einer Prise Salz (salzige Note)",
-      "Schwarzen Kaffee ohne Zucker"
-    ],
-    "a": 2,
-    "ex": "Richtig: Kaffee mit einer Prise Salz (salzige Note)."
-  },
-  {
-    "q": "Si tu commandes « Cà phê dừa », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Schwarzen Kaffee ohne Zucker",
-      "Kaffee mit Kokos",
-      "Milch ohne Kaffee",
-      "Grünen Tee mit Zitrone"
-    ],
-    "a": 1,
-    "ex": "Richtig: Kaffee mit Kokos."
-  },
-  {
-    "q": "Si tu commandes « Cà phê sữa chua », qu’est-ce que tu reçois ?",
-    "choices": [
-      "Schwarzen Kaffee ohne Zucker",
-      "Grünen Tee mit Zitrone",
-      "Milch ohne Kaffee",
-      "Kaffee mit Joghurt"
-    ],
-    "a": 3,
-    "ex": "Richtig: Kaffee mit Joghurt."
-  },
-  {
-    "q": "Si tu commandes « Phin », qu’est-ce que tu reçois ?",
-    "choices": [
-      "kleiner vietnamesischer Metallfilter zum Tropfen",
-      "Grünen Tee mit Zitrone",
-      "Tee mit Kondensmilch",
-      "Kakao mit Sahne"
-    ],
-    "a": 0,
-    "ex": "Richtig: kleiner vietnamesischer Metallfilter zum Tropfen."
-  },
-  {
-    "q": "Que signifie « sữa » en vietnamien (boissons) ?",
-    "choices": [
-      "Kakao",
-      "Kaffee",
-      "lait",
-      "Honig"
-    ],
-    "a": 2,
-    "ex": "Richtig: lait."
-  },
-  {
-    "q": "Que signifie « đá » en vietnamien (boissons) ?",
-    "choices": [
-      "glace",
-      "Kaffee",
-      "Zucker",
-      "Kokos"
-    ],
-    "a": 0,
-    "ex": "Richtig: glace."
-  },
-  {
-    "q": "Que signifie « đen » en vietnamien (boissons) ?",
-    "choices": [
-      "noir",
-      "Honig",
-      "Zucker",
-      "Kakao"
-    ],
-    "a": 0,
-    "ex": "Richtig: noir."
-  },
-  {
-    "q": "Que signifie « nóng » en vietnamien (boissons) ?",
-    "choices": [
-      "Kakao",
-      "chaud",
-      "Honig",
-      "Kokos"
-    ],
-    "a": 1,
-    "ex": "Richtig: chaud."
-  },
-  {
-    "q": "Que signifie « chua » en vietnamien (boissons) ?",
-    "choices": [
-      "Honig",
-      "Kaffee",
-      "Kokos",
-      "Joghurt (in „sữa chua“)"
-    ],
-    "a": 3,
-    "ex": "Richtig: Joghurt (in „sữa chua“)."
-  },
-  {
-    "q": "Comment s’appelle der typische vietnamesische Kaffee-Filter?",
-    "choices": [
-      "Papierfilter",
-      "Teesieb",
-      "Siebträgerkorb",
-      "filtre phin"
-    ],
-    "a": 3,
-    "ex": "Richtig: filtre phin."
-  },
-  {
-    "q": "Pourquoi wird vietnamesischer Kaffee oft auf Eis serviert?",
-    "choices": [
-      "Weil es sonst nicht trinkbar ist",
-      "Weil es erfrischend ist, besonders bei Wärme",
-      "Weil Eis Koffein entfernt",
-      "Weil es dann automatisch süßer wird"
-    ],
-    "a": 1,
-    "ex": "Richtig: Weil es erfrischend ist, besonders bei Wärme."
-  },
-  {
-    "q": "Quelle Milch wird in Vietnam oft für süßen Kaffee genutzt?",
-    "choices": [
-      "Sauerrahm",
-      "Buttermilch",
-      "Gesüßte Kondensmilch",
-      "Schmand"
-    ],
-    "a": 2,
-    "ex": "Richtig: Gesüßte Kondensmilch."
-  },
-  {
-    "q": "In welcher Stadt ist Egg Coffee besonders bekannt?",
-    "choices": [
-      "London",
-      "Hanoi",
-      "Mainz",
-      "Madrid"
-    ],
-    "a": 1,
-    "ex": "Richtig: Hanoi."
-  },
-  {
-    "q": "Quelle Bohnenart baut Vietnam sehr viel an?",
-    "choices": [
-      "Tee",
-      "Arabica nur",
-      "Kakao",
+      "Vanille",
+      "Arabica",
+      "Cacao",
       "Robusta"
     ],
     "a": 3,
-    "ex": "Richtig: Robusta."
+    "ex": "Correct : le Robusta contient souvent plus de caféine que l’Arabica."
   },
   {
-    "q": "Quelle Reihenfolge passt oft zu Phin-Kaffee mit Kondensmilch?",
+    "q": "Qu’est-ce qu’un espresso ?",
     "choices": [
-      "Eis zuerst, dann Salz, dann Tee",
-      "Kaffee einfrieren, dann warm machen",
-      "Kondensmilch ins Glas, Kaffee tropft darüber, dann umrühren",
-      "Milch aufschäumen, dann Kakao"
+      "Une soupe de nouilles",
+      "Une sauce au fromage",
+      "Un petit café concentré",
+      "Un type de thé"
     ],
     "a": 2,
-    "ex": "Richtig: Kondensmilch ins Glas, Kaffee tropft darüber, dann umrühren."
+    "ex": "Correct : un espresso est un petit café concentré."
   },
   {
-    "q": "Qu’est-ce que „Cà phê muối“?",
+    "q": "Qu’est-ce qu’un cappuccino en général ?",
     "choices": [
-      "Kaffee mit Sojasauce",
-      "Kaffee ohne Wasser",
-      "Kaffee mit einer Prise Salz (salzige Note)",
-      "Kaffee nur aus Zucker"
+      "Une boisson gazeuse",
+      "Un type de gâteau",
+      "Un espresso avec du lait et de la mousse de lait",
+      "Une soupe de nouilles"
     ],
     "a": 2,
-    "ex": "Richtig: Kaffee mit einer Prise Salz (salzige Note)."
+    "ex": "Correct : un cappuccino est composé d’un espresso avec du lait et de la mousse de lait."
   },
   {
-    "q": "Qu’est-ce que „Bạc xỉu“?",
+    "q": "Qu’est-ce qu’un latte macchiato ?",
     "choices": [
-      "Süßes Milchgetränk mit wenig Kaffee",
-      "Kaffee mit Chili",
-      "Tee mit Zitronengras",
-      "Schwarzer Espresso doppelt"
+      "Du lait avec de l’espresso en couches",
+      "Un type de thé",
+      "Une soupe de nouilles",
+      "Une ville en Italie"
     ],
     "a": 0,
-    "ex": "Richtig: Süßes Milchgetränk mit wenig Kaffee."
+    "ex": "Correct : un latte macchiato est du lait avec de l’espresso en couches."
   },
   {
-    "q": "Qu’est-ce que „Cà phê trứng“ am ehesten?",
+    "q": "Qu’est-ce qu’un americano ?",
     "choices": [
-      "Kaffee mit Käse",
-      "Kaffee mit einer cremigen Ei-Mischung",
-      "Kaffee mit Fischsauce",
-      "Kaffee mit Spinat"
+      "Un cocktail sans alcool",
+      "Un espresso allongé à l’eau chaude",
+      "Une épice",
+      "Une boisson gazeuse"
     ],
     "a": 1,
-    "ex": "Richtig: Kaffee mit einer cremigen Ei-Mischung."
+    "ex": "Correct : un americano est un espresso allongé à l’eau chaude."
   },
   {
-    "q": "Quelle Kombination passt zu „Cà phê dừa“?",
+    "q": "Qu’est-ce que le cold brew ?",
     "choices": [
-      "Kaffee + Ketchup",
-      "Kaffee + Essig",
-      "Kaffee + Sojasauce",
-      "Kaffee + Kokos"
+      "Du café infusé à froid pendant longtemps",
+      "Un type de thé",
+      "Une épice",
+      "Un type de gâteau"
+    ],
+    "a": 0,
+    "ex": "Correct : le cold brew est du café infusé à froid pendant longtemps."
+  },
+  {
+    "q": "Que signifie « décaféiné » ?",
+    "choices": [
+      "Une boisson gazeuse",
+      "Un type de gâteau",
+      "Un type de thé",
+      "Du café avec beaucoup moins de caféine"
     ],
     "a": 3,
-    "ex": "Richtig: Kaffee + Kokos."
+    "ex": "Correct : le café décaféiné contient beaucoup moins de caféine."
+  }
+]
+  ,
+  {
+    "q": "Que signifie « single origin » ?",
+    "choices": [
+      "Une ville en Italie",
+      "Des grains provenant d’une seule origine",
+      "Une boisson gazeuse",
+      "Une soupe de nouilles"
+    ],
+    "a": 1,
+    "ex": "Correct : « single origin » signifie que les grains proviennent d’une seule origine."
   },
   {
-    "q": "Quelle Variante ist meist ohne Milch?",
+    "q": "Que signifie « blend » pour le café ?",
     "choices": [
-      "Bạc xỉu",
-      "Cà phê dừa",
-      "Cà phê sữa đá",
-      "Cà phê đen"
+      "Un type de thé",
+      "Un mélange de grains de différentes origines",
+      "Une boisson gazeuse",
+      "Une épice"
+    ],
+    "a": 1,
+    "ex": "Correct : un blend est un mélange de grains de différentes origines."
+  },
+  {
+    "q": "Que signifie « barista » ?",
+    "choices": [
+      "Une personne qui prépare le café professionnellement",
+      "Une soupe de nouilles",
+      "Un type de gâteau",
+      "Un type de thé"
+    ],
+    "a": 0,
+    "ex": "Correct : un barista est une personne qui prépare le café professionnellement."
+  },
+  {
+    "q": "Que signifie « mousse de lait » dans le café ?",
+    "choices": [
+      "Un cocktail sans alcool",
+      "Une boisson gazeuse",
+      "Du lait moussé pour une texture crémeuse",
+      "Une épice"
+    ],
+    "a": 2,
+    "ex": "Correct : la mousse de lait est du lait moussé qui donne une texture crémeuse."
+  },
+  {
+    "q": "Que signifie le « degré de torréfaction » ?",
+    "choices": [
+      "Une boisson gazeuse",
+      "À quel point les grains sont clairs ou foncés",
+      "Une ville en Italie",
+      "Une épice"
+    ],
+    "a": 1,
+    "ex": "Correct : le degré de torréfaction décrit à quel point les grains sont clairs ou foncés."
+  },
+  {
+    "q": "Qu’est-ce que la cerise de café ?",
+    "choices": [
+      "Un cocktail sans alcool",
+      "Le fruit qui contient le grain de café",
+      "Une soupe de nouilles",
+      "Un type de gâteau"
+    ],
+    "a": 1,
+    "ex": "Correct : la cerise de café est le fruit qui contient le grain de café."
+  },
+  {
+    "q": "Qu’est-ce que le café filtre ?",
+    "choices": [
+      "Une soupe de nouilles",
+      "Un type de thé",
+      "Du café qui passe à travers un filtre",
+      "Une boisson gazeuse"
+    ],
+    "a": 2,
+    "ex": "Correct : le café filtre est du café qui passe à travers un filtre."
+  },
+  {
+    "q": "Qu’est-ce qu’une cafetière à piston (French press) ?",
+    "choices": [
+      "Une cafetière où le café infuse puis est pressé",
+      "Un type de thé",
+      "Un cocktail sans alcool",
+      "Une soupe de nouilles"
+    ],
+    "a": 0,
+    "ex": "Correct : une cafetière à piston permet d’infuser le café puis de le presser."
+  },
+  {
+    "q": "Qu’est-ce qu’un doppio ?",
+    "choices": [
+      "Un double espresso",
+      "Un type de gâteau",
+      "Une boisson gazeuse",
+      "Une sauce au fromage"
+    ],
+    "a": 0,
+    "ex": "Correct : un doppio est un double espresso."
+  },
+  {
+    "q": "Qu’est-ce qu’un flat white ?",
+    "choices": [
+      "Un espresso avec du lait fin et crémeux",
+      "Une épice",
+      "Une sauce au fromage",
+      "Un cocktail sans alcool"
+    ],
+    "a": 0,
+    "ex": "Correct : un flat white est un espresso avec du lait fin et crémeux."
+  }
+]
+  ,
+  {
+    "q": "Qu’est-ce qu’un mocha ?",
+    "choices": [
+      "Une soupe de nouilles",
+      "Un type de gâteau",
+      "Du café avec du cacao/chocolat",
+      "Une ville en Italie"
+    ],
+    "a": 2,
+    "ex": "Correct : un mocha est du café avec du cacao ou du chocolat."
+  },
+  {
+    "q": "Qu’est-ce qu’un affogato ?",
+    "choices": [
+      "Une sauce au fromage",
+      "Un type de thé",
+      "Une soupe de nouilles",
+      "Un espresso sur de la glace à la vanille"
     ],
     "a": 3,
-    "ex": "Richtig: Cà phê đen."
+    "ex": "Correct : un affogato est un espresso versé sur de la glace à la vanille."
   },
   {
-    "q": "Quelle Variante ist typischerweise kalt?",
+    "q": "Pourquoi l’eau fraîche est-elle importante pour le café ?",
     "choices": [
-      "Cà phê sữa nóng",
-      "Espresso pur heiß",
-      "Cà phê sữa đá",
-      "Filterkaffee frisch heiß"
-    ],
-    "a": 2,
-    "ex": "Richtig: Cà phê sữa đá."
-  },
-  {
-    "q": "Quelle Aussage über Vietnam und Kaffee stimmt?",
-    "choices": [
-      "Vietnam produziert nur Tee",
-      "Vietnam ist eines der größten Kaffee-Produzentenländer",
-      "Vietnam produziert keinen Kaffee",
-      "Vietnam exportiert keinen Kaffee"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam ist eines der größten Kaffee-Produzentenländer."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "Kaffee wird dort immer salzig gekocht",
-      "In Vietnam gibt es keine Cafés",
-      "Kondensmilch ist sehr typisch"
+      "Parce qu’elle colore la tasse",
+      "Parce qu’elle double la caféine",
+      "Parce qu’elle remplace le sucre",
+      "Parce qu’elle influence fortement le goût"
     ],
     "a": 3,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
+    "ex": "Correct : l’eau fraîche influence fortement le goût du café."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Qu’est-ce qui peut rendre le café amer ?",
     "choices": [
-      "In Vietnam gibt es keine Cafés",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "Der Phin-Filter lässt Kaffee langsam tropfen",
-      "Kaffee wird dort immer salzig gekocht"
+      "Trop de sucre",
+      "Trop de glaçons",
+      "Une extraction trop longue ou trop chaude",
+      "Trop peu de tasses"
     ],
     "a": 2,
-    "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
+    "ex": "Correct : une extraction trop longue ou une eau trop chaude peut rendre le café amer."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Qu’est-ce qu’un café glacé classique ?",
     "choices": [
-      "Phin ist ein Brot",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "Kondensmilch ist sehr typisch",
-      "Kaffee wird dort immer salzig gekocht"
+      "Du thé avec des glaçons",
+      "Du café chaud sans tasse",
+      "Du café froid avec de la glace, souvent avec du lait ou de la vanille",
+      "De l’eau avec du cacao"
     ],
     "a": 2,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
+    "ex": "Correct : un café glacé classique est du café froid avec de la glace, souvent avec du lait ou de la vanille."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Pourquoi beaucoup de gens utilisent-ils un moulin à café ?",
     "choices": [
-      "Vietnam baut viel Robusta an",
-      "In Vietnam gibt es keine Cafés",
-      "Phin ist ein Brot",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Kondensmilch ist sehr typisch",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "Kaffee wird dort immer salzig gekocht",
-      "In Vietnam gibt es keine Cafés"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Kondensmilch ist sehr typisch",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "In Vietnam gibt es keine Cafés",
-      "Kaffee wird dort immer salzig gekocht"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "Phin ist ein Brot",
-      "Viele Varianten werden mit Eis getrunken",
-      "In Vietnam gibt es keine Cafés"
-    ],
-    "a": 2,
-    "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Kaffee wird dort immer salzig gekocht",
-      "Vietnam baut viel Robusta an",
-      "Phin ist ein Brot",
-      "In Vietnam gibt es keine Cafés"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "In Vietnam gibt es keine Cafés",
-      "Phin ist ein Brot",
-      "Vietnam baut viel Robusta an",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Phin ist ein Brot",
-      "Kondensmilch ist sehr typisch",
-      "In Vietnam gibt es keine Cafés",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
-    ],
-    "a": 1,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Kondensmilch ist sehr typisch",
-      "In Vietnam gibt es keine Cafés",
-      "Kaffee wird dort immer salzig gekocht",
-      "Phin ist ein Brot"
-    ],
-    "a": 0,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Der Phin-Filter lässt Kaffee langsam tropfen",
-      "Kaffee wird dort immer salzig gekocht",
-      "Phin ist ein Brot",
-      "In Vietnam gibt es keine Cafés"
-    ],
-    "a": 0,
-    "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Vietnam baut viel Robusta an",
-      "In Vietnam gibt es keine Cafés",
-      "Kaffee wird dort immer salzig gekocht",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Phin ist ein Brot",
-      "Vietnam baut viel Robusta an",
-      "In Vietnam gibt es keine Cafés",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Phin ist ein Brot",
-      "Kaffee wird dort immer salzig gekocht",
-      "In Vietnam gibt es keine Cafés",
-      "Viele Varianten werden mit Eis getrunken"
+      "Pour que le café devienne décaféiné",
+      "Pour que le café devienne automatiquement sucré",
+      "Pour ne pas avoir besoin d’eau",
+      "Pour plus d’arôme grâce au café fraîchement moulu"
     ],
     "a": 3,
-    "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
+    "ex": "Correct : le café fraîchement moulu a plus d’arôme."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Quel ingrédient donne un goût chocolaté au café ?",
     "choices": [
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "In Vietnam gibt es keine Cafés",
-      "Kaffee wird dort immer salzig gekocht",
-      "Der Phin-Filter lässt Kaffee langsam tropfen"
+      "Ciboulette",
+      "Cacao ou chocolat",
+      "Sauce soja",
+      "Moutarde"
+    ],
+    "a": 1,
+    "ex": "Correct : le cacao ou le chocolat donnent un goût chocolaté au café."
+  },
+  {
+    "q": "Que signifie « à emporter / to go » dans un café ?",
+    "choices": [
+      "Congeler",
+      "À emporter",
+      "Réchauffer",
+      "Échanger"
+    ],
+    "a": 1,
+    "ex": "Correct : « to go » signifie à emporter."
+  },
+  {
+    "q": "Quelle alternative au lait est courante dans les cafés ?",
+    "choices": [
+      "Sauce",
+      "Lait d’avoine",
+      "Sauce soja",
+      "Sauce de poisson"
+    ],
+    "a": 1,
+    "ex": "Correct : le lait d’avoine est une alternative courante au lait dans les cafés."
+  }
+]
+  ,
+  {
+    "q": "Quelle base est la même pour le cappuccino et le latte ?",
+    "choices": [
+      "L’eau",
+      "L’espresso",
+      "Le thé",
+      "Le cacao"
+    ],
+    "a": 1,
+    "ex": "Correct : le cappuccino et le latte sont tous deux à base d’espresso."
+  },
+  {
+    "q": "Que se passe-t-il souvent avec une torréfaction plus foncée ?",
+    "choices": [
+      "Le café devient décaféiné",
+      "Le café devient plus salé",
+      "Le café devient toujours plus fruité",
+      "Le café a un goût plus fort et plus torréfié"
     ],
     "a": 3,
-    "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
+    "ex": "Correct : les torréfactions plus foncées ont souvent un goût plus fort et plus torréfié."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Qu’est-ce qu’un espresso macchiato ?",
     "choices": [
-      "Viele Varianten werden mit Eis getrunken",
-      "In Vietnam gibt es keine Cafés",
-      "Phin ist ein Brot",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht"
-    ],
-    "a": 0,
-    "ex": "Richtig: Viele Varianten werden mit Eis getrunken."
-  },
-  {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
-    "choices": [
-      "Kaffee wird dort immer salzig gekocht",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "In Vietnam gibt es keine Cafés",
-      "Der Phin-Filter lässt Kaffee langsam tropfen"
+      "Un cold brew avec de la crème",
+      "Du lait avec beaucoup de sirop",
+      "Du café filtre avec de la glace",
+      "Un espresso avec un peu de lait ou de mousse"
     ],
     "a": 3,
-    "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
+    "ex": "Correct : un espresso macchiato est un espresso avec un peu de lait ou de mousse."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Quelle affirmation est généralement vraie ?",
     "choices": [
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "Kaffee wird dort immer salzig gekocht",
-      "Phin ist ein Brot",
-      "Der Phin-Filter lässt Kaffee langsam tropfen"
+      "Le café filtre ne contient jamais de caféine",
+      "Le café doit toujours être froid",
+      "Le café est composé uniquement de sucre",
+      "L’espresso est plus concentré que le café filtre"
     ],
     "a": 3,
-    "ex": "Richtig: Der Phin-Filter lässt Kaffee langsam tropfen."
+    "ex": "Correct : l’espresso est plus concentré que le café filtre."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Qu’est-ce que le café instantané ?",
     "choices": [
-      "In Vietnam gibt es keine Cafés",
-      "Kaffee wird dort immer salzig gekocht",
-      "Vietnam baut viel Robusta an",
-      "Phin ist ein Brot"
+      "Du café qui se dissout directement dans l’eau",
+      "Du café sans eau",
+      "Du café fait à partir de cacao",
+      "Du café fait à partir de feuilles de thé"
     ],
-    "a": 2,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
+    "a": 0,
+    "ex": "Correct : le café instantané se dissout directement dans l’eau."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Qu’est-ce qu’un « shot » dans un café ?",
     "choices": [
-      "Kaffee wird dort immer salzig gekocht",
-      "Vietnam baut viel Robusta an",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "In Vietnam gibt es keine Cafés"
+      "Un smoothie",
+      "Une petite portion d’espresso",
+      "Un morceau de gâteau",
+      "Un verre d’eau"
     ],
     "a": 1,
-    "ex": "Richtig: Vietnam baut viel Robusta an."
+    "ex": "Correct : un « shot » est une petite portion d’espresso."
   },
   {
-    "q": "Quelle affirmation correspond au café vietnamien ?",
+    "q": "Pourquoi les cafés nettoient-ils régulièrement leurs moulins ?",
     "choices": [
-      "Kondensmilch ist sehr typisch",
-      "Vietnamesischer Kaffee wird nur aus Tee gemacht",
-      "In Vietnam gibt es keine Cafés",
-      "Phin ist ein Brot"
+      "Pour que les vieux résidus n’altèrent pas le goût",
+      "Pour que les grains deviennent plus gros",
+      "Pour augmenter la caféine",
+      "Pour rendre le café plus sucré"
     ],
     "a": 0,
-    "ex": "Richtig: Kondensmilch ist sehr typisch."
+    "ex": "Correct : les résidus de café peuvent altérer le goût, d’où le nettoyage régulier."
   },
   {
-    "q": "Sur quel continent se trouve le Vietnam ?",
+    "q": "Quelle option est (plutôt) sans caféine ?",
     "choices": [
-      "Europa",
-      "Asie",
-      "Südamerika",
-      "Afrika"
-    ],
-    "a": 1,
-    "ex": "Richtig: Asie."
-  },
-  {
-    "q": "Quelle est la capitale du Vietnam ?",
-    "choices": [
-      "Kuala Lumpur",
-      "Manila",
-      "Hanoi",
-      "Bangkok"
-    ],
-    "a": 2,
-    "ex": "Richtig: Hanoi."
-  },
-  {
-    "q": "Comment s’appelle die größte Stadt Vietnams heute?",
-    "choices": [
-      "Hanoi",
-      "Ho-Chi-Minh-Stadt",
-      "Da Nang",
-      "Hue"
-    ],
-    "a": 1,
-    "ex": "Richtig: Ho-Chi-Minh-Stadt."
-  },
-  {
-    "q": "Quelle est la monnaie du Vietnam ?",
-    "choices": [
-      "Yen",
-      "Dollar (USD)",
-      "Đồng (VND)",
-      "Euro"
-    ],
-    "a": 2,
-    "ex": "Richtig: Đồng (VND)."
-  },
-  {
-    "q": "Welches Neujahrsfest feiert man in Vietnam?",
-    "choices": [
-      "Tết",
-      "Hanami",
-      "Diwali",
-      "Oktoberfest"
+      "Le café décaféiné",
+      "Le doppio",
+      "Le ristretto",
+      "Un shot d’espresso"
     ],
     "a": 0,
-    "ex": "Richtig: Tết."
-  },
-  {
-    "q": "Quelle berühmte Bucht ist für Felseninseln bekannt?",
-    "choices": [
-      "Hudson Bay",
-      "San Francisco Bay",
-      "Ha Long Bay",
-      "Biskaya"
-    ],
-    "a": 2,
-    "ex": "Richtig: Ha Long Bay."
-  },
-  {
-    "q": "Quelle Nachbarländer hat Vietnam?",
-    "choices": [
-      "Indien, Nepal, Bhutan",
-      "China, Laos, Kambodscha",
-      "Thailand, Malaysia, Singapur",
-      "Japan, Korea, Taiwan"
-    ],
-    "a": 1,
-    "ex": "Richtig: China, Laos, Kambodscha."
-  },
-  {
-    "q": "Welcher große Fluss ist im Süden Vietnams wichtig?",
-    "choices": [
-      "Amazonas",
-      "Mekong",
-      "Nil",
-      "Rhein"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mekong."
-  },
-  {
-    "q": "Quelle Stadt ist bekannt für Laternen und Altstadt?",
-    "choices": [
-      "Hội An",
-      "Edinburgh",
-      "Oslo",
-      "Zürich"
-    ],
-    "a": 0,
-    "ex": "Richtig: Hội An."
-  },
-  {
-    "q": "Quelle Region ist bekannt für Reisterrassen?",
-    "choices": [
-      "Rotterdam",
-      "Sapa",
-      "Bremen",
-      "Tübingen"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sapa."
-  },
-  {
-    "q": "Qu’est-ce que Pho?",
-    "choices": [
-      "Sushi",
-      "Pizza",
-      "Vietnamesische Nudelsuppe",
-      "Gulasch"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnamesische Nudelsuppe."
-  },
-  {
-    "q": "Qu’est-ce que Bánh mì?",
-    "choices": [
-      "Käsekuchen",
-      "Vietnamesisches Baguette-Sandwich",
-      "Sushi-Rolle",
-      "Paella"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnamesisches Baguette-Sandwich."
-  },
-  {
-    "q": "Qu’est-ce que Gỏi cuốn?",
-    "choices": [
-      "Frische Sommerrollen aus Reispapier",
-      "Lasagne",
-      "Frittierte Pommes",
-      "Apfelstrudel"
-    ],
-    "a": 0,
-    "ex": "Richtig: Frische Sommerrollen aus Reispapier."
-  },
-  {
-    "q": "Qu’est-ce que Nước mắm?",
-    "choices": [
-      "Mineralwasser",
-      "Fischsauce",
-      "Ahornsirup",
-      "Ketchup"
-    ],
-    "a": 1,
-    "ex": "Richtig: Fischsauce."
-  },
-  {
-    "q": "Quelle Insel ist in Vietnam als Urlaubsziel bekannt?",
-    "choices": [
-      "Mallorca",
-      "Bali",
-      "Sylt",
-      "Phú Quốc"
-    ],
-    "a": 3,
-    "ex": "Richtig: Phú Quốc."
-  },
-  {
-    "q": "Quelle Stadt ist für Laternenfeste und Atmosphäre berühmt?",
-    "choices": [
-      "Huế",
-      "Hanoi",
-      "Da Nang",
-      "Hội An"
-    ],
-    "a": 3,
-    "ex": "Richtig: Hội An."
-  },
-  {
-    "q": "Quelle Sprache wird in Vietnam gesprochen?",
-    "choices": [
-      "Schwedisch",
-      "Vietnamesisch",
-      "Arabisch",
-      "Portugiesisch"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnamesisch."
-  },
-  {
-    "q": "Quelle Schrift nutzt Vietnamesisch heute?",
-    "choices": [
-      "Hebräisch",
-      "Arabische Schrift",
-      "Kyrillisch",
-      "Lateinisches Alphabet mit Zeichen"
-    ],
-    "a": 3,
-    "ex": "Richtig: Lateinisches Alphabet mit Zeichen."
-  },
-  {
-    "q": "Qu’est-ce que „áo dài“?",
-    "choices": [
-      "Ein Metallhut",
-      "Ein Motorradmodell",
-      "Ein traditionelles vietnamesisches Kleid",
-      "Ein Gewürz"
-    ],
-    "a": 2,
-    "ex": "Richtig: Ein traditionelles vietnamesisches Kleid."
-  },
-  {
-    "q": "Qu’est-ce que typisch als Transportmittel in Vietnam?",
-    "choices": [
-      "Motorroller",
-      "Kamel",
-      "Schlitten",
-      "Gondel"
-    ],
-    "a": 0,
-    "ex": "Richtig: Motorroller."
-  },
-  {
-    "q": "Quelle Stadt liegt an der Küste und ist für Strände bekannt?",
-    "choices": [
-      "Da Nang",
-      "Oslo",
-      "Bern",
-      "Ulaanbaatar"
-    ],
-    "a": 0,
-    "ex": "Richtig: Da Nang."
-  },
-  {
-    "q": "Quelle Region gehört zu Vietnam?",
-    "choices": [
-      "Alpen",
-      "Anden",
-      "Sahara",
-      "Mekong-Delta"
-    ],
-    "a": 3,
-    "ex": "Richtig: Mekong-Delta."
-  },
-  {
-    "q": "Qu’est-ce que Bún chả?",
-    "choices": [
-      "Paella",
-      "Sauerbraten",
-      "Käsefondue",
-      "Gegrilltes Fleisch mit Reisnudeln"
-    ],
-    "a": 3,
-    "ex": "Richtig: Gegrilltes Fleisch mit Reisnudeln."
-  },
-  {
-    "q": "Qu’est-ce que Bánh xèo?",
-    "choices": [
-      "Schokokuchen",
-      "Sushi-Box",
-      "Käsespätzle",
-      "Knuspriger vietnamesischer Pfannkuchen"
-    ],
-    "a": 3,
-    "ex": "Richtig: Knuspriger vietnamesischer Pfannkuchen."
-  },
-  {
-    "q": "Quelle Jahreszeiten sind in vielen Teilen Vietnams typisch?",
-    "choices": [
-      "Vier gleich kalte Winter",
-      "Nur Schneezeit",
-      "Nur Herbst",
-      "Regen- und Trockenzeit"
-    ],
-    "a": 3,
-    "ex": "Richtig: Regen- und Trockenzeit."
-  },
-  {
-    "q": "Quelle Stadt liegt im Süden Vietnams?",
-    "choices": [
-      "Hanoi",
-      "Ha Giang",
-      "Sapa",
-      "Ho-Chi-Minh-Stadt"
-    ],
-    "a": 3,
-    "ex": "Richtig: Ho-Chi-Minh-Stadt."
-  },
-  {
-    "q": "Quelle Stadt liegt im Norden Vietnams?",
-    "choices": [
-      "Vũng Tàu",
-      "Phú Quốc",
-      "Hanoi",
-      "Cần Thơ"
-    ],
-    "a": 2,
-    "ex": "Richtig: Hanoi."
-  },
-  {
-    "q": "Welches Meer liegt östlich von Vietnam?",
-    "choices": [
-      "Nordsee",
-      "Karibisches Meer",
-      "Ostsee",
-      "Südchinesisches Meer"
-    ],
-    "a": 3,
-    "ex": "Richtig: Südchinesisches Meer."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat keine Küste",
-      "In Vietnam bezahlt man mit Euro",
-      "Vietnam liegt in Südamerika",
-      "Vietnam ist ein wichtiger Kaffee-Exporteur"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam liegt in Südamerika",
-      "Vietnam ist bekannt für Streetfood",
-      "Vietnam hat keine Küste",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam liegt in Südamerika",
-      "Vietnam ist bekannt für Streetfood"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris",
-      "In Vietnam bezahlt man mit Euro",
-      "Tết ist das Neujahrsfest"
-    ],
-    "a": 3,
-    "ex": "Richtig: Tết ist das Neujahrsfest."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam ist bekannt für Streetfood",
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam liegt in Südamerika"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat Berge, Küste und Deltas",
-      "Vietnam liegt in Südamerika",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam hat keine Küste"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Die Hauptstadt heißt Paris",
-      "Tết ist das Neujahrsfest",
-      "In Vietnam bezahlt man mit Euro",
-      "Vietnam liegt in Südamerika"
-    ],
-    "a": 1,
-    "ex": "Richtig: Tết ist das Neujahrsfest."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat keine Küste",
-      "Vietnam ist ein wichtiger Kaffee-Exporteur",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam liegt in Südamerika"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam ist ein wichtiger Kaffee-Exporteur",
-      "In Vietnam bezahlt man mit Euro",
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam liegt in Südamerika",
-      "Vietnam ist bekannt für Streetfood",
-      "Vietnam hat keine Küste",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat keine Küste",
-      "Vietnam liegt in Südamerika",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam ist ein wichtiger Kaffee-Exporteur"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam ist ein wichtiger Kaffee-Exporteur",
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam ist ein wichtiger Kaffee-Exporteur",
-      "Die Hauptstadt heißt Paris",
-      "In Vietnam bezahlt man mit Euro",
-      "Vietnam hat keine Küste"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam liegt in Südamerika",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam hat Berge, Küste und Deltas",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat Berge, Küste und Deltas",
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam liegt in Südamerika",
-      "Vietnam hat keine Küste",
-      "Vietnam ist bekannt für Streetfood",
-      "Die Hauptstadt heißt Paris"
-    ],
-    "a": 2,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam liegt in Südamerika",
-      "Vietnam hat keine Küste",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam ist bekannt für Streetfood"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat Berge, Küste und Deltas",
-      "In Vietnam bezahlt man mit Euro",
-      "Die Hauptstadt heißt Paris",
-      "Vietnam liegt in Südamerika"
-    ],
-    "a": 0,
-    "ex": "Richtig: Vietnam hat Berge, Küste und Deltas."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Die Hauptstadt heißt Paris",
-      "Vietnam ist ein wichtiger Kaffee-Exporteur",
-      "In Vietnam bezahlt man mit Euro",
-      "Vietnam liegt in Südamerika"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Die Hauptstadt heißt Paris",
-      "Vietnam hat keine Küste",
-      "Vietnam liegt in Südamerika",
-      "Vietnam ist bekannt für Streetfood"
-    ],
-    "a": 3,
-    "ex": "Richtig: Vietnam ist bekannt für Streetfood."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam liegt in Südamerika",
-      "Tết ist das Neujahrsfest",
-      "Die Hauptstadt heißt Paris",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 1,
-    "ex": "Richtig: Tết ist das Neujahrsfest."
-  },
-  {
-    "q": "Quelle affirmation sur le Vietnam est vraie ?",
-    "choices": [
-      "Vietnam hat keine Küste",
-      "Vietnam ist ein wichtiger Kaffee-Exporteur",
-      "Die Hauptstadt heißt Paris",
-      "In Vietnam bezahlt man mit Euro"
-    ],
-    "a": 1,
-    "ex": "Richtig: Vietnam ist ein wichtiger Kaffee-Exporteur."
-  },
-  {
-    "q": "An welchem Fluss liegt Mainz?",
-    "choices": [
-      "An der Elbe",
-      "An der Donau",
-      "An der Weser",
-      "sur le Rhin"
-    ],
-    "a": 3,
-    "ex": "Richtig: sur le Rhin."
-  },
-  {
-    "q": "In welchem Bundesland liegt Mainz?",
-    "choices": [
-      "Bayern",
-      "Rhénanie-Palatinat",
-      "Schleswig-Holstein",
-      "Sachsen"
-    ],
-    "a": 1,
-    "ex": "Richtig: Rhénanie-Palatinat."
-  },
-  {
-    "q": "Wofür ist Mainz historisch besonders bekannt?",
-    "choices": [
-      "Vulkaninsel",
-      "Goldrausch",
-      "Johannes Gutenberg et l’imprimerie",
-      "Pyramidenbau"
-    ],
-    "a": 2,
-    "ex": "Richtig: Johannes Gutenberg et l’imprimerie."
-  },
-  {
-    "q": "Comment s’appelle die Universität in Mainz?",
-    "choices": [
-      "Humboldt-Universität",
-      "RWTH Aachen",
-      "TU München",
-      "Université Johannes Gutenberg"
-    ],
-    "a": 3,
-    "ex": "Richtig: Université Johannes Gutenberg."
-  },
-  {
-    "q": "Comment s’appelle der Fußballverein aus Mainz?",
-    "choices": [
-      "1. FSV Mainz 05",
-      "Borussia Dortmund",
-      "FC Bayern München",
-      "HSV"
-    ],
-    "a": 0,
-    "ex": "Richtig: 1. FSV Mainz 05."
-  },
-  {
-    "q": "Quelle Veranstaltung ist in Mainz besonders bekannt?",
-    "choices": [
-      "Oktoberfest",
-      "Karneval in Rio",
-      "carnaval (Fastnacht)",
-      "Wacken"
-    ],
-    "a": 2,
-    "ex": "Richtig: carnaval (Fastnacht)."
-  },
-  {
-    "q": "Quelle Nachbarstadt liegt direkt gegenüber am Rhein?",
-    "choices": [
-      "Wiesbaden",
-      "München",
-      "Bremen",
-      "Dresden"
-    ],
-    "a": 0,
-    "ex": "Richtig: Wiesbaden."
-  },
-  {
-    "q": "Comment s’appelle der große Dom in Mainz?",
-    "choices": [
-      "Kölner Dom",
-      "Berliner Dom",
-      "cathédrale de Mayence (Saint-Martin)",
-      "Ulmer Münster"
-    ],
-    "a": 2,
-    "ex": "Richtig: cathédrale de Mayence (Saint-Martin)."
-  },
-  {
-    "q": "Comment s’appelle das bekannte Museum rund um Gutenberg in Mainz?",
-    "choices": [
-      "Pergamonmuseum",
-      "musée Gutenberg",
-      "Senckenberg Museum",
-      "Deutsches Museum"
-    ],
-    "a": 1,
-    "ex": "Richtig: musée Gutenberg."
-  },
-  {
-    "q": "Comment s’appelle der große Fernsehsender mit Sitz in Mainz?",
-    "choices": [
-      "BBC",
-      "CNN",
-      "ZDF",
-      "NHK"
-    ],
-    "a": 2,
-    "ex": "Richtig: ZDF."
-  },
-  {
-    "q": "Quelle Region ist Mainz zugeordnet?",
-    "choices": [
-      "Harz",
-      "Rheinhessen",
-      "Erzgebirge",
-      "Allgäu"
-    ],
-    "a": 1,
-    "ex": "Richtig: Rheinhessen."
-  },
-  {
-    "q": "Quelle Brücke verbindet Mainz und Wiesbaden?",
-    "choices": [
-      "Tower Bridge",
-      "Golden Gate Bridge",
-      "Brooklyn Bridge",
-      "Theodor-Heuss-Brücke"
-    ],
-    "a": 3,
-    "ex": "Richtig: Theodor-Heuss-Brücke."
-  },
-  {
-    "q": "Welches Getränk ist in Rheinhessen besonders typisch?",
-    "choices": [
-      "vin",
-      "Sake",
-      "Whisky",
-      "Tequila"
-    ],
-    "a": 0,
-    "ex": "Richtig: vin."
-  },
-  {
-    "q": "Qu’est-ce que „Spundekäs“?",
-    "choices": [
-      "Fischsuppe",
-      "Schokoladenkuchen",
-      "Würziger Frischkäse-Dip",
-      "Nudelsalat"
-    ],
-    "a": 2,
-    "ex": "Richtig: Würziger Frischkäse-Dip."
-  },
-  {
-    "q": "Quelle Aussage über Mainz stimmt?",
-    "choices": [
-      "Mainz ist eine Landeshauptstadt",
-      "Mainz liegt in Österreich",
-      "Mainz liegt in der Schweiz",
-      "Mainz ist eine Insel in der Nordsee"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz ist eine Landeshauptstadt."
-  },
-  {
-    "q": "Qu’est-ce que am Rhein in Mainz beliebt?",
-    "choices": [
-      "Spazieren und Radfahren",
-      "Skispringen",
-      "Eishockey auf dem Fluss",
-      "Sandboarden"
-    ],
-    "a": 0,
-    "ex": "Richtig: Spazieren und Radfahren."
-  },
-  {
-    "q": "Quelle Farbe sieht man oft bei Mainz 05?",
-    "choices": [
-      "Blau und Gelb",
-      "Grün und Pink",
-      "Rot und Weiß",
-      "Schwarz und Gold"
-    ],
-    "a": 2,
-    "ex": "Richtig: Rot und Weiß."
-  },
-  {
-    "q": "Comment s’appelle der Stadtteil mit dem ZDF?",
-    "choices": [
-      "Lerchenberg",
-      "Altona",
-      "Ehrenfeld",
-      "Schwabing"
-    ],
-    "a": 0,
-    "ex": "Richtig: Lerchenberg."
-  },
-  {
-    "q": "Quelle Stadt ist nahe Mainz und bekannt für einen großen Flughafen?",
-    "choices": [
-      "Kiel",
-      "Rostock",
-      "Frankfurt am Main",
-      "Flensburg"
-    ],
-    "a": 2,
-    "ex": "Richtig: Frankfurt am Main."
-  },
-  {
-    "q": "Quelle Aussage passt zu Mainz' Geschichte?",
-    "choices": [
-      "Sie liegt am Nil",
-      "Sie reicht bis in die Römerzeit zurück",
-      "Sie ist ein Vulkan",
-      "Sie wurde 2010 gegründet"
-    ],
-    "a": 1,
-    "ex": "Richtig: Sie reicht bis in die Römerzeit zurück."
-  },
-  {
-    "q": "Quelle Aussage passt zur Mainzer Altstadt?",
-    "choices": [
-      "Nur Wolkenkratzer",
-      "Viele Gassen und Weinstuben",
-      "Nur Industrieanlagen",
-      "Keine Restaurants"
-    ],
-    "a": 1,
-    "ex": "Richtig: Viele Gassen und Weinstuben."
-  },
-  {
-    "q": "Qu’est-ce que ein typisches Mainzer Souvenir?",
-    "choices": [
-      "Gutenberg-bezogene Artikel",
-      "Wüstenkamele",
-      "Korallen",
-      "Surfbretter"
-    ],
-    "a": 0,
-    "ex": "Richtig: Gutenberg-bezogene Artikel."
-  },
-  {
-    "q": "Quelle Aussage passt zur Lage von Mainz?",
-    "choices": [
-      "Auf einer Insel im Pazifik",
-      "Mitten in der Wüste",
-      "Zwischen Rhein und Weinbergen",
-      "Auf einem Gletscher"
-    ],
-    "a": 2,
-    "ex": "Richtig: Zwischen Rhein und Weinbergen."
-  },
-  {
-    "q": "Qu’est-ce que eine Weinstube?",
-    "choices": [
-      "Ein Kino",
-      "Ein Sportplatz",
-      "Ein Lokal mit regionalen Weinen",
-      "Eine Bibliothek"
-    ],
-    "a": 2,
-    "ex": "Richtig: Ein Lokal mit regionalen Weinen."
-  },
-  {
-    "q": "Quelle Sehenswürdigkeit steht zentral nahe dem Marktplatz?",
-    "choices": [
-      "Der Dom",
-      "Big Ben",
-      "Eiffelturm",
-      "Kolosseum"
-    ],
-    "a": 0,
-    "ex": "Richtig: Der Dom."
-  },
-  {
-    "q": "Qu’est-ce que in Mainz im Frühling/Sommer beliebt?",
-    "choices": [
-      "Polarlichter anschauen",
-      "Am Rhein sitzen und draußen unterwegs sein",
-      "Gletscherfahren",
-      "Sanddünen besuchen"
-    ],
-    "a": 1,
-    "ex": "Richtig: Am Rhein sitzen und draußen unterwegs sein."
-  },
-  {
-    "q": "Quelle Stadt ist Landeshauptstadt von Hessen und liegt nahe Mainz?",
-    "choices": [
-      "Wiesbaden",
-      "Leipzig",
-      "Dortmund",
-      "Stuttgart"
-    ],
-    "a": 0,
-    "ex": "Richtig: Wiesbaden."
-  },
-  {
-    "q": "Wofür ist Rheinhessen bekannt?",
-    "choices": [
-      "Wein und Weinberge",
-      "Wüste",
-      "Gletscher",
-      "Regenwald"
-    ],
-    "a": 0,
-    "ex": "Richtig: Wein und Weinberge."
-  },
-  {
-    "q": "Quelle Aussage passt zum ZDF in Mainz?",
-    "choices": [
-      "Es ist ein Fußballverein",
-      "Es ist ein Bahnhof",
-      "Es sitzt in Tokio",
-      "Es hat seinen Sitz in Mainz"
-    ],
-    "a": 3,
-    "ex": "Richtig: Es hat seinen Sitz in Mainz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz ist eine Insel",
-      "Mainz ist mit Gutenberg verbunden",
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Meer"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mainz ist mit Gutenberg verbunden."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Nil",
-      "Mainz ist eine Insel",
-      "Mainz liegt am Meer"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Nil",
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Meer"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Nil",
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz ist eine Insel",
-      "Mainz liegt am Meer"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Meer",
-      "Mainz liegt am Nil",
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz ist eine Insel"
-    ],
-    "a": 2,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Nil",
-      "Mainz ist eine Insel",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Nil",
-      "Mainz ist eine Insel",
-      "Mainz ist für Fastnacht bekannt",
-      "Mainz liegt am Meer"
-    ],
-    "a": 2,
-    "ex": "Richtig: Mainz ist für Fastnacht bekannt."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Nil",
-      "Mainz ist eine Insel",
-      "Mainz liegt am Rhein",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 2,
-    "ex": "Richtig: Mainz liegt am Rhein."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz ist mit Gutenberg verbunden",
-      "Mainz liegt am Meer",
-      "Mainz liegt am Nil",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz ist mit Gutenberg verbunden."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Meer",
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Nil"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz ist für Fastnacht bekannt",
-      "Mainz liegt am Nil",
-      "Mainz liegt am Meer",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz ist für Fastnacht bekannt."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Meer",
-      "Mainz liegt am Nil",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Nil",
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Meer",
-      "Mainz liegt am Rhein"
-    ],
-    "a": 3,
-    "ex": "Richtig: Mainz liegt am Rhein."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Nil",
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Meer"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Rhein",
-      "Mainz ist eine Insel",
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Nil"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt am Rhein."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt in Spanien",
-      "Mainz liegt am Rhein",
-      "Mainz liegt am Nil",
-      "Mainz liegt am Meer"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mainz liegt am Rhein."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz ist eine Insel",
-      "Mainz liegt am Meer",
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt am Nil"
-    ],
-    "a": 2,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Rhein",
-      "Mainz liegt am Nil",
-      "Mainz liegt am Meer",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 0,
-    "ex": "Richtig: Mainz liegt am Rhein."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Nil",
-      "Mainz liegt am Meer",
-      "Mainz liegt in Rheinland-Pfalz",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 2,
-    "ex": "Richtig: Mainz liegt in Rheinland-Pfalz."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz liegt am Nil",
-      "Mainz liegt am Rhein",
-      "Mainz ist eine Insel",
-      "Mainz liegt am Meer"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mainz liegt am Rhein."
-  },
-  {
-    "q": "Quelle affirmation correspond à Mayence ?",
-    "choices": [
-      "Mainz ist eine Insel",
-      "Mainz ist für Fastnacht bekannt",
-      "Mainz liegt am Nil",
-      "Mainz liegt in Spanien"
-    ],
-    "a": 1,
-    "ex": "Richtig: Mainz ist für Fastnacht bekannt."
+    "ex": "Correct : le café décaféiné contient beaucoup moins de caféine."
   }
 ]
