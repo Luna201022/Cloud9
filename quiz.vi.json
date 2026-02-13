@@ -218,8 +218,7 @@
     ],
     "a": 0,
     "ex": "Đúng: Flat white là espresso với sữa mịn, béo."
-  }
-  ,
+  },
   {
     "q": "Mocha là gì?",
     "choices": [
@@ -318,9 +317,7 @@
     ],
     "a": 1,
     "ex": "Đúng: Sữa yến mạch là loại sữa thay thế phổ biến trong quán cà phê."
-  }
-]
-  ,
+  },
   {
     "q": "Nền tảng chung của cappuccino và latte là gì?",
     "choices": [

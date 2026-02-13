@@ -108,9 +108,7 @@
     ],
     "a": 3,
     "ex": "Corretto: il caffè decaffeinato contiene molta meno caffeina."
-  }
-]
-  ,
+  },
   {
     "q": "Cosa significa \"single origin\"?",
     "choices": [
@@ -220,9 +218,7 @@
     ],
     "a": 0,
     "ex": "Corretto: un flat white è un espresso con latte fine e cremoso."
-  }
-]
-  ,
+  },
   {
     "q": "Cos’è un mocha?",
     "choices": [
@@ -321,9 +317,7 @@
     ],
     "a": 1,
     "ex": "Corretto: il latte d’avena è un’alternativa comune al latte nei bar."
-  }
-]
-  ,
+  },
   {
     "q": "Quale base è la stessa per cappuccino e latte?",
     "choices": [

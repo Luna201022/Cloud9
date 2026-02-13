@@ -108,9 +108,7 @@
     ],
     "a": 3,
     "ex": "Correct: Decaffeinated coffee has a greatly reduced caffeine content."
-  }
-]
-  ,
+  },
   {
     "q": "What does \"single origin\" mean?",
     "choices": [
@@ -220,9 +218,7 @@
     ],
     "a": 0,
     "ex": "Correct: A flat white is espresso with fine, creamy milk."
-  }
-]
-  ,
+  },
   {
     "q": "What is a mocha?",
     "choices": [
@@ -332,9 +328,7 @@
     ],
     "a": 1,
     "ex": "Correct: Oat milk is a common milk alternative in cafés."
-  }
-]
-  ,
+  },
   {
     "q": "Which bean variety is very common worldwide?",
     "choices": [
