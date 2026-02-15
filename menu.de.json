@@ -651,14 +651,42 @@
           "desc": "Mariniertes Hähnchen | Eieromelette | Mayo | Karotte-Rettich | Gurke | Koriander | Röstzwiebeln"
         },
         {
-          "id": "banhmi_tofu",
-          "name": "Bánh Mì Tofu",
+      "id": "ban bao",
+      "title": "Vietnamese Bánh Bao",
+      "items": [
+        {
+          "id": "banhbao_trung_pate",
+          "name": "Bánh Bao Trứng Pâté",
+          "price": 8.0,
+          "desc": "Spiegelei | Schweineflocken | Pâté | Mayo | vietn. Wurst | Gurke | Karotte-Rettich | Koriander | Röstzwiebeln"
+        },
+        {
+          "id": "banhbao_pate_thapcam",
+          "name": "Bánh Bao Pâté Thập Cẩm",
+          "price": 8.5,
+          "desc": "Char Siu Pork BBQ | Pâté | Mayo | Schweineflocken | vietn. Wurst | Gurke | Karotte-Rettich | Koriander | Röstzwiebeln"
+        },
+        {
+          "id": "banhbao_thit_nuong",
+          "name": "Bánh Bao Thịt Nướng",
+          "price": 8.9,
+          "desc": "Schweinefleisch gegrillt | Mayo | Karotte-Rettich | Gurke | Koriander | Röstzwiebeln"
+        },
+        {
+          "id": "banhbao_ga",
+          "name": "Bánh Bao Gà",
+          "price": 8.9,
+          "desc": "Mariniertes Hähnchen | Eieromelette | Mayo | Karotte-Rettich | Gurke | Koriander | Röstzwiebeln"
+        },
+        {
+          "id": "banhbao_tofu",
+          "name": "Bánh Bao Tofu",
           "price": 7.9,
           "desc": "Marinierter Tofu | Mayo | Eieromelette | Karotte-Rettich | Gurke | Koriander | Röstzwiebeln"
         },
         {
-          "id": "banhmi_vegan",
-          "name": "Bánh Mì Vegan",
+          "id": "banhbao_vegan",
+          "name": "Bánh Bao Vegan",
           "price": 7.9,
           "desc": "Marinierter Tofu | Pilze | vegane Mayo | Karotte-Rettich | Koriander | Röstzwiebeln"
         }
