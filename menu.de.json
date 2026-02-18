@@ -665,6 +665,18 @@
       ]
     },
     {
+      "id": "banh_bao",
+      "title": "Banh Bao",
+      "items": [
+        {
+          "id": "banh_bao_classic",
+          "name": "Banh Bao",
+          "price": 4.9,
+          "desc": "Gedämpftes Brötchen mit Hackfleisch, Morcheln, Glasnudeln und Ei"
+        }
+      ]
+    },
+    {
       "id": "croissants",
       "title": "Croissants",
       "items": [
@@ -736,18 +748,6 @@
           "id": "extra_avocado",
           "name": "Avocado",
           "price": 2.0
-        }
-      ]
-    },
-    {
-      "id": "banh_bao",
-      "title": "Banh Bao",
-      "items": [
-        {
-          "id": "banh_bao_classic",
-          "name": "Banh Bao",
-          "price": 4.9,
-          "desc": "Gedämpftes Brötchen mit Hackfleisch, Morcheln, Glasnudeln und Ei"
         }
       ]
     }
