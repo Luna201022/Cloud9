@@ -271,16 +271,29 @@
     location.hash = route;
   }
 
+  // Robust JSON fetch: force UTF-8 decoding regardless of server headers.
+  // This prevents Vietnamese diacritics from turning into replacement chars (�)
+  // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
-    return res.json();
+
+    const buf = await res.arrayBuffer();
+    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
+    try {
+      return JSON.parse(txt);
+    } catch (e) {
+      // Fallback to res.json() to keep behavior if the response isn't valid text.
+      // (Shouldn't happen for our static JSON files.)
+      return res.json();
+    }
   }
 
   async function loadData() {
     const l = state.lang;
     const [menu, quiz, story] = await Promise.all([
-      fetchJson(`menu.${l}.json`),
+      // One single menu source of truth (German card) for all languages.
+      fetchJson(`menu.de.json`),
       fetchJson(`quiz.${l}.json`),
       fetchJson(`story.${l}.json`)
     ]);
