@@ -738,6 +738,18 @@
           "price": 2.0
         }
       ]
+    },
+    {
+      "id": "banh_bao",
+      "title": "Bánh Bao",
+      "items": [
+        {
+          "id": "banh_bao_classic",
+          "name": "Bánh Bao",
+          "price": 4.9,
+          "desc": "Bánh bao hấp nhân thịt băm, mộc nhĩ, miến và trứng"
+        }
+      ]
     }
   ]
 }
