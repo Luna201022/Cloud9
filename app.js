@@ -275,22 +275,17 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-    // Nur fürs Menü Cache-Busting (damit Admin-Änderungen sofort sichtbar sind)
-    const isMenu = /^\/?menu\.[a-z]{2}\.json$/i.test(path);
-    const url = isMenu ? (path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()) : path;
+  // Nur DE-Menü: immer frisch laden (kein Cache, sofortige Admin-Änderungen sichtbar)
+  const isDeMenu = (path === "menu.de.json" || path === "/menu.de.json");
+  const url = isDeMenu ? (path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()) : path;
 
-    const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status + " for " + path);
 
-    const buf = await res.arrayBuffer();
-    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
-    try {
-      return JSON.parse(txt);
-    } catch (e) {
-      // Debug-Hilfe: gib die ersten Zeichen aus
-      throw new Error("Invalid JSON in " + path + ": " + txt.slice(0, 200));
-    }
-  }
+  const buf = await res.arrayBuffer();
+  const txt = new TextDecoder("utf-8").decode(buf);
+  return JSON.parse(txt);
+}
 
 function bindNews() {
   const host = document.getElementById("newsCats");
