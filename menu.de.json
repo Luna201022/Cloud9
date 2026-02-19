@@ -109,6 +109,12 @@
           "name": "Saftschorle (0,4l)",
           "price": 5.5,
           "desc": "Orange / Maracuja"
+        },
+        {
+          "id": "nuoc_chanh",
+          "name": "Nước chanh (0,4l)",
+          "price": 5.9,
+          "desc": "Limette | brauner Zucker"
         }
       ]
     },
@@ -541,6 +547,24 @@
           "name": "Cloud 9 Salad",
           "price": 9.9,
           "desc": "Salat-Mix | Karotten | Mais | Avocado | Cherry-Tomaten | Teriyaki-Sesam Dressing"
+        },
+        {
+          "id": "mango_salad",
+          "name": "Mango Salad",
+          "price": 8.9,
+          "desc": "Mango | Karotten | Koriander | hausgemachtes Dressing",
+          "options": {
+            "protein": [
+              {
+                "label": "Hühnerfleisch",
+                "price_delta": 0.0
+              },
+              {
+                "label": "Garnelen",
+                "price_delta": 0.6
+              }
+            ]
+          }
         }
       ]
     },
