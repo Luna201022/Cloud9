@@ -252,9 +252,9 @@
     return "de";
   }
   function setLang(lang) {
-    state.lang = "de";
-    localStorage.setItem("cloud9_lang", "de");
-    document.documentElement.lang = "de";
+    state.lang = lang;
+    localStorage.setItem("cloud9_lang", lang);
+    document.documentElement.lang = lang;
     renderAll();
   }
 
@@ -275,24 +275,28 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-    // Always fetch fresh menu.de.json so Admin changes are visible immediately
-    const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
-    const url = isMenuDe ? (path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()) : path;
+  const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
+  const url = isMenuDe
+    ? path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()
+    : path;
 
-    const res = await fetch(url, { cache: "no-store" });
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
-
-    const buf = await res.arrayBuffer();
-    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
-    return JSON.parse(txt);
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
+  return res.json();
+} catch (e) {
+      // Fallback to res.json() to keep behavior if the response isn't valid text.
+      // (Shouldn't happen for our static JSON files.)
+      return res.json();
+    }
   }
 
   async function loadData() {
+    const l = state.lang;
     const [menu, quiz, story] = await Promise.all([
-      fetchJson("menu.de.json"),
-      // quiz/story are optional; if missing, keep app working
-      fetchJson("quiz.de.json").catch(() => []),
-      fetchJson("story.de.json").catch(() => ({ title: "", chapters: [] }))
+      // One single menu source of truth (German card) for all languages.
+      fetchJson(`menu.de.json`),
+      fetchJson(`quiz.${l}.json`),
+      fetchJson(`story.${l}.json`)
     ]);
     state.menu = menu;
     state.quiz = quiz;
@@ -457,26 +461,15 @@
   }
 
   function cartTotal() {
-    return state.cart.reduce((s, it) => s + (it.price * (it.qty || 1)), 0);
+    return state.cart.reduce((s, it) => s + it.price, 0);
   }
   function addToCart(item, pickedOptions = {}) {
-    const key = lineKey(item.id, pickedOptions);
-    const existing = state.cart.find(l => lineKey(l.id, l.options) === key);
-    if (existing) {
-      existing.qty = (existing.qty || 1) + 1;
-    } else {
-      const line = {
-        id: item.id,
-        name: item.name,
-        options: pickedOptions,
-        price: calcItemPrice(item, pickedOptions),
-        qty: 1
-      };
-      state.cart.push(line);
-    }
-    renderRoute();
-    showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
-  };
+    const line = {
+      id: item.id,
+      name: item.name,
+      options: pickedOptions,
+      price: calcItemPrice(item, pickedOptions)
+    };
     state.cart.push(line);
     renderRoute();
       showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
@@ -487,10 +480,6 @@
       const opt = item.options.size.find(o => o.label === pickedOptions.size);
       if (opt) p += opt.price_delta || 0;
     }
-  function lineKey(id, options) {
-    try { return id + "|" + JSON.stringify(options || {}); } catch(e) { return id + "|{}"; }
-  }
-
     // temperature no price delta
     return Math.round(p * 100) / 100;
   }
@@ -690,13 +679,9 @@ host.querySelectorAll("[data-add]").forEach(btn => {
                   id: item.id + ":" + lbl,
                   name: item.name + " (" + lbl + ")",
                   options: { choice: lbl },
-                  price: Math.round((item.price || 0) * 100) / 100,
-                  qty: 1
+                  price: Math.round((item.price || 0) * 100) / 100
                 };
-                const key = lineKey(line.id, line.options);
-                const existing = state.cart.find(l => lineKey(l.id, l.options) === key);
-                if (existing) existing.qty = (existing.qty || 1) + 1;
-                else state.cart.push(line);
+                state.cart.push(line);
               });
               renderRoute();
               showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
@@ -825,20 +810,15 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
 
     document.getElementById("clearBtn").onclick = clearCart;
-    document.getElementById("sendBtn").onclick = async () => {
+    document.getElementById("sendBtn").onclick = () => {
       const t = I18N[state.lang];
       if (!state.cart.length) return;
-
-      // Build human summary for the modal
       const summary = state.cart.map(l => {
         const opt = [];
         if (l.options?.temperature) opt.push(l.options.temperature);
         if (l.options?.size) opt.push(l.options.size);
-        const q = l.qty || 1;
-        const lineTotal = Math.round((l.price * q) * 100) / 100;
-        return `- ${q}× ${l.name}${opt.length ? " ("+opt.join(", ")+")" : ""} — ${money(lineTotal)}`;
+        return `- ${l.name}${opt.length ? " ("+opt.join(", ")+")" : ""} — ${money(l.price)}`;
       }).join("\n");
-
       const note = (state.orderNote || "").trim();
       const text = `Cloud9 Bestellung
 ${summary}${note ? `
@@ -846,42 +826,12 @@ ${summary}${note ? `
 Anmerkungen: ${note}` : ""}
 
 ${t.total}: ${money(cartTotal())}`;
-
-      // Send to backend
-      try {
-        const params = new URLSearchParams(window.location.search);
-        const tableId = Number(params.get("t")) || null;
-
-        const payload = {
-          tableId,
-          items: state.cart.map(l => ({ id: l.id, qty: (l.qty || 1), options: l.options || null })),
-          note: note,
-          total: Math.round(cartTotal() * 100) / 100
-        };
-
-        const r = await fetch("/api/order", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
-        });
-
-        if (!r.ok) throw new Error("HTTP " + r.status);
-      } catch (e) {
-        console.warn("Order API failed:", e);
-      }
-
-      // Clipboard fallback (optional)
       navigator.clipboard?.writeText(text).catch(() => {});
-
       const ok = document.createElement("button");
       ok.className = "btn primary";
       ok.textContent = "OK";
       ok.onclick = () => { closeModal(); clearCart(); };
-
-      openModal("Bestellung",
-        `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`,
-        [ok]
-      );
+      openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`, [ok]);
     };
   }
 
@@ -889,61 +839,23 @@ ${t.total}: ${money(cartTotal())}`;
     const host = document.getElementById("cartLines");
     if (!host) return;
     if (!state.cart.length) { host.innerHTML = ""; return; }
-
     host.innerHTML = state.cart.map((l, idx) => {
       const opt = [];
       if (l.options?.temperature) opt.push(l.options.temperature);
       if (l.options?.size) opt.push(l.options.size);
-
-      const qty = l.qty || 1;
-      const lineTotal = Math.round((l.price * qty) * 100) / 100;
-
       return `
         <div class="item">
           <div style="min-width:0">
             <div class="itemTitle">${escapeHtml(l.name)}</div>
             <div class="itemDesc">${escapeHtml(opt.join(" • "))}</div>
           </div>
-          <div class="row" style="gap:8px">
-            <button class="btn" data-dec="${idx}">−</button>
-            <div style="min-width:28px;text-align:center;font-weight:800">${qty}</div>
-            <button class="btn" data-inc="${idx}">+</button>
-            <div class="price">${money(lineTotal)}</div>
+          <div class="row">
+            <div class="price">${money(l.price)}</div>
             <button class="btn danger" data-del="${idx}">✕</button>
           </div>
         </div>
       `;
     }).join("");
-
-    host.querySelectorAll("[data-inc]").forEach(btn => {
-      btn.onclick = () => {
-        const i = Number(btn.getAttribute("data-inc"));
-        const l = state.cart[i];
-        if (!l) return;
-        l.qty = (l.qty || 1) + 1;
-        renderRoute();
-      };
-    });
-
-    host.querySelectorAll("[data-dec]").forEach(btn => {
-      btn.onclick = () => {
-        const i = Number(btn.getAttribute("data-dec"));
-        const l = state.cart[i];
-        if (!l) return;
-        l.qty = (l.qty || 1) - 1;
-        if (l.qty <= 0) state.cart.splice(i, 1);
-        renderRoute();
-      };
-    });
-
-    host.querySelectorAll("[data-del]").forEach(btn => {
-      btn.onclick = () => {
-        const i = Number(btn.getAttribute("data-del"));
-        state.cart.splice(i, 1);
-        renderRoute();
-      };
-    });
-  }).join("");
     host.querySelectorAll("[data-del]").forEach(btn => {
       btn.onclick = () => {
         const i = Number(btn.getAttribute("data-del"));
