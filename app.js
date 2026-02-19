@@ -284,16 +284,7 @@
 
     const buf = await res.arrayBuffer();
     const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
-    try {
-      return JSON.parse(txt);
-    } catch (e) {
-      return res.json();
-    }
-  } catch (e) {
-      // Fallback to res.json() to keep behavior if the response isn't valid text.
-      // (Shouldn't happen for our static JSON files.)
-      return res.json();
-    }
+    return JSON.parse(txt);
   }
 
   async function loadData() {
