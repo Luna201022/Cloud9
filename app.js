@@ -1,6 +1,6 @@
 
 (() => {
-  const LANGS = ["de"];
+  const LANGS = ["de","en","fr","it","vi"];
 
   const I18N = {
     de: { order:"Bestellen", call:"Bedienung rufen", pay:"Bezahlen", quiz:"Kaffee-Quiz", story:"Kaffee-Geschichte",
@@ -275,15 +275,14 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-  const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
-  const url = isMenuDe
-    ? path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()
-    : path;
+    const res = await fetch(path, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
 
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
-  return res.json();
-} catch (e) {
+    const buf = await res.arrayBuffer();
+    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
+    try {
+      return JSON.parse(txt);
+    } catch (e) {
       // Fallback to res.json() to keep behavior if the response isn't valid text.
       // (Shouldn't happen for our static JSON files.)
       return res.json();
