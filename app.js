@@ -1,6 +1,6 @@
 
 (() => {
-  const LANGS = ["de","en","fr","it","vi"];
+  const LANGS = ["de"];
 
   const I18N = {
     de: { order:"Bestellen", call:"Bedienung rufen", pay:"Bezahlen", quiz:"Kaffee-Quiz", story:"Kaffee-Geschichte",
@@ -252,9 +252,9 @@
     return "de";
   }
   function setLang(lang) {
-    state.lang = lang;
-    localStorage.setItem("cloud9_lang", lang);
-    document.documentElement.lang = lang;
+    state.lang = "de";
+    localStorage.setItem("cloud9_lang", "de");
+    document.documentElement.lang = "de";
     renderAll();
   }
 
@@ -275,16 +275,815 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-  // Nur DE-Menü: immer frisch laden (kein Cache, sofortige Admin-Änderungen sichtbar)
-  const isDeMenu = (path === "menu.de.json" || path === "/menu.de.json");
-  const url = isDeMenu ? (path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()) : path;
+    // Always fetch fresh menu.de.json so Admin changes are visible immediately
+    const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
+    const url = isMenuDe ? (path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()) : path;
 
-  const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error("HTTP " + res.status + " for " + path);
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
 
-  const buf = await res.arrayBuffer();
-  const txt = new TextDecoder("utf-8").decode(buf);
-  return JSON.parse(txt);
+    const buf = await res.arrayBuffer();
+    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
+    try {
+      return JSON.parse(txt);
+    } catch (e) {
+      return res.json();
+    }
+  } catch (e) {
+      // Fallback to res.json() to keep behavior if the response isn't valid text.
+      // (Shouldn't happen for our static JSON files.)
+      return res.json();
+    }
+  }
+
+  async function loadData() {
+    const [menu, quiz, story] = await Promise.all([
+      fetchJson("menu.de.json"),
+      // quiz/story are optional; if missing, keep app working
+      fetchJson("quiz.de.json").catch(() => []),
+      fetchJson("story.de.json").catch(() => ({ title: "", chapters: [] }))
+    ]);
+    state.menu = menu;
+    state.quiz = quiz;
+    state.story = story;
+  }
+
+  function renderLangButtons() {
+    const host = el("langBtns");
+    host.innerHTML = "";
+    for (const l of LANGS) {
+      const b = document.createElement("button");
+      b.className = "chip" + (state.lang === l ? " active" : "");
+      b.textContent = l.toUpperCase();
+      b.onclick = () => setLang(l);
+      host.appendChild(b);
+    }
+  }
+
+  function renderTabs() {
+    const t = I18N[state.lang];
+    const tabs = [
+      { r: "/home", label: t.home },
+      { r: "/order", label: t.order },
+      { r: "/call", label: t.call },
+      { r: "/pay", label: t.pay }
+    ];
+    const host = el("tabs");
+    host.innerHTML = "";
+    const cur = hashRoute();
+    for (const tb of tabs) {
+      const b = document.createElement("button");
+      b.className = "tab" + (cur === tb.r ? " active" : "");
+      b.textContent = tb.label;
+      b.onclick = () => navTo(tb.r);
+      host.appendChild(b);
+    }
+  }
+
+  function openModal(title, bodyHtml, footButtons = []) {
+    el("modalTitle").textContent = title;
+    el("modalBody").innerHTML = bodyHtml;
+    const foot = el("modalFoot");
+    foot.innerHTML = "";
+
+    // If caller didn't supply footer buttons, provide a default close button.
+    if (!footButtons || footButtons.length === 0) {
+      const b = document.createElement("button");
+      b.className = "btn";
+      b.textContent = I18N[state.lang].ok;
+      b.onclick = closeModal;
+      footButtons = [b];
+    }
+
+    for (const btn of footButtons) foot.appendChild(btn);
+    el("modalBackdrop").classList.remove("hidden");
+  }
+  function closeModal() {
+    el("modalBackdrop").classList.add("hidden");
+  }
+
+  function showAutoToast(msg) {
+    try {
+      openModal("", `<div class="toast">${msg}</div>`);
+      setTimeout(() => {
+        try { closeModal(); } catch(e) {}
+      }, 1000);
+    } catch (e) {
+      // fallback: no modal available
+      console.log(msg);
+    }
+  }
+
+  function openChoiceModalSingle(item, onDone) {
+    const t = I18N[state.lang] || I18N.de;
+    const picked = { choice: null };
+
+    const html = `
+      <div class="optBox">
+        <h3>${t.choice_label || "Bitte auswählen"}</h3>
+        <div class="row" style="gap:8px; flex-wrap:wrap">
+          ${(item.options.choice || []).map(o => `<button class="btn" data-choice="${escapeHtml(o.label)}">${escapeHtml(o.label)}</button>`).join("")}
+        </div>
+      </div>`;
+
+    const cancel = document.createElement("button");
+    cancel.className = "btn";
+    cancel.textContent = t.cancel || "Schließen";
+    cancel.onclick = () => closeModal();
+
+    const ok = document.createElement("button");
+    ok.className = "btn primary";
+    ok.textContent = "OK";
+
+    openModal(item.name, html, [cancel, ok]);
+
+    const b = el("modalBody");
+    b.querySelectorAll("[data-choice]").forEach(btn => {
+      btn.onclick = () => {
+        picked.choice = btn.getAttribute("data-choice");
+        b.querySelectorAll("[data-choice]").forEach(x => x.classList.remove("active"));
+        btn.classList.add("active");
+      };
+    });
+
+    ok.onclick = () => {
+      if (!picked.choice) {
+        openModal(t.opt_pick_title || "Auswahl nötig", t.choice_pick_msg || "Bitte eine Option auswählen.");
+        return;
+      }
+      closeModal();
+      onDone(picked.choice);
+    };
+  }
+
+  function openChoiceModalMulti(item, onDone) {
+    const t = I18N[state.lang] || I18N.de;
+    const picked = { choices: [] };
+
+    const html = `
+      <div class="optBox">
+        <h3>${t.choice_label || "Bitte auswählen"}</h3>
+        <div class="row" style="gap:8px; flex-wrap:wrap">
+          ${(item.options.choice || []).map(o => `<button class="btn" data-choice="${escapeHtml(o.label)}">${escapeHtml(o.label)}</button>`).join("")}
+        </div>
+        <div class="small" style="margin-top:10px">${t.choice_multi_hint || ""}</div>
+      </div>`;
+
+    const cancel = document.createElement("button");
+    cancel.className = "btn";
+    cancel.textContent = t.cancel || "Schließen";
+    cancel.onclick = () => closeModal();
+
+    const ok = document.createElement("button");
+    ok.className = "btn primary";
+    ok.textContent = "OK";
+
+    openModal(item.name, html, [cancel, ok]);
+
+    const b = el("modalBody");
+    b.querySelectorAll("[data-choice]").forEach(btn => {
+      btn.onclick = () => {
+        const val = btn.getAttribute("data-choice");
+        const i = picked.choices.indexOf(val);
+        if (i >= 0) {
+          picked.choices.splice(i, 1);
+          btn.classList.remove("active");
+        } else {
+          picked.choices.push(val);
+          btn.classList.add("active");
+        }
+      };
+    });
+
+    ok.onclick = () => {
+      if (!picked.choices.length) {
+        openModal(t.opt_pick_title || "Auswahl nötig", t.choice_pick_msg || "Bitte eine Option auswählen.");
+        return;
+      }
+      closeModal();
+      onDone(picked.choices.slice());
+    };
+  }
+
+  function cartTotal() {
+    return state.cart.reduce((s, it) => s + (it.price * (it.qty || 1)), 0);
+  }
+  function addToCart(item, pickedOptions = {}) {
+    const key = lineKey(item.id, pickedOptions);
+    const existing = state.cart.find(l => lineKey(l.id, l.options) === key);
+    if (existing) {
+      existing.qty = (existing.qty || 1) + 1;
+    } else {
+      const line = {
+        id: item.id,
+        name: item.name,
+        options: pickedOptions,
+        price: calcItemPrice(item, pickedOptions),
+        qty: 1
+      };
+      state.cart.push(line);
+    }
+    renderRoute();
+    showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
+  };
+    state.cart.push(line);
+    renderRoute();
+      showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
+}
+  function calcItemPrice(item, pickedOptions) {
+    let p = item.price || 0;
+    if (item.options && item.options.size && pickedOptions.size) {
+      const opt = item.options.size.find(o => o.label === pickedOptions.size);
+      if (opt) p += opt.price_delta || 0;
+    }
+  function lineKey(id, options) {
+    try { return id + "|" + JSON.stringify(options || {}); } catch(e) { return id + "|{}"; }
+  }
+
+    // temperature no price delta
+    return Math.round(p * 100) / 100;
+  }
+  function clearCart() {
+    state.cart = [];
+    state.orderNote = "";
+    renderRoute();
+  }
+
+  function renderHome() {
+    const t = I18N[state.lang];
+    return `
+      <div class="grid2">
+        <div class="card">
+          <div class="h">Cloud9 Kaffee</div>
+          <div class="small">${t.order} • ${t.call} • ${t.pay}</div>
+
+          <div class="homeCards">
+            <button class="homeCard" onclick="location.hash='#/order'">
+              <div class="ic"></div>
+              <div class="ttl">${t.order}</div>
+              <div class="sub">${t.home_order_sub}</div>
+            </button>
+            <button class="homeCard" onclick="callWaiter()">
+              <div class="ic"></div>
+              <div class="ttl">${t.call}</div>
+              <div class="sub">${t.home_call_sub}</div>
+            </button>
+            <button class="homeCard" onclick="requestPayment()">
+              <div class="ic"></div>
+              <div class="ttl">${t.pay}</div>
+              <div class="sub">${t.home_pay_sub}</div>
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="h">${t.home_extras}</div>
+          <div class="homeCards">
+            <button class="homeCard" onclick="location.hash='#/quiz'">
+              <div class="ic"></div>
+              <div class="ttl">${t.quiz}</div>
+              <div class="sub"></div>
+            </button>
+            <button class="homeCard" onclick="location.hash='#/story'">
+              <div class="ic"></div>
+              <div class="ttl">${t.story}</div>
+              <div class="sub"></div>
+            </button>
+
+<button class="homeCard" onclick="location.hash='#/news'">
+  <div class="ic"></div>
+  <div class="ttl">${t.extras_news || "News"}</div>
+  <div class="sub"></div>
+</button>
+          </div>
+    `;
+  }
+
+  function renderOrder() {
+    const t = I18N[state.lang];
+    const menu = state.menu;
+    if (!menu) return `<div class="card">Loading…</div>`;
+
+    const cats = menu.categories || [];
+    const options = [`<option value="__all__">${t.all}</option>`]
+      .concat(cats.map(c => `<option value="${c.id}">${escapeHtml(c.title)}</option>`)).join("");
+
+    return `
+      <div class="grid2">
+        <div class="card">
+          <div class="h">${t.order}</div>
+          <div class="row">
+            <input id="q" class="input" placeholder="${t.search}" />
+            <select id="catSel">${options}</select>
+          </div>
+          <div id="menuList" class="list"></div>
+        </div>
+        <div class="card">
+          <div class="h">${t.cart}</div>
+          <div class="small">${state.cart.length ? "" : t.empty}</div>
+          <div id="cartLines" class="list" style="margin-top:10px"></div>
+          
+          <div class="noteBlock">
+            <div class="small">${t.note_label || "Anmerkungen"}</div>
+            <textarea id="orderNote" class="textarea" rows="3" placeholder="${t.note_placeholder || "z.B. ohne Zucker, extra Eis, Allergiehinweis…"}">${escapeHtml(state.orderNote || "")}</textarea>
+          </div>
+          <div class="cartLine">
+            <div>
+              <div class="small">${t.total}</div>
+              <div style="font-weight:900;font-size:20px">${money(cartTotal())}</div>
+            </div>
+            <div class="row" style="justify-content:flex-end">
+              <button class="btn primary" id="sendBtn">${t.send}</button>
+              <button class="btn danger" id="clearBtn">${t.clear}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  function bindOrder() {
+    const t = I18N[state.lang] || I18N.de;
+    const q = document.getElementById("q");
+    const catSel = document.getElementById("catSel");
+    const renderMenuList = () => {
+      const needle = (q.value || "").toLowerCase().trim();
+      const cat = catSel.value;
+      const cats = state.menu.categories || [];
+      const shownCats = cat === "__all__" ? cats : cats.filter(c => c.id === cat);
+      const groups = [];
+      for (const c of shownCats) {
+        const matched = [];
+        for (const it of (c.items || [])) {
+          const hay = (it.name + " " + (it.desc||"")).toLowerCase();
+          if (!needle || hay.includes(needle)) matched.push(it);
+        }
+        if (matched.length) groups.push({cat: c, items: matched});
+      }
+
+      const host = document.getElementById("menuList");
+      if (!groups.length) {
+        host.innerHTML = `<div class="small">${t.no_results || "Keine Treffer."}</div>`;
+        return;
+      }
+
+      // render grouped by category (like the physical menu)
+      const idToItem = new Map();
+      host.innerHTML = groups.map(g => {
+        return `
+          <div class="catBlock">
+            <div class="catTitle">${escapeHtml(g.cat.title)}</div>
+            ${g.items.map(item => {
+              idToItem.set(item.id, item);
+              const badges = [];
+              if (item.options?.temperatur) badges.push(`<span class="badge">Warm/Kalt</span>`);
+              if (item.options?.size) badges.push(`<span class="badge">0,5/0,7</span>`);
+              return `
+                <div class="item" data-item="${item.id}">
+                  <div class="itemLeft" style="min-width:0">
+                    <div class="itemTitle">${escapeHtml(item.name)}</div>
+                    <div class="itemDesc">${item.desc ? escapeHtml(item.desc) : ""}</div>
+                    <div class="row" style="margin-top:8px">
+                      ${badges.join("")}
+                      <button class="btn primary" data-add="${item.id}">+</button>
+                    </div>
+                  </div>
+                  <div class="itemRight">
+                    ${item.options?.size ? `<div class="price"></div>` : `<div class="price">${money(item.price || 0)}</div>`}
+                    ${item.options?.temperatur ? `
+                      <div class="optRow underPrice" data-opt="${item.id}" data-optkey="temperatur">
+                        <button class="optBtn" data-optval="kalt">${t.opt_cold || "Kalt"}</button>
+                        <button class="optBtn" data-optval="warm">${t.opt_warm || "Warm"}</button>
+                      </div>
+                    ` : ``}
+                    ${item.options?.size ? `
+                      <div class="optRow underPrice" data-opt="${item.id}" data-optkey="size">
+                        ${item.options.size.map(o => `<button class="optBtn" data-optval="${o.label}">${o.label} (${money((item.price||0)+(o.price_delta||0))})</button>`).join("")}
+                      </div>
+                    ` : ``}
+                  </div>
+                </div>
+              `;
+            }).join("")}
+          </div>
+        `;
+      }).join("");
+
+      
+host.querySelectorAll(".optRow .optBtn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const row = btn.closest(".optRow");
+          row.querySelectorAll(".optBtn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+        });
+      });
+
+host.querySelectorAll("[data-add]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const id = btn.getAttribute("data-add");
+          const item = idToItem.get(id);
+          if (!item) return;
+
+
+          // Special extras: milk alternatives (single) and toppings (multi)
+          if (item.id === "milk_alt") {
+            openChoiceModalSingle(item, (choice) => {
+              addToCart(item, { choice });
+            });
+            return;
+          }
+          if (item.id === "topping") {
+            openChoiceModalMulti(item, (choices) => {
+              choices.forEach(lbl => {
+                const line = {
+                  id: item.id + ":" + lbl,
+                  name: item.name + " (" + lbl + ")",
+                  options: { choice: lbl },
+                  price: Math.round((item.price || 0) * 100) / 100,
+                  qty: 1
+                };
+                const key = lineKey(line.id, line.options);
+                const existing = state.cart.find(l => lineKey(l.id, l.options) === key);
+                if (existing) existing.qty = (existing.qty || 1) + 1;
+                else state.cart.push(line);
+              });
+              renderRoute();
+              showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
+            });
+            return;
+          }
+
+          let chosenTemp = null;
+          if (item.options?.temperatur) {
+            const row = btn.closest(".item")?.querySelector('.optRow[data-optkey="temperatur"]');
+            const active = row?.querySelector(".optBtn.active");
+            if (!active) {
+              openModal(t.opt_pick_title || "Bitte wählen", t.opt_pick_msg || "Bitte Kalt oder Warm auswählen.");
+              return;
+            }
+            chosenTemp = active.getAttribute("data-optval");
+          }
+
+          let chosenSize = null;
+          if (item.options?.size) {
+            const row = btn.closest(".item")?.querySelector('.optRow[data-optkey="size"]');
+            const active = row?.querySelector(".optBtn.active");
+            if (!active) {
+              openModal(t.opt_pick_title || "Bitte wählen", t.opt_size_pick_msg || "Bitte Größe auswählen.");
+              return;
+            }
+            chosenSize = active.getAttribute("data-optval");
+          }
+
+
+      
+          // options dialog if needed
+          const needsTemp = !!item.options?.temperatur;
+          const needsSize = !!item.options?.size;
+
+          // If the user already selected required options under the price, add directly without opening the popup.
+          if (needsTemp && !needsSize && chosenTemp) {
+            addToCart(item, { temperature: chosenTemp });
+            return;
+          }
+          if (needsSize && !needsTemp && chosenSize) {
+            addToCart(item, { size: chosenSize });
+            return;
+          }
+          if (needsTemp && needsSize && chosenTemp && chosenSize) {
+            addToCart(item, { temperature: chosenTemp, size: chosenSize });
+            return;
+          }
+
+          if (!needsTemp && !needsSize) {
+            addToCart(item, {});
+            return;
+          }
+
+          const picked = { temperature: (chosenTemp || null), size: (chosenSize || null) };
+
+          const tempHtml = needsTemp ? `
+            <div class="chapter">
+              <h3>Temperatur</h3>
+              <div class="row">
+                ${item.options.temperatur.map(v => `<button class="btn" data-temp="${v}">${v}</button>`).join("")}
+              </div>
+            </div>` : "";
+
+          const sizeHtml = needsSize ? `
+            <div class="chapter">
+              <h3>Größe</h3>
+              <div class="row">
+                ${item.options.size.map(o => `<button class="btn" data-size="${o.label}">${o.label} (${money((item.price||0)+(o.price_delta||0))})</button>`).join("")}
+              </div>
+            </div>` : "";
+
+          const ok = document.createElement("button");
+          ok.className = "btn primary";
+          ok.textContent = "OK";
+          ok.onclick = () => {
+            const chosen = {};
+            if (needsTemp) chosen.temperature = picked.temperature || item.options.temperatur[0];
+            if (needsSize) chosen.size = picked.size || item.options.size[0].label;
+            closeModal();
+            addToCart(item, chosen);
+          };
+          const cancel = document.createElement("button");
+          cancel.className = "btn";
+          cancel.textContent = I18N[state.lang].close;
+          cancel.onclick = closeModal;
+
+          openModal(item.name, tempHtml + sizeHtml, [cancel, ok]);
+
+          const b = el("modalBody");
+          if (needsTemp && picked.temperature) {
+            b.querySelectorAll("[data-temp]").forEach(x => {
+              if (x.getAttribute("data-temp") === picked.temperature) x.classList.add("active");
+            });
+          }
+          b.querySelectorAll("[data-temp]").forEach(tbtn => {
+            tbtn.onclick = () => {
+              picked.temperature = tbtn.getAttribute("data-temp");
+              b.querySelectorAll("[data-temp]").forEach(x => x.classList.remove("active"));
+              tbtn.classList.add("active");
+            };
+          });
+          b.querySelectorAll("[data-size]").forEach(sbtn => {
+            sbtn.onclick = () => {
+              picked.size = sbtn.getAttribute("data-size");
+              b.querySelectorAll("[data-size]").forEach(x => x.classList.remove("active"));
+              sbtn.classList.add("active");
+            };
+          });
+        });
+      });
+    };
+
+    q.addEventListener("input", renderMenuList);
+    catSel.addEventListener("change", renderMenuList);
+    renderMenuList();
+
+    renderCartLines();
+
+    const noteEl = document.getElementById("orderNote");
+    if (noteEl) {
+      noteEl.addEventListener("input", () => {
+        state.orderNote = noteEl.value || "";
+      });
+    }
+
+
+    document.getElementById("clearBtn").onclick = clearCart;
+    document.getElementById("sendBtn").onclick = async () => {
+      const t = I18N[state.lang];
+      if (!state.cart.length) return;
+
+      // Build human summary for the modal
+      const summary = state.cart.map(l => {
+        const opt = [];
+        if (l.options?.temperature) opt.push(l.options.temperature);
+        if (l.options?.size) opt.push(l.options.size);
+        const q = l.qty || 1;
+        const lineTotal = Math.round((l.price * q) * 100) / 100;
+        return `- ${q}× ${l.name}${opt.length ? " ("+opt.join(", ")+")" : ""} — ${money(lineTotal)}`;
+      }).join("\n");
+
+      const note = (state.orderNote || "").trim();
+      const text = `Cloud9 Bestellung
+${summary}${note ? `
+
+Anmerkungen: ${note}` : ""}
+
+${t.total}: ${money(cartTotal())}`;
+
+      // Send to backend
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const tableId = Number(params.get("t")) || null;
+
+        const payload = {
+          tableId,
+          items: state.cart.map(l => ({ id: l.id, qty: (l.qty || 1), options: l.options || null })),
+          note: note,
+          total: Math.round(cartTotal() * 100) / 100
+        };
+
+        const r = await fetch("/api/order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        if (!r.ok) throw new Error("HTTP " + r.status);
+      } catch (e) {
+        console.warn("Order API failed:", e);
+      }
+
+      // Clipboard fallback (optional)
+      navigator.clipboard?.writeText(text).catch(() => {});
+
+      const ok = document.createElement("button");
+      ok.className = "btn primary";
+      ok.textContent = "OK";
+      ok.onclick = () => { closeModal(); clearCart(); };
+
+      openModal("Bestellung",
+        `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`,
+        [ok]
+      );
+    };
+  }
+
+  function renderCartLines() {
+    const host = document.getElementById("cartLines");
+    if (!host) return;
+    if (!state.cart.length) { host.innerHTML = ""; return; }
+
+    host.innerHTML = state.cart.map((l, idx) => {
+      const opt = [];
+      if (l.options?.temperature) opt.push(l.options.temperature);
+      if (l.options?.size) opt.push(l.options.size);
+
+      const qty = l.qty || 1;
+      const lineTotal = Math.round((l.price * qty) * 100) / 100;
+
+      return `
+        <div class="item">
+          <div style="min-width:0">
+            <div class="itemTitle">${escapeHtml(l.name)}</div>
+            <div class="itemDesc">${escapeHtml(opt.join(" • "))}</div>
+          </div>
+          <div class="row" style="gap:8px">
+            <button class="btn" data-dec="${idx}">−</button>
+            <div style="min-width:28px;text-align:center;font-weight:800">${qty}</div>
+            <button class="btn" data-inc="${idx}">+</button>
+            <div class="price">${money(lineTotal)}</div>
+            <button class="btn danger" data-del="${idx}">✕</button>
+          </div>
+        </div>
+      `;
+    }).join("");
+
+    host.querySelectorAll("[data-inc]").forEach(btn => {
+      btn.onclick = () => {
+        const i = Number(btn.getAttribute("data-inc"));
+        const l = state.cart[i];
+        if (!l) return;
+        l.qty = (l.qty || 1) + 1;
+        renderRoute();
+      };
+    });
+
+    host.querySelectorAll("[data-dec]").forEach(btn => {
+      btn.onclick = () => {
+        const i = Number(btn.getAttribute("data-dec"));
+        const l = state.cart[i];
+        if (!l) return;
+        l.qty = (l.qty || 1) - 1;
+        if (l.qty <= 0) state.cart.splice(i, 1);
+        renderRoute();
+      };
+    });
+
+    host.querySelectorAll("[data-del]").forEach(btn => {
+      btn.onclick = () => {
+        const i = Number(btn.getAttribute("data-del"));
+        state.cart.splice(i, 1);
+        renderRoute();
+      };
+    });
+  }).join("");
+    host.querySelectorAll("[data-del]").forEach(btn => {
+      btn.onclick = () => {
+        const i = Number(btn.getAttribute("data-del"));
+        state.cart.splice(i, 1);
+        renderRoute();
+      };
+    });
+  }
+
+  function renderCall() {
+    const t = I18N[state.lang];
+    return `<div class="card"><div class="h">${t.call}</div><div class="small">${t.callText}</div></div>`;
+  }
+
+  function renderPay() {
+    const t = I18N[state.lang];
+    return `<div class="card"><div class="h">${t.pay}</div><div class="small">${t.payText}</div></div>`;
+  }
+
+  function renderQuiz() {
+    const t = I18N[state.lang];
+    if (!state.quiz) return `<div class="card">Loading…</div>`;
+    if (!state.quizStarted) {
+      return `<div class="card"><div class="h">${t.quiz}</div><button class="btn primary" id="startQuiz">${t.startQuiz}</button></div>`;
+    }
+    const session = Array.isArray(state.quizSession) ? state.quizSession : [];
+    const idx = state.quizIdx;
+    const cur = session[idx];
+    if (!cur) {
+      return `<div class="card"><div class="h">${t.quiz}</div><div class="small">Done.</div></div>`;
+    }
+    const choices = cur.choices.map((c, i) => `<button class="btn" data-ans="${i}" style="text-align:left">${escapeHtml(c)}</button>`).join("");
+    return `
+      <div class="card">
+        <div class="h">${t.quiz} <span class="quizProgress">${idx+1}/${session.length}</span></div>
+        <div style="font-weight:900;margin:12px 0 10px">${escapeHtml(cur.q)}</div>
+        <div class="row" style="flex-direction:column;align-items:stretch">${choices}</div>
+        <div id="quizFeedback" style="margin-top:12px"></div>
+      </div>
+    `;
+  }
+
+  function bindQuiz() {
+    const t = I18N[state.lang];
+    const start = document.getElementById("startQuiz");
+    if (start) {
+      start.onclick = () => {
+        // New session each time, random 20 questions, nothing is persisted.
+        startQuizSession();
+        renderRoute();
+      };
+      return;
+    }
+    document.querySelectorAll("[data-ans]").forEach(btn => {
+      btn.onclick = () => {
+        const idx = state.quizIdx;
+        const session = Array.isArray(state.quizSession) ? state.quizSession : [];
+        const q = session[idx];
+        if (!q) return;
+        const picked = Number(btn.getAttribute("data-ans"));
+        const ok = picked === q.a;
+        const fb = document.getElementById("quizFeedback");
+        fb.innerHTML = `
+          <div class="chapter">
+            <h3>${ok ? t.correct : t.wrong}</h3>
+            <p>${escapeHtml(q.ex || "")}</p>
+            <button class="btn primary" id="nextBtn">${idx+1 < session.length ? t.next : t.again}</button>
+          </div>
+        `;
+        document.getElementById("nextBtn").onclick = () => {
+          if (idx+1 < session.length) {
+            state.quizIdx += 1;
+          } else {
+            // end session
+            state.quizStarted = false;
+            state.quizIdx = 0;
+            state.quizSession = null;
+          }
+          renderRoute();
+        };
+      };
+    });
+  }
+
+  function renderStory() {
+    const t = I18N[state.lang];
+    const st = state.story;
+    if (!st) return `<div class="card">Loading…</div>`;
+    const ch = (st.chapters || []).map(c => `
+      <div class="chapter">
+        <h3>${escapeHtml(c.h)}</h3>
+        ${(c.p || []).map(p => `<p>${escapeHtml(p)}</p>`).join("")}
+      </div>
+    `).join("");
+    return `<div class="card"><div class="h">${t.story}</div><div class="small">${escapeHtml(st.title || "")}</div>${ch}</div>`;
+  }
+
+  function escapeHtml(s) {
+    return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+  }
+async function renderNews() {
+  const t = I18N[state.lang] || I18N.de;
+
+  // category state
+  if (!state.newsCat) {
+    const fromLs = localStorage.getItem("cloud9_news_cat");
+    state.newsCat = fromLs || "mix";
+  }
+
+  const cats = [
+    { id: "mix", label: t.news_cat_mix || "Mix" },
+    { id: "world", label: t.news_cat_world || "World" },
+    { id: "weather", label: t.news_cat_weather || "Weather" },
+    { id: "business", label: t.news_cat_business || "Business" },
+    { id: "sport", label: t.news_cat_sport || "Sport" },
+  ];
+
+  return `
+    <div class="card">
+      <div class="h">${t.news_title || "News"}</div>
+      <div class="small" style="opacity:.85; margin-top:6px">${t.news_legal || ""}</div>
+
+      <div class="row" style="gap:8px; flex-wrap:wrap; margin-top:12px" id="newsCats">
+        ${cats.map(c => `<button class="chip ${state.newsCat===c.id ? "active" : ""}" data-newscat="${c.id}">${escapeHtml(c.label)}</button>`).join("")}
+      </div>
+
+      <div id="newsList" class="list" style="margin-top:12px">
+        <div class="small">${t.news_loading || "Loading news..."}</div>
+      </div>
+    </div>
+  `;
 }
 
 function bindNews() {
