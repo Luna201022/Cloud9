@@ -809,7 +809,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
 
     document.getElementById("clearBtn").onclick = clearCart;
-    document.getElementById("sendBtn").onclick = () => {
+    document.getElementById("sendBtn").onclick = async () => {
       const t = I18N[state.lang];
       if (!state.cart.length) return;
       const summary = state.cart.map(l => {
@@ -825,12 +825,55 @@ ${summary}${note ? `
 Anmerkungen: ${note}` : ""}
 
 ${t.total}: ${money(cartTotal())}`;
-      navigator.clipboard?.writeText(text).catch(() => {});
+
+      // Tisch-Parameter aus QR-Link (z.B. ?t=7&k=TOKEN)
+      const qp = new URLSearchParams(location.search);
+      const tableIdRaw = qp.get("t") || qp.get("table") || "";
+      const tableId = tableIdRaw ? Number(tableIdRaw) : null;
+      const token = qp.get("k") || qp.get("token") || null;
+
+      const payload = {
+        tableId,
+        token,
+        items: state.cart.map(l => ({ id: l.id, qty: l.qty, options: l.options || null })),
+        note: note || null,
+        total: cartTotal(),
+        createdAt: Date.now()
+      };
+
+      let sentOk = false;
+      let errText = "";
+
+      try {
+        const res = await fetch("/api/order", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        sentOk = res.ok;
+        if (!res.ok) errText = await res.text();
+      } catch (e) {
+        errText = e?.message || String(e);
+      }
+
+      // Fallback: falls Backend nicht erreichbar ist, trotzdem Text in Zwischenablage kopieren (wie bisher)
+      if (!sentOk) {
+        navigator.clipboard?.writeText(text).catch(() => {});
+      }
+
       const ok = document.createElement("button");
       ok.className = "btn primary";
       ok.textContent = "OK";
       ok.onclick = () => { closeModal(); clearCart(); };
-      openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`, [ok]);
+
+      const statusLine = sentOk
+        ? `<div class="small" style="margin-top:10px">${t.copied}</div>`
+        : `<div class="small" style="margin-top:10px"><b>Hinweis:</b> Bestellung konnte nicht ans Personal gesendet werden (Fallback: kopiert). ${escapeHtml(errText || "")}</div>`;
+
+      openModal("Bestellung",
+        `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre>${statusLine}`,
+        [ok]
+      );
     };
   }
 

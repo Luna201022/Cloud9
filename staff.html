@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cloud9 – Staff</title>
+  <style>
+    :root{--bg:#0b1117;--panel:#0f1720;--border:#263341;--text:#e6edf3;--muted:#9fb0c0;--ok:#3fb950;--bad:#f85149;--btn:#152131;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    header{padding:16px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    input,button{padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
+    button{background:var(--btn);cursor:pointer}
+    button:hover{filter:brightness(1.1)}
+    .status{margin-left:auto;color:var(--muted)}
+    .status.ok{color:var(--ok)} .status.bad{color:var(--bad)}
+    main{padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+    .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:12px}
+    .row{display:flex;justify-content:space-between;gap:8px;align-items:center}
+    .small{color:var(--muted);font-size:13px}
+    .btns{display:flex;gap:8px;margin-top:10px}
+    .danger{border-color:#5a1f1f}
+  </style>
+</head>
+<body>
+<header>
+  <strong>Cloud9 – Staff Dashboard</strong>
+  <input id="pin" type="password" placeholder="PIN" />
+  <button id="start">Start</button>
+  <div id="status" class="status">Nicht verbunden</div>
+</header>
+
+<main id="grid"></main>
+
+<script>
+  const pinEl = document.getElementById("pin");
+  const statusEl = document.getElementById("status");
+  const grid = document.getElementById("grid");
+  let timer = null;
+
+  function setStatus(msg, kind=""){
+    statusEl.textContent = msg;
+    statusEl.className = "status" + (kind ? " " + kind : "");
+  }
+
+  function money(n){
+    const v = Number(n);
+    if(!Number.isFinite(v)) return "";
+    return v.toFixed(2).replace(".", ",") + " €";
+  }
+
+  function esc(s){
+    return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  }
+
+  async function api(path, opts={}){
+    const pin = pinEl.value.trim();
+    if(!pin) throw new Error("PIN fehlt");
+    const res = await fetch(path, {
+      ...opts,
+      headers: { ...(opts.headers||{}), "Authorization":"Bearer " + pin }
+    });
+    if(!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+
+  function render(orders){
+    grid.innerHTML = "";
+    if(!orders.length){
+      grid.innerHTML = '<div class="small">Keine offenen Bestellungen.</div>';
+      return;
+    }
+    orders.forEach(o=>{
+      const items = (o.items||[]).map(i=>`<div>• ${esc(i.id)} × ${esc(i.qty)}</div>`).join("");
+      const el = document.createElement("div");
+      el.className="card";
+      el.innerHTML = `
+        <div class="row">
+          <div><strong>Tisch ${o.tableId ?? "?"}</strong> <span class="small">(${esc(o.status)})</span></div>
+          <div class="small">${new Date(o.createdAt).toLocaleTimeString()}</div>
+        </div>
+        <div style="margin-top:8px">${items || ""}</div>
+        ${o.note ? `<div class="small" style="margin-top:8px">Notiz: ${esc(o.note)}</div>` : ""}
+        ${o.total!=null ? `<div class="row" style="margin-top:8px"><div class="small">Summe</div><div><strong>${money(o.total)}</strong></div></div>` : ""}
+        <div class="btns">
+          <button data-ack="${esc(o.id)}">Annehmen</button>
+          <button class="danger" data-done="${esc(o.id)}">Erledigt</button>
+        </div>
+      `;
+      grid.appendChild(el);
+    });
+
+    grid.querySelectorAll("button[data-ack]").forEach(b=>{
+      b.onclick = async () => {
+        try{
+          await api("/api/staff/orders", { method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({id:b.dataset.ack, status:"ACK"})});
+          poll();
+        }catch(e){ setStatus(e.message, "bad"); }
+      };
+    });
+    grid.querySelectorAll("button[data-done]").forEach(b=>{
+      b.onclick = async () => {
+        try{
+          await api("/api/staff/orders", { method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({id:b.dataset.done, status:"DONE"})});
+          poll();
+        }catch(e){ setStatus(e.message, "bad"); }
+      };
+    });
+  }
+
+  async function poll(){
+    try{
+      const data = await api("/api/staff/orders");
+      render(data.orders || []);
+      setStatus("Verbunden", "ok");
+    }catch(e){
+      setStatus(e.message || String(e), "bad");
+    }
+  }
+
+  document.getElementById("start").onclick = () => {
+    if(timer) clearInterval(timer);
+    poll();
+    timer = setInterval(poll, 2000);
+  };
+</script>
+</body>
+</html>
