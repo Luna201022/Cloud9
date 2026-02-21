@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cloud9 Staff</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    .staffWrap{max-width:1100px;margin:28px auto;padding:0 16px}
+    .staffTop{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+    .staffTop .row{gap:10px;flex-wrap:wrap}
+    .badgePill{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);font-size:12px}
+    .dot{width:8px;height:8px;border-radius:99px;background:rgba(255,255,255,.35)}
+    .dot.ok{background:rgba(0,255,140,.75)}
+    .dot.bad{background:rgba(255,80,80,.85)}
+    .table{width:100%;border-collapse:separate;border-spacing:0 10px}
+    .tr{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px}
+    .tr td{padding:14px 14px;vertical-align:top}
+    .tr td:first-child{border-top-left-radius:14px;border-bottom-left-radius:14px}
+    .tr td:last-child{border-top-right-radius:14px;border-bottom-right-radius:14px}
+    .muted{opacity:.75}
+    .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace}
+    .actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+    .statusTag{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.12);font-size:12px}
+    .statusNEW{background:rgba(0,140,255,.12)}
+    .statusDONE{background:rgba(0,255,140,.10)}
+    .statusCANCEL{background:rgba(255,80,80,.10)}
+    .small2{font-size:12px;opacity:.8}
+    .pinHint{font-size:12px;opacity:.75}
+  </style>
+</head>
+<body>
+  <div class="staffWrap">
+    <div class="card">
+      <div class="staffTop">
+        <div>
+          <div class="h">Cloud9 Staff</div>
+          <div class="small muted">Bestellungen anzeigen • DONE setzen • löschen</div>
+        </div>
+        <div class="row">
+          <div class="badgePill" title="Auto-Refresh Status">
+            <span class="dot" id="dot"></span>
+            <span id="refreshLabel">Auto-Refresh: —</span>
+          </div>
+          <div class="badgePill" title="Letztes Update">
+            <span class="mono" id="lastUpdate">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:14px;align-items:flex-end">
+        <div style="min-width:260px">
+          <div class="small2">Admin PIN</div>
+          <input id="pin" class="input" type="password" inputmode="numeric" autocomplete="off" placeholder="PIN eingeben"/>
+          <div class="pinHint">PIN wird nicht angezeigt/auto-gefüllt. Nach „Speichern“ wird das Feld geleert.</div>
+        </div>
+        <button class="btn primary" id="savePin">PIN speichern</button>
+        <button class="btn" id="reload">Neu laden</button>
+
+        <div style="flex:1"></div>
+
+        <div style="min-width:220px">
+          <div class="small2">Filter</div>
+          <select id="filter" class="input">
+            <option value="NEW">Nur NEW</option>
+            <option value="ALL">Alle</option>
+            <option value="DONE">Nur DONE</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <div class="row" style="justify-content:space-between;align-items:center">
+        <div class="h" style="margin:0">Bestellungen</div>
+        <div class="small muted">Wenn nichts kommt: PIN speichern → Neu laden.</div>
+      </div>
+      <div id="err" class="small" style="margin-top:10px;color:#ff6b6b;display:none"></div>
+      <div id="empty" class="small muted" style="margin-top:10px;display:none">Keine Bestellungen.</div>
+      <div style="overflow:auto;margin-top:10px">
+        <table class="table" id="tbl"></table>
+      </div>
+    </div>
+  </div>
+
+  <script src="staff.js"></script>
+</body>
+</html>
