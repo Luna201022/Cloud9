@@ -273,7 +273,7 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-    // Menü immer frisch laden (Admin-Änderungen sofort sichtbar)
+    // Nur DE-Menü immer frisch (Admin-Änderungen sofort sichtbar)
     const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
     const url = isMenuDe
       ? path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()
@@ -281,10 +281,7 @@
 
     const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
-
-    const buf = await res.arrayBuffer();
-    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
-    return JSON.parse(txt);
+    return res.json();
   } catch (e) {
       // Fallback to res.json() to keep behavior if the response isn't valid text.
       // (Shouldn't happen for our static JSON files.)
@@ -293,10 +290,12 @@
   }
 
   async function loadData() {
+    const l = state.lang;
     const [menu, quiz, story] = await Promise.all([
-      fetchJson("menu.de.json"),
-      fetchJson("quiz.de.json").catch(() => []),
-      fetchJson("story.de.json").catch(() => ({ title: "", chapters: [] }))
+      // One single menu source of truth (German card) for all languages.
+      fetchJson(`menu.de.json`),
+      fetchJson(`quiz.${l}.json`),
+      fetchJson(`story.${l}.json`)
     ]);
     state.menu = menu;
     state.quiz = quiz;
