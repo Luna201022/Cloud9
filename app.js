@@ -1,6 +1,6 @@
 
 (() => {
-  const LANGS = ["de"];
+  const LANGS = ["de","en","fr","it","vi"];
 
   const I18N = {
     de: { order:"Bestellen", call:"Bedienung rufen", pay:"Bezahlen", quiz:"Kaffee-Quiz", story:"Kaffee-Geschichte",
@@ -247,12 +247,14 @@
   }
 
   function loadLang() {
+    const fromLs = localStorage.getItem("cloud9_lang");
+    if (fromLs && LANGS.includes(fromLs)) return fromLs;
     return "de";
   }
   function setLang(lang) {
-    state.lang = "de";
-    localStorage.setItem("cloud9_lang", "de");
-    document.documentElement.lang = "de";
+    state.lang = lang;
+    localStorage.setItem("cloud9_lang", lang);
+    document.documentElement.lang = lang;
     renderAll();
   }
 
@@ -273,25 +275,27 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-    // Menü immer frisch laden (Admin-Änderungen sofort sichtbar)
-    const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
-    const url = isMenuDe
-      ? path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()
-      : path;
-
-    const res = await fetch(url, { cache: "no-store" });
+    const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
 
     const buf = await res.arrayBuffer();
     const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
-    return JSON.parse(txt);
+    try {
+      return JSON.parse(txt);
+    } catch (e) {
+      // Fallback to res.json() to keep behavior if the response isn't valid text.
+      // (Shouldn't happen for our static JSON files.)
+      return res.json();
+    }
   }
 
   async function loadData() {
+    const l = state.lang;
     const [menu, quiz, story] = await Promise.all([
-      fetchJson("menu.de.json"),
-      fetchJson("quiz.de.json").catch(() => []),
-      fetchJson("story.de.json").catch(() => ({ title: "", chapters: [] }))
+      // One single menu source of truth (German card) for all languages.
+      fetchJson(`menu.de.json`),
+      fetchJson(`quiz.${l}.json`),
+      fetchJson(`story.${l}.json`)
     ]);
     state.menu = menu;
     state.quiz = quiz;
@@ -363,7 +367,6 @@
       console.log(msg);
     }
   }
-
 
   function openChoiceModalSingle(item, onDone) {
     const t = I18N[state.lang] || I18N.de;
@@ -1045,7 +1048,7 @@ async function loadNewsIntoList() {
       const dt = it.date || it.pubDate || it.updated || "";
       let dtText = "";
       if (dt) {
-        try { dtText = new Date(dt).toLocaleString(); } catch (e) { dtText = String(dt); }
+        try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
       }
       return `
         <div class="card" style="margin-top:10px">
@@ -1066,6 +1069,7 @@ async function loadNewsIntoList() {
       <div class="small" style="opacity:.7;margin-top:6px">API: <a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></div>`;
   }
 }
+
 
 function renderRoute() {
     const route = hashRoute();
