@@ -1,6 +1,6 @@
 
 (() => {
-  const LANGS = ["de"];
+  const LANGS = ["de","en","fr","it","vi"];
 
   const I18N = {
     de: { order:"Bestellen", call:"Bedienung rufen", pay:"Bezahlen", quiz:"Kaffee-Quiz", story:"Kaffee-Geschichte",
@@ -247,12 +247,14 @@
   }
 
   function loadLang() {
+    const fromLs = localStorage.getItem("cloud9_lang");
+    if (fromLs && LANGS.includes(fromLs)) return fromLs;
     return "de";
   }
   function setLang(lang) {
-    state.lang = "de";
-    localStorage.setItem("cloud9_lang", "de");
-    document.documentElement.lang = "de";
+    state.lang = lang;
+    localStorage.setItem("cloud9_lang", lang);
+    document.documentElement.lang = lang;
     renderAll();
   }
 
@@ -273,29 +275,21 @@
   // This prevents Vietnamese diacritics from turning into replacement chars (�)
   // when the host serves JSON with a wrong charset.
   async function fetchJson(path) {
-    // Nur DE-Menü immer frisch (Admin-Änderungen sofort sichtbar)
-    const isMenuDe = (path === "menu.de.json" || path === "/menu.de.json");
-    const url = isMenuDe
-      ? path + (path.includes("?") ? "&" : "?") + "v=" + Date.now()
-      : path;
-
-    const res = await fetch(url, { cache: "no-store" });
+    const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
-    return res.json();
-  } catch (e) {
-      // Fallback to res.json() to keep behavior if the response isn't valid text.
-      // (Shouldn't happen for our static JSON files.)
-      return res.json();
-    }
+
+    const buf = await res.arrayBuffer();
+    const txt = new TextDecoder("utf-8", { fatal: false }).decode(buf);
+    try {
+      return JSON.parse(txt);
   }
 
+
   async function loadData() {
-    const l = state.lang;
     const [menu, quiz, story] = await Promise.all([
-      // One single menu source of truth (German card) for all languages.
       fetchJson(`menu.de.json`),
-      fetchJson(`quiz.${l}.json`),
-      fetchJson(`story.${l}.json`)
+      fetchJson(`quiz.de.json`).catch(() => []),
+      fetchJson(`story.de.json`).catch(() => ({ title: "", chapters: [] }))
     ]);
     state.menu = menu;
     state.quiz = quiz;
@@ -809,7 +803,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
 
     document.getElementById("clearBtn").onclick = clearCart;
-    document.getElementById("sendBtn").onclick = () => {
+    document.getElementById("sendBtn").onclick = async () => {
       const t = I18N[state.lang];
       if (!state.cart.length) return;
       const summary = state.cart.map(l => {
@@ -825,12 +819,55 @@ ${summary}${note ? `
 Anmerkungen: ${note}` : ""}
 
 ${t.total}: ${money(cartTotal())}`;
-      (navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(text).catch(() => {}) : Promise.resolve());
+
+      // Tisch-Parameter aus QR-Link (z.B. ?t=7&k=TOKEN)
+      const qp = new URLSearchParams(location.search);
+      const tableIdRaw = qp.get("t") || qp.get("table") || "";
+      const tableId = tableIdRaw ? Number(tableIdRaw) : null;
+      const token = qp.get("k") || qp.get("token") || null;
+
+      const payload = {
+        tableId,
+        token,
+        items: state.cart.map(l => ({ id: l.id, qty: l.qty, options: l.options || null })),
+        note: note || null,
+        total: cartTotal(),
+        createdAt: Date.now()
+      };
+
+      let sentOk = false;
+      let errText = "";
+
+      try {
+        const res = await fetch("/api/order", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        sentOk = res.ok;
+        if (!res.ok) errText = await res.text();
+      } catch (e) {
+        errText = e?.message || String(e);
+      }
+
+      // Fallback: falls Backend nicht erreichbar ist, trotzdem Text in Zwischenablage kopieren (wie bisher)
+      if (!sentOk) {
+        navigator.clipboard?.writeText(text).catch(() => {});
+      }
+
       const ok = document.createElement("button");
       ok.className = "btn primary";
       ok.textContent = "OK";
       ok.onclick = () => { closeModal(); clearCart(); };
-      openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`, [ok]);
+
+      const statusLine = sentOk
+        ? `<div class="small" style="margin-top:10px">${t.copied}</div>`
+        : `<div class="small" style="margin-top:10px"><b>Hinweis:</b> Bestellung konnte nicht ans Personal gesendet werden (Fallback: kopiert). ${escapeHtml(errText || "")}</div>`;
+
+      openModal("Bestellung",
+        `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre>${statusLine}`,
+        [ok]
+      );
     };
   }
 
@@ -1048,7 +1085,7 @@ async function loadNewsIntoList() {
       const dt = it.date || it.pubDate || it.updated || "";
       let dtText = "";
       if (dt) {
-        try { dtText = new Date(dt).toLocaleString(); } catch (e) { dtText = String(dt); }
+        try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
       }
       return `
         <div class="card" style="margin-top:10px">
