@@ -201,8 +201,26 @@
   };
 
   const el = (id) => document.getElementById(id);
-  const state = {
+  
+  function getTableId() {
+    try {
+      const p = new URLSearchParams(location.search || "");
+      const raw = p.get("t") || p.get("table") || p.get("tableId");
+      const n = raw ? parseInt(raw, 10) : NaN;
+      if (!Number.isNaN(n) && n > 0) {
+        localStorage.setItem("cloud9_tableId", String(n));
+        return n;
+      }
+      const fromLs = parseInt(localStorage.getItem("cloud9_tableId") || "", 10);
+      return Number.isNaN(fromLs) ? null : fromLs;
+    } catch (e) {
+      return null;
+    }
+  }
+
+const state = {
     lang: loadLang(),
+    tableId: getTableId(),
     menu: null,
     quiz: null,
     story: null,
@@ -809,27 +827,78 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
 
     document.getElementById("clearBtn").onclick = clearCart;
-    document.getElementById("sendBtn").onclick = () => {
+    document.getElementById("sendBtn").onclick = async () => {
       const t = I18N[state.lang];
       if (!state.cart.length) return;
-      const summary = state.cart.map(l => {
+
+      // Build aggregated items with quantities (same item + same options => one line)
+      const map = new Map();
+      for (const l of state.cart) {
+        const key = JSON.stringify({ id: l.id, opt: l.options || {} });
+        const cur = map.get(key) || { id: l.id, name: l.name, options: l.options || {}, qty: 0, unitPrice: l.price };
+        cur.qty += 1;
+        // unitPrice: keep first, total will be derived
+        map.set(key, cur);
+      }
+      const itemsAgg = Array.from(map.values());
+
+      const summary = itemsAgg.map(it => {
         const opt = [];
-        if (l.options?.temperature) opt.push(l.options.temperature);
-        if (l.options?.size) opt.push(l.options.size);
-        return `- ${l.name}${opt.length ? " ("+opt.join(", ")+")" : ""} — ${money(l.price)}`;
-      }).join("\n");
+        if (it.options?.temperature) opt.push(it.options.temperature);
+        if (it.options?.size) opt.push(it.options.size);
+        const optTxt = opt.length ? " (" + opt.join(", ") + ")" : "";
+        return `- ${it.name}${optTxt} x${it.qty} — ${money((it.unitPrice||0) * it.qty)}`;
+      }).join("
+");
+
       const note = (state.orderNote || "").trim();
-      const text = `Cloud9 Bestellung
+      const total = cartTotal();
+
+      const text = `Cloud9 Bestellung${state.tableId ? ` (Tisch ${state.tableId})` : ""}
 ${summary}${note ? `
 
 Anmerkungen: ${note}` : ""}
 
-${t.total}: ${money(cartTotal())}`;
-      navigator.clipboard?.writeText(text).catch(() => {});
+${t.total}: ${money(total)}`;
+
+      // Copy to clipboard as fallback
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(text);
+        }
+      } catch (e) {}
+
+      // Send to backend (if available)
+      let backendOk = false;
+      try {
+        const payload = {
+          tableId: state.tableId,
+          items: itemsAgg.map(it => ({
+            id: it.id,
+            name: it.name,
+            qty: it.qty,
+            options: it.options || {},
+            unitPrice: Number(it.unitPrice || 0)
+          })),
+          note,
+          total: Number(total || 0)
+        };
+        const res = await fetch("/api/order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        backendOk = res.ok;
+      } catch (e) {}
+
       const ok = document.createElement("button");
       ok.className = "btn primary";
       ok.textContent = "OK";
       ok.onclick = () => { closeModal(); clearCart(); };
+
+      const hint = backendOk ? (t.copied || "Bestellung erfolgreich übermittelt") : (t.copied || "Bestellung kopiert (Offline/Demo)");
+      openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${escapeHtml(hint)}</div>`, [ok]);
+    };
       openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`, [ok]);
     };
   }
