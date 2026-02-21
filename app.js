@@ -287,8 +287,6 @@
     return JSON.parse(txt);
   }
 
-  }
-
   async function loadData() {
     const [menu, quiz, story] = await Promise.all([
       fetchJson("menu.de.json"),
@@ -360,6 +358,10 @@
       setTimeout(() => {
         try { closeModal(); } catch(e) {}
       }, 1000);
+    } catch (e) {
+      // fallback: no modal available
+      console.log(msg);
+    }
   }
 
 
@@ -1043,7 +1045,7 @@ async function loadNewsIntoList() {
       const dt = it.date || it.pubDate || it.updated || "";
       let dtText = "";
       if (dt) {
-        try { dtText = new Date(dt).toLocaleString(); } catch { dtText = String(dt); }
+        try { dtText = new Date(dt).toLocaleString(); } catch (e) { dtText = String(dt); }
       }
       return `
         <div class="card" style="margin-top:10px">
@@ -1058,9 +1060,12 @@ async function loadNewsIntoList() {
         </div>
       `;
     }).join("");
+
+  } catch (e) {
+    list.innerHTML = `<div class="small">${t.news_error || "Could not load news."}<br><span style="opacity:.75">${escapeHtml(String(e?.message||e))}</span></div>
+      <div class="small" style="opacity:.7;margin-top:6px">API: <a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(url)}</a></div>`;
   }
-
-
+}
 
 function renderRoute() {
     const route = hashRoute();
