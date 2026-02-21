@@ -1,51 +1,48 @@
-function json(data, status = 200) {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: {
-      "Content-Type": "application/json",
-      "Cache-Control": "no-store",
-      "Access-Control-Allow-Origin": "*",
-    },
-  });
-}
-
-function unauthorized() {
-  return json({ ok: false, error: "Unauthorized" }, 401);
-}
-
-function checkAuth(request, env) {
-  const pin = env.ADMIN_PIN || "";
-  const auth = request.headers.get("Authorization") || "";
-  if (!pin) return false;
-  return auth === `Bearer ${pin}`;
-}
-
-export async function onRequestGet(context) {
+export async function onRequest(context) {
   const { request, env } = context;
 
-  if (!env.ORDERS_KV) return json({ ok: false, error: "ORDERS_KV missing" }, 500);
-  if (!checkAuth(request, env)) return unauthorized();
+  if (request.method === "OPTIONS") {
+    return new Response("", { status: 204, headers: corsHeaders(request) });
+  }
 
-  const url = new URL(request.url);
-  const onlyNew = url.searchParams.get("onlyNew") === "1";
+  const auth = request.headers.get("Authorization") || "";
+  const expected = `Bearer ${env.ADMIN_PIN || ""}`;
+  if (!env.ADMIN_PIN || auth !== expected) {
+    return json({ ok: false, error: "unauthorized" }, 401, request);
+  }
 
-  const listed = await env.ORDERS_KV.list({ prefix: "order:" });
-  const keys = (listed.keys || []).map(k => k.name).sort().reverse().slice(0, 80);
+  if (!env.ORDERS_KV) {
+    return json({ ok: false, error: "ORDERS_KV missing" }, 500, request);
+  }
 
-  const values = await Promise.all(keys.map(k => env.ORDERS_KV.get(k)));
-  let orders = [];
-  for (let i = 0; i < keys.length; i++) {
+  const list = await env.ORDERS_KV.list({ prefix: "order:" });
+  const keys = (list.keys || []).map(k => k.name);
+
+  const orders = [];
+  for (const key of keys) {
     try {
-      const o = JSON.parse(values[i] || "null");
-      if (!o) continue;
-      o.key = o.key || keys[i];
-      if (onlyNew && (o.status || "NEW") !== "NEW") continue;
-      orders.push(o);
+      const raw = await env.ORDERS_KV.get(key);
+      if (!raw) continue;
+      const obj = JSON.parse(raw);
+      orders.push(obj);
     } catch (e) {}
   }
 
-  // sort by createdAt desc if present
-  orders.sort((a,b) => String(b.createdAt||"").localeCompare(String(a.createdAt||"")));
+  orders.sort((a,b) => (b.createdAt||0) - (a.createdAt||0));
+  return json({ ok: true, count: orders.length, orders }, 200, request);
+}
 
-  return json({ ok: true, count: orders.length, orders });
+function corsHeaders(request) {
+  const origin = request.headers.get("Origin") || "*";
+  return {
+    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Methods": "GET,POST,PATCH,DELETE,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization",
+    "Access-Control-Allow-Credentials": "true",
+    "Vary": "Origin",
+    "Content-Type": "application/json; charset=utf-8",
+  };
+}
+function json(obj, status, request) {
+  return new Response(JSON.stringify(obj), { status, headers: corsHeaders(request) });
 }
