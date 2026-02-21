@@ -3,126 +3,183 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cloud9 – Staff</title>
+  <title>Cloud9 – Bestellungen (Staff)</title>
+  <link rel="stylesheet" href="/styles.css">
   <style>
-    :root{--bg:#0b1117;--panel:#0f1720;--border:#263341;--text:#e6edf3;--muted:#9fb0c0;--ok:#3fb950;--bad:#f85149;--btn:#152131;}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text)}
-    header{padding:16px;border-bottom:1px solid var(--border);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-    input,button{padding:10px;border-radius:8px;border:1px solid var(--border);background:var(--panel);color:var(--text)}
-    button{background:var(--btn);cursor:pointer}
-    button:hover{filter:brightness(1.1)}
-    .status{margin-left:auto;color:var(--muted)}
-    .status.ok{color:var(--ok)} .status.bad{color:var(--bad)}
-    main{padding:12px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
-    .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:12px}
-    .row{display:flex;justify-content:space-between;gap:8px;align-items:center}
-    .small{color:var(--muted);font-size:13px}
-    .btns{display:flex;gap:8px;margin-top:10px}
-    .danger{border-color:#5a1f1f}
+    body{padding:18px}
+    .wrap{max-width:1100px;margin:0 auto}
+    .topbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .pin{max-width:180px}
+    .pill{padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.06);font-size:12px}
+    .orders{margin-top:14px;display:flex;flex-direction:column;gap:12px}
+    .orderCard{border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:14px;background:rgba(0,0,0,.18)}
+    .orderHead{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+    .orderHead h2{margin:0;font-size:18px}
+    .meta{display:flex;gap:8px;flex-wrap:wrap}
+    .items{margin-top:10px}
+    .items ul{margin:8px 0 0 18px}
+    .btnRow{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    .new{outline:2px solid rgba(80,200,120,.45)}
+    .muted{opacity:.8}
+    .danger2{border-color: rgba(220,70,70,.6)}
   </style>
 </head>
 <body>
-<header>
-  <strong>Cloud9 – Staff Dashboard</strong>
-  <input id="pin" type="password" placeholder="PIN" />
-  <button id="start">Start</button>
-  <div id="status" class="status">Nicht verbunden</div>
-</header>
+  <div class="wrap">
+    <div class="card">
+      <div class="h">Cloud9 – Bestellungen (Staff)</div>
+      <div class="topbar" style="margin-top:10px">
+        <input class="input pin" id="pin" type="password" placeholder="PIN (ADMIN_PIN)" />
+        <button class="btn primary" id="connect">Verbinden</button>
+        <button class="btn" id="refresh">Aktualisieren</button>
+        <label class="pill"><input type="checkbox" id="onlyNew" checked> nur NEW</label>
+        <span class="pill" id="status">nicht verbunden</span>
+      </div>
+    </div>
 
-<main id="grid"></main>
+    <div class="orders" id="orders"></div>
+  </div>
 
 <script>
-  const pinEl = document.getElementById("pin");
-  const statusEl = document.getElementById("status");
-  const grid = document.getElementById("grid");
+(() => {
+  const el = (id) => document.getElementById(id);
   let timer = null;
+  let lastKeys = new Set();
 
-  function setStatus(msg, kind=""){
-    statusEl.textContent = msg;
-    statusEl.className = "status" + (kind ? " " + kind : "");
+  function authHeaders() {
+    const pin = (el("pin").value || "").trim();
+    return { "Authorization": "Bearer " + pin };
   }
 
-  function money(n){
-    const v = Number(n);
-    if(!Number.isFinite(v)) return "";
-    return v.toFixed(2).replace(".", ",") + " €";
+  function fmtMoney(v) {
+    const n = typeof v === "number" ? v : 0;
+    return n.toFixed(2).replace(".", ",") + " €";
   }
 
-  function esc(s){
-    return String(s ?? "").replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-  }
+  function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c])); }
 
-  async function api(path, opts={}){
-    const pin = pinEl.value.trim();
-    if(!pin) throw new Error("PIN fehlt");
-    const res = await fetch(path, {
-      ...opts,
-      headers: { ...(opts.headers||{}), "Authorization":"Bearer " + pin }
-    });
-    if(!res.ok) throw new Error("HTTP " + res.status);
+  async function apiGet() {
+    const onlyNew = el("onlyNew").checked ? "1" : "0";
+    const res = await fetch("/api/staff/orders?onlyNew=" + onlyNew, { headers: authHeaders(), cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
     return res.json();
   }
 
-  function render(orders){
-    grid.innerHTML = "";
-    if(!orders.length){
-      grid.innerHTML = '<div class="small">Keine offenen Bestellungen.</div>';
+  async function apiSetStatus(key, status) {
+    const res = await fetch("/api/staff/status", {
+      method: "POST",
+      headers: Object.assign({ "Content-Type":"application/json" }, authHeaders()),
+      body: JSON.stringify({ key, status })
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+
+  async function apiDelete(key) {
+    const res = await fetch("/api/staff/delete", {
+      method: "POST",
+      headers: Object.assign({ "Content-Type":"application/json" }, authHeaders()),
+      body: JSON.stringify({ key })
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  }
+
+  function render(data) {
+    const host = el("orders");
+    const orders = Array.isArray(data.orders) ? data.orders : [];
+    if (!orders.length) {
+      host.innerHTML = '<div class="card"><div class="small">Keine Bestellungen.</div></div>';
       return;
     }
-    orders.forEach(o=>{
-      const items = (o.items||[]).map(i=>`<div>• ${esc(i.id)} × ${esc(i.qty)}</div>`).join("");
-      const el = document.createElement("div");
-      el.className="card";
-      el.innerHTML = `
-        <div class="row">
-          <div><strong>Tisch ${o.tableId ?? "?"}</strong> <span class="small">(${esc(o.status)})</span></div>
-          <div class="small">${new Date(o.createdAt).toLocaleTimeString()}</div>
-        </div>
-        <div style="margin-top:8px">${items || ""}</div>
-        ${o.note ? `<div class="small" style="margin-top:8px">Notiz: ${esc(o.note)}</div>` : ""}
-        ${o.total!=null ? `<div class="row" style="margin-top:8px"><div class="small">Summe</div><div><strong>${money(o.total)}</strong></div></div>` : ""}
-        <div class="btns">
-          <button data-ack="${esc(o.id)}">Annehmen</button>
-          <button class="danger" data-done="${esc(o.id)}">Erledigt</button>
+
+    const nowKeys = new Set(orders.map(o => o.key));
+    const newOnes = [];
+    for (const k of nowKeys) if (!lastKeys.has(k)) newOnes.push(k);
+    lastKeys = nowKeys;
+
+    // small sound/beep when new orders arrive
+    if (newOnes.length) {
+      try { new Audio("data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAgD4AAAB9AAACABAAZGF0YQAAAAA=").play().catch(()=>{}); } catch(e){}
+    }
+
+    host.innerHTML = orders.map(o => {
+      const dt = o.createdAt ? new Date(o.createdAt) : null;
+      const time = dt ? dt.toLocaleString() : "";
+      const isNew = (o.status || "NEW") === "NEW";
+      return `
+        <div class="orderCard ${isNew ? "new" : ""}">
+          <div class="orderHead">
+            <div>
+              <h2>Tisch ${esc(o.tableId ?? "?")} <span class="muted">• ${esc(o.status || "NEW")}</span></h2>
+              <div class="meta">
+                ${time ? `<span class="pill">${esc(time)}</span>` : ``}
+                ${typeof o.total === "number" ? `<span class="pill">Summe: ${esc(fmtMoney(o.total))}</span>` : ``}
+              </div>
+            </div>
+            <div class="btnRow">
+              <button class="btn primary" data-done="${esc(o.key)}">Erledigt</button>
+              <button class="btn danger" data-del="${esc(o.key)}">Löschen</button>
+            </div>
+          </div>
+          <div class="items">
+            <div class="small">Artikel:</div>
+            <ul>
+              ${(o.items || []).map(it => `<li>${esc(it.name || it.id)} x${esc(it.qty || 1)}</li>`).join("")}
+            </ul>
+            ${o.note ? `<div class="small" style="margin-top:8px"><b>Notiz:</b> ${esc(o.note)}</div>` : ``}
+          </div>
         </div>
       `;
-      grid.appendChild(el);
-    });
+    }).join("");
 
-    grid.querySelectorAll("button[data-ack]").forEach(b=>{
-      b.onclick = async () => {
-        try{
-          await api("/api/staff/orders", { method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({id:b.dataset.ack, status:"ACK"})});
-          poll();
-        }catch(e){ setStatus(e.message, "bad"); }
-      };
+    host.querySelectorAll("[data-done]").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        const key = btn.getAttribute("data-done");
+        btn.disabled = true;
+        try { await apiSetStatus(key, "DONE"); await refresh(); } catch(e){ alert(String(e.message||e)); }
+        btn.disabled = false;
+      });
     });
-    grid.querySelectorAll("button[data-done]").forEach(b=>{
-      b.onclick = async () => {
-        try{
-          await api("/api/staff/orders", { method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({id:b.dataset.done, status:"DONE"})});
-          poll();
-        }catch(e){ setStatus(e.message, "bad"); }
-      };
+    host.querySelectorAll("[data-del]").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        const key = btn.getAttribute("data-del");
+        if (!confirm("Wirklich löschen?")) return;
+        btn.disabled = true;
+        try { await apiDelete(key); await refresh(); } catch(e){ alert(String(e.message||e)); }
+        btn.disabled = false;
+      });
     });
   }
 
-  async function poll(){
-    try{
-      const data = await api("/api/staff/orders");
-      render(data.orders || []);
-      setStatus("Verbunden", "ok");
-    }catch(e){
-      setStatus(e.message || String(e), "bad");
+  async function refresh() {
+    try {
+      const data = await apiGet();
+      el("status").textContent = "verbunden • " + (data.count ?? (data.orders||[]).length) + " Bestellungen";
+      render(data);
+    } catch (e) {
+      el("status").textContent = "Fehler: " + (e.message || e);
+      el("orders").innerHTML = '<div class="card"><div class="small">Keine Verbindung. PIN korrekt?</div></div>';
     }
   }
 
-  document.getElementById("start").onclick = () => {
-    if(timer) clearInterval(timer);
-    poll();
-    timer = setInterval(poll, 2000);
-  };
+  function start() {
+    const saved = localStorage.getItem("cloud9_staff_pin");
+    if (saved) el("pin").value = saved;
+
+    el("connect").addEventListener("click", () => {
+      localStorage.setItem("cloud9_staff_pin", el("pin").value || "");
+      if (timer) clearInterval(timer);
+      refresh();
+      timer = setInterval(refresh, 2000);
+    });
+
+    el("refresh").addEventListener("click", refresh);
+    el("onlyNew").addEventListener("change", refresh);
+  }
+
+  start();
+})();
 </script>
 </body>
 </html>

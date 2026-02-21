@@ -1,56 +1,71 @@
-function json(data, status = 200) {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" }
-  });
-}
+export async function onRequestPost(context) {
+  const { request, env } = context;
 
-export async function onRequestPost({ request, env }) {
+  const cors = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+  };
+
+  if (!env.ORDERS_KV) {
+    return new Response(JSON.stringify({ ok: false, error: "ORDERS_KV missing" }), { status: 500, headers: { "Content-Type": "application/json", ...cors } });
+  }
+
   let body;
   try {
     body = await request.json();
-  } catch {
-    return json({ ok: false, error: "Invalid JSON" }, 400);
+  } catch (e) {
+    return new Response(JSON.stringify({ ok: false, error: "Invalid JSON" }), { status: 400, headers: { "Content-Type": "application/json", ...cors } });
   }
 
+  const tableId = body.tableId ?? null;
   const items = Array.isArray(body.items) ? body.items : [];
-  if (!items.length) return json({ ok: false, error: "No items" }, 400);
+  const note = typeof body.note === "string" ? body.note : "";
+  const total = typeof body.total === "number" ? body.total : null;
 
-  const tableId = Number(body.tableId);
-  const token = (body.token || null);
-
-  // Optional: wenn du später Tisch-Token prüfen willst, hier einbauen
-  // (z.B. tables in KV/D1). Für jetzt nur Basic-Validation:
-  if (Number.isNaN(tableId)) {
-    // tableId darf null sein, wenn noch kein QR genutzt wird
+  if (!items.length) {
+    return new Response(JSON.stringify({ ok: false, error: "No items" }), { status: 400, headers: { "Content-Type": "application/json", ...cors } });
   }
+
+  const cleanItems = items.map(it => ({
+    id: String(it.id || ""),
+    name: String(it.name || it.id || ""),
+    qty: Math.max(1, parseInt(it.qty || 1, 10) || 1),
+    options: it.options && typeof it.options === "object" ? it.options : {},
+    unitPrice: typeof it.unitPrice === "number" ? it.unitPrice : 0,
+  })).filter(it => it.id);
+
+  if (!cleanItems.length) {
+    return new Response(JSON.stringify({ ok: false, error: "Invalid items" }), { status: 400, headers: { "Content-Type": "application/json", ...cors } });
+  }
+
+  const now = new Date().toISOString();
+  const uid = (crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Date.now()) + "-" + Math.random().toString(16).slice(2);
+  const key = `order:${Date.now()}:${uid}`;
 
   const order = {
-    id: crypto.randomUUID(),
-    tableId: Number.isFinite(tableId) ? tableId : null,
-    items: items.map(i => ({
-      id: String(i.id || ""),
-      qty: Math.max(1, Number(i.qty) || 1),
-      options: i.options || null
-    })),
-    note: body.note ? String(body.note) : null,
-    total: Number(body.total) || null,
+    key,
+    id: uid,
+    tableId,
+    items: cleanItems,
+    note,
+    total,
     status: "NEW",
-    createdAt: Date.now()
+    createdAt: now,
   };
 
-  const key = "orders:list";
-  const raw = await env.MENU_KV.get(key);
-  let list = [];
-  if (raw) {
-    try { list = JSON.parse(raw); } catch { list = []; }
-  }
-  if (!Array.isArray(list)) list = [];
+  await env.ORDERS_KV.put(key, JSON.stringify(order));
 
-  list.unshift(order);
-  if (list.length > 200) list = list.slice(0, 200);
+  return new Response(JSON.stringify({ ok: true, key, id: uid }), { status: 200, headers: { "Content-Type": "application/json", ...cors } });
+}
 
-  await env.MENU_KV.put(key, JSON.stringify(list));
-
-  return json({ ok: true, id: order.id });
+export async function onRequestOptions() {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST,OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+    },
+  });
 }

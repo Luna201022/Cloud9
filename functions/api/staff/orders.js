@@ -1,7 +1,11 @@
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" }
+    headers: {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-store",
+      "Access-Control-Allow-Origin": "*",
+    },
   });
 }
 
@@ -9,58 +13,39 @@ function unauthorized() {
   return json({ ok: false, error: "Unauthorized" }, 401);
 }
 
-function readBearer(request) {
-  const h = request.headers.get("authorization") || "";
-  const m = h.match(/^Bearer\s+(.+)$/i);
-  return m ? m[1] : null;
+function checkAuth(request, env) {
+  const pin = env.ADMIN_PIN || "";
+  const auth = request.headers.get("Authorization") || "";
+  if (!pin) return false;
+  return auth === `Bearer ${pin}`;
 }
 
-function staffPin(env) {
-  return env.STAFF_PIN || env.ADMIN_PIN || "";
-}
+export async function onRequestGet(context) {
+  const { request, env } = context;
 
-export async function onRequestGet({ request, env }) {
-  const pin = readBearer(request);
-  if (!pin || pin !== staffPin(env)) return unauthorized();
+  if (!env.ORDERS_KV) return json({ ok: false, error: "ORDERS_KV missing" }, 500);
+  if (!checkAuth(request, env)) return unauthorized();
 
   const url = new URL(request.url);
-  const since = Number(url.searchParams.get("since") || 0);
+  const onlyNew = url.searchParams.get("onlyNew") === "1";
 
-  const raw = await env.MENU_KV.get("orders:list");
-  let list = [];
-  if (raw) { try { list = JSON.parse(raw); } catch { list = []; } }
-  if (!Array.isArray(list)) list = [];
+  const listed = await env.ORDERS_KV.list({ prefix: "order:" });
+  const keys = (listed.keys || []).map(k => k.name).sort().reverse().slice(0, 80);
 
-  // nur offene anzeigen
-  const open = list.filter(o => (o.status === "NEW" || o.status === "ACK") && (!since || o.createdAt >= since));
-
-  return json({ ok: true, orders: open });
-}
-
-export async function onRequestPost({ request, env }) {
-  const pin = readBearer(request);
-  if (!pin || pin !== staffPin(env)) return unauthorized();
-
-  let body;
-  try { body = await request.json(); } catch { return json({ ok:false, error:"Invalid JSON" }, 400); }
-
-  const id = String(body.id || "");
-  const status = String(body.status || "");
-  if (!id || !["ACK","DONE","CANCELLED"].includes(status)) {
-    return json({ ok:false, error:"Bad request" }, 400);
+  const values = await Promise.all(keys.map(k => env.ORDERS_KV.get(k)));
+  let orders = [];
+  for (let i = 0; i < keys.length; i++) {
+    try {
+      const o = JSON.parse(values[i] || "null");
+      if (!o) continue;
+      o.key = o.key || keys[i];
+      if (onlyNew && (o.status || "NEW") !== "NEW") continue;
+      orders.push(o);
+    } catch (e) {}
   }
 
-  const raw = await env.MENU_KV.get("orders:list");
-  let list = [];
-  if (raw) { try { list = JSON.parse(raw); } catch { list = []; } }
-  if (!Array.isArray(list)) list = [];
+  // sort by createdAt desc if present
+  orders.sort((a,b) => String(b.createdAt||"").localeCompare(String(a.createdAt||"")));
 
-  const idx = list.findIndex(o => o.id === id);
-  if (idx === -1) return json({ ok:false, error:"Not found" }, 404);
-
-  list[idx].status = status;
-  list[idx].updatedAt = Date.now();
-  await env.MENU_KV.put("orders:list", JSON.stringify(list));
-
-  return json({ ok:true });
+  return json({ ok: true, count: orders.length, orders });
 }
