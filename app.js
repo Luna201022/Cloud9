@@ -266,6 +266,41 @@
     return n.toFixed(2).replace(".", ",") + " €";
   }
 
+  // Table handling: URL always wins (works even if table is placed after hash by QR scanners)
+  function getTableId() {
+    try {
+      // Normal query: https://.../?table=15
+      const t1 = new URL(location.href).searchParams.get("table");
+      if (t1 && /^\d+$/.test(t1.trim())) {
+        const v = t1.trim();
+        localStorage.setItem("cloud9_table", v);
+        return v;
+      }
+    } catch(e) {}
+
+    try {
+      // Some scanners/SPA links end up like: https://.../#/order?table=15
+      const h = String(location.hash || "");
+      const qpos = h.indexOf("?");
+      if (qpos >= 0) {
+        const qs = h.slice(qpos + 1);
+        const t2 = new URLSearchParams(qs).get("table");
+        if (t2 && /^\d+$/.test(t2.trim())) {
+          const v = t2.trim();
+          localStorage.setItem("cloud9_table", v);
+          return v;
+        }
+      }
+    } catch(e) {}
+
+    return (localStorage.getItem("cloud9_table") || "1").trim();
+  }
+
+  function syncTableFromUrl() {
+    // calling getTableId() updates localStorage if URL contains a table param
+    getTableId();
+  }
+
   function hashRoute() {
     const h = (location.hash || "#/home").replace("#", "");
     return h.startsWith("/") ? h : "/home";
@@ -816,10 +851,7 @@ host.querySelectorAll("[data-add]").forEach(btn => {
       const t = I18N[state.lang];
       if (!state.cart.length) return;
 
-      // Determine tableId (optional): ?table=12, otherwise remembered, otherwise "1"
-      const qsTable = new URLSearchParams(location.search || "").get("table");
-      const tableId = (qsTable || localStorage.getItem("cloud9_table") || "1").trim();
-      if (qsTable) localStorage.setItem("cloud9_table", qsTable);
+            const tableId = getTableId();
 
       // Build backend payload
       const items = state.cart.map(l => ({
@@ -1190,6 +1222,12 @@ function requestPayment(){
 // Expose for inline onclick handlers in HTML.
 window.callWaiter = callWaiter;
 window.requestPayment = requestPayment;
+
+  // Keep tableId in sync on mobile (tabs reused, QR opens in same tab, etc.)
+  syncTableFromUrl();
+  window.addEventListener("pageshow", syncTableFromUrl);
+  window.addEventListener("popstate", syncTableFromUrl);
+  window.addEventListener("hashchange", syncTableFromUrl);
 
 window.addEventListener("hashchange", () => renderRoute());
   el("modalClose").onclick = closeModal;
