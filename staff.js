@@ -1,6 +1,8 @@
 (() => {
   const API_LIST = "/api/staff/orders";
   const API_ACT  = "/api/staff/order";
+  const API_REQ  = "/api/requests"; // public list of service requests
+
 
   const LS_PIN = "cloud9_staff_pin";
   const LS_AUTO_ON = "cloud9_staff_auto_on";
@@ -122,7 +124,14 @@
     localStorage.setItem(LS_FILTER, v);
   }
 
-  async function listOrders() {
+  async function listRequests() {
+    // service requests do not require staff auth
+    const r = await fetch(API_REQ, { cache: "no-store" });
+    const data = await r.json().catch(() => ({}));
+    return Array.isArray(data?.requests) ? data.requests : [];
+  }
+
+async function listOrders() {
     const t0 = performance.now();
     const data = await apiFetch(API_LIST, { method: "GET" });
     const ms = Math.round(performance.now() - t0);
@@ -157,10 +166,16 @@
 
     for (const o of filtered) {
       const key = o.key || "";
-      const itemsTxt = summarizeItems(o.items);
+      let itemsTxt = summarizeItems(o.items);
+      const isReq = o.kind === "request";
+      if (isReq) {
+        const ty = String(o.type||"").toUpperCase();
+        itemsTxt = (ty === "PAY") ? "Bezahlen" : "Bedienung rufen";
+      }
       const note = (o.note || "").trim();
-      const total = o.total ?? 0;
-      const st = (o.status || "NEW").toUpperCase();
+      const total = isReq ? null : (o.total ?? 0);
+      let st = (o.status || "NEW").toUpperCase();
+      if (isReq) st = String(o.type||st).toUpperCase();
 
       const tr = document.createElement("tr");
       tr.className = "tr";
@@ -171,7 +186,7 @@
           ${note ? `<div class="small2 muted">Notiz: ${safe(note)}</div>` : ``}
           <div class="small2 muted mono">${safe(key)}</div>
         </td>
-        <td><b>${money(total)}</b></td>
+        <td><b>${total === null ? "—" : money(total)}</b></td>
         <td>${statusPill(st)}</td>
         <td class="row2" style="gap:8px">
           <button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
@@ -223,9 +238,18 @@
     setError("");
     try {
       const orders = await listOrders();
+      const requests = await listRequests();
+      const merged = [
+        ...requests.map(r => ({ ...r, kind: "request" })),
+        ...orders.map(o => ({ ...o, kind: "order" }))
+      ].sort((a,b) => {
+        const ta = Number(a.updatedAt ?? a.created ?? Date.parse(a.createdAt||0) ?? 0);
+        const tb = Number(b.updatedAt ?? b.created ?? Date.parse(b.createdAt||0) ?? 0);
+        return tb - ta;
+      });
 
       // NEW detection + sound
-      const currentKeys = new Set(orders.map(o => o.key).filter(Boolean));
+      const currentKeys = new Set(merged.map(o => (o.id || o.key || "")).filter(Boolean));
       const newKeys = [];
       for (const k of currentKeys) if (!lastKeys.has(k)) newKeys.push(k);
 
@@ -235,7 +259,7 @@
       lastKeys = currentKeys;
       setSeenSet(currentKeys);
 
-      render(orders);
+      render(merged);
     } catch (e) {
       setError(String(e?.message || e));
       metaText(false, 0, 0);
