@@ -2,6 +2,7 @@
   const API_LIST = "/api/orders";
   const API_REQ  = "/api/requests";
   const API_ACT  = "/api/staff/order";
+  const API_ACT_REQ = "/api/staff/request";
 
   const LS_PIN = "cloud9_staff_pin";
   const LS_AUTO_ON = "cloud9_staff_auto_on";
@@ -137,6 +138,10 @@
     return orders;
   }
 
+  async function actRequest(payload) {
+    return apiFetch(API_ACT_REQ, { method: "POST", body: JSON.stringify(payload) });
+  }
+
   async function actOrder(payload) {
     return apiFetch(API_ACT, { method: "POST", body: JSON.stringify(payload) });
   }
@@ -186,8 +191,9 @@
         <td><b>${total === null ? "—" : money(total)}</b></td>
         <td>${statusPill(st)}</td>
         <td class="row2" style="gap:8px">
-          ${isReq ? `<span class="small2 muted">Service</span>` : `<button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
-          <button class="btn2 danger" type="button" data-del="${safe(key)}">Löschen</button>`}
+          ${isReq ? `<button class="btn2 primary" type="button" data-kind="request" data-done="${safe(key)}">Erledigt</button>
+          <button class="btn2 danger" type="button" data-kind="request" data-del="${safe(key)}">Löschen</button>` : `<button class="btn2 primary" type="button" data-kind="order" data-done="${safe(key)}">Gesendet</button>
+          <button class="btn2 danger" type="button" data-kind="order" data-del="${safe(key)}">Löschen</button>`}
         </td>
       `;
       tbody.appendChild(tr);
@@ -199,8 +205,13 @@
         btn.disabled = true;
         setError("");
         try {
-          await actOrder({ key, status: "DONE" });
-          toast("Auf DONE gesetzt");
+          const kind = btn.getAttribute("data-kind") || "order";
+          if (kind === "request") {
+            await actRequest({ id: key, action: "done" });
+          } else {
+            await actOrder({ key, status: "DONE" });
+          }
+          toast(kind === "request" ? "Service erledigt" : "Auf DONE gesetzt");
           await fetchAndRender(true);
         } catch (e) {
           setError("DONE fehlgeschlagen: " + (e?.message || e));
@@ -213,12 +224,17 @@
     tbody.querySelectorAll("[data-del]").forEach(btn => {
       btn.addEventListener("click", async () => {
         const key = btn.getAttribute("data-del");
-        if (!confirm("Bestellung wirklich löschen?")) return;
+        const kind = btn.getAttribute("data-kind") || "order";
+        if (!confirm(kind === "request" ? "Service-Eintrag wirklich löschen?" : "Bestellung wirklich löschen?")) return;
         btn.disabled = true;
         setError("");
         try {
+          if (kind === "request") {
+          await actRequest({ id: key, action: "delete" });
+        } else {
           await actOrder({ key, action: "delete" });
-          toast("Gelöscht");
+        }
+          toast(kind === "request" ? "Service gelöscht" : "Gelöscht");
           await fetchAndRender(true);
         } catch (e) {
           setError("Löschen fehlgeschlagen: " + (e?.message || e));
