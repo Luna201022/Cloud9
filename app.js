@@ -809,89 +809,28 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
 
     document.getElementById("clearBtn").onclick = clearCart;
-        document.getElementById("sendBtn").onclick = async () => {
-      const t = I18N[state.lang] || I18N.de;
+    document.getElementById("sendBtn").onclick = () => {
+      const t = I18N[state.lang];
       if (!state.cart.length) return;
+      const summary = state.cart.map(l => {
+        const opt = [];
+        if (l.options?.temperature) opt.push(l.options.temperature);
+        if (l.options?.size) opt.push(l.options.size);
+        return `- ${l.name}${opt.length ? " ("+opt.join(", ")+")" : ""} — ${money(l.price)}`;
+      }).join("\n");
+      const note = (state.orderNote || "").trim();
+      const text = `Cloud9 Bestellung
+${summary}${note ? `
 
-      // Table number: prefer URL ?t=1, fallback to saved value.
-      const qs = new URLSearchParams(location.search || "");
-      let tableId = parseInt(qs.get("t") || qs.get("table") || localStorage.getItem("cloud9_table") || "", 10);
+Anmerkungen: ${note}` : ""}
 
-      // If missing/invalid: ask once and store.
-      if (!Number.isFinite(tableId) || tableId <= 0) {
-        const wrap = document.createElement("div");
-        wrap.innerHTML = `
-          <div class="small" style="margin-bottom:8px">Tischnummer (1–30)</div>
-          <input id="tblInput" class="input" inputmode="numeric" placeholder="z. B. 1" />
-          <div class="small" style="opacity:.75;margin-top:8px">Tipp: Du kannst auch direkt den QR-Link mit <b>?t=1</b> nutzen.</div>
-        `;
-        const cancel = document.createElement("button");
-        cancel.className = "btn";
-        cancel.textContent = t.close || "Schließen";
-        cancel.onclick = closeModal;
-
-        const ok = document.createElement("button");
-        ok.className = "btn primary";
-        ok.textContent = "OK";
-        ok.onclick = () => {
-          const v = parseInt((document.getElementById("tblInput")?.value || "").trim(), 10);
-          if (!Number.isFinite(v) || v <= 0) return;
-          localStorage.setItem("cloud9_table", String(v));
-          closeModal();
-        };
-
-        openModal("Tisch wählen", wrap.innerHTML, [cancel, ok]);
-        return;
-      }
-
-      // Aggregate cart lines into items (same id + options => qty)
-      const map = new Map();
-      for (const l of state.cart) {
-        const opt = l.options || {};
-        const k = l.id + "::" + JSON.stringify(opt);
-        const cur = map.get(k);
-        if (cur) {
-          cur.qty += 1;
-        } else {
-          map.set(k, {
-            id: l.id,
-            name: l.name,
-            qty: 1,
-            options: opt,
-            unitPrice: Math.round((l.price || 0) * 100) / 100
-          });
-        }
-      }
-      const items = Array.from(map.values());
-
-      const payload = {
-        tableId,
-        items,
-        note: (state.orderNote || "").trim(),
-        total: Math.round(cartTotal() * 100) / 100
-      };
-
-      // Send to backend (Pages Function /api/order)
-      try {
-        const res = await fetch("/api/order", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload)
-        });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok || !data || data.ok === false) {
-          throw new Error(data?.error || ("HTTP " + res.status));
-        }
-
-        const ok = document.createElement("button");
-        ok.className = "btn primary";
-        ok.textContent = "OK";
-        ok.onclick = () => { closeModal(); clearCart(); };
-
-        openModal("Gesendet", `<div class="small">Bestellung wurde gesendet.</div><div class="small" style="opacity:.75;margin-top:6px">Tisch ${tableId}</div>`, [ok]);
-      } catch (e) {
-        openModal("Fehler", `<div class="small">Konnte nicht senden.</div><div class="small" style="opacity:.75;margin-top:6px">${escapeHtml(String(e?.message || e))}</div>`);
-      }
+${t.total}: ${money(cartTotal())}`;
+      navigator.clipboard?.writeText(text).catch(() => {});
+      const ok = document.createElement("button");
+      ok.className = "btn primary";
+      ok.textContent = "OK";
+      ok.onclick = () => { closeModal(); clearCart(); };
+      openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`, [ok]);
     };
   }
 
