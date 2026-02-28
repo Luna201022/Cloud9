@@ -124,12 +124,8 @@
   }
 
   async function listRequests() {
-    const t0 = performance.now();
     const data = await apiFetch(API_REQ, { method: "GET" });
-    const ms = Math.round(performance.now() - t0);
-    const reqs = Array.isArray(data?.requests) ? data.requests : [];
-    // don't overwrite meta; listOrders will set it
-    return reqs;
+    return Array.isArray(data?.requests) ? data.requests : [];
   }
 
   async function listOrders() {
@@ -170,14 +166,13 @@
       let itemsTxt = summarizeItems(o.items);
       const isReq = o.kind === "request";
       if (isReq) {
-        itemsTxt = (String(o.type||"").toUpperCase()==="PAY") ? "Bezahlen" : "Bedienung rufen";
+        const ty = String(o.type||"").toUpperCase();
+        itemsTxt = (ty === "PAY") ? "Bezahlen" : "Bedienung rufen";
       }
       const note = (o.note || "").trim();
-      const total = o.total ?? 0;
+      const total = isReq ? null : (o.total ?? 0);
       let st = (o.status || "NEW").toUpperCase();
-      if (o.kind === "request") {
-        st = String(o.type||"NEW").toUpperCase();
-      }
+      if (isReq) st = String(o.type||st).toUpperCase();
 
       const tr = document.createElement("tr");
       tr.className = "tr";
@@ -188,10 +183,10 @@
           ${note ? `<div class="small2 muted">Notiz: ${safe(note)}</div>` : ``}
           <div class="small2 muted mono">${safe(key)}</div>
         </td>
-        <td><b>${money(total)}</b></td>
+        <td><b>${total === null ? "—" : money(total)}</b></td>
         <td>${statusPill(st)}</td>
         <td class="row2" style="gap:8px">
-          ${o.kind === "request" ? `<span class="small2 muted">Service-Request</span>` : `<button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
+          ${isReq ? `<span class="small2 muted">Service</span>` : `<button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
           <button class="btn2 danger" type="button" data-del="${safe(key)}">Löschen</button>`}
         </td>
       `;
@@ -241,19 +236,21 @@
     try {
       const orders = await listOrders();
       const requests = await listRequests();
-      const merged = [...requests.map(r => ({...r, kind:"request"})), ...orders.map(o => ({...o, kind:"order"}))]
-        .sort((a,b) => {
-          const ta = Number(a.updatedAt ?? a.created ?? Date.parse(a.createdAt||0) ?? 0);
-          const tb = Number(b.updatedAt ?? b.created ?? Date.parse(b.createdAt||0) ?? 0);
-          return tb - ta;
-        });
+      const merged = [
+        ...requests.map(r => ({ ...r, kind: "request" })),
+        ...orders.map(o => ({ ...o, kind: "order" }))
+      ].sort((a,b) => {
+        const ta = Number(a.updatedAt ?? a.created ?? Date.parse(a.createdAt||0) ?? 0);
+        const tb = Number(b.updatedAt ?? b.created ?? Date.parse(b.createdAt||0) ?? 0);
+        return tb - ta;
+      });
 
       // NEW detection + sound
-      const currentKeys = new Set(merged.map(o => (o.id || "")).filter(Boolean));
+      const currentKeys = new Set(merged.map(o => o.id).filter(Boolean));
       const newKeys = [];
       for (const k of currentKeys) if (!lastKeys.has(k)) newKeys.push(k);
 
-      const newOrders = merged.filter(o => newKeys.includes(o.id) && String(o.status||"NEW").toUpperCase() === "NEW");
+            const newOrders = merged.filter(o => newKeys.includes(o.id) && String(o.status||"NEW").toUpperCase() === "NEW");
       if (newOrders.length) playBeep();
 
       lastKeys = currentKeys;

@@ -39,7 +39,7 @@
         <img src="/logo.png" alt="Cloud9" style="width:46px;height:46px;border-radius:12px;background:#fff;padding:6px" />
         <div>
           <div style="font-size:20px;font-weight:900">Cloud9 Staff</div>
-          <div class="small2 muted">Bestellungen live ansehen • „Gesendet“ = erledigt</div>
+          <div class="small2 muted">Bestellungen & Service live ansehen • „Gesendet“ = erledigt</div>
         </div>
       </div>
 
@@ -83,8 +83,8 @@
     <div class="grid">
       <div class="card2">
         <div class="row2" style="justify-content:space-between">
-          <div style="font-size:18px;font-weight:900">Bestellungen</div>
-          <div id="hint" class="small2 muted">Wenn nichts kommt: PIN speichern → Neu laden.</div>
+          <div style="font-size:18px;font-weight:900">Bestellungen & Service</div>
+          <div id="hint" class="small2 muted">Wenn nichts kommt: PIN speichern → Neu laden. Service: „Bedienung rufen“ / „Bezahlen“ erscheint ebenfalls hier.</div>
         </div>
         <div id="error" class="small2" style="margin-top:8px;color:#ffb3b3"></div>
         <div style="margin-top:10px;overflow:auto">
@@ -92,7 +92,7 @@
             <thead class="thead">
               <tr>
                 <th style="width:70px">Tisch</th>
-                <th>Bestellung</th>
+                <th>Bestellung / Service</th>
                 <th style="width:110px">Summe</th>
                 <th style="width:110px">Status</th>
                 <th style="width:170px">Aktion</th>
@@ -100,7 +100,7 @@
             </thead>
             <tbody id="rows"></tbody>
           </table>
-          <div id="empty" class="small2 muted" style="padding:10px 4px;display:none">Keine Bestellungen.</div>
+          <div id="empty" class="small2 muted" style="padding:10px 4px;display:none">Keine Einträge.</div>
         </div>
       </div>
 
@@ -125,6 +125,6 @@
 
   <div id="toast" class="toast" style="display:none"></div>
 
-  <script src="/staff.js?v=3"></script>
+  <script src="/staff.js?v=20260228_2"></script>
 </body>
 </html>
