@@ -511,6 +511,15 @@
     renderRoute();
       showAutoToast((I18N[state.lang]||I18N.de).added_to_cart || "Zum Warenkorb hinzugefügt");
 }
+
+  // Open modal and auto-close after ms (default 500ms)
+  function openModalAutoClose(title, body, ms = 500) {
+    openModal(title, body);
+    setTimeout(() => {
+      try { closeModal(); } catch(e) {}
+    }, ms);
+  }
+
   function calcItemPrice(item, pickedOptions) {
     let p = item.price || 0;
     if (item.options && item.options.size && pickedOptions.size) {
@@ -1210,13 +1219,49 @@ function renderRoute() {
 
   // modal bindings
   
-function callWaiter(){
+async function callWaiter(){
   const t = I18N[state.lang] || I18N.de;
-  openModal(t.call, t.modal_call_ok);
+  const tableId = getTableId();
+
+  try {
+    const r = await fetch("/api/request", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tableId, type: "CALL", ts: Date.now() })
+    });
+
+    if (!r.ok) {
+      const txt = await r.text().catch(() => "");
+      openModal(t.call, `Fehler: ${r.status} ${txt}`.slice(0, 300));
+      return;
+    }
+
+    openModalAutoClose(t.call, (t.modal_call_ok || "OK") + ` (Tisch ${tableId})`, 500);
+  } catch (e) {
+    openModal(t.call, `Netzwerkfehler: ${String(e)}`.slice(0, 300));
+  }
 }
-function requestPayment(){
+async function requestPayment(){
   const t = I18N[state.lang] || I18N.de;
-  openModal(t.pay, t.modal_pay_ok);
+  const tableId = getTableId();
+
+  try {
+    const r = await fetch("/api/request", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tableId, type: "PAY", ts: Date.now() })
+    });
+
+    if (!r.ok) {
+      const txt = await r.text().catch(() => "");
+      openModal(t.pay, `Fehler: ${r.status} ${txt}`.slice(0, 300));
+      return;
+    }
+
+    openModalAutoClose(t.pay, (t.modal_pay_ok || "OK") + ` (Tisch ${tableId})`, 500);
+  } catch (e) {
+    openModal(t.pay, `Netzwerkfehler: ${String(e)}`.slice(0, 300));
+  }
 }
 
 // Expose for inline onclick handlers in HTML.
