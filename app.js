@@ -399,7 +399,7 @@
       openModal("", `<div class="toast">${msg}</div>`);
       setTimeout(() => {
         try { closeModal(); } catch(e) {}
-      }, 1000);
+      }, 500);
     } catch (e) {
       // fallback: no modal available
       console.log(msg);
@@ -1212,24 +1212,11 @@ function renderRoute() {
   
 function callWaiter(){
   const t = I18N[state.lang] || I18N.de;
-  const tableId = getTableId();
-  // Fire-and-forget service request
-  fetch("/api/request", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tableId, type: "CALL", ts: Date.now() })
-  }).catch(() => {});
-  openModal(t.call, (t.modal_call_ok || "OK") + ` (Tisch ${tableId})`);
+  openModal(t.call, t.modal_call_ok);
 }
 function requestPayment(){
   const t = I18N[state.lang] || I18N.de;
-  const tableId = getTableId();
-  fetch("/api/request", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ tableId, type: "PAY", ts: Date.now() })
-  }).catch(() => {});
-  openModal(t.pay, (t.modal_pay_ok || "OK") + ` (Tisch ${tableId})`);
+  openModal(t.pay, t.modal_pay_ok);
 }
 
 // Expose for inline onclick handlers in HTML.
