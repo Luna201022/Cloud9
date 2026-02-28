@@ -1,321 +1,321 @@
 (() => {
-  "use strict";
-
-  // ===== CONFIG =====
   const API_LIST = "/api/staff/orders";
-  const API_ACTION = "/api/staff/order";
-  const AUTO_REFRESH_MS = 5000; // 5s (D1, keine KV-Limits mehr relevant)
+  const API_ACT  = "/api/staff/order";
+
   const LS_PIN = "cloud9_staff_pin";
+  const LS_AUTO_ON = "cloud9_staff_auto_on";
+  const LS_AUTO_EVERY = "cloud9_staff_auto_every";
+  const LS_FILTER = "cloud9_staff_filter";
+  const LS_SEEN = "cloud9_staff_seen_keys"; // JSON array of keys
 
-  // ===== DOM =====
-  const $ = (id) => document.getElementById(id);
+  const el = (id) => document.getElementById(id);
 
-  const elPin = $("pin");
-  const elSavePin = $("btnSavePin");
-  const elReload = $("btnReload");
-  const elTableFilter = $("tableFilter");
-  const elStatusFilter = $("filter");
-  const elDot = $("dot");
-  const elLast = $("lastUpdate");
-  const elEmpty = $("empty");
-  const elTbl = $("tbl");
-  const elToast = $("toast");
-
-  // ===== STATE =====
-  const state = {
-    pin: "",
-    orders: [],
-    seenNewKeys: new Set(),     // remembers NEW orders we've already beeped for
-    audioUnlocked: false,
-    audioCtx: null,
-    nextPoll: null,
-    lastFetchOk: null,
-  };
-
-  // ===== UTIL =====
-  function nowStr() {
-    try { return new Date().toLocaleTimeString(); } catch { return ""; }
-  }
-
-  function setStatus(ok, msg = "") {
-    state.lastFetchOk = ok;
-    if (elDot) elDot.className = "dot " + (ok ? "ok" : "bad");
-    if (elLast) elLast.textContent = msg ? `${nowStr()} · ${msg}` : nowStr();
-  }
+  let audioEnabled = false;
 
   function toast(msg) {
-    if (!elToast) return;
-    elToast.textContent = msg;
-    elToast.classList.add("show");
-    setTimeout(() => elToast.classList.remove("show"), 1800);
+    const t = el("toast");
+    t.textContent = msg;
+    t.style.display = "block";
+    setTimeout(() => { t.style.display = "none"; }, 1200);
   }
 
-  function escapeHtml(s) {
-    return String(s ?? "").replace(/[&<>"']/g, (c) => ({
+  function money(v) {
+    const n = typeof v === "number" ? v : Number(v || 0);
+    return (isFinite(n) ? n : 0).toFixed(2).replace(".", ",") + " €";
+  }
+
+  function readPin() {
+    return (localStorage.getItem(LS_PIN) || "").trim();
+  }
+  function savePin(pin) {
+    localStorage.setItem(LS_PIN, (pin || "").trim());
+  }
+
+  function getSeenSet() {
+    try {
+      const arr = JSON.parse(localStorage.getItem(LS_SEEN) || "[]");
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch {
+      return new Set();
+    }
+  }
+  function setSeenSet(set) {
+    try {
+      localStorage.setItem(LS_SEEN, JSON.stringify(Array.from(set).slice(-500)));
+    } catch {}
+  }
+
+  async function apiFetch(url, opts = {}) {
+    const pin = readPin();
+    const headers = Object.assign({}, opts.headers || {});
+    headers["Content-Type"] = headers["Content-Type"] || "application/json";
+    if (pin) headers["Authorization"] = "Bearer " + pin;
+
+    const res = await fetch(url, { ...opts, headers, cache: "no-store" });
+    const text = await res.text();
+    let json = null;
+    try { json = text ? JSON.parse(text) : null; } catch {}
+    if (!res.ok) {
+      const msg = (json && json.error) ? json.error : (text || ("HTTP " + res.status));
+      throw new Error(msg);
+    }
+    return json;
+  }
+
+  function summarizeItems(items) {
+    if (!Array.isArray(items) || !items.length) return "";
+    return items.map(it => {
+      const qty = it.qty ?? it.quantity ?? 1;
+      const name = it.name || it.id || "Artikel";
+      const opt = it.options && typeof it.options === "object"
+        ? Object.values(it.options).filter(Boolean).join(", ")
+        : "";
+      return `${qty}× ${name}${opt ? " (" + opt + ")" : ""}`;
+    }).join(" — ");
+  }
+
+  function statusPill(status) {
+    const s = (status || "NEW").toUpperCase();
+    const cls = s === "DONE" ? "pill done" : "pill new";
+    return `<span class="${cls}">${s}</span>`;
+  }
+
+  function safe(str) {
+    return String(str ?? "").replace(/[&<>"']/g, c => ({
       "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
     }[c]));
   }
 
-  // ===== SOUND (no file needed) =====
-  function unlockAudio() {
-    if (state.audioUnlocked) return;
+  function playBeep() {
+    if (!audioEnabled) return;
     try {
-      const Ctx = window.AudioContext || window.webkitAudioContext;
-      if (!Ctx) return;
-      const ctx = new Ctx();
-      // Tiny silent buffer to "unlock" on some browsers
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
       const o = ctx.createOscillator();
       const g = ctx.createGain();
-      g.gain.value = 0.0001;
-      o.connect(g); g.connect(ctx.destination);
+      o.type = "sine";
+      o.frequency.value = 880;
+      g.gain.value = 0.001;
+      o.connect(g);
+      g.connect(ctx.destination);
       o.start();
-      o.stop(ctx.currentTime + 0.01);
-      state.audioCtx = ctx;
-      state.audioUnlocked = true;
-    } catch (e) {
-      // ignore
-    }
+      g.gain.exponentialRampToValueAtTime(0.20, ctx.currentTime + 0.01);
+      g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.20);
+      o.stop(ctx.currentTime + 0.22);
+      setTimeout(() => { try { ctx.close(); } catch {} }, 300);
+    } catch {}
   }
 
-  function beep() {
-    // Will only work reliably after a user gesture (PIN speichern / Neu laden / first click).
-    try {
-      unlockAudio();
-      const ctx = state.audioCtx;
-      if (!ctx) return;
-
-      const t0 = ctx.currentTime;
-      const makeTone = (freq, start, dur) => {
-        const o = ctx.createOscillator();
-        const g = ctx.createGain();
-        o.type = "sine";
-        o.frequency.value = freq;
-        g.gain.value = 0.0001;
-        o.connect(g);
-        g.connect(ctx.destination);
-
-        // quick envelope
-        g.gain.setValueAtTime(0.0001, start);
-        g.gain.exponentialRampToValueAtTime(0.18, start + 0.01);
-        g.gain.exponentialRampToValueAtTime(0.0001, start + dur);
-
-        o.start(start);
-        o.stop(start + dur + 0.02);
-      };
-
-      // pleasant double-beep
-      makeTone(880, t0 + 0.00, 0.18);
-      makeTone(660, t0 + 0.22, 0.22);
-    } catch (e) {
-      // ignore
-    }
+  function setError(msg) {
+    el("error").textContent = msg || "";
   }
 
-  // ===== API =====
-  async function apiFetch(path, options = {}) {
-    const pin = state.pin || "";
-    if (!pin) throw new Error("PIN fehlt");
-    const headers = Object.assign({}, options.headers || {}, {
-      "Authorization": "Bearer " + pin,
-    });
-    const res = await fetch(path, Object.assign({}, options, { headers, cache: "no-store" }));
-    let data = null;
-    try { data = await res.json(); } catch {}
-    if (!res.ok || (data && data.ok === false)) {
-      const msg = (data && data.error) ? data.error : `HTTP ${res.status}`;
-      throw new Error(msg);
-    }
-    return data;
+  function metaText(ok, ms, count) {
+    const now = new Date();
+    const ts = now.toLocaleTimeString();
+    el("meta").textContent = `${ok ? "OK" : "Fehler"} • ${count} • ${ms} ms • ${ts}`;
   }
 
-  async function fetchOrders() {
+  function getFilter() {
+    return localStorage.getItem(LS_FILTER) || "NEW";
+  }
+  function setFilter(v) {
+    localStorage.setItem(LS_FILTER, v);
+  }
+
+  async function listOrders() {
+    const t0 = performance.now();
     const data = await apiFetch(API_LIST, { method: "GET" });
-    const orders = Array.isArray(data.orders) ? data.orders : [];
-    state.orders = orders;
+    const ms = Math.round(performance.now() - t0);
+    const orders = Array.isArray(data?.orders) ? data.orders : [];
+    metaText(!!data?.ok, ms, orders.length);
     return orders;
   }
 
-  async function setDone(key) {
-    const body = JSON.stringify({ key, status: "DONE" });
-    await apiFetch(API_ACTION, { method: "POST", headers: { "Content-Type": "application/json" }, body });
+  async function actOrder(payload) {
+    return apiFetch(API_ACT, { method: "POST", body: JSON.stringify(payload) });
   }
 
-  async function delOrder(key) {
-    const body = JSON.stringify({ key, action: "delete" });
-    await apiFetch(API_ACTION, { method: "POST", headers: { "Content-Type": "application/json" }, body });
+  function applyFilter(orders) {
+    const f = getFilter();
+    if (f === "ALL") return orders;
+    const want = f.toUpperCase();
+    return orders.filter(o => String(o.status || "NEW").toUpperCase() === want);
   }
 
-  // ===== RENDER =====
-  function matchesFilters(o) {
-    const tf = (elTableFilter?.value || "").trim();
-    const sf = (elStatusFilter?.value || "ALL").trim().toUpperCase();
+  function render(orders) {
+    const tbody = el("rows");
+    const empty = el("empty");
+    tbody.innerHTML = "";
 
-    if (tf) {
-      const tableId = String(o.tableId ?? "");
-      if (tableId !== tf) return false;
+    const filtered = applyFilter(orders);
+
+    if (!filtered.length) {
+      empty.style.display = "block";
+      return;
     }
-    if (sf !== "ALL") {
-      const st = String(o.status || "").toUpperCase();
-      if (st !== sf) return false;
-    }
-    return true;
-  }
-
-  function render() {
-    const filtered = (state.orders || []).filter(matchesFilters);
-
-    if (elEmpty) elEmpty.style.display = filtered.length ? "none" : "block";
-    if (!elTbl) return;
-
-    // table header
-    let html = `
-      <tr>
-        <th style="width:70px">Tisch</th>
-        <th>Bestellung</th>
-        <th style="width:90px">Summe</th>
-        <th style="width:90px">Status</th>
-        <th style="width:160px">Aktion</th>
-      </tr>
-    `;
-
-    const money = (v) => {
-      const n = typeof v === "number" ? v : Number(v || 0);
-      return (isFinite(n) ? n : 0).toFixed(2).replace(".", ",") + " €";
-    };
-
-    const lineText = (o) => {
-      const items = Array.isArray(o.items) ? o.items : [];
-      const lines = items.map(it => {
-        const qty = it.qty ?? 1;
-        const name = it.name || it.id || "";
-        const opt = it.options && Object.keys(it.options).length
-          ? " (" + Object.entries(it.options).map(([k,v]) => `${k}:${v}`).join(", ") + ")"
-          : "";
-        return `${qty}× ${name}${opt}`;
-      });
-      const note = (o.note || "").trim();
-      return escapeHtml(lines.join(" · ") + (note ? ` — Notiz: ${note}` : ""));
-    };
+    empty.style.display = "none";
 
     for (const o of filtered) {
-      const st = String(o.status || "NEW").toUpperCase();
-      const stClass = st === "DONE" ? "badge done" : "badge new";
-      const key = String(o.key || "");
-      html += `
-        <tr data-key="${escapeHtml(key)}">
-          <td>${escapeHtml(o.tableId ?? "")}</td>
-          <td style="word-break:break-word">${lineText(o)}</td>
-          <td>${money(o.total)}</td>
-          <td><span class="${stClass}">${escapeHtml(st)}</span></td>
-          <td>
-            <button class="btn2 primary" data-act="done" ${st==="DONE" ? "disabled" : ""}>Fertig</button>
-            <button class="btn2 danger" data-act="del">Löschen</button>
-          </td>
-        </tr>
+      const key = o.key || "";
+      const itemsTxt = summarizeItems(o.items);
+      const note = (o.note || "").trim();
+      const total = o.total ?? 0;
+      const st = (o.status || "NEW").toUpperCase();
+
+      const tr = document.createElement("tr");
+      tr.className = "tr";
+      tr.innerHTML = `
+        <td><b>${safe(o.tableId ?? "")}</b></td>
+        <td>
+          <div>${safe(itemsTxt)}</div>
+          ${note ? `<div class="small2 muted">Notiz: ${safe(note)}</div>` : ``}
+          <div class="small2 muted mono">${safe(key)}</div>
+        </td>
+        <td><b>${money(total)}</b></td>
+        <td>${statusPill(st)}</td>
+        <td class="row2" style="gap:8px">
+          <button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
+          <button class="btn2 danger" type="button" data-del="${safe(key)}">Löschen</button>
+        </td>
       `;
+      tbody.appendChild(tr);
     }
 
-    elTbl.innerHTML = html;
-
-    // bind actions
-    elTbl.querySelectorAll("button[data-act]").forEach(btn => {
+    tbody.querySelectorAll("[data-done]").forEach(btn => {
       btn.addEventListener("click", async () => {
-        unlockAudio(); // user gesture => allow future beeps
-        const tr = btn.closest("tr");
-        const key = tr?.getAttribute("data-key") || "";
-        const act = btn.getAttribute("data-act");
-        if (!key) return;
-
+        const key = btn.getAttribute("data-done");
         btn.disabled = true;
+        setError("");
         try {
-          if (act === "done") await setDone(key);
-          if (act === "del") await delOrder(key);
-          toast(act === "del" ? "Gelöscht." : "Gesendet.");
-          await refreshOnce(true);
+          await actOrder({ key, status: "DONE" });
+          toast("Auf DONE gesetzt");
+          await fetchAndRender(true);
         } catch (e) {
-          toast("Fehler: " + (e?.message || e));
-          setStatus(false, "Fehler");
+          setError("DONE fehlgeschlagen: " + (e?.message || e));
+        } finally {
+          btn.disabled = false;
+        }
+      });
+    });
+
+    tbody.querySelectorAll("[data-del]").forEach(btn => {
+      btn.addEventListener("click", async () => {
+        const key = btn.getAttribute("data-del");
+        if (!confirm("Bestellung wirklich löschen?")) return;
+        btn.disabled = true;
+        setError("");
+        try {
+          await actOrder({ key, action: "delete" });
+          toast("Gelöscht");
+          await fetchAndRender(true);
+        } catch (e) {
+          setError("Löschen fehlgeschlagen: " + (e?.message || e));
+        } finally {
           btn.disabled = false;
         }
       });
     });
   }
 
-  // ===== POLL + NEW ORDER DETECT =====
-  function detectAndBeepNew(orders) {
-    // beep only for NEW status orders not seen before
-    let newCount = 0;
-    for (const o of orders) {
-      const st = String(o.status || "NEW").toUpperCase();
-      const key = String(o.key || "");
-      if (!key) continue;
-      if (st === "NEW" && !state.seenNewKeys.has(key)) {
-        state.seenNewKeys.add(key);
-        newCount++;
-      }
-    }
-    if (newCount > 0) beep();
-  }
+  let lastKeys = getSeenSet();
 
-  async function refreshOnce(fromUser = false) {
+  async function fetchAndRender(isManual = false) {
+    setError("");
     try {
-      if (fromUser) unlockAudio();
-      const orders = await fetchOrders();
-      setStatus(true, `Auto-Refresh: ${Math.round(AUTO_REFRESH_MS/1000)}s`);
-      detectAndBeepNew(orders);
-      render();
+      const orders = await listOrders();
+
+      // NEW detection + sound
+      const currentKeys = new Set(orders.map(o => o.key).filter(Boolean));
+      const newKeys = [];
+      for (const k of currentKeys) if (!lastKeys.has(k)) newKeys.push(k);
+
+      const newOrders = orders.filter(o => newKeys.includes(o.key) && String(o.status||"NEW").toUpperCase() === "NEW");
+      if (newOrders.length) playBeep();
+
+      lastKeys = currentKeys;
+      setSeenSet(currentKeys);
+
+      render(orders);
     } catch (e) {
-      setStatus(false, (e?.message || "Fehler"));
-      // keep render but show empty
-      state.orders = [];
-      render();
+      setError(String(e?.message || e));
+      metaText(false, 0, 0);
     }
   }
 
-  function startPolling() {
-    if (state.nextPoll) clearInterval(state.nextPoll);
-    state.nextPoll = setInterval(() => refreshOnce(false), AUTO_REFRESH_MS);
+  let autoTimer = null;
+
+  function stopAuto() {
+    if (autoTimer) clearInterval(autoTimer);
+    autoTimer = null;
   }
 
-  // ===== INIT =====
-  function init() {
-    // default filters
-    if (elStatusFilter && !elStatusFilter.value) elStatusFilter.value = "ALL";
-
-    // load pin from localStorage (but do NOT display it)
-    const saved = localStorage.getItem(LS_PIN) || "";
-    state.pin = saved.trim();
-
-    if (elPin) {
-      elPin.value = "";              // never show PIN
-      elPin.placeholder = "PIN";     // no "2010" hint
-    }
-
-    elSavePin?.addEventListener("click", () => {
-      unlockAudio();
-      const v = (elPin?.value || "").trim();
-      if (!v) { toast("PIN fehlt."); return; }
-      state.pin = v;
-      localStorage.setItem(LS_PIN, v);
-      if (elPin) elPin.value = ""; // clear field after saving
-      toast("PIN gespeichert.");
-      refreshOnce(true);
-    });
-
-    elReload?.addEventListener("click", () => {
-      unlockAudio();
-      refreshOnce(true);
-    });
-
-    elTableFilter?.addEventListener("input", () => render());
-    elStatusFilter?.addEventListener("change", () => render());
-
-    // also unlock audio on first click anywhere (mobile friendliness)
-    window.addEventListener("click", unlockAudio, { once: true });
-
-    refreshOnce(false);
-    startPolling();
+  function startAuto() {
+    stopAuto();
+    const on = el("autoToggle").checked;
+    if (!on) return;
+    const every = Number(el("autoEvery").value || 5);
+    autoTimer = setInterval(() => fetchAndRender(false), Math.max(3, every) * 1000);
   }
 
-  init();
+  function loadPrefs() {
+    el("statusFilter").value = getFilter();
+    el("autoToggle").checked = (localStorage.getItem(LS_AUTO_ON) || "1") === "1";
+    el("autoEvery").value = localStorage.getItem(LS_AUTO_EVERY) || "5";
+  }
+
+  function wire() {
+    loadPrefs();
+
+    el("savePinBtn").addEventListener("click", () => {
+      const pin = el("pinInput").value.trim();
+      if (!pin) { toast("PIN fehlt"); return; }
+      savePin(pin);
+      el("pinInput").value = "";
+      toast("PIN gespeichert");
+      fetchAndRender(true);
+    });
+
+    el("reloadBtn").addEventListener("click", () => fetchAndRender(true));
+
+    el("statusFilter").addEventListener("change", () => {
+      setFilter(el("statusFilter").value);
+      fetchAndRender(true);
+    });
+
+    el("autoToggle").addEventListener("change", () => {
+      localStorage.setItem(LS_AUTO_ON, el("autoToggle").checked ? "1" : "0");
+      startAuto();
+    });
+
+    el("autoEvery").addEventListener("change", () => {
+      localStorage.setItem(LS_AUTO_EVERY, el("autoEvery").value);
+      startAuto();
+    });
+
+    el("soundBtn").addEventListener("click", async () => {
+      // unlock audio
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        await ctx.resume();
+        const o = ctx.createOscillator();
+        const g = ctx.createGain();
+        g.gain.value = 0.0001;
+        o.connect(g); g.connect(ctx.destination);
+        o.start(); o.stop(ctx.currentTime + 0.01);
+        setTimeout(() => { try { ctx.close(); } catch {} }, 50);
+      } catch {}
+      audioEnabled = true;
+      toast("Sound aktiv");
+    });
+
+    fetchAndRender(true);
+    startAuto();
+  }
+
+  window.addEventListener("visibilitychange", () => {
+    if (document.hidden) stopAuto();
+    else startAuto();
+  });
+
+  wire();
 })();
