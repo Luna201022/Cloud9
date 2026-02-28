@@ -1,70 +1,83 @@
+// Cloud9 Staff - update/delete order (D1)
+// Endpoint: POST /api/staff/order
+// Header: Authorization: Bearer <PIN>
+// Body:
+//   { "key":"order:...:id", "status":"DONE" }   -> set DONE
+//   { "key":"order:...:id", "status":"NEW" }    -> set NEW
+//   { "key":"order:...:id", "action":"delete" } -> delete row
+
 export async function onRequest(context) {
   const { request, env } = context;
 
-  if (request.method === "OPTIONS") {
-    return new Response("", { status: 204, headers: corsHeaders(request) });
-  }
-
-  const auth = request.headers.get("Authorization") || "";
-  const expected = `Bearer ${env.ADMIN_PIN || ""}`;
-  if (!env.ADMIN_PIN || auth !== expected) {
-    return json({ ok: false, error: "unauthorized" }, 401, request);
-  }
-
-  if (!env.ORDERS_KV) {
-    return json({ ok: false, error: "ORDERS_KV missing" }, 500, request);
-  }
-
   if (request.method !== "POST") {
-    return json({ ok: false, error: "method_not_allowed" }, 405, request);
+    return json({ ok: false, error: "method_not_allowed" }, 405);
   }
+  if (!env.DB) {
+    return json({ ok: false, error: "DB missing" }, 500);
+  }
+
+  const pinOk = isAuthorized(request, env.ADMIN_PIN);
+  if (!pinOk) return json({ ok: false, error: "unauthorized" }, 401);
 
   let body;
-  try { body = await request.json(); }
-  catch { return json({ ok: false, error: "invalid_json" }, 400, request); }
-
-  const key = (body?.key || "").trim();
-  if (!key.startsWith("order:")) {
-    return json({ ok: false, error: "missing_or_invalid_key" }, 400, request);
+  try {
+    body = await request.json();
+  } catch {
+    return json({ ok: false, error: "invalid_json" }, 400);
   }
 
-  const action = (body?.action || "").toLowerCase();
-  const status = (body?.status || "").toUpperCase();
+  const key = (body.key ?? "").toString();
+  const id = extractIdFromKey(key);
+  if (!id) return json({ ok: false, error: "bad_key" }, 400);
 
-  if (action === "delete") {
-    await env.ORDERS_KV.delete(key);
-    return json({ ok: true, action: "delete", key }, 200, request);
+  const action = (body.action ?? "").toString().toLowerCase();
+  const status = (body.status ?? "").toString().toUpperCase();
+  const nowMs = Date.now();
+
+  try {
+    if (action === "delete") {
+      const del = await env.DB.prepare(`DELETE FROM orders WHERE id = ?1`).bind(id).run();
+      const changed = del?.meta?.changes ?? 0;
+      if (!changed) return json({ ok: false, error: "not_found" }, 404);
+      return json({ ok: true, action: "delete", key });
+    }
+
+    if (!["NEW", "DONE"].includes(status)) {
+      return json({ ok: false, error: "bad_status" }, 400);
+    }
+
+    const upd = await env.DB.prepare(
+      `UPDATE orders SET status = ?1, updatedAt = ?2 WHERE id = ?3`
+    ).bind(status, nowMs, id).run();
+
+    const changed = upd?.meta?.changes ?? 0;
+    if (!changed) return json({ ok: false, error: "not_found" }, 404);
+
+    return json({ ok: true, action: "status", key, status });
+  } catch (e) {
+    return json({ ok: false, error: "db_error", message: String(e?.message || e) }, 500);
   }
-
-  if (!status) {
-    return json({ ok: false, error: "missing_status" }, 400, request);
-  }
-
-  const raw = await env.ORDERS_KV.get(key);
-  if (!raw) return json({ ok: false, error: "not_found" }, 404, request);
-
-  let obj;
-  try { obj = JSON.parse(raw); }
-  catch { return json({ ok:false, error:"corrupt_order" }, 500, request); }
-
-  obj.status = status;
-  obj.updatedAt = Date.now();
-  await env.ORDERS_KV.put(key, JSON.stringify(obj));
-
-  return json({ ok: true, action: "status", key, status }, 200, request);
 }
 
-function corsHeaders(request) {
-  const origin = request.headers.get("Origin") || "*";
-  return {
-    "Access-Control-Allow-Origin": origin,
-    "Access-Control-Allow-Methods": "GET,POST,PATCH,DELETE,OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, Authorization",
-    "Access-Control-Allow-Credentials": "true",
-    "Vary": "Origin",
-    "Content-Type": "application/json; charset=utf-8",
-  };
+function extractIdFromKey(key) {
+  if (!key) return "";
+  const parts = key.split(":");
+  return parts.length >= 3 ? parts.slice(-1)[0] : key;
 }
-function json(obj, status, request) {
-  return new Response(JSON.stringify(obj), { status, headers: corsHeaders(request) });
+
+function isAuthorized(request, pin) {
+  if (!pin) return false;
+  const auth = request.headers.get("Authorization") || "";
+  const m = auth.match(/^Bearer\s+(.+)$/i);
+  return !!m && m[1] === String(pin);
+}
+
+function json(obj, status = 200) {
+  return new Response(JSON.stringify(obj), {
+    status,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store",
+    },
+  });
 }
