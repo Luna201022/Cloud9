@@ -1,6 +1,6 @@
 (() => {
   const API_LIST = "/api/orders";
-  const API_ACT  = "/api/order";
+  const API_ACT  = "/api/staff/order";
 
   const LS_PIN = "cloud9_staff_pin";
   const LS_AUTO_ON = "cloud9_staff_auto_on";
@@ -156,7 +156,7 @@
     empty.style.display = "none";
 
     for (const o of filtered) {
-      const key = o.key || "";
+      const key = o.id || "";
       const itemsTxt = summarizeItems(o.items);
       const note = (o.note || "").trim();
       const total = o.total ?? 0;
@@ -225,11 +225,11 @@
       const orders = await listOrders();
 
       // NEW detection + sound
-      const currentKeys = new Set(orders.map(o => o.key).filter(Boolean));
+      const currentKeys = new Set(orders.map(o => o.id).filter(Boolean));
       const newKeys = [];
       for (const k of currentKeys) if (!lastKeys.has(k)) newKeys.push(k);
 
-      const newOrders = orders.filter(o => newKeys.includes(o.key) && String(o.status||"NEW").toUpperCase() === "NEW");
+      const newOrders = orders.filter(o => newKeys.includes(o.id) && String(o.status||"NEW").toUpperCase() === "NEW");
       if (newOrders.length) playBeep();
 
       lastKeys = currentKeys;
