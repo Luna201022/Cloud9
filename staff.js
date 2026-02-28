@@ -1,8 +1,6 @@
 (() => {
-  const API_LIST = "/api/orders";
-  const API_REQ  = "/api/requests";
+  const API_LIST = "/api/staff/orders";
   const API_ACT  = "/api/staff/order";
-  const API_ACT_REQ = "/api/staff/request";
 
   const LS_PIN = "cloud9_staff_pin";
   const LS_AUTO_ON = "cloud9_staff_auto_on";
@@ -124,11 +122,6 @@
     localStorage.setItem(LS_FILTER, v);
   }
 
-  async function listRequests() {
-    const data = await apiFetch(API_REQ, { method: "GET" });
-    return Array.isArray(data?.requests) ? data.requests : [];
-  }
-
   async function listOrders() {
     const t0 = performance.now();
     const data = await apiFetch(API_LIST, { method: "GET" });
@@ -136,10 +129,6 @@
     const orders = Array.isArray(data?.orders) ? data.orders : [];
     metaText(!!data?.ok, ms, orders.length);
     return orders;
-  }
-
-  async function actRequest(payload) {
-    return apiFetch(API_ACT_REQ, { method: "POST", body: JSON.stringify(payload) });
   }
 
   async function actOrder(payload) {
@@ -167,17 +156,11 @@
     empty.style.display = "none";
 
     for (const o of filtered) {
-      const key = o.id || "";
-      let itemsTxt = summarizeItems(o.items);
-      const isReq = o.kind === "request";
-      if (isReq) {
-        const ty = String(o.type||"").toUpperCase();
-        itemsTxt = (ty === "PAY") ? "Bezahlen" : "Bedienung rufen";
-      }
+      const key = o.key || "";
+      const itemsTxt = summarizeItems(o.items);
       const note = (o.note || "").trim();
-      const total = isReq ? null : (o.total ?? 0);
-      let st = (o.status || "NEW").toUpperCase();
-      if (isReq) st = String(o.type||st).toUpperCase();
+      const total = o.total ?? 0;
+      const st = (o.status || "NEW").toUpperCase();
 
       const tr = document.createElement("tr");
       tr.className = "tr";
@@ -188,12 +171,11 @@
           ${note ? `<div class="small2 muted">Notiz: ${safe(note)}</div>` : ``}
           <div class="small2 muted mono">${safe(key)}</div>
         </td>
-        <td><b>${total === null ? "—" : money(total)}</b></td>
+        <td><b>${money(total)}</b></td>
         <td>${statusPill(st)}</td>
         <td class="row2" style="gap:8px">
-          ${isReq ? `<button class="btn2 primary" type="button" data-kind="request" data-done="${safe(key)}">Erledigt</button>
-          <button class="btn2 danger" type="button" data-kind="request" data-del="${safe(key)}">Löschen</button>` : `<button class="btn2 primary" type="button" data-kind="order" data-done="${safe(key)}">Gesendet</button>
-          <button class="btn2 danger" type="button" data-kind="order" data-del="${safe(key)}">Löschen</button>`}
+          <button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
+          <button class="btn2 danger" type="button" data-del="${safe(key)}">Löschen</button>
         </td>
       `;
       tbody.appendChild(tr);
@@ -205,13 +187,8 @@
         btn.disabled = true;
         setError("");
         try {
-          const kind = btn.getAttribute("data-kind") || "order";
-          if (kind === "request") {
-            await actRequest({ id: key, action: "done" });
-          } else {
-            await actOrder({ key, status: "DONE" });
-          }
-          toast(kind === "request" ? "Service erledigt" : "Auf DONE gesetzt");
+          await actOrder({ key, status: "DONE" });
+          toast("Auf DONE gesetzt");
           await fetchAndRender(true);
         } catch (e) {
           setError("DONE fehlgeschlagen: " + (e?.message || e));
@@ -224,17 +201,12 @@
     tbody.querySelectorAll("[data-del]").forEach(btn => {
       btn.addEventListener("click", async () => {
         const key = btn.getAttribute("data-del");
-        const kind = btn.getAttribute("data-kind") || "order";
-        if (!confirm(kind === "request" ? "Service-Eintrag wirklich löschen?" : "Bestellung wirklich löschen?")) return;
+        if (!confirm("Bestellung wirklich löschen?")) return;
         btn.disabled = true;
         setError("");
         try {
-          if (kind === "request") {
-          await actRequest({ id: key, action: "delete" });
-        } else {
           await actOrder({ key, action: "delete" });
-        }
-          toast(kind === "request" ? "Service gelöscht" : "Gelöscht");
+          toast("Gelöscht");
           await fetchAndRender(true);
         } catch (e) {
           setError("Löschen fehlgeschlagen: " + (e?.message || e));
@@ -251,28 +223,19 @@
     setError("");
     try {
       const orders = await listOrders();
-      const requests = await listRequests();
-      const merged = [
-        ...requests.map(r => ({ ...r, kind: "request" })),
-        ...orders.map(o => ({ ...o, kind: "order" }))
-      ].sort((a,b) => {
-        const ta = Number(a.updatedAt ?? a.created ?? Date.parse(a.createdAt||0) ?? 0);
-        const tb = Number(b.updatedAt ?? b.created ?? Date.parse(b.createdAt||0) ?? 0);
-        return tb - ta;
-      });
 
       // NEW detection + sound
-      const currentKeys = new Set(merged.map(o => o.id).filter(Boolean));
+      const currentKeys = new Set(orders.map(o => o.key).filter(Boolean));
       const newKeys = [];
       for (const k of currentKeys) if (!lastKeys.has(k)) newKeys.push(k);
 
-            const newOrders = merged.filter(o => newKeys.includes(o.id) && String(o.status||"NEW").toUpperCase() === "NEW");
+      const newOrders = orders.filter(o => newKeys.includes(o.key) && String(o.status||"NEW").toUpperCase() === "NEW");
       if (newOrders.length) playBeep();
 
       lastKeys = currentKeys;
       setSeenSet(currentKeys);
 
-      render(merged);
+      render(orders);
     } catch (e) {
       setError(String(e?.message || e));
       metaText(false, 0, 0);
