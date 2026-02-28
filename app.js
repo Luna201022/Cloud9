@@ -812,28 +812,79 @@ host.querySelectorAll("[data-add]").forEach(btn => {
 
 
     document.getElementById("clearBtn").onclick = clearCart;
-    document.getElementById("sendBtn").onclick = () => {
+    document.getElementById("sendBtn").onclick = async () => {
       const t = I18N[state.lang];
       if (!state.cart.length) return;
+
+      // Determine tableId (optional): ?table=12, otherwise remembered, otherwise "1"
+      const qsTable = new URLSearchParams(location.search || "").get("table");
+      const tableId = (qsTable || localStorage.getItem("cloud9_table") || "1").trim();
+      if (qsTable) localStorage.setItem("cloud9_table", qsTable);
+
+      // Build backend payload
+      const items = state.cart.map(l => ({
+        id: l.id,
+        name: l.name,
+        qty: 1,
+        price: l.price,
+        options: l.options || {}
+      }));
+      const note = (state.orderNote || "").trim();
+      const total = Math.round(cartTotal() * 100) / 100;
+
+      const payload = { tableId, items, note, total, lang: state.lang, ts: Date.now() };
+
+      // Also keep the human-readable summary for clipboard
       const summary = state.cart.map(l => {
         const opt = [];
         if (l.options?.temperature) opt.push(l.options.temperature);
         if (l.options?.size) opt.push(l.options.size);
+        if (l.options?.choice) opt.push(l.options.choice);
         return `- ${l.name}${opt.length ? " ("+opt.join(", ")+")" : ""} — ${money(l.price)}`;
       }).join("\n");
-      const note = (state.orderNote || "").trim();
-      const text = `Cloud9 Bestellung
-${summary}${note ? `
+      const text = `Cloud9 Bestellung (Tisch ${tableId})
+${summary}${note ? `\n\nAnmerkungen: ${note}` : ""}
 
-Anmerkungen: ${note}` : ""}
+${t.total}: ${money(total)}`;
 
-${t.total}: ${money(cartTotal())}`;
+      // Try to submit to backend
+      let backendOk = false;
+      let backendMsg = "";
+      try {
+        const res = await fetch("/api/order", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const bodyTxt = await res.text();
+        let bodyJson = null;
+        try { bodyJson = bodyTxt ? JSON.parse(bodyTxt) : null; } catch {}
+        if (!res.ok) throw new Error((bodyJson && bodyJson.error) ? bodyJson.error : (bodyTxt || ("HTTP " + res.status)));
+
+        backendOk = !!(bodyJson && (bodyJson.ok === true || bodyJson.success === true));
+        const orderId = bodyJson?.id || bodyJson?.orderId || bodyJson?.key || bodyJson?.order || "";
+        backendMsg = backendOk
+          ? `Bestellung gesendet${orderId ? " • ID: " + orderId : ""}`
+          : "Bestellung gesendet";
+      } catch (e) {
+        backendOk = false;
+        backendMsg = "Backend-Fehler: " + (e?.message || e);
+      }
+
+      // Clipboard fallback (always attempt)
       navigator.clipboard?.writeText(text).catch(() => {});
+
       const ok = document.createElement("button");
       ok.className = "btn primary";
       ok.textContent = "OK";
-      ok.onclick = () => { closeModal(); clearCart(); };
-      openModal("Bestellung", `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre><div class="small" style="margin-top:10px">${t.copied}</div>`, [ok]);
+      ok.onclick = () => { closeModal(); if (backendOk) clearCart(); };
+
+      openModal(
+        "Bestellung",
+        `<pre style="white-space:pre-wrap;margin:0">${escapeHtml(text)}</pre>
+         <div class="small" style="margin-top:10px">${escapeHtml(backendMsg)}</div>`,
+        [ok]
+      );
     };
   }
 

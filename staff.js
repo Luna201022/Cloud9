@@ -1,6 +1,6 @@
 (() => {
-  const API_LIST = "/api/staff/orders";
-  const API_ACT  = "/api/staff/order";
+  const API_LIST = "/api/orders";
+  const API_ACT  = "/api/order";
 
   const LS_PIN = "cloud9_staff_pin";
   const LS_AUTO_ON = "cloud9_staff_auto_on";
