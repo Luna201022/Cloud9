@@ -1,5 +1,8 @@
 
 (() => {
+  const APP_VERSION = "2026-02-28-encfix";
+  console.log("Cloud9 app version", APP_VERSION);
+
   const LANGS = ["de","en","fr","it","vi"];
 
   const I18N = {
