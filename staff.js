@@ -1,5 +1,6 @@
 (() => {
   const API_LIST = "/api/orders";
+  const API_REQ  = "/api/requests";
   const API_ACT  = "/api/staff/order";
 
   const LS_PIN = "cloud9_staff_pin";
@@ -122,6 +123,15 @@
     localStorage.setItem(LS_FILTER, v);
   }
 
+  async function listRequests() {
+    const t0 = performance.now();
+    const data = await apiFetch(API_REQ, { method: "GET" });
+    const ms = Math.round(performance.now() - t0);
+    const reqs = Array.isArray(data?.requests) ? data.requests : [];
+    // don't overwrite meta; listOrders will set it
+    return reqs;
+  }
+
   async function listOrders() {
     const t0 = performance.now();
     const data = await apiFetch(API_LIST, { method: "GET" });
@@ -157,10 +167,17 @@
 
     for (const o of filtered) {
       const key = o.id || "";
-      const itemsTxt = summarizeItems(o.items);
+      let itemsTxt = summarizeItems(o.items);
+      const isReq = o.kind === "request";
+      if (isReq) {
+        itemsTxt = (String(o.type||"").toUpperCase()==="PAY") ? "Bezahlen" : "Bedienung rufen";
+      }
       const note = (o.note || "").trim();
       const total = o.total ?? 0;
-      const st = (o.status || "NEW").toUpperCase();
+      let st = (o.status || "NEW").toUpperCase();
+      if (o.kind === "request") {
+        st = String(o.type||"NEW").toUpperCase();
+      }
 
       const tr = document.createElement("tr");
       tr.className = "tr";
@@ -174,8 +191,8 @@
         <td><b>${money(total)}</b></td>
         <td>${statusPill(st)}</td>
         <td class="row2" style="gap:8px">
-          <button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
-          <button class="btn2 danger" type="button" data-del="${safe(key)}">Löschen</button>
+          ${o.kind === "request" ? `<span class="small2 muted">Service-Request</span>` : `<button class="btn2 primary" type="button" data-done="${safe(key)}">Gesendet</button>
+          <button class="btn2 danger" type="button" data-del="${safe(key)}">Löschen</button>`}
         </td>
       `;
       tbody.appendChild(tr);
@@ -223,19 +240,26 @@
     setError("");
     try {
       const orders = await listOrders();
+      const requests = await listRequests();
+      const merged = [...requests.map(r => ({...r, kind:"request"})), ...orders.map(o => ({...o, kind:"order"}))]
+        .sort((a,b) => {
+          const ta = Number(a.updatedAt ?? a.created ?? Date.parse(a.createdAt||0) ?? 0);
+          const tb = Number(b.updatedAt ?? b.created ?? Date.parse(b.createdAt||0) ?? 0);
+          return tb - ta;
+        });
 
       // NEW detection + sound
-      const currentKeys = new Set(orders.map(o => o.id).filter(Boolean));
+      const currentKeys = new Set(merged.map(o => (o.id || "")).filter(Boolean));
       const newKeys = [];
       for (const k of currentKeys) if (!lastKeys.has(k)) newKeys.push(k);
 
-      const newOrders = orders.filter(o => newKeys.includes(o.id) && String(o.status||"NEW").toUpperCase() === "NEW");
+      const newOrders = merged.filter(o => newKeys.includes(o.id) && String(o.status||"NEW").toUpperCase() === "NEW");
       if (newOrders.length) playBeep();
 
       lastKeys = currentKeys;
       setSeenSet(currentKeys);
 
-      render(orders);
+      render(merged);
     } catch (e) {
       setError(String(e?.message || e));
       metaText(false, 0, 0);
